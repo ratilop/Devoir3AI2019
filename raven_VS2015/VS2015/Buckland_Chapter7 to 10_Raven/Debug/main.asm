@@ -10636,7 +10636,7 @@ $LN10@WindowProc:
 	jmp	SHORT $LN4@WindowProc
 $LN11@WindowProc:
 
-; 128  : 
+; 128  : 	
 ; 129  :          case 'P':
 ; 130  : 
 ; 131  :            g_pRaven->TogglePause();
@@ -27039,8 +27039,8 @@ $LN6@WinMain:
 	push	ecx
 	push	0
 	push	0
-	push	500					; 000001f4H
-	push	500					; 000001f4H
+	push	1080					; 00000438H
+	push	1920					; 00000780H
 	mov	edi, esp
 	push	1
 	call	DWORD PTR __imp__GetSystemMetrics@4
@@ -27049,7 +27049,7 @@ $LN6@WinMain:
 	cdq
 	sub	eax, edx
 	sar	eax, 1
-	sub	eax, 250				; 000000faH
+	sub	eax, 540				; 0000021cH
 	push	eax
 	mov	edi, esp
 	push	0
@@ -27059,7 +27059,7 @@ $LN6@WinMain:
 	cdq
 	sub	eax, edx
 	sar	eax, 1
-	sub	eax, 250				; 000000faH
+	sub	eax, 960				; 000003c0H
 	push	eax
 	push	281542656				; 10c80000H
 	mov	edx, DWORD PTR ?g_szApplicationName@@3PADA ; g_szApplicationName

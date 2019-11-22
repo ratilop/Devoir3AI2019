@@ -2,71 +2,22 @@
   Trigger_WeaponGiver.cpp
   Trigger_SoundNotify.cpp
   Trigger_HealthGiver.cpp
-  Raven_WeaponSystem.cpp
-  Raven_UserOptions.cpp
-  Raven_TargetingSystem.cpp
-  Raven_SteeringBehaviors.cpp
-  Raven_SensoryMemory.cpp
-  Raven_Map.cpp
-  Raven_Game.cpp
-  Raven_Door.cpp
-  Raven_Bot.cpp
+  Génération de code en cours...
+  Compilation en cours...
   Raven_PathPlanner.cpp
   main.cpp
-  Raven_Scriptor.cpp
-  GraveMarkers.cpp
-  Raven_Goal_Types.cpp
-  Raven_Feature.cpp
   Goal_Wander.cpp
   Goal_TraverseEdge.cpp
-  Génération de code en cours...
-  Compilation en cours...
-  Goal_Think.cpp
   Goal_SeekToPosition.cpp
-  Goal_SayPhrase.cpp
-  Goal_NegotiateDoor.cpp
-  Goal_MoveToPosition.cpp
   Goal_HuntTarget.cpp
-  Goal_GetItem.cpp
-  Goal_FollowPath.cpp
-  Goal_Explore.cpp
   Goal_DodgeSideToSide.cpp
-  Goal_AttackTarget.cpp
   Goal_AdjustRange.cpp
-  GetWeaponGoal_Evaluator.cpp
-  GetHealthGoal_Evaluator.cpp
-  ExploreGoal_Evaluator.cpp
-  AttackTargetGoal_Evaluator.cpp
-  Weapon_ShotGun.cpp
-  Weapon_RocketLauncher.cpp
-  Weapon_RailGun.cpp
-  Weapon_Blaster.cpp
-  Génération de code en cours...
-  Compilation en cours...
-  Raven_Weapon.cpp
-  Raven_Projectile.cpp
-  Projectile_Slug.cpp
   Projectile_Rocket.cpp
   Projectile_Pellet.cpp
   Projectile_Bolt.cpp
-  PrecisionTimer.cpp
-  CrudeTimer.cpp
-  WindowUtils.cpp
-  FrameCounter.cpp
-  Cgdi.cpp
-  MessageDispatcher.cpp
-  EntityManager.cpp
-  BaseGameEntity.cpp
-  FuzzyVariable.cpp
-  FuzzySet_Triangle.cpp
-  FuzzySet_Singleton.cpp
-  FuzzySet_RightShoulder.cpp
-  FuzzySet_LeftShoulder.cpp
-  FuzzyOperators.cpp
-  Génération de code en cours...
-  Compilation en cours...
-  FuzzyModule.cpp
-  DebugConsole.cpp
-  Vector2d.cpp
+  Raven_SteeringBehaviors.cpp
+  Raven_Map.cpp
+  Raven_Game.cpp
+  Raven_Bot.cpp
   Génération de code en cours...
   Raven.vcxproj -> C:\Users\ntrembla71\Desktop\raven_VS2015\VS2015\Buckland_Chapter7 to 10_Raven\.\Debug\Raven.exe
