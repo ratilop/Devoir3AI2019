@@ -1,0 +1,7 @@
+﻿  cl : Ligne de commande warning D9035 : l'option 'Gm' est déconseillée et sera supprimée dans une version ultérieure
+  Trigger_WeaponGiver.cpp
+  Trigger_SoundNotify.cpp
+  Trigger_HealthGiver.cpp
+  Raven_WeaponSystem.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(429,5): warning MSB4220: En attente d'annulation de la tâche "CL" actuellement en cours d'exécution.
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets(429,5): warning MSB4220: En attente d'annulation de la tâche "CL" actuellement en cours d'exécution.
