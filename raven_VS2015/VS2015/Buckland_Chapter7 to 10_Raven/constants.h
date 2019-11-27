@@ -3,8 +3,8 @@
 
 
 
-const int WindowWidth  = 1920;
-const int WindowHeight = 1080;
+const int WindowWidth  = 500;
+const int WindowHeight = 500;
 const int FrameRate    = 60;
 
 

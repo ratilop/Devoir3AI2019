@@ -17,7 +17,6 @@ RocketLauncher::RocketLauncher(Raven_Bot*   owner):
                                    script->GetDouble("RocketLauncher_FiringFreq"),
                                    script->GetDouble("RocketLauncher_IdealRange"),
                                    script->GetDouble("Rocket_MaxSpeed"),
-								   script->GetDouble("Rocket_Deceleration"),
                                    owner)
 {
     //setup the vertex buffer
@@ -80,18 +79,6 @@ double RocketLauncher::GetDesirability(double DistToTarget)
   }
 
   return m_dLastDesirabilityScore;
-}
-
-double RocketLauncher::GetRangeDeceleration(double DistToTarget)
-{
-	if (DistToTarget > (0.6*GetIdealRange()))
-	{
-		return script->GetDouble("Bolt_Deceleration");
-	}
-	else
-	{
-		return 0.0;
-	}
 }
 
 //-------------------------  InitializeFuzzyModule ----------------------------

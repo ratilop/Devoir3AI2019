@@ -17,7 +17,6 @@ Blaster::Blaster(Raven_Bot*   owner):
                                    script->GetDouble("Blaster_FiringFreq"),
                                    script->GetDouble("Blaster_IdealRange"),
                                    script->GetDouble("Bolt_MaxSpeed"),
-								   script->GetDouble("Bolt_Deceleration"),
                                    owner)
 {
   //setup the vertex buffer
@@ -70,23 +69,6 @@ double Blaster::GetDesirability(double DistToTarget)
 
   return m_dLastDesirabilityScore;
 }
-
-
-//---------------------------- Range Deceleration -----------------------------------
-//
-//-----------------------------------------------------------------------------
-double Blaster::GetRangeDeceleration(double DistToTarget)
-{
-	double DecelerationFactor =0;
-
-	if (DistToTarget > (0.6*GetIdealRange()))
-	{
-		DecelerationFactor += script->GetDouble("Bolt_Deceleration");
-	}
-
-	return DecelerationFactor;
-}
-
 
 //----------------------- InitializeFuzzyModule -------------------------------
 //

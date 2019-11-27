@@ -2,83 +2,95 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <Filter Include="Game">
-      <UniqueIdentifier>{2b134be5-a88d-46c0-98c2-71d00f562705}</UniqueIdentifier>
+      <UniqueIdentifier>{5afad2b9-498e-4439-9128-375f7fe152b0}</UniqueIdentifier>
       <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
     </Filter>
     <Filter Include="Game\weapons &amp; projectiles">
-      <UniqueIdentifier>{83c20770-aa65-4a9c-a9cc-8fef989c2880}</UniqueIdentifier>
+      <UniqueIdentifier>{f8e2454e-0aff-4086-b008-27d18960a5ae}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\weapons &amp; projectiles\weapons">
-      <UniqueIdentifier>{a7d999c3-7d0f-48f7-9f23-a30928a5d49d}</UniqueIdentifier>
+      <UniqueIdentifier>{22f06348-dc4b-4263-a5c0-a23b95ae39a7}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\weapons &amp; projectiles\projectiles">
-      <UniqueIdentifier>{a5dbab37-383e-412d-8fe3-49deeb469786}</UniqueIdentifier>
+      <UniqueIdentifier>{fe63c6c2-a8f9-425f-898c-40a7f7b85e83}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Base entity classes">
-      <UniqueIdentifier>{c93fb027-60f3-4eb1-98d5-7506e2cfa801}</UniqueIdentifier>
+      <UniqueIdentifier>{98088908-5992-4a0f-a889-715c207b7589}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Script related">
-      <UniqueIdentifier>{8837aad8-58e3-4cb5-95b5-3afd7241696a}</UniqueIdentifier>
+      <UniqueIdentifier>{9d7b066b-6c49-4255-be55-476e8c0b6fdb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Script related\general">
-      <UniqueIdentifier>{33dd1bc9-892e-4ce2-b2c3-c7dacda2c5ec}</UniqueIdentifier>
+      <UniqueIdentifier>{6ed6d6d2-b76e-4852-a496-33ada85a0557}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\Script related\lua headers">
-      <UniqueIdentifier>{f7467933-9c22-4f1a-ad0d-d755c32669f9}</UniqueIdentifier>
+      <UniqueIdentifier>{7a7cdb20-9c53-48f6-b5f5-3da6359bcbc1}</UniqueIdentifier>
     </Filter>
     <Filter Include="Game\misc">
-      <UniqueIdentifier>{c5edcdc3-bb40-458a-89ac-ecf7ae1ea49b}</UniqueIdentifier>
+      <UniqueIdentifier>{ce3a2a8a-9260-492f-81ad-1c276291884d}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
-      <UniqueIdentifier>{219763ff-c5f0-4f61-bca2-9a3833ee0702}</UniqueIdentifier>
+      <UniqueIdentifier>{dee236fe-e435-493e-98ba-3e69d8b817f6}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files\maps">
-      <UniqueIdentifier>{e3b7c2ed-4f6f-421c-a508-247d88c3d9a3}</UniqueIdentifier>
+      <UniqueIdentifier>{f8dc09bb-f563-4eb1-9c61-ef784a3b864b}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI">
-      <UniqueIdentifier>{312db08a-a763-4c14-9ef1-fd8d00493bff}</UniqueIdentifier>
+      <UniqueIdentifier>{64293b41-0c31-468f-95f4-6c7b42f3b6c1}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\goals">
-      <UniqueIdentifier>{9b1ba239-87f5-4dc6-bdfb-71719e93b659}</UniqueIdentifier>
+      <UniqueIdentifier>{cba189c7-cf4f-4700-845a-e9a49f46d560}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\goals\composite">
-      <UniqueIdentifier>{9a177c3b-deae-48ae-aad9-7b0232197f91}</UniqueIdentifier>
+      <UniqueIdentifier>{220ba402-39ef-45f7-a966-18043685cad0}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\goals\goal evaluation">
-      <UniqueIdentifier>{7be7cbd5-cecb-4624-98c6-9e611a10f0ac}</UniqueIdentifier>
+      <UniqueIdentifier>{89d69d3f-2c3c-487c-a08b-65218c24ade5}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\goals\atomic">
-      <UniqueIdentifier>{f0e53046-d2d3-49e5-a096-a78b932ce28b}</UniqueIdentifier>
+      <UniqueIdentifier>{cbb82169-9c76-4c52-a854-fac37df3738f}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\fuzzy logic">
-      <UniqueIdentifier>{7b7085f4-986f-42d3-83f8-89b232a01d8c}</UniqueIdentifier>
+      <UniqueIdentifier>{8617fe2c-63df-44b9-94e7-0c6b683b7f6c}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\fuzzy logic\fuzzy set types">
-      <UniqueIdentifier>{e69e71ff-6ad0-4390-bf78-9cd6dacce4fd}</UniqueIdentifier>
+      <UniqueIdentifier>{5498c68a-91a1-4c33-a69a-5a74fe4c71a5}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Movement &amp; Navigation">
-      <UniqueIdentifier>{e8eac924-341a-4631-9108-a84186ce4081}</UniqueIdentifier>
+      <UniqueIdentifier>{fa7146e7-4d15-4661-878e-4d5b43c51e5f}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Messaging">
-      <UniqueIdentifier>{3fea4ff2-2007-46f4-8179-4eb1cce5e36a}</UniqueIdentifier>
+      <UniqueIdentifier>{39179b36-0944-4aae-9447-b67aa05bdedb}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Sensory Memory">
-      <UniqueIdentifier>{181f7314-4590-49c9-ad58-f91d816fa5c9}</UniqueIdentifier>
+      <UniqueIdentifier>{d933299d-da7a-481e-8e2a-193fe04fb1a9}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Triggers">
-      <UniqueIdentifier>{494c7f39-bb32-436f-8e39-afd874461ac5}</UniqueIdentifier>
+      <UniqueIdentifier>{7127bcd3-ca8e-487c-b561-dc7983867e31}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Weapon Handling">
-      <UniqueIdentifier>{5f320631-20cf-4386-a2b1-148eca54da51}</UniqueIdentifier>
+      <UniqueIdentifier>{aa836393-90bb-470b-93ea-1ee73f23ede9}</UniqueIdentifier>
     </Filter>
     <Filter Include="AI\Target Selection">
-      <UniqueIdentifier>{ddc5e663-4138-4c66-87ad-a82eb26d3999}</UniqueIdentifier>
+      <UniqueIdentifier>{0ba96256-f21a-46a5-ad61-252d454a867a}</UniqueIdentifier>
     </Filter>
     <Filter Include="Common">
-      <UniqueIdentifier>{fb80ecc5-5385-4705-8770-41588cae731d}</UniqueIdentifier>
+      <UniqueIdentifier>{f3f5ab42-49d8-4348-aa63-66655abd9be1}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Raven_Bot.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Raven_Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Raven_Map.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
     <ClCompile Include="armory\Raven_Weapon.cpp">
       <Filter>Game\weapons &amp; projectiles\weapons</Filter>
     </ClCompile>
@@ -127,17 +139,8 @@
     <ClCompile Include="Raven_UserOptions.cpp">
       <Filter>Game\misc</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
-      <Filter>Game</Filter>
-    </ClCompile>
-    <ClCompile Include="Raven_Bot.cpp">
-      <Filter>Game</Filter>
-    </ClCompile>
-    <ClCompile Include="Raven_Game.cpp">
-      <Filter>Game</Filter>
-    </ClCompile>
-    <ClCompile Include="Raven_Map.cpp">
-      <Filter>Game</Filter>
+    <ClCompile Include="goals\Raven_Goal_Types.cpp">
+      <Filter>AI\goals</Filter>
     </ClCompile>
     <ClCompile Include="goals\Goal_AdjustRange.cpp">
       <Filter>AI\goals\composite</Filter>
@@ -196,8 +199,14 @@
     <ClCompile Include="goals\Goal_Wander.cpp">
       <Filter>AI\goals\atomic</Filter>
     </ClCompile>
-    <ClCompile Include="goals\Raven_Goal_Types.cpp">
-      <Filter>AI\goals</Filter>
+    <ClCompile Include="..\Common\fuzzy\FuzzyModule.cpp">
+      <Filter>AI\fuzzy logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\fuzzy\FuzzyOperators.cpp">
+      <Filter>AI\fuzzy logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\fuzzy\FuzzyVariable.cpp">
+      <Filter>AI\fuzzy logic</Filter>
     </ClCompile>
     <ClCompile Include="..\Common\fuzzy\FuzzySet_LeftShoulder.cpp">
       <Filter>AI\fuzzy logic\fuzzy set types</Filter>
@@ -210,15 +219,6 @@
     </ClCompile>
     <ClCompile Include="..\Common\fuzzy\FuzzySet_Triangle.cpp">
       <Filter>AI\fuzzy logic\fuzzy set types</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Common\fuzzy\FuzzyModule.cpp">
-      <Filter>AI\fuzzy logic</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Common\fuzzy\FuzzyOperators.cpp">
-      <Filter>AI\fuzzy logic</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Common\fuzzy\FuzzyVariable.cpp">
-      <Filter>AI\fuzzy logic</Filter>
     </ClCompile>
     <ClCompile Include="navigation\Raven_PathPlanner.cpp">
       <Filter>AI\Movement &amp; Navigation</Filter>
@@ -270,6 +270,15 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Raven_Bot.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Raven_Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Raven_Map.h">
+      <Filter>Game</Filter>
+    </ClInclude>
     <ClInclude Include="armory\Raven_Weapon.h">
       <Filter>Game\weapons &amp; projectiles\weapons</Filter>
     </ClInclude>
@@ -315,16 +324,16 @@
     <ClInclude Include="..\Common\script\Scriptor.h">
       <Filter>Game\Script related\general</Filter>
     </ClInclude>
-    <ClInclude Include="..\Common\lua-5.0\include\lauxlib.h">
+    <ClInclude Include="..\Common\lua-5.1.3\include\lauxlib.h">
       <Filter>Game\Script related\lua headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\Common\lua-5.0\include\lua.h">
+    <ClInclude Include="..\Common\lua-5.1.3\include\lua.h">
       <Filter>Game\Script related\lua headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\Common\lua-5.0\include\LuaHelperFunctions.h">
+    <ClInclude Include="..\Common\lua-5.1.3\include\luahelperfunctions.h">
       <Filter>Game\Script related\lua headers</Filter>
     </ClInclude>
-    <ClInclude Include="..\Common\lua-5.0\include\lualib.h">
+    <ClInclude Include="..\Common\lua-5.1.3\include\lualib.h">
       <Filter>Game\Script related\lua headers</Filter>
     </ClInclude>
     <ClInclude Include="constants.h">
@@ -345,17 +354,11 @@
     <ClInclude Include="Raven_UserOptions.h">
       <Filter>Game\misc</Filter>
     </ClInclude>
-    <ClInclude Include="Raven_Bot.h">
-      <Filter>Game</Filter>
-    </ClInclude>
-    <ClInclude Include="Raven_Game.h">
-      <Filter>Game</Filter>
-    </ClInclude>
-    <ClInclude Include="Raven_Map.h">
-      <Filter>Game</Filter>
-    </ClInclude>
     <ClInclude Include="resource.h">
       <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="goals\Raven_Goal_Types.h">
+      <Filter>AI\goals</Filter>
     </ClInclude>
     <ClInclude Include="goals\Goal_AdjustRange.h">
       <Filter>AI\goals\composite</Filter>
@@ -423,27 +426,6 @@
     <ClInclude Include="goals\Goal_Wander.h">
       <Filter>AI\goals\atomic</Filter>
     </ClInclude>
-    <ClInclude Include="goals\Raven_Goal_Types.h">
-      <Filter>AI\goals</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Common\fuzzy\FuzzySet.h">
-      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Common\fuzzy\FuzzySet_LeftShoulder.h">
-      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Common\fuzzy\FuzzySet_RightShoulder.h">
-      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Common\fuzzy\FuzzySet_Shoulder.h">
-      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Common\fuzzy\FuzzySet_Singleton.h">
-      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Common\fuzzy\FuzzySet_Triangle.h">
-      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
-    </ClInclude>
     <ClInclude Include="..\Common\fuzzy\FuzzyHedges.h">
       <Filter>AI\fuzzy logic</Filter>
     </ClInclude>
@@ -464,6 +446,24 @@
     </ClInclude>
     <ClInclude Include="..\Common\fuzzy\FzSet.h">
       <Filter>AI\fuzzy logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\fuzzy\FuzzySet.h">
+      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\fuzzy\FuzzySet_LeftShoulder.h">
+      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\fuzzy\FuzzySet_RightShoulder.h">
+      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\fuzzy\FuzzySet_Shoulder.h">
+      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\fuzzy\FuzzySet_Singleton.h">
+      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\fuzzy\FuzzySet_Triangle.h">
+      <Filter>AI\fuzzy logic\fuzzy set types</Filter>
     </ClInclude>
     <ClInclude Include="..\Common\Graph\AStarHeuristicPolicies.h">
       <Filter>AI\Movement &amp; Navigation</Filter>
@@ -608,24 +608,22 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="note.txt">
+    <None Include="Params.lua">
+      <Filter>Game\Script related</Filter>
+    </None>
+    <None Include="note.txt">
       <Filter>Resource Files</Filter>
-    </Text>
+    </None>
+    <None Include="maps\Raven_DM1.map">
+      <Filter>Resource Files\maps</Filter>
+    </None>
+    <None Include="maps\Raven_DM1_Doors.map">
+      <Filter>Resource Files\maps</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Script1.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <CustomBuild Include="Params.lua">
-      <Filter>Game\Script related</Filter>
-    </CustomBuild>
-    <CustomBuild Include="maps\Raven_DM1.map">
-      <Filter>Resource Files\maps</Filter>
-    </CustomBuild>
-    <CustomBuild Include="maps\Raven_DM1_Doors.map">
-      <Filter>Resource Files\maps</Filter>
-    </CustomBuild>
   </ItemGroup>
 </Project>

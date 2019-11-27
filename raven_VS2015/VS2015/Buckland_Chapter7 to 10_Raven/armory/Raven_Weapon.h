@@ -85,7 +85,6 @@ public:
                double        RateOfFire,
                double        IdealRange,
                double        ProjectileSpeed,
-			   double WeaponDeceleration,
                Raven_Bot*   OwnerOfGun):m_iType(TypeOfGun),
                                  m_iNumRoundsLeft(DefaultNumRounds),
                                  m_pOwner(OwnerOfGun),
@@ -131,12 +130,6 @@ public:
   void          IncrementRounds(int num); 
   unsigned int  GetType()const{return m_iType;}
   double         GetIdealRange()const{return m_dIdealRange;}
-
-
-
-  //this method returns a value representing the decelartion of the weapon
-  virtual double GetRangeDeceleration(double DistToTarget) = 0;
-
 };
 
 

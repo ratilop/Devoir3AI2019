@@ -73,6 +73,45 @@ Creating a shotgun
 Creating a shotgun
 Creating a rocket_launcher
 maps/Raven_DM1.map loaded okay
+deleting raven bot (id = 519)
+Player Possesses bot 517
+Player Possesses bot 517
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player Possesses bot 517
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 402
+Player is Target bot 401
+Player is Target bot 401
+Player is Target bot 401
+Player is Target bot 401
+Player is Target bot 401
+Player is Target bot 401
+Player is Target bot 401
+Player is Target bot 401
+Player is Target bot 401
+Player is Target bot 401
 deleting raven bot (id = 401)
 deleting raven bot (id = 402)
 deleting raven bot (id = 403)
+deleting raven bot (id = 517)
+deleting raven bot (id = 518)
