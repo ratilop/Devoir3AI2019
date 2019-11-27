@@ -1,1 +1,0 @@
-Il est préférable de laisser le dossier Common dans ce dossier, au même niveau que les autres dossiers.
