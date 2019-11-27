@@ -17,7 +17,6 @@ RailGun::RailGun(Raven_Bot*   owner):
                                    script->GetDouble("RailGun_FiringFreq"),
                                    script->GetDouble("RailGun_IdealRange"),
                                    script->GetDouble("Slug_MaxSpeed"),
-								   script->GetDouble("Slug_Deceleration"),
                                    owner)
 {
 
@@ -79,19 +78,6 @@ double RailGun::GetDesirability(double DistToTarget)
   }
 
   return m_dLastDesirabilityScore;
-}
-
-double RailGun::GetRangeDeceleration(double DistToTarget)
-{
-
-	if (DistToTarget > (0.6*GetIdealRange()))
-	{
-		return script->GetDouble("Slug_Deceleration");
-	}
-	else
-	{
-		return 0.0;
-	}
 }
 
 //----------------------- InitializeFuzzyModule -------------------------------

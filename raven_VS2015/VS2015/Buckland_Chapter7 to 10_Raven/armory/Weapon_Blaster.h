@@ -32,8 +32,6 @@ public:
   void  ShootAt(Vector2D pos);
 
   double GetDesirability(double DistToTarget);
-
-  double GetRangeDeceleration(double DistToTarget);
 };
 
 
