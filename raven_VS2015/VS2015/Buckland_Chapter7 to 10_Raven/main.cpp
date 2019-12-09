@@ -39,7 +39,7 @@ LRESULT CALLBACK WindowProc (HWND   hwnd,
                              WPARAM wParam,
                              LPARAM lParam)
 {
- 
+	int ValeurDeplacement = 20;
    //these hold the dimensions of the client window area
 	 static int cxClient, cyClient; 
 
@@ -168,12 +168,33 @@ LRESULT CALLBACK WindowProc (HWND   hwnd,
 
            break;
 
+		 case 'W'  : // trouver comment le garder ouvert j'usqua que le piton sois relacer et ensembler les differente direction
+			
+				 g_pRaven->Mouvement_bots(Vector2D(0,-ValeurDeplacement));
+				 
+			 
 
-         case VK_UP:
+			 break;
+		 case 'A':
+
+			 g_pRaven->Mouvement_bots(Vector2D(-ValeurDeplacement, 0));
+
+			 break;
+		 case 'S':
+
+			 g_pRaven->Mouvement_bots(Vector2D(0, ValeurDeplacement));
+
+			 break;
+		 case 'D':
+
+			 g_pRaven->Mouvement_bots(Vector2D(ValeurDeplacement, 0));
+
+			 break;
+         case VK_ADD:
 
            g_pRaven->AddBots(1); break;
 
-         case VK_DOWN:
+         case VK_SUBTRACT:
 
            g_pRaven->RemoveBot(); break;
            
@@ -336,6 +357,13 @@ LRESULT CALLBACK WindowProc (HWND   hwnd,
         CheckMenuItemAppropriately(hwnd, IDM_BOTS_SHOW_GOAL_Q, UserOptions->m_bShowGoalsOfSelectedBot);
 
         break;
+
+	  case ID_GAME_SETEQUIPE :
+
+		  UserOptions->m_SetEquipe = !UserOptions->m_SetEquipe;
+		  g_pRaven->ChangementEquipe();
+		  break;
+
 
       }//end switch
     }
