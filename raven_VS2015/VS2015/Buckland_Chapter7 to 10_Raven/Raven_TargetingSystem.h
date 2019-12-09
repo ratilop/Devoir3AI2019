@@ -66,6 +66,8 @@ public:
 
   //sets the target pointer to null
   void       ClearTarget(){m_pCurrentTarget=0;}
+
+  void setTarget(Raven_Bot* ennemis) { m_pCurrentTarget = ennemis; };
 };
 
 

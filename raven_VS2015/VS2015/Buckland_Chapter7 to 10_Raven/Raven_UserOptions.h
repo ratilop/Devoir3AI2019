@@ -53,6 +53,8 @@ public:
   bool m_bShowBotHealth;
 
   bool m_bShowScore;
+
+  bool m_SetEquipe;
 };
 
 
