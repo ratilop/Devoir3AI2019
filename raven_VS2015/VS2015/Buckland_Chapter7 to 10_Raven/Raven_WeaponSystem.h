@@ -14,6 +14,8 @@
 #include <map>
 #include "2d/vector2d.h"
 
+#include"armory/Raven_Weapon.h"
+
 class Raven_Bot;
 class Raven_Weapon;
 
@@ -76,7 +78,7 @@ public:
   //this method aims the bot's current weapon at the target (if there is a
   //target) and, if aimed correctly, fires a round. (Called each update-step
   //from Raven_Bot::Update)
-  void          TakeAimAndShoot()const;
+  bool         TakeAimAndShoot();
 
   //this method determines the most appropriate weapon to use given the current
   //game state. (Called every n update-steps from Raven_Bot::Update)

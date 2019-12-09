@@ -26,97 +26,97 @@ CONST	SEGMENT
 	DD	0c8c8c8H
 	DD	0e6e6ffH
 ?piecewise_construct@std@@3Upiecewise_construct_t@1@B	ORG $+1 ; std::piecewise_construct
-$SG187311 DB	00H
-$SG187344 DB	00H
-$SG187418 DB	00H
-$SG187156 DB	'Bot_MaxForce', 00H
-$SG187427 DB	00H
+$SG193483 DB	00H
+$SG193529 DB	00H
+$SG193606 DB	00H
+$SG193302 DB	'Bot_MaxForce', 00H
+$SG193618 DB	00H
 	ORG $+2
-$SG187157 DB	'Bot_MaxHeadTurnRate', 00H
-$SG187158 DB	'Bot_Scale', 00H
+$SG193303 DB	'Bot_MaxHeadTurnRate', 00H
+$SG193304 DB	'Bot_Scale', 00H
 	ORG $+2
-$SG187159 DB	'Bot_Scale', 00H
+$SG193305 DB	'Bot_Scale', 00H
 	ORG $+2
-$SG187160 DB	'Bot_Mass', 00H
+$SG193306 DB	'Bot_Mass', 00H
 	ORG $+3
-$SG187161 DB	'Bot_MaxSpeed', 00H
+$SG193307 DB	'Bot_MaxSpeed', 00H
 	ORG $+3
-$SG187162 DB	'Bot_Scale', 00H
+$SG193308 DB	'Bot_Scale', 00H
 	ORG $+2
-$SG187163 DB	'Bot_MaxHealth', 00H
+$SG193309 DB	'Bot_MaxHealth', 00H
 	ORG $+2
-$SG187164 DB	'Bot_MaxHealth', 00H
+$SG193310 DB	'Bot_MaxHealth', 00H
 	ORG $+2
-$SG187165 DB	'Bot_FOV', 00H
-$SG187166 DB	'HitFlashTime', 00H
+$SG193311 DB	'Bot_FOV', 00H
+$SG193312 DB	'HitFlashTime', 00H
 	ORG $+3
-$SG187170 DB	'Bot_WeaponSelectionFrequency', 00H
+$SG193316 DB	'Bot_WeaponSelectionFrequency', 00H
 	ORG $+3
-$SG187172 DB	'Bot_GoalAppraisalUpdateFreq', 00H
-$SG187174 DB	'Bot_TargetingUpdateFreq', 00H
-$SG187176 DB	'Bot_TriggerUpdateFreq', 00H
+$SG193318 DB	'Bot_GoalAppraisalUpdateFreq', 00H
+$SG193320 DB	'Bot_TargetingUpdateFreq', 00H
+$SG193322 DB	'Bot_TriggerUpdateFreq', 00H
 	ORG $+2
-$SG187178 DB	'Bot_VisionUpdateFreq', 00H
+$SG193324 DB	'Bot_VisionUpdateFreq', 00H
 	ORG $+3
-$SG187182 DB	'Bot_AimPersistance', 00H
+$SG193328 DB	'Bot_AimPersistance', 00H
 	ORG $+1
-$SG187183 DB	'Bot_AimAccuracy', 00H
-$SG187184 DB	'Bot_ReactionTime', 00H
+$SG193329 DB	'Bot_AimAccuracy', 00H
+$SG193330 DB	'Bot_ReactionTime', 00H
 	ORG $+3
-$SG187186 DB	'Bot_MemorySpan', 00H
+$SG193332 DB	'Bot_MemorySpan', 00H
 	ORG $+1
-$SG187244 DB	'Bot_MaxForce', 00H
+$SG193390 DB	'Bot_MaxForce', 00H
 	ORG $+3
-$SG187245 DB	'Bot_MaxHeadTurnRate', 00H
-$SG187246 DB	'Bot_Scale', 00H
+$SG193391 DB	'Bot_MaxHeadTurnRate', 00H
+$SG193392 DB	'Bot_Scale', 00H
 	ORG $+2
-$SG187247 DB	'Bot_Scale', 00H
+$SG193393 DB	'Bot_Scale', 00H
 	ORG $+2
-$SG187248 DB	'Bot_Mass', 00H
+$SG193394 DB	'Bot_Mass', 00H
 	ORG $+3
-$SG187249 DB	'Bot_MaxSpeed', 00H
+$SG193395 DB	'Bot_MaxSpeed', 00H
 	ORG $+3
-$SG187250 DB	'Bot_Scale', 00H
+$SG193396 DB	'Bot_Scale', 00H
 	ORG $+2
-$SG187251 DB	'Bot_MaxHealth', 00H
+$SG193397 DB	'Bot_MaxHealth', 00H
 	ORG $+2
-$SG187252 DB	'Bot_MaxHealth', 00H
+$SG193398 DB	'Bot_MaxHealth', 00H
 	ORG $+2
-$SG187253 DB	'Bot_FOV', 00H
-$SG187254 DB	'HitFlashTime', 00H
+$SG193399 DB	'Bot_FOV', 00H
+$SG193400 DB	'HitFlashTime', 00H
 	ORG $+3
-$SG187260 DB	'Bot_WeaponSelectionFrequency', 00H
+$SG193406 DB	'Bot_WeaponSelectionFrequency', 00H
 	ORG $+3
-$SG187262 DB	'Bot_GoalAppraisalUpdateFreq', 00H
-$SG187264 DB	'Bot_TargetingUpdateFreq', 00H
-$SG187266 DB	'Bot_TriggerUpdateFreq', 00H
+$SG193408 DB	'Bot_GoalAppraisalUpdateFreq', 00H
+$SG193410 DB	'Bot_TargetingUpdateFreq', 00H
+$SG193412 DB	'Bot_TriggerUpdateFreq', 00H
 	ORG $+2
-$SG187268 DB	'Bot_VisionUpdateFreq', 00H
+$SG193414 DB	'Bot_VisionUpdateFreq', 00H
 	ORG $+3
-$SG187272 DB	'Bot_AimPersistance', 00H
+$SG193418 DB	'Bot_AimPersistance', 00H
 	ORG $+1
-$SG187273 DB	'Bot_AimAccuracy', 00H
-$SG187274 DB	'Bot_ReactionTime', 00H
+$SG193419 DB	'Bot_AimAccuracy', 00H
+$SG193420 DB	'Bot_ReactionTime', 00H
 	ORG $+3
-$SG187276 DB	'Bot_MemorySpan', 00H
+$SG193422 DB	'Bot_MemorySpan', 00H
 	ORG $+1
-$SG187309 DB	'deleting raven bot (id = ', 00H
+$SG193481 DB	'deleting raven bot (id = ', 00H
 	ORG $+2
-$SG187310 DB	')', 00H
+$SG193482 DB	')', 00H
 	ORG $+2
-$SG187343 DB	'Player is Target bot ', 00H
+$SG193528 DB	'Player is Target bot ', 00H
 	ORG $+2
-$SG187411 DB	'HitFlashTime', 00H
+$SG193599 DB	'HitFlashTime', 00H
 	ORG $+3
-$SG187417 DB	'Player Possesses bot ', 00H
+$SG193605 DB	'Player Possesses bot ', 00H
 	ORG $+2
-$SG187426 DB	'Player is exorcised from bot ', 00H
+$SG193617 DB	'Player is exorcised from bot ', 00H
 	ORG $+2
-$SG187591 DB	'H:', 00H
+$SG193826 DB	'H:', 00H
 	ORG $+1
-$SG187593 DB	'Scr:', 00H
+$SG193828 DB	'Scr:', 00H
 	ORG $+3
-$SG187609 DB	'Bot_Scale', 00H
+$SG193844 DB	'Bot_Scale', 00H
 CONST	ENDS
 PUBLIC	?__empty_global_delete@@YAXPAX@Z		; __empty_global_delete
 PUBLIC	?__empty_global_delete@@YAXPAXI@Z		; __empty_global_delete
@@ -368,6 +368,57 @@ PUBLIC	?DegsToRads@@YANN@Z				; DegsToRads
 PUBLIC	?RandFloat@@YANXZ				; RandFloat
 PUBLIC	?RandInRange@@YANNN@Z				; RandInRange
 PUBLIC	?isEqual@@YA_NNN@Z				; isEqual
+PUBLIC	??0?$allocator@N@std@@QAE@XZ			; std::allocator<double>::allocator<double>
+PUBLIC	?deallocate@?$allocator@N@std@@QAEXQANI@Z	; std::allocator<double>::deallocate
+PUBLIC	?allocate@?$allocator@N@std@@QAEPANI@Z		; std::allocator<double>::allocate
+PUBLIC	?max_size@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAIABV?$allocator@N@2@@Z ; std::_Default_allocator_traits<std::allocator<double> >::max_size
+PUBLIC	??0?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >
+PUBLIC	??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::~_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >
+PUBLIC	?_Move_alloc@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV?$allocator@N@2@@Z ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Move_alloc
+PUBLIC	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Alloc_proxy
+PUBLIC	?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Free_proxy
+PUBLIC	?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getpfirst
+PUBLIC	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myproxy
+PUBLIC	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Orphan_all
+PUBLIC	?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV12@@Z ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Swap_all
+PUBLIC	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+PUBLIC	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+PUBLIC	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+PUBLIC	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+PUBLIC	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+PUBLIC	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+PUBLIC	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+PUBLIC	??0?$_Vector_val@U?$_Simple_types@N@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<double> >::_Vector_val<std::_Simple_types<double> >
+PUBLIC	?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$allocator@N@2@XZ ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_first
+PUBLIC	?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$allocator@N@2@XZ ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_first
+PUBLIC	?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_second
+PUBLIC	?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_second
+PUBLIC	??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ	; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+PUBLIC	??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z ; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+PUBLIC	?_Move_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z ; std::vector<double,std::allocator<double> >::_Move_from
+PUBLIC	?_Move_assign_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z ; std::vector<double,std::allocator<double> >::_Move_assign_from
+PUBLIC	??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z ; std::vector<double,std::allocator<double> >::operator=
+PUBLIC	??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ	; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
+PUBLIC	?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z ; std::vector<double,std::allocator<double> >::push_back
+PUBLIC	?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ ; std::vector<double,std::allocator<double> >::clear
+PUBLIC	?size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::size
+PUBLIC	?max_size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::max_size
+PUBLIC	?capacity@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::capacity
+PUBLIC	?_Has_unused_capacity@?$vector@NV?$allocator@N@std@@@std@@ABE_NXZ ; std::vector<double,std::allocator<double> >::_Has_unused_capacity
+PUBLIC	?_Udefault@?$vector@NV?$allocator@N@std@@@std@@AAEPANPANI@Z ; std::vector<double,std::allocator<double> >::_Udefault
+PUBLIC	?_Umove@?$vector@NV?$allocator@N@std@@@std@@AAEPANPAN00@Z ; std::vector<double,std::allocator<double> >::_Umove
+PUBLIC	?_Umove_if_noexcept1@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00U?$integral_constant@_N$00@2@@Z ; std::vector<double,std::allocator<double> >::_Umove_if_noexcept1
+PUBLIC	?_Umove_if_noexcept@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00@Z ; std::vector<double,std::allocator<double> >::_Umove_if_noexcept
+PUBLIC	?_Destroy@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN0@Z ; std::vector<double,std::allocator<double> >::_Destroy
+PUBLIC	?_Calculate_growth@?$vector@NV?$allocator@N@std@@@std@@ABEII@Z ; std::vector<double,std::allocator<double> >::_Calculate_growth
+PUBLIC	?_Buy@?$vector@NV?$allocator@N@std@@@std@@AAE_NI@Z ; std::vector<double,std::allocator<double> >::_Buy
+PUBLIC	?_Change_array@?$vector@NV?$allocator@N@std@@@std@@AAEXQANII@Z ; std::vector<double,std::allocator<double> >::_Change_array
+PUBLIC	?_Tidy@?$vector@NV?$allocator@N@std@@@std@@AAEXXZ ; std::vector<double,std::allocator<double> >::_Tidy
+PUBLIC	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ ; std::vector<double,std::allocator<double> >::_Xlength
+PUBLIC	?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z ; std::vector<double,std::allocator<double> >::_Orphan_range
 PUBLIC	??0Vector2D@@QAE@XZ				; Vector2D::Vector2D
 PUBLIC	??0Vector2D@@QAE@NN@Z				; Vector2D::Vector2D
 PUBLIC	?isZero@Vector2D@@QBE_NXZ			; Vector2D::isZero
@@ -377,6 +428,7 @@ PUBLIC	?Dot@Vector2D@@QBENABU1@@Z			; Vector2D::Dot
 PUBLIC	?Sign@Vector2D@@QBEHABU1@@Z			; Vector2D::Sign
 PUBLIC	?Perp@Vector2D@@QBE?AU1@XZ			; Vector2D::Perp
 PUBLIC	?Truncate@Vector2D@@QAEXN@Z			; Vector2D::Truncate
+PUBLIC	?Distance@Vector2D@@QBENABU1@@Z			; Vector2D::Distance
 PUBLIC	??YVector2D@@QAEABU0@ABU0@@Z			; Vector2D::operator+=
 PUBLIC	??XVector2D@@QAEABU0@ABN@Z			; Vector2D::operator*=
 PUBLIC	??D@YA?AUVector2D@@ABU0@N@Z			; operator*
@@ -468,10 +520,11 @@ PUBLIC	??1MovingEntity@@UAE@XZ				; MovingEntity::~MovingEntity
 PUBLIC	?MaxSpeed@MovingEntity@@QBENXZ			; MovingEntity::MaxSpeed
 PUBLIC	??_GMovingEntity@@UAEPAXI@Z			; MovingEntity::`scalar deleting destructor'
 PUBLIC	??$Clamp@NHH@@YAXAANABH1@Z			; Clamp<double,int,int>
+PUBLIC	?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ	; Raven_TargetingSystem::isTargetPresent
 PUBLIC	?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ ; Raven_TargetingSystem::GetTarget
 PUBLIC	?ClearTarget@Raven_TargetingSystem@@QAEXXZ	; Raven_TargetingSystem::ClearTarget
-PUBLIC	?UpdateMovement@Raven_Bot@@AAEXXZ		; Raven_Bot::UpdateMovement
-PUBLIC	?SetUpVertexBuffer@Raven_Bot@@AAEXXZ		; Raven_Bot::SetUpVertexBuffer
+PUBLIC	?UpdateMovement@Raven_Bot@@QAEXXZ		; Raven_Bot::UpdateMovement
+PUBLIC	?SetUpVertexBuffer@Raven_Bot@@QAEXXZ		; Raven_Bot::SetUpVertexBuffer
 PUBLIC	??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z	; Raven_Bot::Raven_Bot
 PUBLIC	??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z ; Raven_Bot::Raven_Bot
 PUBLIC	??1Raven_Bot@@UAE@XZ				; Raven_Bot::~Raven_Bot
@@ -688,6 +741,8 @@ PUBLIC	??_GRaven_PathPlanner@@QAEPAXI@Z		; Raven_PathPlanner::`scalar deleting d
 PUBLIC	?Force@Raven_Steering@@QBE?AUVector2D@@XZ	; Raven_Steering::Force
 PUBLIC	??0Regulator@@QAE@N@Z				; Regulator::Regulator
 PUBLIC	?isReady@Regulator@@QAE_NXZ			; Regulator::isReady
+PUBLIC	?GetType@Raven_Weapon@@QBEIXZ			; Raven_Weapon::GetType
+PUBLIC	?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ ; Raven_WeaponSystem::GetCurrentWeapon
 PUBLIC	??_GRaven_WeaponSystem@@QAEPAXI@Z		; Raven_WeaponSystem::`scalar deleting destructor'
 PUBLIC	?deallocate@?$_Default_allocator_traits@V?$allocator@U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@2@QAU?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@2@I@Z ; std::_Default_allocator_traits<std::allocator<std::_Tree_node<std::pair<Raven_Bot * const,MemoryRecord>,void *> > >::deallocate
 PUBLIC	??1?$_Tree_comp_alloc@V?$_Tmap_traits@PAVRaven_Bot@@VMemoryRecord@@U?$less@PAVRaven_Bot@@@std@@V?$allocator@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@@4@$0A@@std@@@std@@QAE@XZ ; std::_Tree_comp_alloc<std::_Tmap_traits<Raven_Bot *,MemoryRecord,std::less<Raven_Bot *>,std::allocator<std::pair<Raven_Bot * const,MemoryRecord> >,0> >::~_Tree_comp_alloc<std::_Tmap_traits<Raven_Bot *,MemoryRecord,std::less<Raven_Bot *>,std::allocator<std::pair<Raven_Bot * const,MemoryRecord> >,0> >
@@ -822,6 +877,16 @@ PUBLIC	??$move@AAV?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@@std@@
 PUBLIC	??$move@AAV?$allocator@UVector2D@@@std@@@std@@YA$$QAV?$allocator@UVector2D@@@0@AAV10@@Z ; std::move<std::allocator<Vector2D> &>
 PUBLIC	??$?0V?$allocator@UVector2D@@@std@@X@?$_Vector_alloc@U?$_Vec_base_types@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@@std@@QAE@$$QAV?$allocator@UVector2D@@@1@@Z ; std::_Vector_alloc<std::_Vec_base_types<Vector2D,std::allocator<Vector2D> > >::_Vector_alloc<std::_Vec_base_types<Vector2D,std::allocator<Vector2D> > ><std::allocator<Vector2D>,void>
 PUBLIC	??$_Ucopy@PAUVector2D@@@?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@AAEPAUVector2D@@PAU2@00@Z ; std::vector<Vector2D,std::allocator<Vector2D> >::_Ucopy<Vector2D *>
+PUBLIC	??$move@AAN@std@@YA$$QANAAN@Z			; std::move<double &>
+PUBLIC	??$emplace_back@N@?$vector@NV?$allocator@N@std@@@std@@QAE@$$QAN@Z ; std::vector<double,std::allocator<double> >::emplace_back<double>
+PUBLIC	??$forward@N@std@@YA$$QANAAN@Z			; std::forward<double>
+PUBLIC	??$_Emplace_back_with_unused_capacity@N@?$vector@NV?$allocator@N@std@@@std@@AAE@$$QAN@Z ; std::vector<double,std::allocator<double> >::_Emplace_back_with_unused_capacity<double>
+PUBLIC	??$_Unfancy@N@std@@YAPANPAN@Z			; std::_Unfancy<double>
+PUBLIC	??$construct@NN@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAXAAV?$allocator@N@1@QAN$$QAN@Z ; std::_Default_allocator_traits<std::allocator<double> >::construct<double,double>
+PUBLIC	??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z ; std::vector<double,std::allocator<double> >::_Emplace_reallocate<double>
+PUBLIC	??$addressof@V?$vector@NV?$allocator@N@std@@@std@@@std@@YAPAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z ; std::addressof<std::vector<double,std::allocator<double> > >
+PUBLIC	??$move@AAV?$vector@NV?$allocator@N@std@@@std@@@std@@YA$$QAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z ; std::move<std::vector<double,std::allocator<double> > &>
+PUBLIC	??$?0ABV?$allocator@N@std@@X@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@ABV?$allocator@N@1@@Z ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > ><std::allocator<double> const &,void>
 PUBLIC	??$_Unfancy@D@std@@YAPADPAD@Z			; std::_Unfancy<char>
 PUBLIC	??$addressof@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z ; std::addressof<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >
 PUBLIC	??$move@AAV?$allocator@D@std@@@std@@YA$$QAV?$allocator@D@0@AAV10@@Z ; std::move<std::allocator<char> &>
@@ -896,6 +961,11 @@ PUBLIC	?pointer_to@?$pointer_traits@PAU?$pair@$$CBV?$basic_string@DU?$char_trait
 PUBLIC	??$?9UVector2D@@U0@@std@@YA_NABV?$allocator@UVector2D@@@0@0@Z ; std::operator!=<Vector2D,Vector2D>
 PUBLIC	??$_Pocma@V?$allocator@UVector2D@@@std@@@std@@YAXAAV?$allocator@UVector2D@@@0@0@Z ; std::_Pocma<std::allocator<Vector2D> >
 PUBLIC	??$?0$$V@?$_Compressed_pair@V?$allocator@UVector2D@@@std@@V?$_Vector_val@U?$_Simple_types@UVector2D@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::allocator<Vector2D>,std::_Vector_val<std::_Simple_types<Vector2D> >,1>::_Compressed_pair<std::allocator<Vector2D>,std::_Vector_val<std::_Simple_types<Vector2D> >,1><>
+PUBLIC	??$?9NN@std@@YA_NABV?$allocator@N@0@0@Z		; std::operator!=<double,double>
+PUBLIC	??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0@Z ; std::_Pocma<std::allocator<double> >
+PUBLIC	??$?0$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1><>
+PUBLIC	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@@Z ; std::_Destroy_range<std::allocator<double> >
+PUBLIC	??$_Uninitialized_value_construct_n@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@@Z ; std::_Uninitialized_value_construct_n<double *,unsigned int,std::allocator<double> >
 PUBLIC	??$?9DD@std@@YA_NABV?$allocator@D@0@0@Z		; std::operator!=<char,char>
 PUBLIC	??$_Pocma@V?$allocator@D@std@@@std@@YAXAAV?$allocator@D@0@0@Z ; std::_Pocma<std::allocator<char> >
 PUBLIC	??$?0$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1><>
@@ -922,6 +992,9 @@ PUBLIC	??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@$0A@@std@@
 PUBLIC	??$_Freenode0@V?$allocator@U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@std@@@?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@1@PAU01@@Z ; std::_Tree_node<std::pair<Raven_Bot * const,MemoryRecord>,void *>::_Freenode0<std::allocator<std::_Tree_node<std::pair<Raven_Bot * const,MemoryRecord>,void *> > >
 PUBLIC	??$?0U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><std::_Tree_node<std::pair<Raven_Bot * const,MemoryRecord>,void *> >
 PUBLIC	??$addressof@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@@std@@@std@@@std@@YAPAV?$_Tree_val@U?$_Tree_simple_types@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@@std@@@0@AAV10@@Z ; std::addressof<std::_Tree_val<std::_Tree_simple_types<std::pair<Raven_Bot * const,MemoryRecord> > > >
+PUBLIC	??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z ; std::_Unfancy<std::_Container_proxy>
+PUBLIC	??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
+PUBLIC	??$_Get_size_of_n@$0BA@@std@@YAII@Z		; std::_Get_size_of_n<16>
 PUBLIC	??0?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@U_Iterator_base0@2@@std@@QAE@XZ ; std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >,std::_Iterator_base0>::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >,std::_Iterator_base0>
 PUBLIC	??0?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@U_Iterator_base0@2@@std@@QAE@PAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@1@PBV?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@1@@Z ; std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >,std::_Iterator_base0>::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >,std::_Iterator_base0>
 PUBLIC	??D?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@U_Iterator_base0@2@@std@@QBEABU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@XZ ; std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >,std::_Iterator_base0>::operator*
@@ -937,11 +1010,11 @@ PUBLIC	??F?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@
 PUBLIC	??$_Destroy_range@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@@std@@YAXPAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@0AAV?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@0@@Z ; std::_Destroy_range<std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >
 PUBLIC	??$_Freenode0@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@std@@@?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@SAXAAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@1@PAU01@@Z ; std::_List_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,void *>::_Freenode0<std::allocator<std::_List_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,void *> > >
 PUBLIC	??$?0UVector2D@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@UVector2D@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><Vector2D>
-PUBLIC	??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z ; std::_Unfancy<std::_Container_proxy>
-PUBLIC	??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
 PUBLIC	??$addressof@V?$_Vector_val@U?$_Simple_types@UVector2D@@@std@@@std@@@std@@YAPAV?$_Vector_val@U?$_Simple_types@UVector2D@@@std@@@0@AAV10@@Z ; std::addressof<std::_Vector_val<std::_Simple_types<Vector2D> > >
 PUBLIC	??$_Destroy_range@V?$allocator@UVector2D@@@std@@@std@@YAXPAUVector2D@@0AAV?$allocator@UVector2D@@@0@@Z ; std::_Destroy_range<std::allocator<Vector2D> >
-PUBLIC	??$_Get_size_of_n@$0BA@@std@@YAII@Z		; std::_Get_size_of_n<16>
+PUBLIC	??$?0N@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@N@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><double>
+PUBLIC	??$addressof@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@YAPAV?$_Vector_val@U?$_Simple_types@N@std@@@0@AAV10@@Z ; std::addressof<std::_Vector_val<std::_Simple_types<double> > >
+PUBLIC	??$_Get_size_of_n@$07@std@@YAII@Z		; std::_Get_size_of_n<8>
 PUBLIC	??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><char>
 PUBLIC	?pointer_to@?$pointer_traits@PAD@std@@SAPADAAD@Z ; std::pointer_traits<char *>::pointer_to
 PUBLIC	??$_Freenode0@V?$allocator@U?$_List_node@PAV?$Goal@VRaven_Bot@@@@PAX@std@@@std@@@?$_List_node@PAV?$Goal@VRaven_Bot@@@@PAX@std@@SAXAAV?$allocator@U?$_List_node@PAV?$Goal@VRaven_Bot@@@@PAX@std@@@1@PAU01@@Z ; std::_List_node<Goal<Raven_Bot> *,void *>::_Freenode0<std::allocator<std::_List_node<Goal<Raven_Bot> *,void *> > >
@@ -949,7 +1022,6 @@ PUBLIC	??$addressof@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@@std@@YAPAU?$pair
 PUBLIC	??$destroy@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@@?$_Default_allocator_traits@V?$allocator@U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@1@QAU?$pair@QAVRaven_Bot@@VMemoryRecord@@@1@@Z ; std::_Default_allocator_traits<std::allocator<std::_Tree_node<std::pair<Raven_Bot * const,MemoryRecord>,void *> > >::destroy<std::pair<Raven_Bot * const,MemoryRecord> >
 PUBLIC	??$_Fill_unchecked@PAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@V12@@std@@YAXPAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@0ABV10@@Z ; std::_Fill_unchecked<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > *,std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >
 PUBLIC	??$destroy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@?$_Default_allocator_traits@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@1@QAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@@Z ; std::_Default_allocator_traits<std::allocator<std::_List_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,void *> > >::destroy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >
-PUBLIC	??$_Get_size_of_n@$07@std@@YAII@Z		; std::_Get_size_of_n<8>
 PUBLIC	??R<lambda_6607a66f2a10a1261ff9db96cba1015b>@@QBE@QADQBDIIID@Z ; <lambda_6607a66f2a10a1261ff9db96cba1015b>::operator()
 PUBLIC	??$_Reallocate_grow_by@V<lambda_6607a66f2a10a1261ff9db96cba1015b>@@IID@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAEAAV01@IV<lambda_6607a66f2a10a1261ff9db96cba1015b>@@IID@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::_Reallocate_grow_by<<lambda_6607a66f2a10a1261ff9db96cba1015b>,unsigned int,unsigned int,char>
 PUBLIC	??$addressof@PAV?$Goal@VRaven_Bot@@@@@std@@YAPAPAV?$Goal@VRaven_Bot@@@@AAPAV1@@Z ; std::addressof<Goal<Raven_Bot> *>
@@ -1009,20 +1081,25 @@ PUBLIC	??$_Try_emplace@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2
 PUBLIC	??$forward@V?$allocator@UVector2D@@@std@@@std@@YA$$QAV?$allocator@UVector2D@@@0@AAV10@@Z ; std::forward<std::allocator<Vector2D> >
 PUBLIC	??$?0V?$allocator@UVector2D@@@std@@$$V@?$_Compressed_pair@V?$allocator@UVector2D@@@std@@V?$_Vector_val@U?$_Simple_types@UVector2D@@@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAV?$allocator@UVector2D@@@1@@Z ; std::_Compressed_pair<std::allocator<Vector2D>,std::_Vector_val<std::_Simple_types<Vector2D> >,1>::_Compressed_pair<std::allocator<Vector2D>,std::_Vector_val<std::_Simple_types<Vector2D> >,1><std::allocator<Vector2D> >
 PUBLIC	??$_Uninitialized_copy@PAUVector2D@@PAU1@V?$allocator@UVector2D@@@std@@@std@@YAPAUVector2D@@QAU1@0PAU1@AAV?$allocator@UVector2D@@@0@@Z ; std::_Uninitialized_copy<Vector2D *,Vector2D *,std::allocator<Vector2D> >
+PUBLIC	??$forward@ABV?$allocator@N@std@@@std@@YAABV?$allocator@N@0@ABV10@@Z ; std::forward<std::allocator<double> const &>
+PUBLIC	??$?0ABV?$allocator@N@std@@$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@N@1@@Z ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1><std::allocator<double> const &>
 PUBLIC	??$forward@V?$allocator@D@std@@@std@@YA$$QAV?$allocator@D@0@AAV10@@Z ; std::forward<std::allocator<char> >
 PUBLIC	??$?0V?$allocator@D@std@@$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@$$QAV?$allocator@D@1@@Z ; std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1><std::allocator<char> >
 PUBLIC	??$_Destroy_range1@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YAXPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@U?$integral_constant@_N$0A@@0@@Z ; std::_Destroy_range1<std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >
 PUBLIC	??$?0ABV?$allocator@D@std@@X@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@ABV?$allocator@D@1@@Z ; std::_String_alloc<std::_String_base_types<char,std::allocator<char> > >::_String_alloc<std::_String_base_types<char,std::allocator<char> > ><std::allocator<char> const &,void>
 PUBLIC	??$_Pocma@V?$allocator@UVector2D@@@std@@@std@@YAXAAV?$allocator@UVector2D@@@0@0U?$integral_constant@_N$00@0@@Z ; std::_Pocma<std::allocator<Vector2D> >
+PUBLIC	??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0U?$integral_constant@_N$00@0@@Z ; std::_Pocma<std::allocator<double> >
+PUBLIC	??$_Destroy_range1@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z ; std::_Destroy_range1<std::allocator<double> >
+PUBLIC	??$_Uninitialized_value_construct_n1@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z ; std::_Uninitialized_value_construct_n1<double *,unsigned int,std::allocator<double> >
 PUBLIC	??$_Pocma@V?$allocator@D@std@@@std@@YAXAAV?$allocator@D@0@0U?$integral_constant@_N$00@0@@Z ; std::_Pocma<std::allocator<char> >
 PUBLIC	??$forward@ABQAD@std@@YAABQADABQAD@Z		; std::forward<char * const &>
 PUBLIC	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPAXI@Z ; std::_Allocate_manually_vector_aligned<std::_Default_allocate_traits>
 PUBLIC	??$addressof@PAU?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@std@@YAPAPAU?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@0@AAPAU10@@Z ; std::addressof<std::_Tree_node<std::pair<Raven_Bot * const,MemoryRecord>,void *> *>
 PUBLIC	??$destroy@PAU?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@?$_Default_allocator_traits@V?$allocator@U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@std@@@1@QAPAU?$_Tree_node@U?$pair@QAVRaven_Bot@@VMemoryRecord@@@std@@PAX@1@@Z ; std::_Default_allocator_traits<std::allocator<std::_Tree_node<std::pair<Raven_Bot * const,MemoryRecord>,void *> > >::destroy<std::_Tree_node<std::pair<Raven_Bot * const,MemoryRecord>,void *> *>
+PUBLIC	??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z ; std::forward<std::_Container_proxy>
 PUBLIC	??$_Destroy_range1@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@@std@@YAXPAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@0AAV?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@0@U?$integral_constant@_N$00@0@@Z ; std::_Destroy_range1<std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >
 PUBLIC	??$addressof@PAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@std@@YAPAPAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@0@AAPAU10@@Z ; std::addressof<std::_List_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,void *> *>
 PUBLIC	??$destroy@PAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@?$_Default_allocator_traits@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@1@QAPAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@1@@Z ; std::_Default_allocator_traits<std::allocator<std::_List_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,void *> > >::destroy<std::_List_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,void *> *>
-PUBLIC	??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z ; std::forward<std::_Container_proxy>
 PUBLIC	??$_Destroy_range1@V?$allocator@UVector2D@@@std@@@std@@YAXPAUVector2D@@0AAV?$allocator@UVector2D@@@0@U?$integral_constant@_N$00@0@@Z ; std::_Destroy_range1<std::allocator<Vector2D> >
 PUBLIC	??$addressof@PAU?$_List_node@PAV?$Goal@VRaven_Bot@@@@PAX@std@@@std@@YAPAPAU?$_List_node@PAV?$Goal@VRaven_Bot@@@@PAX@0@AAPAU10@@Z ; std::addressof<std::_List_node<Goal<Raven_Bot> *,void *> *>
 PUBLIC	??$destroy@PAU?$_List_node@PAV?$Goal@VRaven_Bot@@@@PAX@std@@@?$_Default_allocator_traits@V?$allocator@U?$_List_node@PAV?$Goal@VRaven_Bot@@@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_List_node@PAV?$Goal@VRaven_Bot@@@@PAX@std@@@1@QAPAU?$_List_node@PAV?$Goal@VRaven_Bot@@@@PAX@1@@Z ; std::_Default_allocator_traits<std::allocator<std::_List_node<Goal<Raven_Bot> *,void *> > >::destroy<std::_List_node<Goal<Raven_Bot> *,void *> *>
@@ -1048,6 +1125,7 @@ PUBLIC	??$construct@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std
 PUBLIC	??$_Emplace_reallocate@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$vector@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@QAV21@$$QAV21@@Z ; std::vector<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Emplace_reallocate<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >
 PUBLIC	??$addressof@V?$_List_val@U?$_List_simple_types@PAV?$Goal@VRaven_Bot@@@@@std@@@std@@@std@@YAPAV?$_List_val@U?$_List_simple_types@PAV?$Goal@VRaven_Bot@@@@@std@@@0@AAV10@@Z ; std::addressof<std::_List_val<std::_List_simple_types<Goal<Raven_Bot> *> > >
 PUBLIC	??$_Uninitialized_move@PAUVector2D@@PAU1@V?$allocator@UVector2D@@@std@@@std@@YAPAUVector2D@@QAU1@0PAU1@AAV?$allocator@UVector2D@@@0@@Z ; std::_Uninitialized_move<Vector2D *,Vector2D *,std::allocator<Vector2D> >
+PUBLIC	??$_Uninitialized_move@PANPANV?$allocator@N@std@@@std@@YAPANQAN0PANAAV?$allocator@N@0@@Z ; std::_Uninitialized_move<double *,double *,std::allocator<double> >
 PUBLIC	??$_Max_value@PAD@std@@YAABQADABQAD0@Z		; std::_Max_value<char *>
 PUBLIC	??$addressof@D@std@@YAPADAAD@Z			; std::addressof<char>
 PUBLIC	??R<lambda_4d79bb85f269e6e8002a4599002d832c>@@QBE@QADQBDII1I@Z ; <lambda_4d79bb85f269e6e8002a4599002d832c>::operator()
@@ -1057,11 +1135,11 @@ PUBLIC	??$_Maklocchr@D@std@@YADDPADABU_Cvtvec@@@Z	; std::_Maklocchr<char>
 PUBLIC	??$_Getvals@D@?$numpunct@D@std@@IAEXDPBUlconv@@U_Cvtvec@@@Z ; std::numpunct<char>::_Getvals<char>
 PUBLIC	??$?0PAV_Facet_base@std@@@?$_Unique_ptr_base@V_Facet_base@std@@U?$default_delete@V_Facet_base@std@@@2@@std@@QAE@PAV_Facet_base@1@@Z ; std::_Unique_ptr_base<std::_Facet_base,std::default_delete<std::_Facet_base> >::_Unique_ptr_base<std::_Facet_base,std::default_delete<std::_Facet_base> ><std::_Facet_base *>
 PUBLIC	??$_Get_unwrapped@D@std@@YAPADQAD@Z		; std::_Get_unwrapped<char>
-PUBLIC	??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ ; std::forward_as_tuple<>
-PUBLIC	??$?0AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z ; std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool>::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool><std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > &,bool,0>
 PUBLIC	??$forward@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@@Z ; std::forward<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
 PUBLIC	??$forward_as_tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA?AV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@@Z ; std::forward_as_tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
 PUBLIC	??0?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@$$QAV01@@Z ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
+PUBLIC	??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ ; std::forward_as_tuple<>
+PUBLIC	??$?0AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z ; std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool>::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool><std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > &,bool,0>
 PUBLIC	??$emplace@ABUpiecewise_construct_t@std@@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$tuple@$$V@2@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QAV?$tuple@$$V@1@@Z ; std::_Hash<std::_Umap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::_Uhash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >::emplace<std::piecewise_construct_t const &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<> >
 PUBLIC	??$_Get_unwrapped@UVector2D@@@std@@YAPAUVector2D@@QAU1@@Z ; std::_Get_unwrapped<Vector2D>
 PUBLIC	??$_Idl_distance@PAUVector2D@@PAU1@@std@@YA@ABQAUVector2D@@0@Z ; std::_Idl_distance<Vector2D *,Vector2D *>
@@ -1070,9 +1148,16 @@ PUBLIC	??$_Get_unwrapped_n@UVector2D@@H$0A@@std@@YAPAUVector2D@@QAU1@H@Z ; std::
 PUBLIC	??$_Ptr_copy_cat@UVector2D@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUVector2D@@0@Z ; std::_Ptr_copy_cat<Vector2D,Vector2D>
 PUBLIC	??$_Uninitialized_copy_al_unchecked@PAUVector2D@@PAU1@V?$allocator@UVector2D@@@std@@@std@@YAPAUVector2D@@PAU1@QAU1@1AAV?$allocator@UVector2D@@@0@U_General_ptr_iterator_tag@0@U_Unused_parameter@0@@Z ; std::_Uninitialized_copy_al_unchecked<Vector2D *,Vector2D *,std::allocator<Vector2D> >
 PUBLIC	??$_Seek_wrapped@UVector2D@@@std@@YAXAAPAUVector2D@@QAU1@@Z ; std::_Seek_wrapped<Vector2D>
+PUBLIC	??$_Get_unwrapped@N@std@@YAPANQAN@Z		; std::_Get_unwrapped<double>
+PUBLIC	??$_Idl_distance@PANPAN@std@@YA@ABQAN0@Z	; std::_Idl_distance<double *,double *>
+PUBLIC	??$_Idl_distance1@PANPAN@std@@YAHABQAN0Urandom_access_iterator_tag@0@@Z ; std::_Idl_distance1<double *,double *>
+PUBLIC	??$_Get_unwrapped_n@NH$0A@@std@@YAPANQANH@Z	; std::_Get_unwrapped_n<double,int,0>
+PUBLIC	??$_Seek_wrapped@N@std@@YAXAAPANQAN@Z		; std::_Seek_wrapped<double>
 PUBLIC	??$destroy@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Default_allocator_traits@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@SAXAAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::_Default_allocator_traits<std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::destroy<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >
 PUBLIC	??$forward@ABV?$allocator@D@std@@@std@@YAABV?$allocator@D@0@ABV10@@Z ; std::forward<std::allocator<char> const &>
 PUBLIC	??$?0ABV?$allocator@D@std@@$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@D@1@@Z ; std::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1>::_Compressed_pair<std::allocator<char>,std::_String_val<std::_Simple_types<char> >,1><std::allocator<char> const &>
+PUBLIC	??$move@AAV?$allocator@N@std@@@std@@YA$$QAV?$allocator@N@0@AAV10@@Z ; std::move<std::allocator<double> &>
+PUBLIC	??$_Zero_range@PAN@std@@YAPANQAN0@Z		; std::_Zero_range<double *>
 PUBLIC	??0?$_Uninitialized_backout_al@PAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@2@@std@@QAE@PAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@AAV?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@1@@Z ; std::_Uninitialized_backout_al<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > *,std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >::_Uninitialized_backout_al<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > *,std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >
 PUBLIC	??1?$_Uninitialized_backout_al@PAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@2@@std@@QAE@XZ ; std::_Uninitialized_backout_al<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > *,std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >::~_Uninitialized_backout_al<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > *,std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >
 PUBLIC	?_Release@?$_Uninitialized_backout_al@PAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@2@@std@@QAEPAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@2@XZ ; std::_Uninitialized_backout_al<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > *,std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >::_Release
@@ -1080,6 +1165,8 @@ PUBLIC	??$_Emplace_back@ABV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simp
 PUBLIC	??$_Emplace_back@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@?$_Uninitialized_backout_al@PAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@2@@std@@QAEX$$QAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@@Z ; std::_Uninitialized_backout_al<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > *,std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >::_Emplace_back<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >
 PUBLIC	??$_Ptr_move_cat@UVector2D@@U1@@std@@YA?AU_Trivially_copyable_ptr_iterator_tag@0@ABQAUVector2D@@0@Z ; std::_Ptr_move_cat<Vector2D,Vector2D>
 PUBLIC	??$_Uninitialized_move_al_unchecked@PAUVector2D@@PAU1@V?$allocator@UVector2D@@@std@@@std@@YAPAUVector2D@@PAU1@QAU1@1AAV?$allocator@UVector2D@@@0@U_General_ptr_iterator_tag@0@U_Unused_parameter@0@@Z ; std::_Uninitialized_move_al_unchecked<Vector2D *,Vector2D *,std::allocator<Vector2D> >
+PUBLIC	??$_Ptr_move_cat@NN@std@@YA?AU_Really_trivial_ptr_iterator_tag@0@ABQAN0@Z ; std::_Ptr_move_cat<double,double>
+PUBLIC	??$_Uninitialized_move_al_unchecked@NNV?$allocator@N@std@@@std@@YAPANQAN00AAV?$allocator@N@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z ; std::_Uninitialized_move_al_unchecked<double,double,std::allocator<double> >
 PUBLIC	??$_Uninitialized_move@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@PAV12@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@YAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QAV10@0PAV10@AAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z ; std::_Uninitialized_move<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >
 PUBLIC	??$_Get_size_of_n@$0BM@@std@@YAII@Z		; std::_Get_size_of_n<28>
 PUBLIC	??$addressof@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@YAPAV?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@0@AAV10@@Z ; std::addressof<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >
@@ -1090,19 +1177,20 @@ PUBLIC	??$_Get_size_of_n@$0EA@@std@@YAII@Z		; std::_Get_size_of_n<64>
 PUBLIC	??$addressof@$$CBV?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@YAPBV?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@0@ABV10@@Z ; std::addressof<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > const >
 PUBLIC	??$?8DU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@0@Z ; std::operator==<char,std::char_traits<char>,std::allocator<char> >
 PUBLIC	??$?0AAPAV_Facet_base@std@@@?$_Compressed_pair@U?$default_delete@V_Facet_base@std@@@std@@PAV_Facet_base@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@AAPAV_Facet_base@1@@Z ; std::_Compressed_pair<std::default_delete<std::_Facet_base>,std::_Facet_base *,1>::_Compressed_pair<std::default_delete<std::_Facet_base>,std::_Facet_base *,1><std::_Facet_base * &>
+PUBLIC	??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
 PUBLIC	??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z ; std::forward<std::piecewise_construct_t const &>
+PUBLIC	??$forward@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z ; std::forward<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> >
 PUBLIC	??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z ; std::forward<std::tuple<> >
+PUBLIC	??$forward@_N@std@@YA$$QA_NAA_N@Z		; std::forward<bool>
 PUBLIC	??$_Insert@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@2@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IAE?AU?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@1@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@@Z ; std::_Hash<std::_Umap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::_Uhash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >::_Insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &,std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >
 PUBLIC	??$forward@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YAAAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z ; std::forward<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > &>
-PUBLIC	??$forward@_N@std@@YA$$QA_NAA_N@Z		; std::forward<bool>
-PUBLIC	??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
-PUBLIC	??$forward@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z ; std::forward<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> >
 PUBLIC	??$emplace_front@ABUpiecewise_construct_t@std@@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$tuple@$$V@2@@?$list@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAE@ABUpiecewise_construct_t@1@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QAV?$tuple@$$V@1@@Z ; std::list<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::emplace_front<std::piecewise_construct_t const &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<> >
 PUBLIC	??$_Insert@ABUpiecewise_construct_t@std@@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$tuple@$$V@2@@?$list@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAEXV?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@U_Iterator_base0@2@@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QAV?$tuple@$$V@1@@Z ; std::list<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::_Insert<std::piecewise_construct_t const &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<> >
 PUBLIC	??0?$_Uninitialized_backout_al@PAUVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAE@PAUVector2D@@AAV?$allocator@UVector2D@@@1@@Z ; std::_Uninitialized_backout_al<Vector2D *,std::allocator<Vector2D> >::_Uninitialized_backout_al<Vector2D *,std::allocator<Vector2D> >
 PUBLIC	??1?$_Uninitialized_backout_al@PAUVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAE@XZ ; std::_Uninitialized_backout_al<Vector2D *,std::allocator<Vector2D> >::~_Uninitialized_backout_al<Vector2D *,std::allocator<Vector2D> >
 PUBLIC	?_Release@?$_Uninitialized_backout_al@PAUVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAEPAUVector2D@@XZ ; std::_Uninitialized_backout_al<Vector2D *,std::allocator<Vector2D> >::_Release
 PUBLIC	??$_Emplace_back@AAUVector2D@@@?$_Uninitialized_backout_al@PAUVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAEXAAUVector2D@@@Z ; std::_Uninitialized_backout_al<Vector2D *,std::allocator<Vector2D> >::_Emplace_back<Vector2D &>
+PUBLIC	??$_Copy_memmove@PANPAN@std@@YAPANPAN00@Z	; std::_Copy_memmove<double *,double *>
 PUBLIC	??$forward@ABV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YAABV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@ABV10@@Z ; std::forward<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > const &>
 PUBLIC	??$construct@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@ABV12@@?$_Default_allocator_traits@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@@std@@SAXAAV?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@1@QAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@ABV31@@Z ; std::_Default_allocator_traits<std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >::construct<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > const &>
 PUBLIC	??$forward@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z ; std::forward<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >
@@ -1117,11 +1205,11 @@ PUBLIC	??$_Uninitialized_move_al_unchecked@PAV?$basic_string@DU?$char_traits@D@s
 PUBLIC	??$_Seek_wrapped@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAXAAPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QAV10@@Z ; std::_Seek_wrapped<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >
 PUBLIC	??$forward@AAPAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@std@@YAAAPAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@0@AAPAU10@@Z ; std::forward<std::_List_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,void *> * &>
 PUBLIC	??$forward@AAPAV_Facet_base@std@@@std@@YAAAPAV_Facet_base@0@AAPAV10@@Z ; std::forward<std::_Facet_base * &>
+PUBLIC	??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
 PUBLIC	??$?0V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z ; std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool>::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool><std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool,0>
 PUBLIC	??$forward@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@YAAAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@0@AAU10@@Z ; std::forward<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &>
 PUBLIC	??$_Buy_if_not_node@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IAE?AV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@V21@@Z ; std::_Hash<std::_Umap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::_Uhash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >::_Buy_if_not_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &>
 PUBLIC	??$erase@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@X@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAE?AV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@V21@@Z ; std::_Hash<std::_Umap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::_Uhash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >::erase<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,void>
-PUBLIC	??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
 PUBLIC	??$_Buynode@ABUpiecewise_construct_t@std@@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$tuple@$$V@2@@?$_List_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAEPAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@1@PAU21@0ABUpiecewise_construct_t@1@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QAV?$tuple@$$V@1@@Z ; std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::_Buynode<std::piecewise_construct_t const &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<> >
 PUBLIC	??$forward@AAUVector2D@@@std@@YAAAUVector2D@@AAU1@@Z ; std::forward<Vector2D &>
 PUBLIC	??$construct@UVector2D@@AAU1@@?$_Default_allocator_traits@V?$allocator@UVector2D@@@std@@@std@@SAXAAV?$allocator@UVector2D@@@1@QAUVector2D@@AAU3@@Z ; std::_Default_allocator_traits<std::allocator<Vector2D> >::construct<Vector2D,Vector2D &>
@@ -1130,13 +1218,13 @@ PUBLIC	??1?$_Uninitialized_backout_al@PAV?$basic_string@DU?$char_traits@D@std@@V
 PUBLIC	?_Release@?$_Uninitialized_backout_al@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEPAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ ; std::_Uninitialized_backout_al<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Release
 PUBLIC	??$_Emplace_back@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Uninitialized_backout_al@PAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@std@@QAEX$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::_Uninitialized_backout_al<std::basic_string<char,std::char_traits<char>,std::allocator<char> > *,std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::_Emplace_back<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >
 PUBLIC	??$?0U_Exact_args_t@std@@$0A@@?$tuple@$$V@std@@QAE@U_Exact_args_t@1@@Z ; std::tuple<>::tuple<><std::_Exact_args_t,0>
-PUBLIC	??$forward@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z ; std::forward<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >
 PUBLIC	??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Tuple_val@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::_Tuple_val<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::_Tuple_val<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
+PUBLIC	??$forward@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z ; std::forward<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >
 PUBLIC	??$construct@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@ABUpiecewise_construct_t@2@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$tuple@$$V@2@@?$_Default_allocator_traits@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@1@QAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QAV?$tuple@$$V@1@@Z ; std::_Default_allocator_traits<std::allocator<std::_List_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,void *> > >::construct<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::piecewise_construct_t const &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<> >
 PUBLIC	??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$$Z$$V@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@Upiecewise_construct_t@1@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@V?$tuple@$$V@1@@Z ; std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > ><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
-PUBLIC	??$?0V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AAV?$tuple@$$V@1@U?$integer_sequence@I$0A@@1@U?$integer_sequence@I$S@1@@Z ; std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > ><std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<>,0>
 PUBLIC	??$move@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z ; std::move<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> &>
 PUBLIC	??$get@$0A@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z ; std::get<0,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
+PUBLIC	??$?0V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AAV?$tuple@$$V@1@U?$integer_sequence@I$0A@@1@U?$integer_sequence@I$S@1@@Z ; std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > ><std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<>,0>
 PUBLIC	??_E?$basic_ostream@DU?$char_traits@D@std@@@std@@$4PPPPPPPM@A@AEPAXI@Z ; std::basic_ostream<char,std::char_traits<char> >::`vector deleting destructor'
 PUBLIC	??_E?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$4PPPPPPPM@A@AEPAXI@Z ; std::basic_ostringstream<char,std::char_traits<char>,std::allocator<char> >::`vector deleting destructor'
 PUBLIC	?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA ; `__local_stdio_printf_options'::`2'::_OptionsStorage
@@ -1215,6 +1303,10 @@ PUBLIC	??_C@_1EA@OADAPGGK@?$AA?$CC?$AAs?$AAt?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAu
 PUBLIC	?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A	; std::codecvt<char,char,_Mbstatet>::id
 PUBLIC	?id@?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@2V0locale@2@A ; std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::id
 PUBLIC	??_7?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@6B@ ; std::num_put<char,std::ostreambuf_iterator<char,std::char_traits<char> > >::`vftable'
+PUBLIC	??_C@_0BP@OLDKBHLM@map?1set?5iterators?5incompatible@ ; `string'
+PUBLIC	??_C@_0GJ@HNJPEPEM@c?3?2program?5files?5?$CIx86?$CJ?2microsof@ ; `string'
+PUBLIC	??_C@_1NC@DNMOGCEE@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe@ ; `string'
+PUBLIC	??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@ ; `string'
 PUBLIC	??_C@_02BBAHNLBA@?$CFp@				; `string'
 PUBLIC	??_C@_02CLHGNPPK@Lu@				; `string'
 PUBLIC	??_C@_02HIKPPMOK@Ld@				; `string'
@@ -1222,15 +1314,11 @@ PUBLIC	??_C@_02BDDLJJBK@lu@				; `string'
 PUBLIC	??_C@_02EAOCLKAK@ld@				; `string'
 PUBLIC	?id@?$numpunct@D@std@@2V0locale@2@A		; std::numpunct<char>::id
 PUBLIC	??_7?$numpunct@D@std@@6B@			; std::numpunct<char>::`vftable'
+PUBLIC	??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@	; `string'
 PUBLIC	??_C@_02MDKMJEGG@eE@				; `string'
 PUBLIC	??_C@_02OOPEBDOJ@pP@				; `string'
 PUBLIC	??_C@_01LFCBOECM@?4@				; `string'
 PUBLIC	?id@?$collate@D@std@@2V0locale@2@A		; std::collate<char>::id
-PUBLIC	??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@	; `string'
-PUBLIC	??_C@_0BP@OLDKBHLM@map?1set?5iterators?5incompatible@ ; `string'
-PUBLIC	??_C@_0GJ@HNJPEPEM@c?3?2program?5files?5?$CIx86?$CJ?2microsof@ ; `string'
-PUBLIC	??_C@_1NC@DNMOGCEE@?$AAc?$AA?3?$AA?2?$AAp?$AAr?$AAo?$AAg?$AAr?$AAa?$AAm?$AA?5?$AAf?$AAi?$AAl?$AAe@ ; `string'
-PUBLIC	??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@ ; `string'
 PUBLIC	??_C@_0CF@JILFNJOL@map?1set?5erase?5iterator?5outside?5@ ; `string'
 PUBLIC	??_C@_1EO@CEDAEPC@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5@ ; `string'
 PUBLIC	??_C@_1BDM@OEEPLJFA@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@ ; `string'
@@ -1530,6 +1618,7 @@ EXTRN	??_EBaseGameEntity@@UAEPAXI@Z:PROC		; BaseGameEntity::`vector deleting des
 EXTRN	??_EMovingEntity@@UAEPAXI@Z:PROC		; MovingEntity::`vector deleting destructor'
 EXTRN	??0Raven_TargetingSystem@@QAE@PAVRaven_Bot@@@Z:PROC ; Raven_TargetingSystem::Raven_TargetingSystem
 EXTRN	?Update@Raven_TargetingSystem@@QAEXXZ:PROC	; Raven_TargetingSystem::Update
+EXTRN	?isTargetWithinFOV@Raven_TargetingSystem@@QBE_NXZ:PROC ; Raven_TargetingSystem::isTargetWithinFOV
 EXTRN	??_ERaven_Bot@@UAEPAXI@Z:PROC			; Raven_Bot::`vector deleting destructor'
 EXTRN	?Instance@Cgdi@@SAPAV1@XZ:PROC			; Cgdi::Instance
 EXTRN	??_E?$basic_ios@DU?$char_traits@D@std@@@std@@UAEPAXI@Z:PROC ; std::basic_ios<char,std::char_traits<char> >::`vector deleting destructor'
@@ -1546,10 +1635,11 @@ EXTRN	?Instance@Raven_UserOptions@@SAPAV1@XZ:PROC	; Raven_UserOptions::Instance
 EXTRN	??0Raven_WeaponSystem@@QAE@PAVRaven_Bot@@NNN@Z:PROC ; Raven_WeaponSystem::Raven_WeaponSystem
 EXTRN	??1Raven_WeaponSystem@@QAE@XZ:PROC		; Raven_WeaponSystem::~Raven_WeaponSystem
 EXTRN	?Initialize@Raven_WeaponSystem@@QAEXXZ:PROC	; Raven_WeaponSystem::Initialize
-EXTRN	?TakeAimAndShoot@Raven_WeaponSystem@@QBEXXZ:PROC ; Raven_WeaponSystem::TakeAimAndShoot
+EXTRN	?TakeAimAndShoot@Raven_WeaponSystem@@QAE_NXZ:PROC ; Raven_WeaponSystem::TakeAimAndShoot
 EXTRN	?SelectWeapon@Raven_WeaponSystem@@QAEXXZ:PROC	; Raven_WeaponSystem::SelectWeapon
 EXTRN	?ChangeWeapon@Raven_WeaponSystem@@QAEXI@Z:PROC	; Raven_WeaponSystem::ChangeWeapon
 EXTRN	?ShootAt@Raven_WeaponSystem@@QBEXUVector2D@@@Z:PROC ; Raven_WeaponSystem::ShootAt
+EXTRN	?GetAmmoRemainingForWeapon@Raven_WeaponSystem@@QAEHI@Z:PROC ; Raven_WeaponSystem::GetAmmoRemainingForWeapon
 EXTRN	?RenderCurrentWeapon@Raven_WeaponSystem@@QBEXXZ:PROC ; Raven_WeaponSystem::RenderCurrentWeapon
 EXTRN	??0Raven_SensoryMemory@@QAE@PAVRaven_Bot@@N@Z:PROC ; Raven_SensoryMemory::Raven_SensoryMemory
 EXTRN	?UpdateWithSoundSource@Raven_SensoryMemory@@QAEXPAVRaven_Bot@@@Z:PROC ; Raven_SensoryMemory::UpdateWithSoundSource
@@ -3615,6 +3705,54 @@ CONST	SEGMENT
 ??_C@_0CF@JILFNJOL@map?1set?5erase?5iterator?5outside?5@ DB 'map/set eras'
 	DB	'e iterator outside range', 00H		; `string'
 CONST	ENDS
+;	COMDAT ??_C@_01LFCBOECM@?4@
+CONST	SEGMENT
+??_C@_01LFCBOECM@?4@ DB '.', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_02OOPEBDOJ@pP@
+CONST	SEGMENT
+??_C@_02OOPEBDOJ@pP@ DB 'pP', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_02MDKMJEGG@eE@
+CONST	SEGMENT
+??_C@_02MDKMJEGG@eE@ DB 'eE', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@
+CONST	SEGMENT
+??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@ DB 'vector<T> too long', 00H ; `string'
+CONST	ENDS
+;	COMDAT ??_7?$numpunct@D@std@@6B@
+CONST	SEGMENT
+??_7?$numpunct@D@std@@6B@ DD FLAT:??_R4?$numpunct@D@std@@6B@ ; std::numpunct<char>::`vftable'
+	DD	FLAT:??_E?$numpunct@D@std@@MAEPAXI@Z
+	DD	FLAT:?_Incref@facet@locale@std@@UAEXXZ
+	DD	FLAT:?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
+	DD	FLAT:?do_decimal_point@?$numpunct@D@std@@MBEDXZ
+	DD	FLAT:?do_thousands_sep@?$numpunct@D@std@@MBEDXZ
+	DD	FLAT:?do_grouping@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
+	DD	FLAT:?do_falsename@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
+	DD	FLAT:?do_truename@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
+CONST	ENDS
+;	COMDAT ??_C@_02EAOCLKAK@ld@
+CONST	SEGMENT
+??_C@_02EAOCLKAK@ld@ DB 'ld', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_02BDDLJJBK@lu@
+CONST	SEGMENT
+??_C@_02BDDLJJBK@lu@ DB 'lu', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_02HIKPPMOK@Ld@
+CONST	SEGMENT
+??_C@_02HIKPPMOK@Ld@ DB 'Ld', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_02CLHGNPPK@Lu@
+CONST	SEGMENT
+??_C@_02CLHGNPPK@Lu@ DB 'Lu', 00H			; `string'
+CONST	ENDS
+;	COMDAT ??_C@_02BBAHNLBA@?$CFp@
+CONST	SEGMENT
+??_C@_02BBAHNLBA@?$CFp@ DB '%p', 00H			; `string'
+CONST	ENDS
 ;	COMDAT ??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@
 CONST	SEGMENT
 ??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@ DB '"'
@@ -3655,54 +3793,6 @@ CONST	ENDS
 CONST	SEGMENT
 ??_C@_0BP@OLDKBHLM@map?1set?5iterators?5incompatible@ DB 'map/set iterato'
 	DB	'rs incompatible', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@
-CONST	SEGMENT
-??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@ DB 'vector<T> too long', 00H ; `string'
-CONST	ENDS
-;	COMDAT ??_C@_01LFCBOECM@?4@
-CONST	SEGMENT
-??_C@_01LFCBOECM@?4@ DB '.', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_02OOPEBDOJ@pP@
-CONST	SEGMENT
-??_C@_02OOPEBDOJ@pP@ DB 'pP', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_02MDKMJEGG@eE@
-CONST	SEGMENT
-??_C@_02MDKMJEGG@eE@ DB 'eE', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_7?$numpunct@D@std@@6B@
-CONST	SEGMENT
-??_7?$numpunct@D@std@@6B@ DD FLAT:??_R4?$numpunct@D@std@@6B@ ; std::numpunct<char>::`vftable'
-	DD	FLAT:??_E?$numpunct@D@std@@MAEPAXI@Z
-	DD	FLAT:?_Incref@facet@locale@std@@UAEXXZ
-	DD	FLAT:?_Decref@facet@locale@std@@UAEPAV_Facet_base@3@XZ
-	DD	FLAT:?do_decimal_point@?$numpunct@D@std@@MBEDXZ
-	DD	FLAT:?do_thousands_sep@?$numpunct@D@std@@MBEDXZ
-	DD	FLAT:?do_grouping@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
-	DD	FLAT:?do_falsename@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
-	DD	FLAT:?do_truename@?$numpunct@D@std@@MBE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@2@XZ
-CONST	ENDS
-;	COMDAT ??_C@_02EAOCLKAK@ld@
-CONST	SEGMENT
-??_C@_02EAOCLKAK@ld@ DB 'ld', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_02BDDLJJBK@lu@
-CONST	SEGMENT
-??_C@_02BDDLJJBK@lu@ DB 'lu', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_02HIKPPMOK@Ld@
-CONST	SEGMENT
-??_C@_02HIKPPMOK@Ld@ DB 'Ld', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_02CLHGNPPK@Lu@
-CONST	SEGMENT
-??_C@_02CLHGNPPK@Lu@ DB 'Lu', 00H			; `string'
-CONST	ENDS
-;	COMDAT ??_C@_02BBAHNLBA@?$CFp@
-CONST	SEGMENT
-??_C@_02BBAHNLBA@?$CFp@ DB '%p', 00H			; `string'
 CONST	ENDS
 ;	COMDAT ??_7?$num_put@DV?$ostreambuf_iterator@DU?$char_traits@D@std@@@std@@@std@@6B@
 CONST	SEGMENT
@@ -4364,16 +4454,6 @@ __ehfuncinfo$??1?$_Uninitialized_backout_al@PAUVector2D@@V?$allocator@UVector2D@
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
-__ehfuncinfo$??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z DD 019930522H
-	DD	00H
-	DD	00H
-	DD	2 DUP(00H)
-	DD	2 DUP(00H)
-	DD	00H
-	DD	05H
-xdata$x	ENDS
-;	COMDAT xdata$x
-xdata$x	SEGMENT
 __catchsym$??$_Insert@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@2@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IAE?AU?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@1@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@@Z$10 DD 040H
 	DD	00H
 	DD	00H
@@ -4408,6 +4488,16 @@ __tryblocktable$??$_Insert@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@
 	DD	03H
 	DD	01H
 	DD	FLAT:__catchsym$??$_Insert@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@2@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IAE?AU?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@1@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@@Z$10
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
@@ -4861,6 +4951,30 @@ __ehfuncinfo$??$?0V?$allocator@D@std@@X@?$_String_alloc@U?$_String_base_types@DV
 	DD	01H
 	DD	FLAT:__unwindtable$??$?0V?$allocator@D@std@@X@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@$$QAV?$allocator@D@1@@Z
 	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__catchsym$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z$2 DD 040H
+	DD	00H
+	DD	00H
+	DD	FLAT:__catch$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z$0
+__unwindtable$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z DD 0ffffffffH
+	DD	00H
+	DD	0ffffffffH
+	DD	00H
+__tryblocktable$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z DD 00H
+	DD	00H
+	DD	01H
+	DD	01H
+	DD	FLAT:__catchsym$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z$2
+__ehfuncinfo$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z DD 019930522H
+	DD	02H
+	DD	FLAT:__unwindtable$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z
+	DD	01H
+	DD	FLAT:__tryblocktable$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z
 	DD	2 DUP(00H)
 	DD	00H
 	DD	01H
@@ -5534,8 +5648,8 @@ __unwindtable$?canStepLeft@Raven_Bot@@QBE_NAAUVector2D@@@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$?canStepLeft@Raven_Bot@@QBE_NAAUVector2D@@@Z$0
 __unwindtable$?ReduceHealth@Raven_Bot@@QAEXI@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$?ReduceHealth@Raven_Bot@@QAEXI@Z$0
-__unwindtable$?SetUpVertexBuffer@Raven_Bot@@AAEXXZ DD 0ffffffffH
-	DD	FLAT:__unwindfunclet$?SetUpVertexBuffer@Raven_Bot@@AAEXXZ$0
+__unwindtable$?SetUpVertexBuffer@Raven_Bot@@QAEXXZ DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$?SetUpVertexBuffer@Raven_Bot@@QAEXXZ$0
 __ehfuncinfo$?canStepBackward@Raven_Bot@@QBE_NAAUVector2D@@@Z DD 019930522H
 	DD	01H
 	DD	FLAT:__unwindtable$?canStepBackward@Raven_Bot@@QBE_NAAUVector2D@@@Z
@@ -5586,22 +5700,22 @@ __ehfuncinfo$??1Raven_Bot@@UAE@XZ DD 019930522H
 	DD	00H
 	DD	05H
 __ehfuncinfo$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z DD 019930522H
-	DD	022H
+	DD	024H
 	DD	FLAT:__unwindtable$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z
 	DD	2 DUP(00H)
 	DD	2 DUP(00H)
 	DD	00H
 	DD	01H
 __ehfuncinfo$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z DD 019930522H
-	DD	022H
+	DD	024H
 	DD	FLAT:__unwindtable$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z
 	DD	2 DUP(00H)
 	DD	2 DUP(00H)
 	DD	00H
 	DD	01H
-__ehfuncinfo$?SetUpVertexBuffer@Raven_Bot@@AAEXXZ DD 019930522H
+__ehfuncinfo$?SetUpVertexBuffer@Raven_Bot@@QAEXXZ DD 019930522H
 	DD	01H
-	DD	FLAT:__unwindtable$?SetUpVertexBuffer@Raven_Bot@@AAEXXZ
+	DD	FLAT:__unwindtable$?SetUpVertexBuffer@Raven_Bot@@QAEXXZ
 	DD	2 DUP(00H)
 	DD	2 DUP(00H)
 	DD	00H
@@ -5646,44 +5760,48 @@ __unwindtable$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$13
 	DD	0dH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$14
-	DD	0dH
+	DD	0eH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$15
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$16
-	DD	010H
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$17
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$18
 	DD	012H
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$19
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$20
 	DD	014H
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$21
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$22
 	DD	016H
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$23
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$24
 	DD	018H
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$25
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$26
-	DD	0dH
+	DD	01aH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$27
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$28
-	DD	01cH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$29
-	DD	01cH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$30
-	DD	01cH
+	DD	01eH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$31
-	DD	0dH
+	DD	01eH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$32
-	DD	020H
+	DD	01eH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$33
+	DD	0fH
+	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$34
+	DD	022H
+	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$35
 __unwindtable$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$0
 	DD	0ffffffffH
@@ -5714,44 +5832,48 @@ __unwindtable$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z DD 0ffffffffH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$13
 	DD	0dH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$14
-	DD	0dH
+	DD	0eH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$15
-	DD	0dH
-	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$16
-	DD	010H
-	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$17
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$18
-	DD	012H
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$19
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$20
-	DD	014H
+	DD	012H
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$21
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$22
-	DD	016H
+	DD	014H
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$23
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$24
-	DD	018H
+	DD	016H
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$25
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$26
-	DD	0dH
+	DD	018H
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$27
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$28
-	DD	01cH
+	DD	01aH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$29
-	DD	01cH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$30
-	DD	01cH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$31
-	DD	0dH
+	DD	0fH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$32
-	DD	020H
+	DD	01eH
 	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$33
+	DD	01eH
+	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$34
+	DD	01eH
+	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$35
+	DD	0fH
+	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$36
+	DD	022H
+	DD	FLAT:__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$37
 xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
@@ -5868,6 +5990,104 @@ xdata$x	ENDS
 ;	COMDAT xdata$x
 xdata$x	SEGMENT
 __ehfuncinfo$??1?$_Vector_alloc@U?$_Vec_base_types@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@@std@@QAE@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__unwindtable$?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z$0
+__ehfuncinfo$?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z DD 019930522H
+	DD	01H
+	DD	FLAT:__unwindtable$?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$?_Move_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__catchsym$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z$3 DD 040H
+	DD	00H
+	DD	00H
+	DD	FLAT:__catch$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z$0
+__tryblocktable$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z DD 01H
+	DD	01H
+	DD	02H
+	DD	01H
+	DD	FLAT:__catchsym$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z$3
+__unwindtable$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z DD 0ffffffffH
+	DD	FLAT:__unwindfunclet$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z$2
+	DD	00H
+	DD	00H
+	DD	00H
+	DD	00H
+__ehfuncinfo$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z DD 019930522H
+	DD	03H
+	DD	FLAT:__unwindtable$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z
+	DD	01H
+	DD	FLAT:__tryblocktable$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z
+	DD	2 DUP(00H)
+	DD	00H
+	DD	01H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ DD 019930522H
+	DD	00H
+	DD	00H
+	DD	2 DUP(00H)
+	DD	2 DUP(00H)
+	DD	00H
+	DD	05H
+xdata$x	ENDS
+;	COMDAT xdata$x
+xdata$x	SEGMENT
+__ehfuncinfo$??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ DD 019930522H
 	DD	00H
 	DD	00H
 	DD	2 DUP(00H)
@@ -6317,6 +6537,56 @@ _TEXT	SEGMENT
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
+;	COMDAT ??$?0V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AAV?$tuple@$$V@1@U?$integer_sequence@I$0A@@1@U?$integer_sequence@I$S@1@@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__Val1$ = 8						; size = 4
+__Val2$ = 12						; size = 4
+___formal$ = 16						; size = 1
+___formal$ = 20						; size = 1
+??$?0V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AAV?$tuple@$$V@1@U?$integer_sequence@I$0A@@1@U?$integer_sequence@I$S@1@@Z PROC ; std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > ><std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<>,0>, COMDAT
+; _this$ = ecx
+
+; 1306 : 		{	// construct from pair of tuples
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1304 : 		: first(_STD get<_Indexes1>(_STD move(_Val1))...),
+
+	mov	eax, DWORD PTR __Val1$[ebp]
+	push	eax
+	call	??$move@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z ; std::move<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> &>
+	add	esp, 4
+	push	eax
+	call	??$get@$0A@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z ; std::get<0,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
+
+; 1305 : 			second(_STD get<_Indexes2>(_STD move(_Val2))...)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 28					; 0000001cH
+	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
+
+; 1307 : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	16					; 00000010H
+??$?0V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AAV?$tuple@$$V@1@U?$integer_sequence@I$0A@@1@U?$integer_sequence@I$S@1@@Z ENDP ; std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > ><std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<>,0>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
 ;	COMDAT ??$get@$0A@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z
 _TEXT	SEGMENT
 __Tuple$ = 8						; size = 4
@@ -6366,56 +6636,6 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$move@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z ENDP ; std::move<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> &>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
-;	COMDAT ??$?0V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AAV?$tuple@$$V@1@U?$integer_sequence@I$0A@@1@U?$integer_sequence@I$S@1@@Z
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-__Val1$ = 8						; size = 4
-__Val2$ = 12						; size = 4
-___formal$ = 16						; size = 1
-___formal$ = 20						; size = 1
-??$?0V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AAV?$tuple@$$V@1@U?$integer_sequence@I$0A@@1@U?$integer_sequence@I$S@1@@Z PROC ; std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > ><std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<>,0>, COMDAT
-; _this$ = ecx
-
-; 1306 : 		{	// construct from pair of tuples
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 1304 : 		: first(_STD get<_Indexes1>(_STD move(_Val1))...),
-
-	mov	eax, DWORD PTR __Val1$[ebp]
-	push	eax
-	call	??$move@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z ; std::move<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> &>
-	add	esp, 4
-	push	eax
-	call	??$get@$0A@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@@Z ; std::get<0,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
-	add	esp, 4
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ABV01@@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 1305 : 			second(_STD get<_Indexes2>(_STD move(_Val2))...)
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	add	ecx, 28					; 0000001cH
-	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-
-; 1307 : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	add	esp, 4
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	16					; 00000010H
-??$?0V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@V?$tuple@$$V@1@$0A@$$Z$S@?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@QAE@AAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@AAV?$tuple@$$V@1@U?$integer_sequence@I$0A@@1@U?$integer_sequence@I$S@1@@Z ENDP ; std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > ><std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<>,0>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
@@ -6534,6 +6754,28 @@ _<_Args_2>$ = 24					; size = 4
 ??$construct@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@ABUpiecewise_construct_t@2@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$tuple@$$V@2@@?$_Default_allocator_traits@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@1@QAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QAV?$tuple@$$V@1@@Z ENDP ; std::_Default_allocator_traits<std::allocator<std::_List_node<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,void *> > >::construct<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::piecewise_construct_t const &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<> >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z PROC ; std::forward<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z ENDP ; std::forward<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
 ;	COMDAT ??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Tuple_val@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
 _TEXT	SEGMENT
@@ -6569,28 +6811,6 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	4
 ??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Tuple_val@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ENDP ; std::_Tuple_val<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::_Tuple_val<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
-;	COMDAT ??$forward@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$forward@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z PROC ; std::forward<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >, COMDAT
-
-; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
-
-	push	ebp
-	mov	ebp, esp
-
-; 1574 : 	return (static_cast<_Ty&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1575 : 	}
-
-	pop	ebp
-	ret	0
-??$forward@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z ENDP ; std::forward<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
@@ -7039,56 +7259,6 @@ __ehhandler$??$_Buynode@ABUpiecewise_construct_t@std@@V?$tuple@ABV?$basic_string
 text$x	ENDS
 ??$_Buynode@ABUpiecewise_construct_t@std@@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$tuple@$$V@2@@?$_List_buy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAEPAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@1@PAU21@0ABUpiecewise_construct_t@1@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QAV?$tuple@$$V@1@@Z ENDP ; std::_List_buy<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::_Buynode<std::piecewise_construct_t const &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<> >
 ; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
-;	COMDAT ??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
-_TEXT	SEGMENT
-$T1 = -5						; size = 1
-_this$ = -4						; size = 4
-___formal$ = 8						; size = 1
-__This_arg$ = 12					; size = 4
-??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z PROC ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>, COMDAT
-; _this$ = ecx
-
-; 359  : 		{	// construct from one arg per element
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 8
-	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 357  : 		: _Mybase(_Exact_args_t{}, _STD forward<_Rest2>(_Rest_arg)...),
-
-	xor	eax, eax
-	mov	BYTE PTR $T1[ebp], al
-	movzx	ecx, BYTE PTR $T1[ebp]
-	push	ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??$?0U_Exact_args_t@std@@$0A@@?$tuple@$$V@std@@QAE@U_Exact_args_t@1@@Z ; std::tuple<>::tuple<><std::_Exact_args_t,0>
-
-; 358  : 			_Myfirst(_STD forward<_This2>(_This_arg))
-
-	mov	edx, DWORD PTR __This_arg$[ebp]
-	push	edx
-	call	??$forward@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@@Z ; std::forward<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
-	add	esp, 4
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Tuple_val@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::_Tuple_val<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::_Tuple_val<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
-
-; 360  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	add	esp, 8
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ENDP ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xhash
 ;	COMDAT ??$erase@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@X@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAE?AV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@V21@@Z
 _TEXT	SEGMENT
@@ -7276,6 +7446,56 @@ __Val2$ = 12						; size = 4
 	pop	ebp
 	ret	8
 ??$?0V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@$$QAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z ENDP ; std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool>::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool><std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool,0>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
+;	COMDAT ??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+_TEXT	SEGMENT
+$T1 = -5						; size = 1
+_this$ = -4						; size = 4
+___formal$ = 8						; size = 1
+__This_arg$ = 12					; size = 4
+??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z PROC ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>, COMDAT
+; _this$ = ecx
+
+; 359  : 		{	// construct from one arg per element
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 357  : 		: _Mybase(_Exact_args_t{}, _STD forward<_Rest2>(_Rest_arg)...),
+
+	xor	eax, eax
+	mov	BYTE PTR $T1[ebp], al
+	movzx	ecx, BYTE PTR $T1[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0U_Exact_args_t@std@@$0A@@?$tuple@$$V@std@@QAE@U_Exact_args_t@1@@Z ; std::tuple<>::tuple<><std::_Exact_args_t,0>
+
+; 358  : 			_Myfirst(_STD forward<_This2>(_This_arg))
+
+	mov	edx, DWORD PTR __This_arg$[ebp]
+	push	edx
+	call	??$forward@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@@Z ; std::forward<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Tuple_val@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::_Tuple_val<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::_Tuple_val<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
+
+; 360  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ENDP ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
@@ -7811,6 +8031,77 @@ __Arg$ = 8						; size = 4
 ??$forward@ABV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YAABV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@ABV10@@Z ENDP ; std::forward<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > const &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ??$_Copy_memmove@PANPAN@std@@YAPANPAN00@Z
+_TEXT	SEGMENT
+__Count$ = -16						; size = 4
+__Dest_ch$ = -12					; size = 4
+__Last_ch$ = -8						; size = 4
+__First_ch$ = -4					; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+??$_Copy_memmove@PANPAN@std@@YAPANPAN00@Z PROC		; std::_Copy_memmove<double *,double *>, COMDAT
+
+; 2398 : 	{	// implement copy-like function as memmove
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 16					; 00000010H
+	mov	eax, -858993460				; ccccccccH
+	mov	DWORD PTR [ebp-16], eax
+	mov	DWORD PTR [ebp-12], eax
+	mov	DWORD PTR [ebp-8], eax
+	mov	DWORD PTR [ebp-4], eax
+
+; 2399 : 	const char * const _First_ch = const_cast<const char *>(reinterpret_cast<const volatile char *>(_First));
+
+	mov	eax, DWORD PTR __First$[ebp]
+	mov	DWORD PTR __First_ch$[ebp], eax
+
+; 2400 : 	const char * const _Last_ch = const_cast<const char *>(reinterpret_cast<const volatile char *>(_Last));
+
+	mov	ecx, DWORD PTR __Last$[ebp]
+	mov	DWORD PTR __Last_ch$[ebp], ecx
+
+; 2401 : 	char * const _Dest_ch = const_cast<char *>(reinterpret_cast<volatile char *>(_Dest));
+
+	mov	edx, DWORD PTR __Dest$[ebp]
+	mov	DWORD PTR __Dest_ch$[ebp], edx
+
+; 2402 : 	const auto _Count = static_cast<size_t>(_Last_ch - _First_ch);
+
+	mov	eax, DWORD PTR __Last_ch$[ebp]
+	sub	eax, DWORD PTR __First_ch$[ebp]
+	mov	DWORD PTR __Count$[ebp], eax
+
+; 2403 : 	_CSTD memmove(_Dest_ch, _First_ch, _Count);
+
+	mov	ecx, DWORD PTR __Count$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __First_ch$[ebp]
+	push	edx
+	mov	eax, DWORD PTR __Dest_ch$[ebp]
+	push	eax
+	call	_memmove
+	add	esp, 12					; 0000000cH
+
+; 2404 : 	return (reinterpret_cast<_OutIt>(_Dest_ch + _Count));
+
+	mov	eax, DWORD PTR __Dest_ch$[ebp]
+	add	eax, DWORD PTR __Count$[ebp]
+
+; 2405 : 	}
+
+	add	esp, 16					; 00000010H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Copy_memmove@PANPAN@std@@YAPANPAN00@Z ENDP		; std::_Copy_memmove<double *,double *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory
 ;	COMDAT ??$_Emplace_back@AAUVector2D@@@?$_Uninitialized_backout_al@PAUVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAEXAAUVector2D@@@Z
 _TEXT	SEGMENT
@@ -8162,115 +8453,6 @@ _<_Val_2>$ = 16						; size = 4
 	pop	ebp
 	ret	12					; 0000000cH
 ??$emplace_front@ABUpiecewise_construct_t@std@@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$tuple@$$V@2@@?$list@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@@std@@QAE@ABUpiecewise_construct_t@1@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QAV?$tuple@$$V@1@@Z ENDP ; std::list<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >::emplace_front<std::piecewise_construct_t const &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<> >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
-;	COMDAT ??$forward@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$forward@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z PROC ; std::forward<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> >, COMDAT
-
-; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
-
-	push	ebp
-	mov	ebp, esp
-
-; 1574 : 	return (static_cast<_Ty&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1575 : 	}
-
-	pop	ebp
-	ret	0
-??$forward@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z ENDP ; std::forward<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
-;	COMDAT ??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
-_TEXT	SEGMENT
-$T2 = -17						; size = 1
-_this$ = -16						; size = 4
-__$EHRec$ = -12						; size = 12
-__This_arg$ = 8						; size = 4
-??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z PROC ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>, COMDAT
-; _this$ = ecx
-
-; 446  : 		{
-
-	push	ebp
-	mov	ebp, esp
-	push	-1
-	push	__ehhandler$??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
-	mov	eax, DWORD PTR fs:0
-	push	eax
-	sub	esp, 8
-	mov	DWORD PTR [ebp-20], -858993460		; ccccccccH
-	mov	DWORD PTR [ebp-16], -858993460		; ccccccccH
-	mov	eax, DWORD PTR ___security_cookie
-	xor	eax, ebp
-	push	eax
-	lea	eax, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 445  : 			: tuple(_Exact_args_t{}, _This_arg, _Rest_arg...)
-
-	xor	eax, eax
-	mov	BYTE PTR $T2[ebp], al
-	mov	ecx, DWORD PTR __This_arg$[ebp]
-	push	ecx
-	movzx	edx, BYTE PTR $T2[ebp]
-	push	edx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
-
-; 447  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR __$EHRec$[ebp]
-	mov	DWORD PTR fs:0, ecx
-	pop	ecx
-	add	esp, 20					; 00000014H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-_TEXT	ENDS
-;	COMDAT text$x
-text$x	SEGMENT
-__ehhandler$??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z:
-	mov	edx, DWORD PTR [esp+8]
-	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-12]
-	xor	ecx, eax
-	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
-	jmp	___CxxFrameHandler3
-text$x	ENDS
-??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ENDP ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
-;	COMDAT ??$forward@_N@std@@YA$$QA_NAA_N@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$forward@_N@std@@YA$$QA_NAA_N@Z PROC			; std::forward<bool>, COMDAT
-
-; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
-
-	push	ebp
-	mov	ebp, esp
-
-; 1574 : 	return (static_cast<_Ty&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1575 : 	}
-
-	pop	ebp
-	ret	0
-??$forward@_N@std@@YA$$QA_NAA_N@Z ENDP			; std::forward<bool>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
@@ -8761,6 +8943,28 @@ text$x	ENDS
 ??$_Insert@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@2@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@IAE?AU?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@1@AAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@@Z ENDP ; std::_Hash<std::_Umap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::_Uhash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >::_Insert<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > &,std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > >
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@_N@std@@YA$$QA_NAA_N@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@_N@std@@YA$$QA_NAA_N@Z PROC			; std::forward<bool>, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@_N@std@@YA$$QA_NAA_N@Z ENDP			; std::forward<bool>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
 ;	COMDAT ??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z
 _TEXT	SEGMENT
 __Arg$ = 8						; size = 4
@@ -8780,6 +8984,28 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z ENDP ; std::forward<std::tuple<> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z PROC ; std::forward<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> >, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@YA$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@0@AAV10@@Z ENDP ; std::forward<std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &> >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
@@ -8803,6 +9029,71 @@ __Arg$ = 8						; size = 4
 	ret	0
 ??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z ENDP ; std::forward<std::piecewise_construct_t const &>
 _TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
+;	COMDAT ??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+_TEXT	SEGMENT
+$T2 = -17						; size = 1
+_this$ = -16						; size = 4
+__$EHRec$ = -12						; size = 12
+__This_arg$ = 8						; size = 4
+??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z PROC ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>, COMDAT
+; _this$ = ecx
+
+; 446  : 		{
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 8
+	mov	DWORD PTR [ebp-20], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-16], -858993460		; ccccccccH
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 445  : 			: tuple(_Exact_args_t{}, _This_arg, _Rest_arg...)
+
+	xor	eax, eax
+	mov	BYTE PTR $T2[ebp], al
+	mov	ecx, DWORD PTR __This_arg$[ebp]
+	push	ecx
+	movzx	edx, BYTE PTR $T2[ebp]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0U_Exact_args_t@std@@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@$$V$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@U_Exact_args_t@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::_Exact_args_t,std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
+
+; 447  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	add	esp, 20					; 00000014H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-12]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??$?0ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@$0A@@?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ENDP ; std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &><std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &,0>
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
 ;	COMDAT ??$?0AAPAV_Facet_base@std@@@?$_Compressed_pair@U?$default_delete@V_Facet_base@std@@@std@@PAV_Facet_base@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@AAPAV_Facet_base@1@@Z
@@ -9307,6 +9598,66 @@ $LN3@Uninitiali:
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory
+;	COMDAT ??$_Uninitialized_move_al_unchecked@NNV?$allocator@N@std@@@std@@YAPANQAN00AAV?$allocator@N@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z
+_TEXT	SEGMENT
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+___formal$ = 20						; size = 4
+___formal$ = 24						; size = 1
+___formal$ = 28						; size = 1
+??$_Uninitialized_move_al_unchecked@NNV?$allocator@N@std@@@std@@YAPANQAN00AAV?$allocator@N@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z PROC ; std::_Uninitialized_move_al_unchecked<double,double,std::allocator<double> >, COMDAT
+
+; 243  : 	{	// move [_First, _Last) to raw _Dest, using default _Alloc construct, memmove optimization
+
+	push	ebp
+	mov	ebp, esp
+
+; 244  : 	return (_Copy_memmove(_First, _Last, _Dest));
+
+	mov	eax, DWORD PTR __Dest$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Last$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __First$[ebp]
+	push	edx
+	call	??$_Copy_memmove@PANPAN@std@@YAPANPAN00@Z ; std::_Copy_memmove<double *,double *>
+	add	esp, 12					; 0000000cH
+
+; 245  : 	}
+
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	pop	ebp
+	ret	0
+??$_Uninitialized_move_al_unchecked@NNV?$allocator@N@std@@@std@@YAPANQAN00AAV?$allocator@N@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z ENDP ; std::_Uninitialized_move_al_unchecked<double,double,std::allocator<double> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ??$_Ptr_move_cat@NN@std@@YA?AU_Really_trivial_ptr_iterator_tag@0@ABQAN0@Z
+_TEXT	SEGMENT
+___$ReturnUdt$ = 8					; size = 4
+___formal$ = 12						; size = 4
+___formal$ = 16						; size = 4
+??$_Ptr_move_cat@NN@std@@YA?AU_Really_trivial_ptr_iterator_tag@0@ABQAN0@Z PROC ; std::_Ptr_move_cat<double,double>, COMDAT
+
+; 1086 : 	{	// return pointer move optimization category for pointers
+
+	push	ebp
+	mov	ebp, esp
+
+; 1087 : 	return {};
+
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1088 : 	}
+
+	pop	ebp
+	ret	0
+??$_Ptr_move_cat@NN@std@@YA?AU_Really_trivial_ptr_iterator_tag@0@ABQAN0@Z ENDP ; std::_Ptr_move_cat<double,double>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory
 ;	COMDAT ??$_Uninitialized_move_al_unchecked@PAUVector2D@@PAU1@V?$allocator@UVector2D@@@std@@@std@@YAPAUVector2D@@PAU1@QAU1@1AAV?$allocator@UVector2D@@@0@U_General_ptr_iterator_tag@0@U_Unused_parameter@0@@Z
 _TEXT	SEGMENT
 $T2 = -36						; size = 4
@@ -9718,6 +10069,81 @@ __Al_$ = 12						; size = 4
 ??0?$_Uninitialized_backout_al@PAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@2@@std@@QAE@PAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@AAV?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@1@@Z ENDP ; std::_Uninitialized_backout_al<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > *,std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >::_Uninitialized_backout_al<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > *,std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory
+;	COMDAT ??$_Zero_range@PAN@std@@YAPANQAN0@Z
+_TEXT	SEGMENT
+__Last_ch$ = -8						; size = 4
+__First_ch$ = -4					; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+??$_Zero_range@PAN@std@@YAPANQAN0@Z PROC		; std::_Zero_range<double *>, COMDAT
+
+; 310  : 	{	// fill [_First, _Last) with zeroes
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 311  : 	char * const _First_ch = reinterpret_cast<char *>(_First);
+
+	mov	eax, DWORD PTR __First$[ebp]
+	mov	DWORD PTR __First_ch$[ebp], eax
+
+; 312  : 	char * const _Last_ch = reinterpret_cast<char *>(_Last);
+
+	mov	ecx, DWORD PTR __Last$[ebp]
+	mov	DWORD PTR __Last_ch$[ebp], ecx
+
+; 313  : 	_CSTD memset(_First_ch, 0, static_cast<size_t>(_Last_ch - _First_ch));
+
+	mov	edx, DWORD PTR __Last_ch$[ebp]
+	sub	edx, DWORD PTR __First_ch$[ebp]
+	push	edx
+	push	0
+	mov	eax, DWORD PTR __First_ch$[ebp]
+	push	eax
+	call	_memset
+	add	esp, 12					; 0000000cH
+
+; 314  : 	return (_Last);
+
+	mov	eax, DWORD PTR __Last$[ebp]
+
+; 315  : 	}
+
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Zero_range@PAN@std@@YAPANQAN0@Z ENDP		; std::_Zero_range<double *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$move@AAV?$allocator@N@std@@@std@@YA$$QAV?$allocator@N@0@AAV10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$move@AAV?$allocator@N@std@@@std@@YA$$QAV?$allocator@N@0@AAV10@@Z PROC ; std::move<std::allocator<double> &>, COMDAT
+
+; 1588 : 	{	// forward _Arg as movable
+
+	push	ebp
+	mov	ebp, esp
+
+; 1589 : 	return (static_cast<remove_reference_t<_Ty>&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1590 : 	}
+
+	pop	ebp
+	ret	0
+??$move@AAV?$allocator@N@std@@@std@@YA$$QAV?$allocator@N@0@AAV10@@Z ENDP ; std::move<std::allocator<double> &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
 ;	COMDAT ??$?0ABV?$allocator@D@std@@$$V@?$_Compressed_pair@V?$allocator@D@std@@V?$_String_val@U?$_Simple_types@D@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@D@1@@Z
 _TEXT	SEGMENT
@@ -9806,6 +10232,141 @@ __Ptr$ = 12						; size = 4
 	pop	ebp
 	ret	0
 ??$destroy@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@?$_Default_allocator_traits@V?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@@std@@SAXAAV?$allocator@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@1@@Z ENDP ; std::_Default_allocator_traits<std::allocator<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >::destroy<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ??$_Seek_wrapped@N@std@@YAXAAPANQAN@Z
+_TEXT	SEGMENT
+__It$ = 8						; size = 4
+__UIt$ = 12						; size = 4
+??$_Seek_wrapped@N@std@@YAXAAPANQAN@Z PROC		; std::_Seek_wrapped<double>, COMDAT
+
+; 871  : 	{
+
+	push	ebp
+	mov	ebp, esp
+
+; 872  : 	_It = _UIt;
+
+	mov	eax, DWORD PTR __It$[ebp]
+	mov	ecx, DWORD PTR __UIt$[ebp]
+	mov	DWORD PTR [eax], ecx
+
+; 873  : 	}
+
+	pop	ebp
+	ret	0
+??$_Seek_wrapped@N@std@@YAXAAPANQAN@Z ENDP		; std::_Seek_wrapped<double>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ??$_Get_unwrapped_n@NH$0A@@std@@YAPANQANH@Z
+_TEXT	SEGMENT
+__Src$ = 8						; size = 4
+___formal$ = 12						; size = 4
+??$_Get_unwrapped_n@NH$0A@@std@@YAPANQANH@Z PROC	; std::_Get_unwrapped_n<double,int,0>, COMDAT
+
+; 808  : 	{
+
+	push	ebp
+	mov	ebp, esp
+
+; 809  : 	return (_Src);
+
+	mov	eax, DWORD PTR __Src$[ebp]
+
+; 810  : 	}
+
+	pop	ebp
+	ret	0
+??$_Get_unwrapped_n@NH$0A@@std@@YAPANQANH@Z ENDP	; std::_Get_unwrapped_n<double,int,0>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ??$_Idl_distance1@PANPAN@std@@YAHABQAN0Urandom_access_iterator_tag@0@@Z
+_TEXT	SEGMENT
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+___formal$ = 16						; size = 1
+??$_Idl_distance1@PANPAN@std@@YAHABQAN0Urandom_access_iterator_tag@0@@Z PROC ; std::_Idl_distance1<double *,double *>, COMDAT
+
+; 967  : 	{	// _Idl_distance for random-access iterators
+
+	push	ebp
+	mov	ebp, esp
+
+; 968  : 	return (static_cast<_Iter_diff_t<_Checked>>(_Last - _First));
+
+	mov	eax, DWORD PTR __Last$[ebp]
+	mov	ecx, DWORD PTR __First$[ebp]
+	mov	eax, DWORD PTR [eax]
+	sub	eax, DWORD PTR [ecx]
+	sar	eax, 3
+
+; 969  : 	}
+
+	pop	ebp
+	ret	0
+??$_Idl_distance1@PANPAN@std@@YAHABQAN0Urandom_access_iterator_tag@0@@Z ENDP ; std::_Idl_distance1<double *,double *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ??$_Idl_distance@PANPAN@std@@YA@ABQAN0@Z
+_TEXT	SEGMENT
+$T1 = -1						; size = 1
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+??$_Idl_distance@PANPAN@std@@YA@ABQAN0@Z PROC		; std::_Idl_distance<double *,double *>, COMDAT
+
+; 974  : 	{	// tries to get the distance between _First and _Last if they are random-access iterators
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 975  : 	return (_Idl_distance1<_Checked>(_First, _Last, _Iter_cat_t<_Iter>()));
+
+	movzx	eax, BYTE PTR $T1[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Last$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __First$[ebp]
+	push	edx
+	call	??$_Idl_distance1@PANPAN@std@@YAHABQAN0Urandom_access_iterator_tag@0@@Z ; std::_Idl_distance1<double *,double *>
+	add	esp, 12					; 0000000cH
+
+; 976  : 	}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Idl_distance@PANPAN@std@@YA@ABQAN0@Z ENDP		; std::_Idl_distance<double *,double *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ??$_Get_unwrapped@N@std@@YAPANQAN@Z
+_TEXT	SEGMENT
+__Ptr$ = 8						; size = 4
+??$_Get_unwrapped@N@std@@YAPANQAN@Z PROC		; std::_Get_unwrapped<double>, COMDAT
+
+; 662  : 	{	// special case already-unwrapped pointers
+
+	push	ebp
+	mov	ebp, esp
+
+; 663  : 	return (_Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+
+; 664  : 	}
+
+	pop	ebp
+	ret	0
+??$_Get_unwrapped@N@std@@YAPANQAN@Z ENDP		; std::_Get_unwrapped<double>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
@@ -10179,6 +10740,81 @@ _<_Val_2>$ = 20						; size = 4
 ??$emplace@ABUpiecewise_construct_t@std@@V?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@V?$tuple@$$V@2@@?$_Hash@V?$_Umap_traits@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@V?$_Uhash_compare@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@U?$hash@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@U?$equal_to@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@2@@2@V?$allocator@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@2@$0A@@std@@@std@@QAE?AU?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@1@$$QAV?$tuple@$$V@1@@Z ENDP ; std::_Hash<std::_Umap_traits<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::_Uhash_compare<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::hash<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >,std::equal_to<std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,std::allocator<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > >,0> >::emplace<std::piecewise_construct_t const &,std::tuple<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>,std::tuple<> >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\utility
+;	COMDAT ??$?0AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__Val1$ = 8						; size = 4
+__Val2$ = 12						; size = 4
+??$?0AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z PROC ; std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool>::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool><std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > &,bool,0>, COMDAT
+; _this$ = ecx
+
+; 174  : 		{
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 172  : 		: first(_STD forward<_Other1>(_Val1)),
+
+	mov	eax, DWORD PTR __Val1$[ebp]
+	push	eax
+	call	??$forward@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YAAAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z ; std::forward<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@QAE@ABV01@@Z
+
+; 173  : 				second(_STD forward<_Other2>(_Val2))
+
+	mov	ecx, DWORD PTR __Val2$[ebp]
+	push	ecx
+	call	??$forward@_N@std@@YA$$QA_NAA_N@Z	; std::forward<bool>
+	add	esp, 4
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	al, BYTE PTR [eax]
+	mov	BYTE PTR [edx+12], al
+
+; 175  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$?0AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z ENDP ; std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool>::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool><std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > &,bool,0>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
+;	COMDAT ??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ
+_TEXT	SEGMENT
+___$ReturnUdt$ = 8					; size = 4
+??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ PROC	; std::forward_as_tuple<>, COMDAT
+
+; 1073 : 	{	// forward arguments in a tuple
+
+	push	ebp
+	mov	ebp, esp
+
+; 1074 : 	return (tuple<_Types&&...>(_STD forward<_Types>(_Args)...));
+
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	call	??0?$tuple@$$V@std@@QAE@XZ		; std::tuple<>::tuple<>
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1075 : 	}
+
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	pop	ebp
+	ret	0
+??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ ENDP	; std::forward_as_tuple<>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.cpp
 ;	COMDAT ??0?$tuple@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@QAE@$$QAV01@@Z
 _TEXT	SEGMENT
@@ -10262,81 +10898,6 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$forward@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YAABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@ABV10@@Z ENDP ; std::forward<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const &>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\utility
-;	COMDAT ??$?0AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-__Val1$ = 8						; size = 4
-__Val2$ = 12						; size = 4
-??$?0AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z PROC ; std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool>::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool><std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > &,bool,0>, COMDAT
-; _this$ = ecx
-
-; 174  : 		{
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 172  : 		: first(_STD forward<_Other1>(_Val1)),
-
-	mov	eax, DWORD PTR __Val1$[ebp]
-	push	eax
-	call	??$forward@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@YAAAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@AAV10@@Z ; std::forward<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > &>
-	add	esp, 4
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@QAE@ABV01@@Z
-
-; 173  : 				second(_STD forward<_Other2>(_Val2))
-
-	mov	ecx, DWORD PTR __Val2$[ebp]
-	push	ecx
-	call	??$forward@_N@std@@YA$$QA_NAA_N@Z	; std::forward<bool>
-	add	esp, 4
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	al, BYTE PTR [eax]
-	mov	BYTE PTR [edx+12], al
-
-; 175  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	add	esp, 4
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-??$?0AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_List_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@1@$$QA_N@Z ENDP ; std::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool>::pair<std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > >,bool><std::_List_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > &,bool,0>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
-;	COMDAT ??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ
-_TEXT	SEGMENT
-___$ReturnUdt$ = 8					; size = 4
-??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ PROC	; std::forward_as_tuple<>, COMDAT
-
-; 1073 : 	{	// forward arguments in a tuple
-
-	push	ebp
-	mov	ebp, esp
-
-; 1074 : 	return (tuple<_Types&&...>(_STD forward<_Types>(_Args)...));
-
-	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
-	call	??0?$tuple@$$V@std@@QAE@XZ		; std::tuple<>::tuple<>
-	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
-
-; 1075 : 	}
-
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	pop	ebp
-	ret	0
-??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ ENDP	; std::forward_as_tuple<>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
@@ -11052,6 +11613,159 @@ $LN4@Max_value:
 	pop	ebp
 	ret	0
 ??$_Max_value@PAD@std@@YAABQADABQAD0@Z ENDP		; std::_Max_value<char *>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory
+;	COMDAT ??$_Uninitialized_move@PANPANV?$allocator@N@std@@@std@@YAPANQAN0PANAAV?$allocator@N@0@@Z
+_TEXT	SEGMENT
+$T1 = -38						; size = 1
+$T2 = -37						; size = 1
+__UDest$ = -32						; size = 4
+__ULast$ = -20						; size = 4
+__UFirst$ = -8						; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+__Al$ = 20						; size = 4
+??$_Uninitialized_move@PANPANV?$allocator@N@std@@@std@@YAPANQAN0PANAAV?$allocator@N@0@@Z PROC ; std::_Uninitialized_move<double *,double *,std::allocator<double> >, COMDAT
+
+; 251  : 	{	// move [_First, _Last) to raw _Dest, using _Al
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 40					; 00000028H
+	push	edi
+	lea	edi, DWORD PTR [ebp-40]
+	mov	ecx, 10					; 0000000aH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 252  : 		// note: only called internally from elsewhere in the STL
+; 253  : 	const auto _UFirst = _Get_unwrapped(_First);
+
+	mov	eax, DWORD PTR __First$[ebp]
+	push	eax
+	call	??$_Get_unwrapped@N@std@@YAPANQAN@Z	; std::_Get_unwrapped<double>
+	add	esp, 4
+	mov	DWORD PTR __UFirst$[ebp], eax
+
+; 254  : 	const auto _ULast = _Get_unwrapped(_Last);
+
+	mov	ecx, DWORD PTR __Last$[ebp]
+	push	ecx
+	call	??$_Get_unwrapped@N@std@@YAPANQAN@Z	; std::_Get_unwrapped<double>
+	add	esp, 4
+	mov	DWORD PTR __ULast$[ebp], eax
+
+; 255  : 	const auto _UDest = _Get_unwrapped_n(_Dest, _Idl_distance<_InIt>(_UFirst, _ULast));
+
+	lea	edx, DWORD PTR __ULast$[ebp]
+	push	edx
+	lea	eax, DWORD PTR __UFirst$[ebp]
+	push	eax
+	call	??$_Idl_distance@PANPAN@std@@YA@ABQAN0@Z ; std::_Idl_distance<double *,double *>
+	add	esp, 8
+	push	eax
+	mov	ecx, DWORD PTR __Dest$[ebp]
+	push	ecx
+	call	??$_Get_unwrapped_n@NH$0A@@std@@YAPANQANH@Z ; std::_Get_unwrapped_n<double,int,0>
+	add	esp, 8
+	mov	DWORD PTR __UDest$[ebp], eax
+
+; 256  : 	_Seek_wrapped(_Dest,
+
+	movzx	edx, BYTE PTR $T2[ebp]
+	push	edx
+	lea	eax, DWORD PTR __UDest$[ebp]
+	push	eax
+	lea	ecx, DWORD PTR __UFirst$[ebp]
+	push	ecx
+	lea	edx, DWORD PTR $T1[ebp]
+	push	edx
+	call	??$_Ptr_move_cat@NN@std@@YA?AU_Really_trivial_ptr_iterator_tag@0@ABQAN0@Z ; std::_Ptr_move_cat<double,double>
+	add	esp, 12					; 0000000cH
+	mov	al, BYTE PTR [eax]
+	movzx	ecx, al
+	push	ecx
+	mov	edx, DWORD PTR __Al$[ebp]
+	push	edx
+	mov	eax, DWORD PTR __UDest$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __ULast$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __UFirst$[ebp]
+	push	edx
+	call	??$_Uninitialized_move_al_unchecked@NNV?$allocator@N@std@@@std@@YAPANQAN00AAV?$allocator@N@0@U_Really_trivial_ptr_iterator_tag@0@U?$integral_constant@_N$00@0@@Z ; std::_Uninitialized_move_al_unchecked<double,double,std::allocator<double> >
+	add	esp, 24					; 00000018H
+	push	eax
+	lea	eax, DWORD PTR __Dest$[ebp]
+	push	eax
+	call	??$_Seek_wrapped@N@std@@YAXAAPANQAN@Z	; std::_Seek_wrapped<double>
+	add	esp, 8
+
+; 257  : 		_Uninitialized_move_al_unchecked(_UFirst, _ULast, _UDest, _Al,
+; 258  : 			_Ptr_move_cat(_UFirst, _UDest),
+; 259  : 			_Uses_default_construct_t<_Alloc, decltype(_Unfancy(_UDest)), decltype(_STD move(*_UFirst))>()));
+; 260  : 	return (_Dest);
+
+	mov	eax, DWORD PTR __Dest$[ebp]
+
+; 261  : 	}
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN7@Uninitiali
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	edi
+	add	esp, 40					; 00000028H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+	npad	1
+$LN7@Uninitiali:
+	DD	3
+	DD	$LN6@Uninitiali
+$LN6@Uninitiali:
+	DD	-8					; fffffff8H
+	DD	4
+	DD	$LN3@Uninitiali
+	DD	-20					; ffffffecH
+	DD	4
+	DD	$LN4@Uninitiali
+	DD	-32					; ffffffe0H
+	DD	4
+	DD	$LN5@Uninitiali
+$LN5@Uninitiali:
+	DB	95					; 0000005fH
+	DB	85					; 00000055H
+	DB	68					; 00000044H
+	DB	101					; 00000065H
+	DB	115					; 00000073H
+	DB	116					; 00000074H
+	DB	0
+$LN4@Uninitiali:
+	DB	95					; 0000005fH
+	DB	85					; 00000055H
+	DB	76					; 0000004cH
+	DB	97					; 00000061H
+	DB	115					; 00000073H
+	DB	116					; 00000074H
+	DB	0
+$LN3@Uninitiali:
+	DB	95					; 0000005fH
+	DB	85					; 00000055H
+	DB	70					; 00000046H
+	DB	105					; 00000069H
+	DB	114					; 00000072H
+	DB	115					; 00000073H
+	DB	116					; 00000074H
+	DB	0
+??$_Uninitialized_move@PANPANV?$allocator@N@std@@@std@@YAPANQAN0PANAAV?$allocator@N@0@@Z ENDP ; std::_Uninitialized_move<double *,double *,std::allocator<double> >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory
@@ -12438,28 +13152,6 @@ ___formal$ = 20						; size = 1
 ??$_Destroy_range1@V?$allocator@UVector2D@@@std@@@std@@YAXPAUVector2D@@0AAV?$allocator@UVector2D@@@0@U?$integral_constant@_N$00@0@@Z ENDP ; std::_Destroy_range1<std::allocator<Vector2D> >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
-;	COMDAT ??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z PROC ; std::forward<std::_Container_proxy>, COMDAT
-
-; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
-
-	push	ebp
-	mov	ebp, esp
-
-; 1574 : 	return (static_cast<_Ty&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1575 : 	}
-
-	pop	ebp
-	ret	0
-??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z ENDP ; std::forward<std::_Container_proxy>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
 ;	COMDAT ??$destroy@PAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@?$_Default_allocator_traits@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@1@QAPAU?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@1@@Z
 _TEXT	SEGMENT
@@ -12522,6 +13214,28 @@ ___formal$ = 20						; size = 1
 	pop	ebp
 	ret	0
 ??$_Destroy_range1@V?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@std@@@std@@YAXPAV?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@0@0AAV?$allocator@V?$_List_unchecked_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@@std@@@0@U?$integral_constant@_N$00@0@@Z ENDP ; std::_Destroy_range1<std::allocator<std::_List_unchecked_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > > > > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z PROC ; std::forward<std::_Container_proxy>, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z ENDP ; std::forward<std::_Container_proxy>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
@@ -12735,6 +13449,91 @@ ___formal$ = 16						; size = 1
 	pop	ebp
 	ret	0
 ??$_Pocma@V?$allocator@D@std@@@std@@YAXAAV?$allocator@D@0@0U?$integral_constant@_N$00@0@@Z ENDP ; std::_Pocma<std::allocator<char> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory
+;	COMDAT ??$_Uninitialized_value_construct_n1@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z
+_TEXT	SEGMENT
+__First$ = 8						; size = 4
+__Count$ = 12						; size = 4
+___formal$ = 16						; size = 4
+___formal$ = 20						; size = 1
+??$_Uninitialized_value_construct_n1@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z PROC ; std::_Uninitialized_value_construct_n1<double *,unsigned int,std::allocator<double> >, COMDAT
+
+; 335  : 	{	// value-initialize _Count objects to raw _First, using default _Alloc construct, all-bits-zero type
+
+	push	ebp
+	mov	ebp, esp
+
+; 336  : 	return (_Zero_range(_First, _First + _Count));
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	mov	ecx, DWORD PTR __First$[ebp]
+	lea	edx, DWORD PTR [ecx+eax*8]
+	push	edx
+	mov	eax, DWORD PTR __First$[ebp]
+	push	eax
+	call	??$_Zero_range@PAN@std@@YAPANQAN0@Z	; std::_Zero_range<double *>
+	add	esp, 8
+
+; 337  : 	}
+
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	pop	ebp
+	ret	0
+??$_Uninitialized_value_construct_n1@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z ENDP ; std::_Uninitialized_value_construct_n1<double *,unsigned int,std::allocator<double> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$_Destroy_range1@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z
+_TEXT	SEGMENT
+___formal$ = 8						; size = 4
+___formal$ = 12						; size = 4
+___formal$ = 16						; size = 4
+___formal$ = 20						; size = 1
+??$_Destroy_range1@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z PROC ; std::_Destroy_range1<std::allocator<double> >, COMDAT
+
+; 1145 : 	{	// destroy [_First, _Last), trivially destructible and default destroy
+
+	push	ebp
+	mov	ebp, esp
+
+; 1146 : 		// nothing to do
+; 1147 : 	}
+
+	pop	ebp
+	ret	0
+??$_Destroy_range1@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z ENDP ; std::_Destroy_range1<std::allocator<double> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0U?$integral_constant@_N$00@0@@Z
+_TEXT	SEGMENT
+__Left$ = 8						; size = 4
+__Right$ = 12						; size = 4
+___formal$ = 16						; size = 1
+??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0U?$integral_constant@_N$00@0@@Z PROC ; std::_Pocma<std::allocator<double> >, COMDAT
+
+; 1088 : 	{	// propagate on container move assignment
+
+	push	ebp
+	mov	ebp, esp
+
+; 1089 : 	_Left = _STD move(_Right);
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	call	??$move@AAV?$allocator@N@std@@@std@@YA$$QAV?$allocator@N@0@AAV10@@Z ; std::move<std::allocator<double> &>
+	add	esp, 4
+
+; 1090 : 	}
+
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	pop	ebp
+	ret	0
+??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0U?$integral_constant@_N$00@0@@Z ENDP ; std::_Pocma<std::allocator<double> >
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
@@ -12956,6 +13755,69 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$forward@V?$allocator@D@std@@@std@@YA$$QAV?$allocator@D@0@AAV10@@Z ENDP ; std::forward<std::allocator<char> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ??$?0ABV?$allocator@N@std@@$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@N@1@@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+___formal$ = 8						; size = 1
+__Val1$ = 12						; size = 4
+??$?0ABV?$allocator@N@std@@$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@N@1@@Z PROC ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1><std::allocator<double> const &>, COMDAT
+; _this$ = ecx
+
+; 287  : 		{	// construct from forwarded values
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 285  : 		: _Ty1(_STD forward<_Other1>(_Val1)),
+
+	mov	eax, DWORD PTR __Val1$[ebp]
+	push	eax
+	call	??$forward@ABV?$allocator@N@std@@@std@@YAABV?$allocator@N@0@ABV10@@Z ; std::forward<std::allocator<double> const &>
+	add	esp, 4
+
+; 286  : 			_Myval2(_STD forward<_Other2>(_Val2)...)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_val@U?$_Simple_types@N@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<double> >::_Vector_val<std::_Simple_types<double> >
+
+; 288  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+??$?0ABV?$allocator@N@std@@$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@N@1@@Z ENDP ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1><std::allocator<double> const &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@ABV?$allocator@N@std@@@std@@YAABV?$allocator@N@0@ABV10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@ABV?$allocator@N@std@@@std@@YAABV?$allocator@N@0@ABV10@@Z PROC ; std::forward<std::allocator<double> const &>, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@ABV?$allocator@N@std@@@std@@YAABV?$allocator@N@0@ABV10@@Z ENDP ; std::forward<std::allocator<double> const &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory
@@ -17645,58 +18507,6 @@ __Ch$ = 28						; size = 1
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
-;	COMDAT ??$_Get_size_of_n@$07@std@@YAII@Z
-_TEXT	SEGMENT
-__Result$ = -8						; size = 4
-__Max_possible$ = -4					; size = 4
-__Count$ = 8						; size = 4
-??$_Get_size_of_n@$07@std@@YAII@Z PROC			; std::_Get_size_of_n<8>, COMDAT
-
-; 23   : 	{	// gets the size of _Count copies of a type sized _Ty_size
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 8
-	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-
-; 24   : 	constexpr size_t _Max_possible = static_cast<size_t>(-1) / _Ty_size;
-
-	mov	DWORD PTR __Max_possible$[ebp], 536870911 ; 1fffffffH
-
-; 25   : 	size_t _Result = _Count * _Ty_size;
-
-	mov	eax, DWORD PTR __Count$[ebp]
-	shl	eax, 3
-	mov	DWORD PTR __Result$[ebp], eax
-
-; 26   : 	if (_Max_possible < _Count)
-
-	cmp	DWORD PTR __Count$[ebp], 536870911	; 1fffffffH
-	jbe	SHORT $LN2@Get_size_o
-
-; 27   : 		{	// multiply overflow, try allocating all of memory and assume the
-; 28   : 			// allocation function will throw bad_alloc
-; 29   : 		_Result = static_cast<size_t>(-1);
-
-	mov	DWORD PTR __Result$[ebp], -1
-$LN2@Get_size_o:
-
-; 30   : 		}
-; 31   : 
-; 32   : 	return (_Result);
-
-	mov	eax, DWORD PTR __Result$[ebp]
-
-; 33   : 	}
-
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$_Get_size_of_n@$07@std@@YAII@Z ENDP			; std::_Get_size_of_n<8>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
 ;	COMDAT ??$destroy@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@?$_Default_allocator_traits@V?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_List_node@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@PAX@std@@@1@QAU?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@1@@Z
 _TEXT	SEGMENT
 ___formal$ = 8						; size = 4
@@ -17983,12 +18793,12 @@ ___formal$ = 8						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
-;	COMDAT ??$_Get_size_of_n@$0BA@@std@@YAII@Z
+;	COMDAT ??$_Get_size_of_n@$07@std@@YAII@Z
 _TEXT	SEGMENT
 __Result$ = -8						; size = 4
 __Max_possible$ = -4					; size = 4
 __Count$ = 8						; size = 4
-??$_Get_size_of_n@$0BA@@std@@YAII@Z PROC		; std::_Get_size_of_n<16>, COMDAT
+??$_Get_size_of_n@$07@std@@YAII@Z PROC			; std::_Get_size_of_n<8>, COMDAT
 
 ; 23   : 	{	// gets the size of _Count copies of a type sized _Ty_size
 
@@ -18000,17 +18810,17 @@ __Count$ = 8						; size = 4
 
 ; 24   : 	constexpr size_t _Max_possible = static_cast<size_t>(-1) / _Ty_size;
 
-	mov	DWORD PTR __Max_possible$[ebp], 268435455 ; 0fffffffH
+	mov	DWORD PTR __Max_possible$[ebp], 536870911 ; 1fffffffH
 
 ; 25   : 	size_t _Result = _Count * _Ty_size;
 
 	mov	eax, DWORD PTR __Count$[ebp]
-	shl	eax, 4
+	shl	eax, 3
 	mov	DWORD PTR __Result$[ebp], eax
 
 ; 26   : 	if (_Max_possible < _Count)
 
-	cmp	DWORD PTR __Count$[ebp], 268435455	; 0fffffffH
+	cmp	DWORD PTR __Count$[ebp], 536870911	; 1fffffffH
 	jbe	SHORT $LN2@Get_size_o
 
 ; 27   : 		{	// multiply overflow, try allocating all of memory and assume the
@@ -18031,7 +18841,54 @@ $LN2@Get_size_o:
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-??$_Get_size_of_n@$0BA@@std@@YAII@Z ENDP		; std::_Get_size_of_n<16>
+??$_Get_size_of_n@$07@std@@YAII@Z ENDP			; std::_Get_size_of_n<8>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstddef
+;	COMDAT ??$addressof@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@YAPAV?$_Vector_val@U?$_Simple_types@N@std@@@0@AAV10@@Z
+_TEXT	SEGMENT
+__Val$ = 8						; size = 4
+??$addressof@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@YAPAV?$_Vector_val@U?$_Simple_types@N@std@@@0@AAV10@@Z PROC ; std::addressof<std::_Vector_val<std::_Simple_types<double> > >, COMDAT
+
+; 329  : 	{	// return address of _Val
+
+	push	ebp
+	mov	ebp, esp
+
+; 330  : 	return (__builtin_addressof(_Val));
+
+	mov	eax, DWORD PTR __Val$[ebp]
+
+; 331  : 	}
+
+	pop	ebp
+	ret	0
+??$addressof@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@YAPAV?$_Vector_val@U?$_Simple_types@N@std@@@0@AAV10@@Z ENDP ; std::addressof<std::_Vector_val<std::_Simple_types<double> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$?0N@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@N@1@@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+___formal$ = 8						; size = 4
+??$?0N@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@N@1@@Z PROC ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><double>, COMDAT
+; _this$ = ecx
+
+; 986  : 		{	// construct from a related allocator (do nothing)
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 987  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$?0N@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@N@1@@Z ENDP ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><double>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
@@ -18101,74 +18958,6 @@ __Val$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$addressof@V?$_Vector_val@U?$_Simple_types@UVector2D@@@std@@@std@@@std@@YAPAV?$_Vector_val@U?$_Simple_types@UVector2D@@@std@@@0@AAV10@@Z ENDP ; std::addressof<std::_Vector_val<std::_Simple_types<Vector2D> > >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
-;	COMDAT ??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z
-_TEXT	SEGMENT
-$T1 = -4						; size = 4
-___formal$ = 8						; size = 4
-__Ptr$ = 12						; size = 4
-_<_Args_0>$ = 16					; size = 4
-??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z PROC ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>, COMDAT
-
-; 879  : 		{	// construct _Objty(_Types...) at _Ptr
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-
-; 880  : 		::new (const_cast<void *>(static_cast<const volatile void *>(_Ptr)))
-
-	mov	eax, DWORD PTR __Ptr$[ebp]
-	push	eax
-	push	8
-	call	??2@YAPAXIPAX@Z				; operator new
-	add	esp, 8
-	mov	DWORD PTR $T1[ebp], eax
-	mov	ecx, DWORD PTR _<_Args_0>$[ebp]
-	push	ecx
-	call	??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z ; std::forward<std::_Container_proxy>
-	add	esp, 4
-	mov	edx, DWORD PTR [eax]
-	mov	eax, DWORD PTR [eax+4]
-	mov	ecx, DWORD PTR $T1[ebp]
-	mov	DWORD PTR [ecx], edx
-	mov	DWORD PTR [ecx+4], eax
-
-; 881  : 			_Objty(_STD forward<_Types>(_Args)...);
-; 882  : 		}
-
-	add	esp, 4
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z ENDP ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstddef
-;	COMDAT ??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z
-_TEXT	SEGMENT
-__Ptr$ = 8						; size = 4
-??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z PROC ; std::_Unfancy<std::_Container_proxy>, COMDAT
-
-; 345  : 	{	// do nothing for plain pointers
-
-	push	ebp
-	mov	ebp, esp
-
-; 346  : 	return (_Ptr);
-
-	mov	eax, DWORD PTR __Ptr$[ebp]
-
-; 347  : 	}
-
-	pop	ebp
-	ret	0
-??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z ENDP ; std::_Unfancy<std::_Container_proxy>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
@@ -18785,6 +19574,126 @@ _this$ = -4						; size = 4
 	pop	ebp
 	ret	0
 ??0?$_List_unchecked_const_iterator@V?$_List_val@U?$_List_simple_types@U?$pair@$$CBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@V12@@std@@@std@@@std@@U_Iterator_base0@2@@std@@QAE@XZ ENDP ; std::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >,std::_Iterator_base0>::_List_unchecked_const_iterator<std::_List_val<std::_List_simple_types<std::pair<std::basic_string<char,std::char_traits<char>,std::allocator<char> > const ,std::basic_string<char,std::char_traits<char>,std::allocator<char> > > > >,std::_Iterator_base0>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$_Get_size_of_n@$0BA@@std@@YAII@Z
+_TEXT	SEGMENT
+__Result$ = -8						; size = 4
+__Max_possible$ = -4					; size = 4
+__Count$ = 8						; size = 4
+??$_Get_size_of_n@$0BA@@std@@YAII@Z PROC		; std::_Get_size_of_n<16>, COMDAT
+
+; 23   : 	{	// gets the size of _Count copies of a type sized _Ty_size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 24   : 	constexpr size_t _Max_possible = static_cast<size_t>(-1) / _Ty_size;
+
+	mov	DWORD PTR __Max_possible$[ebp], 268435455 ; 0fffffffH
+
+; 25   : 	size_t _Result = _Count * _Ty_size;
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	shl	eax, 4
+	mov	DWORD PTR __Result$[ebp], eax
+
+; 26   : 	if (_Max_possible < _Count)
+
+	cmp	DWORD PTR __Count$[ebp], 268435455	; 0fffffffH
+	jbe	SHORT $LN2@Get_size_o
+
+; 27   : 		{	// multiply overflow, try allocating all of memory and assume the
+; 28   : 			// allocation function will throw bad_alloc
+; 29   : 		_Result = static_cast<size_t>(-1);
+
+	mov	DWORD PTR __Result$[ebp], -1
+$LN2@Get_size_o:
+
+; 30   : 		}
+; 31   : 
+; 32   : 	return (_Result);
+
+	mov	eax, DWORD PTR __Result$[ebp]
+
+; 33   : 	}
+
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Get_size_of_n@$0BA@@std@@YAII@Z ENDP		; std::_Get_size_of_n<16>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z
+_TEXT	SEGMENT
+$T1 = -4						; size = 4
+___formal$ = 8						; size = 4
+__Ptr$ = 12						; size = 4
+_<_Args_0>$ = 16					; size = 4
+??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z PROC ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>, COMDAT
+
+; 879  : 		{	// construct _Objty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 880  : 		::new (const_cast<void *>(static_cast<const volatile void *>(_Ptr)))
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	push	8
+	call	??2@YAPAXIPAX@Z				; operator new
+	add	esp, 8
+	mov	DWORD PTR $T1[ebp], eax
+	mov	ecx, DWORD PTR _<_Args_0>$[ebp]
+	push	ecx
+	call	??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z ; std::forward<std::_Container_proxy>
+	add	esp, 4
+	mov	edx, DWORD PTR [eax]
+	mov	eax, DWORD PTR [eax+4]
+	mov	ecx, DWORD PTR $T1[ebp]
+	mov	DWORD PTR [ecx], edx
+	mov	DWORD PTR [ecx+4], eax
+
+; 881  : 			_Objty(_STD forward<_Types>(_Args)...);
+; 882  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z ENDP ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstddef
+;	COMDAT ??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z
+_TEXT	SEGMENT
+__Ptr$ = 8						; size = 4
+??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z PROC ; std::_Unfancy<std::_Container_proxy>, COMDAT
+
+; 345  : 	{	// do nothing for plain pointers
+
+	push	ebp
+	mov	ebp, esp
+
+; 346  : 	return (_Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+
+; 347  : 	}
+
+	pop	ebp
+	ret	0
+??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z ENDP ; std::_Unfancy<std::_Container_proxy>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstddef
@@ -20637,6 +21546,216 @@ ___formal$ = 12						; size = 4
 	pop	ebp
 	ret	0
 ??$?9DD@std@@YA_NABV?$allocator@D@0@0@Z ENDP		; std::operator!=<char,char>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory
+;	COMDAT ??$_Uninitialized_value_construct_n@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@@Z
+_TEXT	SEGMENT
+$T1 = -1						; size = 1
+__First$ = 8						; size = 4
+__Count$ = 12						; size = 4
+__Al$ = 16						; size = 4
+??$_Uninitialized_value_construct_n@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@@Z PROC ; std::_Uninitialized_value_construct_n<double *,unsigned int,std::allocator<double> >, COMDAT
+
+; 343  : 	{	// value-initialize _Count objects to raw _First, using _Al
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 344  : 	return (_Uninitialized_value_construct_n1(_First, _Count, _Al,
+
+	xor	eax, eax
+	mov	BYTE PTR $T1[ebp], al
+	movzx	ecx, BYTE PTR $T1[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Al$[ebp]
+	push	edx
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	call	??$_Uninitialized_value_construct_n1@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z ; std::_Uninitialized_value_construct_n1<double *,unsigned int,std::allocator<double> >
+	add	esp, 16					; 00000010H
+
+; 345  : 		bool_constant<conjunction_v<_Use_memset_value_construct_t<_FwdIt>,
+; 346  : 			_Uses_default_construct<_Alloc, decltype(_Unfancy(_First))>>>{}));
+; 347  : 	}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Uninitialized_value_construct_n@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@@Z ENDP ; std::_Uninitialized_value_construct_n<double *,unsigned int,std::allocator<double> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@@Z
+_TEXT	SEGMENT
+$T1 = -1						; size = 1
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Al$ = 16						; size = 4
+??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@@Z PROC ; std::_Destroy_range<std::allocator<double> >, COMDAT
+
+; 1154 : 	{	// destroy [_First, _Last), choose optimization
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 1155 : 		// note that this is an optimization for debug mode codegen;
+; 1156 : 		// in release mode the BE removes all of this
+; 1157 : 	using _Val = typename _Alloc::value_type;
+; 1158 : 	_Destroy_range1(_First, _Last, _Al, bool_constant<conjunction_v<
+
+	xor	eax, eax
+	mov	BYTE PTR $T1[ebp], al
+	movzx	ecx, BYTE PTR $T1[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Al$[ebp]
+	push	edx
+	mov	eax, DWORD PTR __Last$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	call	??$_Destroy_range1@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@U?$integral_constant@_N$00@0@@Z ; std::_Destroy_range1<std::allocator<double> >
+	add	esp, 16					; 00000010H
+
+; 1159 : 		is_trivially_destructible<_Val>,
+; 1160 : 		_Uses_default_destroy<_Alloc, _Val *>>>{});
+; 1161 : 	}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@@Z ENDP ; std::_Destroy_range<std::allocator<double> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ??$?0$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+___formal$ = 8						; size = 1
+??$?0$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z PROC ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1><>, COMDAT
+; _this$ = ecx
+
+; 278  : 		{	// construct from forwarded values
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 277  : 		: _Ty1(), _Myval2(_STD forward<_Other2>(_Val2)...)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$allocator@N@std@@QAE@XZ		; std::allocator<double>::allocator<double>
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_val@U?$_Simple_types@N@std@@@std@@QAE@XZ ; std::_Vector_val<std::_Simple_types<double> >::_Vector_val<std::_Simple_types<double> >
+
+; 279  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$?0$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ENDP ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1><>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0@Z
+_TEXT	SEGMENT
+__Tag$ = -5						; size = 1
+__Left$ = 8						; size = 4
+__Right$ = 12						; size = 4
+??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0@Z PROC ; std::_Pocma<std::allocator<double> >, COMDAT
+
+; 1099 : 	{	// (maybe) propagate on container move assignment
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 12					; 0000000cH
+	mov	DWORD PTR [ebp-12], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 1100 : 	typename allocator_traits<_Alloc>::propagate_on_container_move_assignment _Tag;
+; 1101 : 	_Pocma(_Left, _Right, _Tag);
+
+	movzx	eax, BYTE PTR __Tag$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Right$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Left$[ebp]
+	push	edx
+	call	??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0U?$integral_constant@_N$00@0@@Z ; std::_Pocma<std::allocator<double> >
+	add	esp, 12					; 0000000cH
+
+; 1102 : 	}
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@Pocma
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	add	esp, 12					; 0000000cH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+	npad	1
+$LN5@Pocma:
+	DD	1
+	DD	$LN4@Pocma
+$LN4@Pocma:
+	DD	-5					; fffffffbH
+	DD	1
+	DD	$LN3@Pocma
+$LN3@Pocma:
+	DB	95					; 0000005fH
+	DB	84					; 00000054H
+	DB	97					; 00000061H
+	DB	103					; 00000067H
+	DB	0
+??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0@Z ENDP ; std::_Pocma<std::allocator<double> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$?9NN@std@@YA_NABV?$allocator@N@0@0@Z
+_TEXT	SEGMENT
+___formal$ = 8						; size = 4
+___formal$ = 12						; size = 4
+??$?9NN@std@@YA_NABV?$allocator@N@0@0@Z PROC		; std::operator!=<double,double>, COMDAT
+
+; 1054 : 	{	// test for allocator inequality
+
+	push	ebp
+	mov	ebp, esp
+
+; 1055 : 	return (false);
+
+	xor	al, al
+
+; 1056 : 	}
+
+	pop	ebp
+	ret	0
+??$?9NN@std@@YA_NABV?$allocator@N@0@0@Z ENDP		; std::operator!=<double,double>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
@@ -27652,6 +28771,674 @@ __Ptr$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$_Unfancy@D@std@@YAPADPAD@Z ENDP			; std::_Unfancy<char>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??$?0ABV?$allocator@N@std@@X@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@ABV?$allocator@N@1@@Z
+_TEXT	SEGMENT
+$T1 = -5						; size = 1
+_this$ = -4						; size = 4
+__Al$ = 8						; size = 4
+??$?0ABV?$allocator@N@std@@X@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@ABV?$allocator@N@1@@Z PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > ><std::allocator<double> const &,void>, COMDAT
+; _this$ = ecx
+
+; 455  : 		{	// construct allocator from _Al
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 453  : 		: _Mypair(_One_then_variadic_args_t(),
+
+	mov	eax, DWORD PTR __Al$[ebp]
+	push	eax
+	call	??$forward@ABV?$allocator@N@std@@@std@@YAABV?$allocator@N@0@ABV10@@Z ; std::forward<std::allocator<double> const &>
+	add	esp, 4
+	push	eax
+	movzx	ecx, BYTE PTR $T1[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0ABV?$allocator@N@std@@$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABV?$allocator@N@1@@Z ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1><std::allocator<double> const &>
+
+; 456  : 		_Alloc_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Alloc_proxy
+
+; 457  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$?0ABV?$allocator@N@std@@X@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@ABV?$allocator@N@1@@Z ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > ><std::allocator<double> const &,void>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$move@AAV?$vector@NV?$allocator@N@std@@@std@@@std@@YA$$QAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$move@AAV?$vector@NV?$allocator@N@std@@@std@@@std@@YA$$QAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z PROC ; std::move<std::vector<double,std::allocator<double> > &>, COMDAT
+
+; 1588 : 	{	// forward _Arg as movable
+
+	push	ebp
+	mov	ebp, esp
+
+; 1589 : 	return (static_cast<remove_reference_t<_Ty>&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1590 : 	}
+
+	pop	ebp
+	ret	0
+??$move@AAV?$vector@NV?$allocator@N@std@@@std@@@std@@YA$$QAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z ENDP ; std::move<std::vector<double,std::allocator<double> > &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstddef
+;	COMDAT ??$addressof@V?$vector@NV?$allocator@N@std@@@std@@@std@@YAPAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z
+_TEXT	SEGMENT
+__Val$ = 8						; size = 4
+??$addressof@V?$vector@NV?$allocator@N@std@@@std@@@std@@YAPAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z PROC ; std::addressof<std::vector<double,std::allocator<double> > >, COMDAT
+
+; 329  : 	{	// return address of _Val
+
+	push	ebp
+	mov	ebp, esp
+
+; 330  : 	return (__builtin_addressof(_Val));
+
+	mov	eax, DWORD PTR __Val$[ebp]
+
+; 331  : 	}
+
+	pop	ebp
+	ret	0
+??$addressof@V?$vector@NV?$allocator@N@std@@@std@@@std@@YAPAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z ENDP ; std::addressof<std::vector<double,std::allocator<double> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z
+_TEXT	SEGMENT
+tv206 = -56						; size = 4
+__Constructed_first$ = -52				; size = 4
+__Constructed_last$ = -48				; size = 4
+__Newvec$ = -44						; size = 4
+__Newcapacity$ = -40					; size = 4
+__Newsize$ = -36					; size = 4
+__Oldsize$ = -32					; size = 4
+__Al$ = -28						; size = 4
+__Whereoff$ = -24					; size = 4
+_this$ = -20						; size = 4
+__$EHRec$ = -16						; size = 16
+__Whereptr$ = 8						; size = 4
+_<_Val_0>$ = 12						; size = 4
+??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z PROC ; std::vector<double,std::allocator<double> >::_Emplace_reallocate<double>, COMDAT
+; _this$ = ecx
+
+; 942  : 		{	// reallocate and insert by perfectly forwarding _Val at _Whereptr
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	sub	esp, 40					; 00000028H
+	push	ebx
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-56]
+	mov	ecx, 10					; 0000000aH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR __$EHRec$[ebp], esp
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 943  : 			// pre: !_Has_unused_capacity()
+; 944  : 		const size_type _Whereoff = static_cast<size_type>(_Whereptr - this->_Myfirst());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR __Whereptr$[ebp]
+	sub	ecx, DWORD PTR [eax]
+	sar	ecx, 3
+	mov	DWORD PTR __Whereoff$[ebp], ecx
+
+; 945  : 		_Alty& _Al = this->_Getal();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	mov	DWORD PTR __Al$[ebp], eax
+
+; 946  : 		const size_type _Oldsize = size();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::size
+	mov	DWORD PTR __Oldsize$[ebp], eax
+
+; 947  : 
+; 948  : 		if (_Oldsize == max_size())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?max_size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::max_size
+	cmp	DWORD PTR __Oldsize$[ebp], eax
+	jne	SHORT $LN2@Emplace_re
+
+; 949  : 			{
+; 950  : 			_Xlength();
+
+	call	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ ; std::vector<double,std::allocator<double> >::_Xlength
+$LN2@Emplace_re:
+
+; 951  : 			}
+; 952  : 
+; 953  : 		const size_type _Newsize = _Oldsize + 1;
+
+	mov	edx, DWORD PTR __Oldsize$[ebp]
+	add	edx, 1
+	mov	DWORD PTR __Newsize$[ebp], edx
+
+; 954  : 		const size_type _Newcapacity = _Calculate_growth(_Newsize);
+
+	mov	eax, DWORD PTR __Newsize$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Calculate_growth@?$vector@NV?$allocator@N@std@@@std@@ABEII@Z ; std::vector<double,std::allocator<double> >::_Calculate_growth
+	mov	DWORD PTR __Newcapacity$[ebp], eax
+
+; 955  : 
+; 956  : 		const pointer _Newvec = _Al.allocate(_Newcapacity);
+
+	mov	ecx, DWORD PTR __Newcapacity$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	?allocate@?$allocator@N@std@@QAEPANI@Z	; std::allocator<double>::allocate
+	mov	DWORD PTR __Newvec$[ebp], eax
+
+; 957  : 		const pointer _Constructed_last = _Newvec + _Whereoff + 1;
+
+	mov	edx, DWORD PTR __Whereoff$[ebp]
+	mov	eax, DWORD PTR __Newvec$[ebp]
+	lea	ecx, DWORD PTR [eax+edx*8+8]
+	mov	DWORD PTR __Constructed_last$[ebp], ecx
+
+; 958  : 		pointer _Constructed_first = _Constructed_last;
+
+	mov	edx, DWORD PTR __Constructed_last$[ebp]
+	mov	DWORD PTR __Constructed_first$[ebp], edx
+
+; 959  : 
+; 960  : 		_TRY_BEGIN
+
+	mov	DWORD PTR __$EHRec$[ebp+12], 0
+
+; 961  : 		_Alty_traits::construct(_Al, _Unfancy(_Newvec + _Whereoff), _STD forward<_Valty>(_Val)...);
+
+	mov	eax, DWORD PTR __Whereoff$[ebp]
+	mov	ecx, DWORD PTR __Newvec$[ebp]
+	lea	edx, DWORD PTR [ecx+eax*8]
+	push	edx
+	call	??$_Unfancy@N@std@@YAPANPAN@Z		; std::_Unfancy<double>
+	add	esp, 4
+	mov	DWORD PTR tv206[ebp], eax
+	mov	eax, DWORD PTR _<_Val_0>$[ebp]
+	push	eax
+	call	??$forward@N@std@@YA$$QANAAN@Z		; std::forward<double>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR tv206[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Al$[ebp]
+	push	edx
+	call	??$construct@NN@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAXAAV?$allocator@N@1@QAN$$QAN@Z ; std::_Default_allocator_traits<std::allocator<double> >::construct<double,double>
+	add	esp, 12					; 0000000cH
+
+; 962  : 		_Constructed_first = _Newvec + _Whereoff;
+
+	mov	eax, DWORD PTR __Whereoff$[ebp]
+	mov	ecx, DWORD PTR __Newvec$[ebp]
+	lea	edx, DWORD PTR [ecx+eax*8]
+	mov	DWORD PTR __Constructed_first$[ebp], edx
+
+; 963  : 
+; 964  : 		if (_Whereptr == this->_Mylast())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	ecx, DWORD PTR __Whereptr$[ebp]
+	cmp	ecx, DWORD PTR [eax]
+	jne	SHORT $LN4@Emplace_re
+
+; 965  : 			{	// at back, provide strong guarantee
+; 966  : 			_Umove_if_noexcept(this->_Myfirst(), this->_Mylast(), _Newvec);
+
+	mov	edx, DWORD PTR __Newvec$[ebp]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Umove_if_noexcept@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00@Z ; std::vector<double,std::allocator<double> >::_Umove_if_noexcept
+
+; 967  : 			}
+; 968  : 		else
+
+	jmp	SHORT $LN5@Emplace_re
+$LN4@Emplace_re:
+
+; 969  : 			{	// provide basic guarantee
+; 970  : 			_Umove(this->_Myfirst(), _Whereptr, _Newvec);
+
+	mov	edx, DWORD PTR __Newvec$[ebp]
+	push	edx
+	mov	eax, DWORD PTR __Whereptr$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Umove@?$vector@NV?$allocator@N@std@@@std@@AAEPANPAN00@Z ; std::vector<double,std::allocator<double> >::_Umove
+
+; 971  : 			_Constructed_first = _Newvec;
+
+	mov	edx, DWORD PTR __Newvec$[ebp]
+	mov	DWORD PTR __Constructed_first$[ebp], edx
+
+; 972  : 			_Umove(_Whereptr, this->_Mylast(), _Newvec + _Whereoff + 1);
+
+	mov	eax, DWORD PTR __Whereoff$[ebp]
+	mov	ecx, DWORD PTR __Newvec$[ebp]
+	lea	edx, DWORD PTR [ecx+eax*8+8]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR __Whereptr$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Umove@?$vector@NV?$allocator@N@std@@@std@@AAEPANPAN00@Z ; std::vector<double,std::allocator<double> >::_Umove
+$LN5@Emplace_re:
+	jmp	SHORT $LN7@Emplace_re
+__catch$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z$0:
+
+; 973  : 			}
+; 974  : 		_CATCH_ALL
+; 975  : 		_Destroy(_Constructed_first, _Constructed_last);
+
+	mov	edx, DWORD PTR __Constructed_last$[ebp]
+	push	edx
+	mov	eax, DWORD PTR __Constructed_first$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN0@Z ; std::vector<double,std::allocator<double> >::_Destroy
+
+; 976  : 		_Al.deallocate(_Newvec, _Newcapacity);
+
+	mov	ecx, DWORD PTR __Newcapacity$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Newvec$[ebp]
+	push	edx
+	mov	ecx, DWORD PTR __Al$[ebp]
+	call	?deallocate@?$allocator@N@std@@QAEXQANI@Z ; std::allocator<double>::deallocate
+
+; 977  : 		_RERAISE;
+
+	push	0
+	push	0
+	call	__CxxThrowException@8
+
+; 978  : 		_CATCH_END
+
+	mov	eax, $LN10@Emplace_re
+	ret	0
+$LN7@Emplace_re:
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+	jmp	SHORT __tryend$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z$1
+$LN10@Emplace_re:
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+__tryend$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z$1:
+
+; 979  : 
+; 980  : 		_Change_array(_Newvec, _Newsize, _Newcapacity);
+
+	mov	eax, DWORD PTR __Newcapacity$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Newsize$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Newvec$[ebp]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Change_array@?$vector@NV?$allocator@N@std@@@std@@AAEXQANII@Z ; std::vector<double,std::allocator<double> >::_Change_array
+
+; 981  : 		return (this->_Myfirst() + _Whereoff);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	eax, DWORD PTR [eax]
+	mov	ecx, DWORD PTR __Whereoff$[ebp]
+	lea	eax, DWORD PTR [eax+ecx*8]
+$LN6@Emplace_re:
+
+; 982  : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 56					; 00000038H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-60]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z ENDP ; std::vector<double,std::allocator<double> >::_Emplace_reallocate<double>
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$construct@NN@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAXAAV?$allocator@N@1@QAN$$QAN@Z
+_TEXT	SEGMENT
+$T1 = -4						; size = 4
+___formal$ = 8						; size = 4
+__Ptr$ = 12						; size = 4
+_<_Args_0>$ = 16					; size = 4
+??$construct@NN@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAXAAV?$allocator@N@1@QAN$$QAN@Z PROC ; std::_Default_allocator_traits<std::allocator<double> >::construct<double,double>, COMDAT
+
+; 879  : 		{	// construct _Objty(_Types...) at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 880  : 		::new (const_cast<void *>(static_cast<const volatile void *>(_Ptr)))
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+	push	eax
+	push	8
+	call	??2@YAPAXIPAX@Z				; operator new
+	add	esp, 8
+	mov	DWORD PTR $T1[ebp], eax
+	mov	ecx, DWORD PTR _<_Args_0>$[ebp]
+	push	ecx
+	call	??$forward@N@std@@YA$$QANAAN@Z		; std::forward<double>
+	add	esp, 4
+	mov	edx, DWORD PTR $T1[ebp]
+	movsd	xmm0, QWORD PTR [eax]
+	movsd	QWORD PTR [edx], xmm0
+
+; 881  : 			_Objty(_STD forward<_Types>(_Args)...);
+; 882  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$construct@NN@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAXAAV?$allocator@N@1@QAN$$QAN@Z ENDP ; std::_Default_allocator_traits<std::allocator<double> >::construct<double,double>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstddef
+;	COMDAT ??$_Unfancy@N@std@@YAPANPAN@Z
+_TEXT	SEGMENT
+__Ptr$ = 8						; size = 4
+??$_Unfancy@N@std@@YAPANPAN@Z PROC			; std::_Unfancy<double>, COMDAT
+
+; 345  : 	{	// do nothing for plain pointers
+
+	push	ebp
+	mov	ebp, esp
+
+; 346  : 	return (_Ptr);
+
+	mov	eax, DWORD PTR __Ptr$[ebp]
+
+; 347  : 	}
+
+	pop	ebp
+	ret	0
+??$_Unfancy@N@std@@YAPANPAN@Z ENDP			; std::_Unfancy<double>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??$_Emplace_back_with_unused_capacity@N@?$vector@NV?$allocator@N@std@@@std@@AAE@$$QAN@Z
+_TEXT	SEGMENT
+tv142 = -12						; size = 4
+__Result$ = -8						; size = 4
+_this$ = -4						; size = 4
+_<_Val_0>$ = 8						; size = 4
+??$_Emplace_back_with_unused_capacity@N@?$vector@NV?$allocator@N@std@@@std@@AAE@$$QAN@Z PROC ; std::vector<double,std::allocator<double> >::_Emplace_back_with_unused_capacity<double>, COMDAT
+; _this$ = ecx
+
+; 900  : 		{	// insert by perfectly forwarding into element at end, provide strong guarantee
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 12					; 0000000cH
+	mov	DWORD PTR [ebp-12], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 901  : 			// pre: _Has_unused_capacity()
+; 902  : 		_Alty_traits::construct(this->_Getal(), _Unfancy(this->_Mylast()), _STD forward<_Valty>(_Val)...);
+
+	mov	eax, DWORD PTR _<_Val_0>$[ebp]
+	push	eax
+	call	??$forward@N@std@@YA$$QANAAN@Z		; std::forward<double>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	call	??$_Unfancy@N@std@@YAPANPAN@Z		; std::_Unfancy<double>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	call	??$construct@NN@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAXAAV?$allocator@N@1@QAN$$QAN@Z ; std::_Default_allocator_traits<std::allocator<double> >::construct<double,double>
+	add	esp, 12					; 0000000cH
+
+; 903  : 		_Orphan_range(this->_Mylast(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z ; std::vector<double,std::allocator<double> >::_Orphan_range
+
+; 904  : 		_Ty& _Result = *this->_Mylast();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	ecx, DWORD PTR [eax]
+	mov	DWORD PTR __Result$[ebp], ecx
+
+; 905  : 		++this->_Mylast();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	DWORD PTR tv142[ebp], eax
+	mov	edx, DWORD PTR tv142[ebp]
+	mov	eax, DWORD PTR [edx]
+	add	eax, 8
+	mov	ecx, DWORD PTR tv142[ebp]
+	mov	DWORD PTR [ecx], eax
+
+; 906  : #if _HAS_CXX17
+; 907  : 		return (_Result);
+; 908  : #else /* ^^^ _HAS_CXX17 ^^^ // vvv !_HAS_CXX17 vvv */
+; 909  : 		(void)_Result;
+; 910  : #endif /* _HAS_CXX17 */
+; 911  : 		}
+
+	add	esp, 12					; 0000000cH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$_Emplace_back_with_unused_capacity@N@?$vector@NV?$allocator@N@std@@@std@@AAE@$$QAN@Z ENDP ; std::vector<double,std::allocator<double> >::_Emplace_back_with_unused_capacity<double>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@N@std@@YA$$QANAAN@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@N@std@@YA$$QANAAN@Z PROC			; std::forward<double>, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@N@std@@YA$$QANAAN@Z ENDP			; std::forward<double>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??$emplace_back@N@?$vector@NV?$allocator@N@std@@@std@@QAE@$$QAN@Z
+_TEXT	SEGMENT
+__Result$ = -8						; size = 4
+_this$ = -4						; size = 4
+_<_Val_0>$ = 8						; size = 4
+??$emplace_back@N@?$vector@NV?$allocator@N@std@@@std@@QAE@$$QAN@Z PROC ; std::vector<double,std::allocator<double> >::emplace_back<double>, COMDAT
+; _this$ = ecx
+
+; 916  : 		{	// insert by perfectly forwarding into element at end, provide strong guarantee
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 917  : 		if (_Has_unused_capacity())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Has_unused_capacity@?$vector@NV?$allocator@N@std@@@std@@ABE_NXZ ; std::vector<double,std::allocator<double> >::_Has_unused_capacity
+	movzx	eax, al
+	test	eax, eax
+	je	SHORT $LN2@emplace_ba
+
+; 918  : 			{
+; 919  : 			return (_Emplace_back_with_unused_capacity(_STD forward<_Valty>(_Val)...));
+
+	mov	ecx, DWORD PTR _<_Val_0>$[ebp]
+	push	ecx
+	call	??$forward@N@std@@YA$$QANAAN@Z		; std::forward<double>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$_Emplace_back_with_unused_capacity@N@?$vector@NV?$allocator@N@std@@@std@@AAE@$$QAN@Z ; std::vector<double,std::allocator<double> >::_Emplace_back_with_unused_capacity<double>
+	jmp	SHORT $LN1@emplace_ba
+$LN2@emplace_ba:
+
+; 920  : 			}
+; 921  : 
+; 922  : 		_Ty& _Result = *_Emplace_reallocate(this->_Mylast(), _STD forward<_Valty>(_Val)...);
+
+	mov	edx, DWORD PTR _<_Val_0>$[ebp]
+	push	edx
+	call	??$forward@N@std@@YA$$QANAAN@Z		; std::forward<double>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$_Emplace_reallocate@N@?$vector@NV?$allocator@N@std@@@std@@QAEPANQAN$$QAN@Z ; std::vector<double,std::allocator<double> >::_Emplace_reallocate<double>
+	mov	DWORD PTR __Result$[ebp], eax
+$LN1@emplace_ba:
+
+; 923  : #if _HAS_CXX17
+; 924  : 		return (_Result);
+; 925  : #else /* ^^^ _HAS_CXX17 ^^^ // vvv !_HAS_CXX17 vvv */
+; 926  : 		(void)_Result;
+; 927  : #endif /* _HAS_CXX17 */
+; 928  : 		}
+
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$emplace_back@N@?$vector@NV?$allocator@N@std@@@std@@QAE@$$QAN@Z ENDP ; std::vector<double,std::allocator<double> >::emplace_back<double>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$move@AAN@std@@YA$$QANAAN@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$move@AAN@std@@YA$$QANAAN@Z PROC			; std::move<double &>, COMDAT
+
+; 1588 : 	{	// forward _Arg as movable
+
+	push	ebp
+	mov	ebp, esp
+
+; 1589 : 	return (static_cast<remove_reference_t<_Ty>&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1590 : 	}
+
+	pop	ebp
+	ret	0
+??$move@AAN@std@@YA$$QANAAN@Z ENDP			; std::move<double &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
@@ -36826,6 +38613,50 @@ $LN2@scalar:
 	pop	ebp
 	ret	4
 ??_GRaven_WeaponSystem@@QAEPAXI@Z ENDP			; Raven_WeaponSystem::`scalar deleting destructor'
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_weaponsystem.h
+;	COMDAT ?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ PROC ; Raven_WeaponSystem::GetCurrentWeapon, COMDAT
+; _this$ = ecx
+
+; 100  :   Raven_Weapon* GetCurrentWeapon()const{return m_pCurrentWeapon;} 
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+16]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ ENDP ; Raven_WeaponSystem::GetCurrentWeapon
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
+;	COMDAT ?GetType@Raven_Weapon@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?GetType@Raven_Weapon@@QBEIXZ PROC			; Raven_Weapon::GetType, COMDAT
+; _this$ = ecx
+
+; 132  :   unsigned int  GetType()const{return m_iType;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+12]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?GetType@Raven_Weapon@@QBEIXZ ENDP			; Raven_Weapon::GetType
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\time\regulator.h
@@ -47135,7 +48966,7 @@ ___flags$ = 8						; size = 4
 	mov	eax, DWORD PTR ___flags$[ebp]
 	and	eax, 1
 	je	SHORT $LN2@scalar
-	push	280					; 00000118H
+	push	312					; 00000138H
 	mov	ecx, DWORD PTR _this$[ebp]
 	push	ecx
 	call	??3@YAXPAXI@Z				; operator delete
@@ -47158,7 +48989,7 @@ _this$ = -4						; size = 4
 ?GetSensoryMem@Raven_Bot@@QBEQAVRaven_SensoryMemory@@XZ PROC ; Raven_Bot::GetSensoryMem, COMDAT
 ; _this$ = ecx
 
-; 228  :   Raven_SensoryMemory* const         GetSensoryMem()const{return m_pSensoryMem;}
+; 231  :   Raven_SensoryMemory* const         GetSensoryMem()const{return m_pSensoryMem;}
 
 	push	ebp
 	mov	ebp, esp
@@ -47180,7 +49011,7 @@ _this$ = -4						; size = 4
 ?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ PROC ; Raven_Bot::GetTargetSys, COMDAT
 ; _this$ = ecx
 
-; 225  :   Raven_TargetingSystem* const       GetTargetSys(){return m_pTargSys;}
+; 228  :   Raven_TargetingSystem* const       GetTargetSys(){return m_pTargSys;}
 
 	push	ebp
 	mov	ebp, esp
@@ -47202,7 +49033,7 @@ _this$ = -4						; size = 4
 ?GetBrain@Raven_Bot@@QAEQAVGoal_Think@@XZ PROC		; Raven_Bot::GetBrain, COMDAT
 ; _this$ = ecx
 
-; 223  :   Goal_Think* const                  GetBrain(){return m_pBrain;}
+; 226  :   Goal_Think* const                  GetBrain(){return m_pBrain;}
 
 	push	ebp
 	mov	ebp, esp
@@ -47233,7 +49064,7 @@ _PositionOfStep$ = 8					; size = 4
 ?canStepBackward@Raven_Bot@@QBE_NAAUVector2D@@@Z PROC	; Raven_Bot::canStepBackward
 ; _this$ = ecx
 
-; 537  : {
+; 564  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -47256,7 +49087,7 @@ _PositionOfStep$ = 8					; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 538  :   static const double StepDistance = BRadius() * 2;
+; 565  :   static const double StepDistance = BRadius() * 2;
 
 	mov	eax, DWORD PTR __tls_index
 	mov	ecx, DWORD PTR fs:__tls_array
@@ -47282,8 +49113,8 @@ _PositionOfStep$ = 8					; size = 4
 	add	esp, 4
 $LN2@canStepBac:
 
-; 539  : 
-; 540  :   PositionOfStep = Pos() - Facing() * StepDistance - Facing() * BRadius();
+; 566  : 
+; 567  :   PositionOfStep = Pos() - Facing() * StepDistance - Facing() * BRadius();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?BRadius@BaseGameEntity@@QBENXZ		; BaseGameEntity::BRadius
@@ -47336,8 +49167,8 @@ $LN2@canStepBac:
 	mov	eax, DWORD PTR [eax+12]
 	mov	DWORD PTR [edx+12], eax
 
-; 541  : 
-; 542  :   return canWalkTo(PositionOfStep);
+; 568  : 
+; 569  :   return canWalkTo(PositionOfStep);
 
 	mov	ecx, DWORD PTR _PositionOfStep$[ebp]
 	sub	esp, 16					; 00000010H
@@ -47353,7 +49184,7 @@ $LN2@canStepBac:
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?canWalkTo@Raven_Bot@@QBE_NUVector2D@@@Z ; Raven_Bot::canWalkTo
 
-; 543  : }
+; 570  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -47399,7 +49230,7 @@ _PositionOfStep$ = 8					; size = 4
 ?canStepForward@Raven_Bot@@QBE_NAAUVector2D@@@Z PROC	; Raven_Bot::canStepForward
 ; _this$ = ecx
 
-; 528  : {
+; 555  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -47422,7 +49253,7 @@ _PositionOfStep$ = 8					; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 529  :   static const double StepDistance = BRadius() * 2;
+; 556  :   static const double StepDistance = BRadius() * 2;
 
 	mov	eax, DWORD PTR __tls_index
 	mov	ecx, DWORD PTR fs:__tls_array
@@ -47448,8 +49279,8 @@ _PositionOfStep$ = 8					; size = 4
 	add	esp, 4
 $LN2@canStepFor:
 
-; 530  : 
-; 531  :   PositionOfStep = Pos() + Facing() * StepDistance + Facing() * BRadius();
+; 557  : 
+; 558  :   PositionOfStep = Pos() + Facing() * StepDistance + Facing() * BRadius();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?BRadius@BaseGameEntity@@QBENXZ		; BaseGameEntity::BRadius
@@ -47502,8 +49333,8 @@ $LN2@canStepFor:
 	mov	eax, DWORD PTR [eax+12]
 	mov	DWORD PTR [edx+12], eax
 
-; 532  : 
-; 533  :   return canWalkTo(PositionOfStep);
+; 559  : 
+; 560  :   return canWalkTo(PositionOfStep);
 
 	mov	ecx, DWORD PTR _PositionOfStep$[ebp]
 	sub	esp, 16					; 00000010H
@@ -47519,7 +49350,7 @@ $LN2@canStepFor:
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?canWalkTo@Raven_Bot@@QBE_NUVector2D@@@Z ; Raven_Bot::canWalkTo
 
-; 534  : }
+; 561  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -47567,7 +49398,7 @@ _PositionOfStep$ = 8					; size = 4
 ?canStepRight@Raven_Bot@@QBE_NAAUVector2D@@@Z PROC	; Raven_Bot::canStepRight
 ; _this$ = ecx
 
-; 519  : {
+; 546  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -47590,7 +49421,7 @@ _PositionOfStep$ = 8					; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 520  :   static const double StepDistance = BRadius() * 2;
+; 547  :   static const double StepDistance = BRadius() * 2;
 
 	mov	eax, DWORD PTR __tls_index
 	mov	ecx, DWORD PTR fs:__tls_array
@@ -47616,8 +49447,8 @@ _PositionOfStep$ = 8					; size = 4
 	add	esp, 4
 $LN2@canStepRig:
 
-; 521  : 
-; 522  :   PositionOfStep = Pos() + Facing().Perp() * StepDistance + Facing().Perp() * BRadius();
+; 548  : 
+; 549  :   PositionOfStep = Pos() + Facing().Perp() * StepDistance + Facing().Perp() * BRadius();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?BRadius@BaseGameEntity@@QBENXZ		; BaseGameEntity::BRadius
@@ -47678,8 +49509,8 @@ $LN2@canStepRig:
 	mov	eax, DWORD PTR [eax+12]
 	mov	DWORD PTR [ecx+12], eax
 
-; 523  : 
-; 524  :   return canWalkTo(PositionOfStep);
+; 550  : 
+; 551  :   return canWalkTo(PositionOfStep);
 
 	mov	ecx, DWORD PTR _PositionOfStep$[ebp]
 	sub	esp, 16					; 00000010H
@@ -47695,7 +49526,7 @@ $LN2@canStepRig:
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?canWalkTo@Raven_Bot@@QBE_NUVector2D@@@Z ; Raven_Bot::canWalkTo
 
-; 525  : }
+; 552  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -47743,7 +49574,7 @@ _PositionOfStep$ = 8					; size = 4
 ?canStepLeft@Raven_Bot@@QBE_NAAUVector2D@@@Z PROC	; Raven_Bot::canStepLeft
 ; _this$ = ecx
 
-; 510  : {
+; 537  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -47766,7 +49597,7 @@ _PositionOfStep$ = 8					; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 511  :   static const double StepDistance = BRadius() * 2;
+; 538  :   static const double StepDistance = BRadius() * 2;
 
 	mov	eax, DWORD PTR __tls_index
 	mov	ecx, DWORD PTR fs:__tls_array
@@ -47792,8 +49623,8 @@ _PositionOfStep$ = 8					; size = 4
 	add	esp, 4
 $LN2@canStepLef:
 
-; 512  : 
-; 513  :   PositionOfStep = Pos() - Facing().Perp() * StepDistance - Facing().Perp() * BRadius();
+; 539  : 
+; 540  :   PositionOfStep = Pos() - Facing().Perp() * StepDistance - Facing().Perp() * BRadius();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?BRadius@BaseGameEntity@@QBENXZ		; BaseGameEntity::BRadius
@@ -47854,8 +49685,8 @@ $LN2@canStepLef:
 	mov	eax, DWORD PTR [eax+12]
 	mov	DWORD PTR [ecx+12], eax
 
-; 514  : 
-; 515  :   return canWalkTo(PositionOfStep);
+; 541  : 
+; 542  :   return canWalkTo(PositionOfStep);
 
 	mov	ecx, DWORD PTR _PositionOfStep$[ebp]
 	sub	esp, 16					; 00000010H
@@ -47871,7 +49702,7 @@ $LN2@canStepLef:
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?canWalkTo@Raven_Bot@@QBE_NUVector2D@@@Z ; Raven_Bot::canWalkTo
 
-; 516  : }
+; 543  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -47910,7 +49741,7 @@ _to$ = 24						; size = 16
 ?canWalkBetween@Raven_Bot@@QBE_NUVector2D@@0@Z PROC	; Raven_Bot::canWalkBetween
 ; _this$ = ecx
 
-; 500  : {
+; 527  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -47919,7 +49750,7 @@ _to$ = 24						; size = 16
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 501  :  return !m_pWorld->isPathObstructed(from, to, BRadius());
+; 528  :  return !m_pWorld->isPathObstructed(from, to, BRadius());
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?BRadius@BaseGameEntity@@QBENXZ		; BaseGameEntity::BRadius
@@ -47958,7 +49789,7 @@ $LN3@canWalkBet:
 $LN4@canWalkBet:
 	mov	al, BYTE PTR tv78[ebp]
 
-; 502  : }
+; 529  : }
 
 	add	esp, 8
 	cmp	ebp, esp
@@ -47978,7 +49809,7 @@ _pos$ = 8						; size = 16
 ?canWalkTo@Raven_Bot@@QBE_NUVector2D@@@Z PROC		; Raven_Bot::canWalkTo
 ; _this$ = ecx
 
-; 493  : {
+; 520  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -47992,7 +49823,7 @@ _pos$ = 8						; size = 16
 	mov	DWORD PTR [ebp-4], eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 494  :   return !m_pWorld->isPathObstructed(Pos(), pos, BRadius());
+; 521  :   return !m_pWorld->isPathObstructed(Pos(), pos, BRadius());
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?BRadius@BaseGameEntity@@QBENXZ		; BaseGameEntity::BRadius
@@ -48035,7 +49866,7 @@ $LN3@canWalkTo:
 $LN4@canWalkTo:
 	mov	al, BYTE PTR tv85[ebp]
 
-; 495  : }
+; 522  : }
 
 	add	esp, 24					; 00000018H
 	cmp	ebp, esp
@@ -48054,7 +49885,7 @@ _pos$ = 8						; size = 16
 ?hasLOSto@Raven_Bot@@QBE_NUVector2D@@@Z PROC		; Raven_Bot::hasLOSto
 ; _this$ = ecx
 
-; 486  : {
+; 513  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48067,7 +49898,7 @@ _pos$ = 8						; size = 16
 	mov	DWORD PTR [ebp-4], eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 487  :   return m_pWorld->isLOSOkay(Pos(), pos);
+; 514  :   return m_pWorld->isLOSOkay(Pos(), pos);
 
 	sub	esp, 16					; 00000010H
 	mov	eax, esp
@@ -48097,7 +49928,7 @@ _pos$ = 8						; size = 16
 	mov	ecx, DWORD PTR [ecx+152]
 	call	?isLOSOkay@Raven_Game@@QBE_NUVector2D@@0@Z ; Raven_Game::isLOSOkay
 
-; 488  : }
+; 515  : }
 
 	add	esp, 20					; 00000014H
 	cmp	ebp, esp
@@ -48114,7 +49945,7 @@ _this$ = -4						; size = 4
 ?isReadyForTriggerUpdate@Raven_Bot@@QBE_NXZ PROC	; Raven_Bot::isReadyForTriggerUpdate
 ; _this$ = ecx
 
-; 284  : {
+; 311  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48122,13 +49953,13 @@ _this$ = -4						; size = 4
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 285  :   return m_pTriggerTestRegulator->isReady();
+; 312  :   return m_pTriggerTestRegulator->isReady();
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+196]
 	call	?isReady@Regulator@@QAE_NXZ		; Regulator::isReady
 
-; 286  : }
+; 313  : }
 
 	add	esp, 4
 	cmp	ebp, esp
@@ -48146,7 +49977,7 @@ _pos$ = 8						; size = 16
 ?Spawn@Raven_Bot@@QAEXUVector2D@@@Z PROC		; Raven_Bot::Spawn
 ; _this$ = ecx
 
-; 179  : {
+; 183  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48154,24 +49985,24 @@ _pos$ = 8						; size = 16
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 180  :     SetAlive();
+; 184  :     SetAlive();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?SetAlive@Raven_Bot@@QAEXXZ		; Raven_Bot::SetAlive
 
-; 181  :     m_pBrain->RemoveAllSubgoals();
+; 185  :     m_pBrain->RemoveAllSubgoals();
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+156]
 	call	?RemoveAllSubgoals@?$Goal_Composite@VRaven_Bot@@@@QAEXXZ ; Goal_Composite<Raven_Bot>::RemoveAllSubgoals
 
-; 182  :     m_pTargSys->ClearTarget();
+; 186  :     m_pTargSys->ClearTarget();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx+172]
 	call	?ClearTarget@Raven_TargetingSystem@@QAEXXZ ; Raven_TargetingSystem::ClearTarget
 
-; 183  :     SetPos(pos);
+; 187  :     SetPos(pos);
 
 	sub	esp, 16					; 00000010H
 	mov	edx, esp
@@ -48186,18 +50017,18 @@ _pos$ = 8						; size = 16
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?SetPos@BaseGameEntity@@QAEXUVector2D@@@Z ; BaseGameEntity::SetPos
 
-; 184  :     m_pWeaponSys->Initialize();
+; 188  :     m_pWeaponSys->Initialize();
 
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [edx+180]
 	call	?Initialize@Raven_WeaponSystem@@QAEXXZ	; Raven_WeaponSystem::Initialize
 
-; 185  :     RestoreHealthToMaximum();
+; 189  :     RestoreHealthToMaximum();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?RestoreHealthToMaximum@Raven_Bot@@QAEXXZ ; Raven_Bot::RestoreHealthToMaximum
 
-; 186  : }
+; 190  : }
 
 	add	esp, 4
 	cmp	ebp, esp
@@ -48215,7 +50046,7 @@ _this$ = -4						; size = 4
 ?Exorcise@Raven_Bot@@QAEXXZ PROC			; Raven_Bot::Exorcise
 ; _this$ = ecx
 
-; 435  : {
+; 462  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48224,28 +50055,28 @@ _this$ = -4						; size = 4
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 436  :   m_bPossessed = false;
+; 463  :   m_bPossessed = false;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	BYTE PTR [eax+245], 0
 
-; 437  :   //when the player is exorcised then the bot should resume normal service
-; 438  :   m_pBrain->AddGoal_Explore();
+; 464  :   //when the player is exorcised then the bot should resume normal service
+; 465  :   m_pBrain->AddGoal_Explore();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx+156]
 	call	?AddGoal_Explore@Goal_Think@@QAEXXZ	; Goal_Think::AddGoal_Explore
 
-; 439  :   
-; 440  :   debug_con << "Player is exorcised from bot " << this->ID() << "";
+; 466  :   
+; 467  :   debug_con << "Player is exorcised from bot " << this->ID() << "";
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?ID@BaseGameEntity@@QBEHXZ		; BaseGameEntity::ID
 	mov	DWORD PTR $T1[ebp], eax
-	push	OFFSET $SG187427
+	push	OFFSET $SG193618
 	lea	edx, DWORD PTR $T1[ebp]
 	push	edx
-	push	OFFSET $SG187426
+	push	OFFSET $SG193617
 	call	?Instance@DebugConsole@@SAPAV1@XZ	; DebugConsole::Instance
 	mov	ecx, eax
 	call	??$?6$$BY0BO@D@DebugConsole@@QAEAAV0@AAY0BO@$$CBD@Z ; DebugConsole::operator<<<char [30]>
@@ -48254,7 +50085,7 @@ _this$ = -4						; size = 4
 	mov	ecx, eax
 	call	??$?6$$BY00D@DebugConsole@@QAEAAV0@AAY00$$CBD@Z ; DebugConsole::operator<<<char [1]>
 
-; 441  : }
+; 468  : }
 
 	add	esp, 8
 	cmp	ebp, esp
@@ -48272,7 +50103,7 @@ _this$ = -4						; size = 4
 ?TakePossession@Raven_Bot@@QAEXXZ PROC			; Raven_Bot::TakePossession
 ; _this$ = ecx
 
-; 423  : {
+; 450  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48281,7 +50112,7 @@ _this$ = -4						; size = 4
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 424  :   if ( !(isSpawning() || isDead()))
+; 451  :   if ( !(isSpawning() || isDead()))
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?isSpawning@Raven_Bot@@QBE_NXZ		; Raven_Bot::isSpawning
@@ -48294,21 +50125,21 @@ _this$ = -4						; size = 4
 	test	ecx, ecx
 	jne	SHORT $LN1@TakePosses
 
-; 425  :   {
-; 426  :     m_bPossessed = true;
+; 452  :   {
+; 453  :     m_bPossessed = true;
 
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	BYTE PTR [edx+245], 1
 
-; 427  :     debug_con << "Player Possesses bot " << this->ID() << "";
+; 454  :     debug_con << "Player Possesses bot " << this->ID() << "";
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?ID@BaseGameEntity@@QBEHXZ		; BaseGameEntity::ID
 	mov	DWORD PTR $T1[ebp], eax
-	push	OFFSET $SG187418
+	push	OFFSET $SG193606
 	lea	eax, DWORD PTR $T1[ebp]
 	push	eax
-	push	OFFSET $SG187417
+	push	OFFSET $SG193605
 	call	?Instance@DebugConsole@@SAPAV1@XZ	; DebugConsole::Instance
 	mov	ecx, eax
 	call	??$?6$$BY0BG@D@DebugConsole@@QAEAAV0@AAY0BG@$$CBD@Z ; DebugConsole::operator<<<char [22]>
@@ -48318,8 +50149,8 @@ _this$ = -4						; size = 4
 	call	??$?6$$BY00D@DebugConsole@@QAEAAV0@AAY00$$CBD@Z ; DebugConsole::operator<<<char [1]>
 $LN1@TakePosses:
 
-; 428  :   }
-; 429  : }
+; 455  :   }
+; 456  : }
 
 	add	esp, 8
 	cmp	ebp, esp
@@ -48337,7 +50168,7 @@ _type$ = 8						; size = 4
 ?ChangeWeapon@Raven_Bot@@QAEXI@Z PROC			; Raven_Bot::ChangeWeapon
 ; _this$ = ecx
 
-; 446  : {
+; 473  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48345,7 +50176,7 @@ _type$ = 8						; size = 4
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 447  :   m_pWeaponSys->ChangeWeapon(type);
+; 474  :   m_pWeaponSys->ChangeWeapon(type);
 
 	mov	eax, DWORD PTR _type$[ebp]
 	push	eax
@@ -48353,7 +50184,7 @@ _type$ = 8						; size = 4
 	mov	ecx, DWORD PTR [ecx+180]
 	call	?ChangeWeapon@Raven_WeaponSystem@@QAEXI@Z ; Raven_WeaponSystem::ChangeWeapon
 
-; 448  : }
+; 475  : }
 
 	add	esp, 4
 	cmp	ebp, esp
@@ -48371,7 +50202,7 @@ _pos$ = 8						; size = 16
 ?FireWeapon@Raven_Bot@@QAEXUVector2D@@@Z PROC		; Raven_Bot::FireWeapon
 ; _this$ = ecx
 
-; 456  : {
+; 483  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48379,7 +50210,7 @@ _pos$ = 8						; size = 16
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 457  :   m_pWeaponSys->ShootAt(pos);
+; 484  :   m_pWeaponSys->ShootAt(pos);
 
 	sub	esp, 16					; 00000010H
 	mov	eax, esp
@@ -48395,7 +50226,7 @@ _pos$ = 8						; size = 16
 	mov	ecx, DWORD PTR [eax+180]
 	call	?ShootAt@Raven_WeaponSystem@@QBEXUVector2D@@@Z ; Raven_WeaponSystem::ShootAt
 
-; 458  : }
+; 485  : }
 
 	add	esp, 4
 	cmp	ebp, esp
@@ -48416,7 +50247,7 @@ _pos$ = 8						; size = 16
 ?isAtPosition@Raven_Bot@@QBE_NUVector2D@@@Z PROC	; Raven_Bot::isAtPosition
 ; _this$ = ecx
 
-; 475  : {
+; 502  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48432,9 +50263,9 @@ _pos$ = 8						; size = 16
 	mov	DWORD PTR [ebp-4], eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 476  :   const static double tolerance = 10.0;
-; 477  :   
-; 478  :   return Vec2DDistanceSq(Pos(), pos) < tolerance * tolerance;
+; 503  :   const static double tolerance = 10.0;
+; 504  :   
+; 505  :   return Vec2DDistanceSq(Pos(), pos) < tolerance * tolerance;
 
 	lea	eax, DWORD PTR _pos$[ebp]
 	push	eax
@@ -48456,7 +50287,7 @@ $LN3@isAtPositi:
 $LN4@isAtPositi:
 	mov	al, BYTE PTR tv75[ebp]
 
-; 479  : }
+; 506  : }
 
 	add	esp, 32					; 00000020H
 	cmp	ebp, esp
@@ -48479,7 +50310,7 @@ _pos$ = 8						; size = 16
 ?CalculateTimeToReachPosition@Raven_Bot@@QBENUVector2D@@@Z PROC ; Raven_Bot::CalculateTimeToReachPosition
 ; _this$ = ecx
 
-; 466  : {
+; 493  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48493,7 +50324,7 @@ _pos$ = 8						; size = 16
 	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 467  :   return Vec2DDistance(Pos(), pos) / (MaxSpeed() * FrameRate);
+; 494  :   return Vec2DDistance(Pos(), pos) / (MaxSpeed() * FrameRate);
 
 	lea	eax, DWORD PTR _pos$[ebp]
 	push	eax
@@ -48517,7 +50348,7 @@ _pos$ = 8						; size = 16
 	movsd	QWORD PTR tv128[ebp], xmm1
 	fld	QWORD PTR tv128[ebp]
 
-; 468  : }
+; 495  : }
 
 	pop	edi
 	add	esp, 52					; 00000034H
@@ -48536,7 +50367,7 @@ _this$ = -4						; size = 4
 ?SetEquipeYellow@Raven_Bot@@QAEXXZ PROC			; Raven_Bot::SetEquipeYellow, COMDAT
 ; _this$ = ecx
 
-; 177  : 	void			SetEquipeYellow() { m_Equipe = yellow; }
+; 180  : 	void			SetEquipeYellow() { m_Equipe = yellow; }
 
 	push	ebp
 	mov	ebp, esp
@@ -48558,7 +50389,7 @@ _this$ = -4						; size = 4
 ?SetEquipeNone@Raven_Bot@@QAEXXZ PROC			; Raven_Bot::SetEquipeNone, COMDAT
 ; _this$ = ecx
 
-; 176  : 	void			SetEquipeNone() { m_Equipe = none; }
+; 179  : 	void			SetEquipeNone() { m_Equipe = none; }
 
 	push	ebp
 	mov	ebp, esp
@@ -48580,7 +50411,7 @@ _this$ = -4						; size = 4
 ?SetEquipeRed@Raven_Bot@@QAEXXZ PROC			; Raven_Bot::SetEquipeRed, COMDAT
 ; _this$ = ecx
 
-; 175  : 	void			SetEquipeRed() { m_Equipe = red; }					// set quel equipe le bot est
+; 178  : 	void			SetEquipeRed() { m_Equipe = red; }					// set quel equipe le bot est
 
 	push	ebp
 	mov	ebp, esp
@@ -48809,7 +50640,7 @@ _this$ = -4						; size = 4
 ?RestoreHealthToMaximum@Raven_Bot@@QAEXXZ PROC		; Raven_Bot::RestoreHealthToMaximum
 ; _this$ = ecx
 
-; 651  : void Raven_Bot::RestoreHealthToMaximum(){m_iHealth = m_iMaxHealth;}
+; 678  : void Raven_Bot::RestoreHealthToMaximum(){m_iHealth = m_iMaxHealth;}
 
 	push	ebp
 	mov	ebp, esp
@@ -48834,7 +50665,7 @@ _val$ = 8						; size = 4
 ?IncreaseHealth@Raven_Bot@@QAEXI@Z PROC			; Raven_Bot::IncreaseHealth
 ; _this$ = ecx
 
-; 654  : {
+; 681  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48843,7 +50674,7 @@ _val$ = 8						; size = 4
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 655  :   m_iHealth+=val; 
+; 682  :   m_iHealth+=val; 
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+204]
@@ -48851,7 +50682,7 @@ _val$ = 8						; size = 4
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [edx+204], ecx
 
-; 656  :   Clamp(m_iHealth, 0, m_iMaxHealth);
+; 683  :   Clamp(m_iHealth, 0, m_iMaxHealth);
 
 	mov	DWORD PTR $T1[ebp], 0
 	mov	eax, DWORD PTR _this$[ebp]
@@ -48865,7 +50696,7 @@ _val$ = 8						; size = 4
 	call	??$Clamp@HHH@@YAXAAHABH1@Z		; Clamp<int,int,int>
 	add	esp, 12					; 0000000cH
 
-; 657  : }
+; 684  : }
 
 	add	esp, 8
 	cmp	ebp, esp
@@ -48887,7 +50718,7 @@ _val$ = 8						; size = 4
 ?ReduceHealth@Raven_Bot@@QAEXI@Z PROC			; Raven_Bot::ReduceHealth
 ; _this$ = ecx
 
-; 405  : {
+; 432  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -48909,7 +50740,7 @@ _val$ = 8						; size = 4
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 406  :   m_iHealth -= val;
+; 433  :   m_iHealth -= val;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+204]
@@ -48917,34 +50748,34 @@ _val$ = 8						; size = 4
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [edx+204], ecx
 
-; 407  : 
-; 408  :   if (m_iHealth <= 0)
+; 434  : 
+; 435  :   if (m_iHealth <= 0)
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+204], 0
 	jg	SHORT $LN2@ReduceHeal
 
-; 409  :   {
-; 410  :     SetDead();
+; 436  :   {
+; 437  :     SetDead();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?SetDead@Raven_Bot@@QAEXXZ		; Raven_Bot::SetDead
 $LN2@ReduceHeal:
 
-; 411  :   }
-; 412  : 
-; 413  :   m_bHit = true;
+; 438  :   }
+; 439  : 
+; 440  :   m_bHit = true;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	BYTE PTR [ecx+244], 1
 
-; 414  : 
-; 415  :   m_iNumUpdatesHitPersistant = (int)(FrameRate * script->GetDouble("HitFlashTime"));
+; 441  : 
+; 442  :   m_iNumUpdatesHitPersistant = (int)(FrameRate * script->GetDouble("HitFlashTime"));
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T2[ebp], esp
-	push	OFFSET $SG187411
+	push	OFFSET $SG193599
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	mov	DWORD PTR tv131[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
@@ -48959,7 +50790,7 @@ $LN2@ReduceHeal:
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [eax+240], edx
 
-; 416  : }
+; 443  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -49023,7 +50854,7 @@ _target$ = 8						; size = 16
 ?RotateFacingTowardPosition@Raven_Bot@@QAE_NUVector2D@@@Z PROC ; Raven_Bot::RotateFacingTowardPosition
 ; _this$ = ecx
 
-; 364  : {
+; 391  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -49037,7 +50868,7 @@ _target$ = 8						; size = 16
 	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 365  :   Vector2D toTarget = Vec2DNormalize(target - m_vPosition);
+; 392  :   Vector2D toTarget = Vec2DNormalize(target - m_vPosition);
 
 	mov	eax, DWORD PTR _this$[ebp]
 	add	eax, 24					; 00000018H
@@ -49054,8 +50885,8 @@ _target$ = 8						; size = 16
 	call	?Vec2DNormalize@@YA?AUVector2D@@ABU1@@Z	; Vec2DNormalize
 	add	esp, 8
 
-; 366  : 
-; 367  :   double dot = m_vFacing.Dot(toTarget);
+; 393  : 
+; 394  :   double dot = m_vFacing.Dot(toTarget);
 
 	lea	ecx, DWORD PTR _toTarget$[ebp]
 	push	ecx
@@ -49064,9 +50895,9 @@ _target$ = 8						; size = 16
 	call	?Dot@Vector2D@@QBENABU1@@Z		; Vector2D::Dot
 	fstp	QWORD PTR _dot$[ebp]
 
-; 368  : 
-; 369  :   //clamp to rectify any rounding errors
-; 370  :   Clamp(dot, -1, 1);
+; 395  : 
+; 396  :   //clamp to rectify any rounding errors
+; 397  :   Clamp(dot, -1, 1);
 
 	mov	DWORD PTR $T2[ebp], 1
 	mov	DWORD PTR $T1[ebp], -1
@@ -49079,9 +50910,9 @@ _target$ = 8						; size = 16
 	call	??$Clamp@NHH@@YAXAANABH1@Z		; Clamp<double,int,int>
 	add	esp, 12					; 0000000cH
 
-; 371  : 
-; 372  :   //determine the angle between the heading vector and the target
-; 373  :   double angle = acos(dot);
+; 398  : 
+; 399  :   //determine the angle between the heading vector and the target
+; 400  :   double angle = acos(dot);
 
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR _dot$[ebp]
@@ -49090,23 +50921,23 @@ _target$ = 8						; size = 16
 	add	esp, 8
 	fstp	QWORD PTR _angle$[ebp]
 
-; 374  : 
-; 375  :   //return true if the bot's facing is within WeaponAimTolerance degs of
-; 376  :   //facing the target
-; 377  :   const double WeaponAimTolerance = 0.01; //2 degs approx
+; 401  : 
+; 402  :   //return true if the bot's facing is within WeaponAimTolerance degs of
+; 403  :   //facing the target
+; 404  :   const double WeaponAimTolerance = 0.01; //2 degs approx
 
 	movsd	xmm0, QWORD PTR __real@3f847ae147ae147b
 	movsd	QWORD PTR _WeaponAimTolerance$[ebp], xmm0
 
-; 378  : 
-; 379  :   if (angle < WeaponAimTolerance)
+; 405  : 
+; 406  :   if (angle < WeaponAimTolerance)
 
 	movsd	xmm0, QWORD PTR __real@3f847ae147ae147b
 	comisd	xmm0, QWORD PTR _angle$[ebp]
 	jbe	SHORT $LN2@RotateFaci
 
-; 380  :   {
-; 381  :     m_vFacing = toTarget;
+; 407  :   {
+; 408  :     m_vFacing = toTarget;
 
 	mov	edx, DWORD PTR _this$[ebp]
 	add	edx, 216				; 000000d8H
@@ -49119,16 +50950,16 @@ _target$ = 8						; size = 16
 	mov	ecx, DWORD PTR _toTarget$[ebp+12]
 	mov	DWORD PTR [edx+12], ecx
 
-; 382  :     return true;
+; 409  :     return true;
 
 	mov	al, 1
 	jmp	SHORT $LN1@RotateFaci
 $LN2@RotateFaci:
 
-; 383  :   }
-; 384  : 
-; 385  :   //clamp the amount to turn to the max turn rate
-; 386  :   if (angle > m_dMaxTurnRate) angle = m_dMaxTurnRate;
+; 410  :   }
+; 411  : 
+; 412  :   //clamp the amount to turn to the max turn rate
+; 413  :   if (angle > m_dMaxTurnRate) angle = m_dMaxTurnRate;
 
 	mov	edx, DWORD PTR _this$[ebp]
 	movsd	xmm0, QWORD PTR _angle$[ebp]
@@ -49139,18 +50970,18 @@ $LN2@RotateFaci:
 	movsd	QWORD PTR _angle$[ebp], xmm0
 $LN3@RotateFaci:
 
-; 387  :   
-; 388  :   //The next few lines use a rotation matrix to rotate the player's facing
-; 389  :   //vector accordingly
-; 390  :   C2DMatrix RotationMatrix;
+; 414  :   
+; 415  :   //The next few lines use a rotation matrix to rotate the player's facing
+; 416  :   //vector accordingly
+; 417  :   C2DMatrix RotationMatrix;
 
 	lea	ecx, DWORD PTR _RotationMatrix$[ebp]
 	call	??0C2DMatrix@@QAE@XZ			; C2DMatrix::C2DMatrix
 
-; 391  :   
-; 392  :   //notice how the direction of rotation has to be determined when creating
-; 393  :   //the rotation matrix
-; 394  :   RotationMatrix.Rotate(angle * m_vFacing.Sign(toTarget));	
+; 418  :   
+; 419  :   //notice how the direction of rotation has to be determined when creating
+; 420  :   //the rotation matrix
+; 421  :   RotationMatrix.Rotate(angle * m_vFacing.Sign(toTarget));	
 
 	lea	ecx, DWORD PTR _toTarget$[ebp]
 	push	ecx
@@ -49164,7 +50995,7 @@ $LN3@RotateFaci:
 	lea	ecx, DWORD PTR _RotationMatrix$[ebp]
 	call	?Rotate@C2DMatrix@@QAEXN@Z		; C2DMatrix::Rotate
 
-; 395  :   RotationMatrix.TransformVector2Ds(m_vFacing);
+; 422  :   RotationMatrix.TransformVector2Ds(m_vFacing);
 
 	mov	edx, DWORD PTR _this$[ebp]
 	add	edx, 216				; 000000d8H
@@ -49172,13 +51003,13 @@ $LN3@RotateFaci:
 	lea	ecx, DWORD PTR _RotationMatrix$[ebp]
 	call	?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z ; C2DMatrix::TransformVector2Ds
 
-; 396  : 
-; 397  :   return false;
+; 423  : 
+; 424  :   return false;
 
 	xor	al, al
 $LN1@RotateFaci:
 
-; 398  : }
+; 425  : }
 
 	push	edx
 	mov	ecx, ebp
@@ -49294,7 +51125,7 @@ _msg$ = 8						; size = 4
 ?HandleMessage@Raven_Bot@@UAE_NABUTelegram@@@Z PROC	; Raven_Bot::HandleMessage
 ; _this$ = ecx
 
-; 291  : {
+; 318  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -49307,8 +51138,8 @@ _msg$ = 8						; size = 4
 	mov	DWORD PTR [ebp-4], eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 292  :   //first see if the current goal accepts the message
-; 293  :   if (GetBrain()->HandleMessage(msg)) return true;
+; 319  :   //first see if the current goal accepts the message
+; 320  :   if (GetBrain()->HandleMessage(msg)) return true;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?GetBrain@Raven_Bot@@QAEQAVGoal_Think@@XZ ; Raven_Bot::GetBrain
@@ -49330,9 +51161,9 @@ _msg$ = 8						; size = 4
 	jmp	$LN2@HandleMess
 $LN4@HandleMess:
 
-; 294  :  
-; 295  :   //handle any messages not handles by the goals
-; 296  :   switch(msg.Msg)
+; 321  :  
+; 322  :   //handle any messages not handles by the goals
+; 323  :   switch(msg.Msg)
 
 	mov	edx, DWORD PTR _msg$[ebp]
 	mov	eax, DWORD PTR [edx+8]
@@ -49346,11 +51177,11 @@ $LN4@HandleMess:
 	jmp	DWORD PTR $LN15@HandleMess[edx*4]
 $LN5@HandleMess:
 
-; 297  :   {
-; 298  :   case Msg_TakeThatMF:
-; 299  : 
-; 300  :     //just return if already dead or spawning
-; 301  :     if (isDead() || isSpawning()) return true;
+; 324  :   {
+; 325  :   case Msg_TakeThatMF:
+; 326  : 
+; 327  :     //just return if already dead or spawning
+; 328  :     if (isDead() || isSpawning()) return true;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?isDead@Raven_Bot@@QBE_NXZ		; Raven_Bot::isDead
@@ -49367,9 +51198,9 @@ $LN7@HandleMess:
 	jmp	$LN2@HandleMess
 $LN6@HandleMess:
 
-; 302  : 
-; 303  :     //the extra info field of the telegram carries the amount of damage
-; 304  :     ReduceHealth(DereferenceToType<int>(msg.ExtraInfo));
+; 329  : 
+; 330  :     //the extra info field of the telegram carries the amount of damage
+; 331  :     ReduceHealth(DereferenceToType<int>(msg.ExtraInfo));
 
 	mov	edx, DWORD PTR _msg$[ebp]
 	mov	eax, DWORD PTR [edx+24]
@@ -49380,9 +51211,9 @@ $LN6@HandleMess:
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?ReduceHealth@Raven_Bot@@QAEXI@Z	; Raven_Bot::ReduceHealth
 
-; 305  : 
-; 306  :     //if this bot is now dead let the shooter know
-; 307  :     if (isDead())
+; 332  : 
+; 333  :     //if this bot is now dead let the shooter know
+; 334  :     if (isDead())
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?isDead@Raven_Bot@@QBE_NXZ		; Raven_Bot::isDead
@@ -49390,8 +51221,8 @@ $LN6@HandleMess:
 	test	ecx, ecx
 	je	SHORT $LN8@HandleMess
 
-; 308  :     {
-; 309  :       Dispatcher->DispatchMsg(SEND_MSG_IMMEDIATELY,
+; 335  :     {
+; 336  :       Dispatcher->DispatchMsg(SEND_MSG_IMMEDIATELY,
 
 	push	0
 	push	4
@@ -49409,50 +51240,50 @@ $LN6@HandleMess:
 	call	?DispatchMsg@MessageDispatcher@@QAEXNHHHPAX@Z ; MessageDispatcher::DispatchMsg
 $LN8@HandleMess:
 
-; 310  :                               ID(),
-; 311  :                               msg.Sender,
-; 312  :                               Msg_YouGotMeYouSOB,
-; 313  :                               NO_ADDITIONAL_INFO);
-; 314  :     }
-; 315  : 
-; 316  :     return true;
+; 337  :                               ID(),
+; 338  :                               msg.Sender,
+; 339  :                               Msg_YouGotMeYouSOB,
+; 340  :                               NO_ADDITIONAL_INFO);
+; 341  :     }
+; 342  : 
+; 343  :     return true;
 
 	mov	al, 1
 	jmp	$LN2@HandleMess
 $LN9@HandleMess:
 
-; 317  : 
-; 318  :   case Msg_YouGotMeYouSOB:
-; 319  :     
-; 320  :     IncrementScore();
+; 344  : 
+; 345  :   case Msg_YouGotMeYouSOB:
+; 346  :     
+; 347  :     IncrementScore();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?IncrementScore@Raven_Bot@@QAEXXZ	; Raven_Bot::IncrementScore
 
-; 321  :     
-; 322  :     //the bot this bot has just killed should be removed as the target
-; 323  :     m_pTargSys->ClearTarget();
+; 348  :     
+; 349  :     //the bot this bot has just killed should be removed as the target
+; 350  :     m_pTargSys->ClearTarget();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx+172]
 	call	?ClearTarget@Raven_TargetingSystem@@QAEXXZ ; Raven_TargetingSystem::ClearTarget
 
-; 324  : 	m_TargetMortel = NULL;
+; 351  : 	m_TargetMortel = NULL;
 
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [edx+176], 0
 
-; 325  :     return true;
+; 352  :     return true;
 
 	mov	al, 1
 	jmp	SHORT $LN2@HandleMess
 $LN10@HandleMess:
 
-; 326  : 
-; 327  :   case Msg_GunshotSound:
-; 328  : 
-; 329  :     //add the source of this sound to the bot's percepts
-; 330  :     GetSensoryMem()->UpdateWithSoundSource((Raven_Bot*)msg.ExtraInfo);
+; 353  : 
+; 354  :   case Msg_GunshotSound:
+; 355  : 
+; 356  :     //add the source of this sound to the bot's percepts
+; 357  :     GetSensoryMem()->UpdateWithSoundSource((Raven_Bot*)msg.ExtraInfo);
 
 	mov	eax, DWORD PTR _msg$[ebp]
 	mov	ecx, DWORD PTR [eax+24]
@@ -49462,25 +51293,25 @@ $LN10@HandleMess:
 	mov	ecx, eax
 	call	?UpdateWithSoundSource@Raven_SensoryMemory@@QAEXPAVRaven_Bot@@@Z ; Raven_SensoryMemory::UpdateWithSoundSource
 
-; 331  : 
-; 332  :     return true;
+; 358  : 
+; 359  :     return true;
 
 	mov	al, 1
 	jmp	SHORT $LN2@HandleMess
 $LN11@HandleMess:
 
-; 333  : 
-; 334  :   case Msg_UserHasRemovedBot:
-; 335  :     {
-; 336  : 
-; 337  :       Raven_Bot* pRemovedBot = (Raven_Bot*)msg.ExtraInfo;
+; 360  : 
+; 361  :   case Msg_UserHasRemovedBot:
+; 362  :     {
+; 363  : 
+; 364  :       Raven_Bot* pRemovedBot = (Raven_Bot*)msg.ExtraInfo;
 
 	mov	edx, DWORD PTR _msg$[ebp]
 	mov	eax, DWORD PTR [edx+24]
 	mov	DWORD PTR _pRemovedBot$1[ebp], eax
 
-; 338  : 
-; 339  :       GetSensoryMem()->RemoveBotFromMemory(pRemovedBot);
+; 365  : 
+; 366  :       GetSensoryMem()->RemoveBotFromMemory(pRemovedBot);
 
 	mov	ecx, DWORD PTR _pRemovedBot$1[ebp]
 	push	ecx
@@ -49489,9 +51320,9 @@ $LN11@HandleMess:
 	mov	ecx, eax
 	call	?RemoveBotFromMemory@Raven_SensoryMemory@@QAEXPAVRaven_Bot@@@Z ; Raven_SensoryMemory::RemoveBotFromMemory
 
-; 340  : 
-; 341  :       //if the removed bot is the target, make sure the target is cleared
-; 342  :       if (pRemovedBot == GetTargetSys()->GetTarget())
+; 367  : 
+; 368  :       //if the removed bot is the target, make sure the target is cleared
+; 369  :       if (pRemovedBot == GetTargetSys()->GetTarget())
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ ; Raven_Bot::GetTargetSys
@@ -49500,8 +51331,8 @@ $LN11@HandleMess:
 	cmp	DWORD PTR _pRemovedBot$1[ebp], eax
 	jne	SHORT $LN12@HandleMess
 
-; 343  :       {
-; 344  :         GetTargetSys()->ClearTarget();
+; 370  :       {
+; 371  :         GetTargetSys()->ClearTarget();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ ; Raven_Bot::GetTargetSys
@@ -49509,24 +51340,24 @@ $LN11@HandleMess:
 	call	?ClearTarget@Raven_TargetingSystem@@QAEXXZ ; Raven_TargetingSystem::ClearTarget
 $LN12@HandleMess:
 
-; 345  :       }
-; 346  : 
-; 347  :       return true;
+; 372  :       }
+; 373  : 
+; 374  :       return true;
 
 	mov	al, 1
 	jmp	SHORT $LN2@HandleMess
 $LN13@HandleMess:
 
-; 348  :     }
-; 349  : 
-; 350  : 
-; 351  :   default: return false;
+; 375  :     }
+; 376  : 
+; 377  : 
+; 378  :   default: return false;
 
 	xor	al, al
 $LN2@HandleMess:
 
-; 352  :   }
-; 353  : }
+; 379  :   }
+; 380  : }
 
 	pop	esi
 	add	esp, 16					; 00000010H
@@ -49547,25 +51378,41 @@ _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.cpp
 _TEXT	SEGMENT
-$T1 = -8						; size = 4
+tv295 = -104						; size = 4
+$T1 = -100						; size = 8
+$T2 = -92						; size = 8
+$T3 = -84						; size = 8
+$T4 = -76						; size = 8
+$T5 = -68						; size = 8
+$T6 = -60						; size = 8
+$T7 = -52						; size = 16
+$T8 = -36						; size = 16
+$T9 = -20						; size = 8
+$T10 = -12						; size = 4
+_haveShoot$11 = -5					; size = 1
 _this$ = -4						; size = 4
 ?Update@Raven_Bot@@UAEXXZ PROC				; Raven_Bot::Update
 ; _this$ = ecx
 
-; 191  : {
+; 195  : {
 
 	push	ebp
 	mov	ebp, esp
-	sub	esp, 8
+	sub	esp, 104				; 00000068H
 	push	esi
-	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-104]
+	mov	ecx, 26					; 0000001aH
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 192  :   //process the currently active goal. Note this is required even if the bot
-; 193  :   //is under user control. This is because a goal is created whenever a user 
-; 194  :   //clicks on an area of the map that necessitates a path planning request.
-; 195  :   m_pBrain->Process();
+; 196  :   //process the currently active goal. Note this is required even if the bot
+; 197  :   //is under user control. This is because a goal is created whenever a user 
+; 198  :   //clicks on an area of the map that necessitates a path planning request.
+; 199  :   m_pBrain->Process();
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+156]
@@ -49578,59 +51425,59 @@ _this$ = -4						; size = 4
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 196  :   
-; 197  :   //Calculate the steering force and update the bot's velocity and position
-; 198  :   UpdateMovement();
+; 200  :   
+; 201  :   //Calculate the steering force and update the bot's velocity and position
+; 202  :   UpdateMovement();
 
 	mov	ecx, DWORD PTR _this$[ebp]
-	call	?UpdateMovement@Raven_Bot@@AAEXXZ	; Raven_Bot::UpdateMovement
+	call	?UpdateMovement@Raven_Bot@@QAEXXZ	; Raven_Bot::UpdateMovement
 
-; 199  : 
-; 200  :   //if the bot is under AI control but not scripted
-; 201  :   if (!isPossessed())
+; 203  : 
+; 204  :   //if the bot is under AI control but not scripted
+; 205  :   if (!isPossessed())
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?isPossessed@Raven_Bot@@QBE_NXZ		; Raven_Bot::isPossessed
 	movzx	eax, al
 	test	eax, eax
-	jne	$LN1@Update
+	jne	$LN10@Update
 
-; 202  :   {           
-; 203  :     //examine all the opponents in the bots sensory memory and select one
-; 204  :     //to be the current target
-; 205  :     if (m_pTargetSelectionRegulator->isReady())
+; 206  :   {           
+; 207  :     //examine all the opponents in the bots sensory memory and select one
+; 208  :     //to be the current target
+; 209  :     if (m_pTargetSelectionRegulator->isReady())
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx+192]
 	call	?isReady@Regulator@@QAE_NXZ		; Regulator::isReady
 	movzx	edx, al
 	test	edx, edx
-	je	SHORT $LN3@Update
+	je	SHORT $LN4@Update
 
-; 206  :     {   
-; 207  : 		
-; 208  : 			m_pTargSys->Update();
+; 210  :     {   
+; 211  : 		
+; 212  : 			m_pTargSys->Update();
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+172]
 	call	?Update@Raven_TargetingSystem@@QAEXXZ	; Raven_TargetingSystem::Update
 
-; 209  : 		if(m_TargetMortel != NULL)
+; 213  : 		if(m_TargetMortel != NULL)
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [ecx+176], 0
-	je	SHORT $LN3@Update
+	je	SHORT $LN4@Update
 
-; 210  : 			debug_con << "Player is Target bot " << m_TargetMortel->ID() << "";
+; 214  : 			debug_con << "Player is Target bot " << m_TargetMortel->ID() << "";
 
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [edx+176]
 	call	?ID@BaseGameEntity@@QBEHXZ		; BaseGameEntity::ID
-	mov	DWORD PTR $T1[ebp], eax
-	push	OFFSET $SG187344
-	lea	eax, DWORD PTR $T1[ebp]
+	mov	DWORD PTR $T10[ebp], eax
+	push	OFFSET $SG193529
+	lea	eax, DWORD PTR $T10[ebp]
 	push	eax
-	push	OFFSET $SG187343
+	push	OFFSET $SG193528
 	call	?Instance@DebugConsole@@SAPAV1@XZ	; DebugConsole::Instance
 	mov	ecx, eax
 	call	??$?6$$BY0BG@D@DebugConsole@@QAEAAV0@AAY0BG@$$CBD@Z ; DebugConsole::operator<<<char [22]>
@@ -49638,12 +51485,12 @@ _this$ = -4						; size = 4
 	call	??$?6H@DebugConsole@@QAEAAV0@ABH@Z	; DebugConsole::operator<<<int>
 	mov	ecx, eax
 	call	??$?6$$BY00D@DebugConsole@@QAEAAV0@AAY00$$CBD@Z ; DebugConsole::operator<<<char [1]>
-$LN3@Update:
+$LN4@Update:
 
-; 211  :     }
-; 212  : 
-; 213  :     //appraise and arbitrate between all possible high level goals
-; 214  :     if (m_pGoalArbitrationRegulator->isReady())
+; 215  :     }
+; 216  : 
+; 217  :     //appraise and arbitrate between all possible high level goals
+; 218  :     if (m_pGoalArbitrationRegulator->isReady())
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx+188]
@@ -49652,18 +51499,18 @@ $LN3@Update:
 	test	edx, edx
 	je	SHORT $LN5@Update
 
-; 215  :     {
-; 216  :        m_pBrain->Arbitrate(); 
+; 219  :     {
+; 220  :        m_pBrain->Arbitrate(); 
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+156]
 	call	?Arbitrate@Goal_Think@@QAEXXZ		; Goal_Think::Arbitrate
 $LN5@Update:
 
-; 217  :     }
-; 218  : 
-; 219  :     //update the sensory memory with any visual stimulus
-; 220  :     if (m_pVisionUpdateRegulator->isReady())
+; 221  :     }
+; 222  : 
+; 223  :     //update the sensory memory with any visual stimulus
+; 224  :     if (m_pVisionUpdateRegulator->isReady())
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx+200]
@@ -49672,19 +51519,19 @@ $LN5@Update:
 	test	edx, edx
 	je	SHORT $LN6@Update
 
-; 221  :     {
-; 222  :       m_pSensoryMem->UpdateVision();
+; 225  :     {
+; 226  :       m_pSensoryMem->UpdateVision();
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+160]
 	call	?UpdateVision@Raven_SensoryMemory@@QAEXXZ ; Raven_SensoryMemory::UpdateVision
 $LN6@Update:
 
-; 223  :     }
-; 224  :   
-; 225  :     //select the appropriate weapon to use from the weapons currently in
-; 226  :     //the inventory
-; 227  :     if (m_pWeaponSelectionRegulator->isReady())
+; 227  :     }
+; 228  :   
+; 229  :     //select the appropriate weapon to use from the weapons currently in
+; 230  :     //the inventory
+; 231  :     if (m_pWeaponSelectionRegulator->isReady())
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx+184]
@@ -49693,30 +51540,182 @@ $LN6@Update:
 	test	edx, edx
 	je	SHORT $LN7@Update
 
-; 228  :     {       
-; 229  :       m_pWeaponSys->SelectWeapon();       
+; 232  :     {       
+; 233  :       m_pWeaponSys->SelectWeapon();       
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+180]
 	call	?SelectWeapon@Raven_WeaponSystem@@QAEXXZ ; Raven_WeaponSystem::SelectWeapon
 $LN7@Update:
 
-; 230  :     }
-; 231  : 
-; 232  :     //this method aims the bot's current weapon at the current target
-; 233  :     //and takes a shot if a shot is possible
-; 234  :     m_pWeaponSys->TakeAimAndShoot();
+; 234  :     }
+; 235  : 
+; 236  :     //this method aims the bot's current weapon at the current target
+; 237  :     //and takes a shot if a shot is possible
+; 238  : 	bool haveShoot = m_pWeaponSys->TakeAimAndShoot();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx+180]
-	call	?TakeAimAndShoot@Raven_WeaponSystem@@QBEXXZ ; Raven_WeaponSystem::TakeAimAndShoot
-$LN1@Update:
+	call	?TakeAimAndShoot@Raven_WeaponSystem@@QAE_NXZ ; Raven_WeaponSystem::TakeAimAndShoot
+	mov	BYTE PTR _haveShoot$11[ebp], al
 
-; 235  :   }
-; 236  : }
+; 239  : 
+; 240  : 
+; 241  : 	//sauvegarder les donnes pour un eventuel apprentissage
+; 242  : 
+; 243  : 
+; 244  : 	if (m_pTargSys->isTargetPresent()) {
 
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [edx+172]
+	call	?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ ; Raven_TargetingSystem::isTargetPresent
+	movzx	eax, al
+	test	eax, eax
+	je	$LN10@Update
+
+; 245  : 
+; 246  : 		m_vecObservation.clear();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ ; std::vector<double,std::allocator<double> >::clear
+
+; 247  : 		m_vecTarget.clear();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 296				; 00000128H
+	call	?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ ; std::vector<double,std::allocator<double> >::clear
+
+; 248  : 
+; 249  : 		m_vecObservation.push_back((Pos().Distance(m_pTargSys->GetTarget()->Pos())));
+
+	lea	ecx, DWORD PTR $T7[ebp]
+	push	ecx
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [edx+172]
+	call	?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ ; Raven_TargetingSystem::GetTarget
+	mov	ecx, eax
+	call	?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ	; BaseGameEntity::Pos
+	push	eax
+	lea	eax, DWORD PTR $T8[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ	; BaseGameEntity::Pos
+	mov	ecx, eax
+	call	?Distance@Vector2D@@QBENABU1@@Z		; Vector2D::Distance
+	fstp	QWORD PTR $T9[ebp]
+	lea	ecx, DWORD PTR $T9[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z ; std::vector<double,std::allocator<double> >::push_back
+
+; 250  : 		m_vecObservation.push_back(m_pTargSys->isTargetWithinFOV());
+
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [edx+172]
+	call	?isTargetWithinFOV@Raven_TargetingSystem@@QBE_NXZ ; Raven_TargetingSystem::isTargetWithinFOV
+	movzx	eax, al
+	cvtsi2sd xmm0, eax
+	movsd	QWORD PTR $T6[ebp], xmm0
+	lea	ecx, DWORD PTR $T6[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z ; std::vector<double,std::allocator<double> >::push_back
+
+; 251  : 		m_vecObservation.push_back(m_pWeaponSys->GetAmmoRemainingForWeapon(m_pWeaponSys->GetCurrentWeapon()->GetType()));
+
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [edx+180]
+	call	?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ ; Raven_WeaponSystem::GetCurrentWeapon
+	mov	ecx, eax
+	call	?GetType@Raven_Weapon@@QBEIXZ		; Raven_Weapon::GetType
+	push	eax
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [eax+180]
+	call	?GetAmmoRemainingForWeapon@Raven_WeaponSystem@@QAEHI@Z ; Raven_WeaponSystem::GetAmmoRemainingForWeapon
+	cvtsi2sd xmm0, eax
+	movsd	QWORD PTR $T5[ebp], xmm0
+	lea	ecx, DWORD PTR $T5[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z ; std::vector<double,std::allocator<double> >::push_back
+
+; 252  : 		m_vecObservation.push_back(m_pWeaponSys->GetCurrentWeapon()->GetType());
+
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [edx+180]
+	call	?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ ; Raven_WeaponSystem::GetCurrentWeapon
+	mov	ecx, eax
+	call	?GetType@Raven_Weapon@@QBEIXZ		; Raven_Weapon::GetType
+	mov	DWORD PTR tv295[ebp], eax
+	cvtsi2sd xmm0, DWORD PTR tv295[ebp]
+	mov	eax, DWORD PTR tv295[ebp]
+	shr	eax, 31					; 0000001fH
+	addsd	xmm0, QWORD PTR __xmm@41f00000000000000000000000000000[eax*8]
+	movsd	QWORD PTR $T4[ebp], xmm0
+	lea	ecx, DWORD PTR $T4[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z ; std::vector<double,std::allocator<double> >::push_back
+
+; 253  : 		m_vecObservation.push_back((Health()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?Health@Raven_Bot@@QBEHXZ		; Raven_Bot::Health
+	cvtsi2sd xmm0, eax
+	movsd	QWORD PTR $T3[ebp], xmm0
+	lea	edx, DWORD PTR $T3[ebp]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z ; std::vector<double,std::allocator<double> >::push_back
+
+; 254  : 
+; 255  : 		if (!haveShoot) {
+
+	movzx	eax, BYTE PTR _haveShoot$11[ebp]
+	test	eax, eax
+	jne	SHORT $LN9@Update
+
+; 256  : 			m_vecTarget.push_back(0); // La classe est ngative.  Ne tire pas 
+
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR $T2[ebp], xmm0
+	lea	ecx, DWORD PTR $T2[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 296				; 00000128H
+	call	?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z ; std::vector<double,std::allocator<double> >::push_back
+
+; 257  : 		}
+; 258  : 		else {
+
+	jmp	SHORT $LN10@Update
+$LN9@Update:
+
+; 259  : 			m_vecTarget.push_back(1); // la classe de l'observation est positive. Il tire
+
+	movsd	xmm0, QWORD PTR __real@3ff0000000000000
+	movsd	QWORD PTR $T1[ebp], xmm0
+	lea	edx, DWORD PTR $T1[ebp]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 296				; 00000128H
+	call	?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z ; std::vector<double,std::allocator<double> >::push_back
+$LN10@Update:
+
+; 260  : 		}
+; 261  : 	}
+; 262  :   }
+; 263  : }
+
+	pop	edi
 	pop	esi
-	add	esp, 8
+	add	esp, 104				; 00000068H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
@@ -49764,7 +51763,7 @@ __$EHRec$ = -12						; size = 12
 ?Render@Raven_Bot@@UAEXXZ PROC				; Raven_Bot::Render
 ; _this$ = ecx
 
-; 549  : {
+; 576  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -49788,11 +51787,11 @@ __$EHRec$ = -12						; size = 12
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 550  :   //when a bot is hit by a projectile this value is set to a constant user
-; 551  :   //defined value which dictates how long the bot should have a thick red
-; 552  :   //circle drawn around it (to indicate it's been hit) The circle is drawn
-; 553  :   //as long as this value is positive. (see Render)
-; 554  :   m_iNumUpdatesHitPersistant--;
+; 577  :   //when a bot is hit by a projectile this value is set to a constant user
+; 578  :   //defined value which dictates how long the bot should have a thick red
+; 579  :   //circle drawn around it (to indicate it's been hit) The circle is drawn
+; 580  :   //as long as this value is positive. (see Render)
+; 581  :   m_iNumUpdatesHitPersistant--;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+240]
@@ -49800,9 +51799,9 @@ __$EHRec$ = -12						; size = 12
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [edx+240], ecx
 
-; 555  : 
-; 556  : 
-; 557  :   if (isDead() || isSpawning()) return;
+; 582  : 
+; 583  : 
+; 584  :   if (isDead() || isSpawning()) return;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?isDead@Raven_Bot@@QBE_NXZ		; Raven_Bot::isDead
@@ -49818,13 +51817,13 @@ $LN3@Render:
 	jmp	$LN1@Render
 $LN2@Render:
 
-; 558  :   if (m_Equipe == none)
+; 585  :   if (m_Equipe == none)
 
 	mov	edx, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [edx+148], 0
 	jne	SHORT $LN4@Render
 
-; 559  : 	  gdi->BluePen();
+; 586  : 	  gdi->BluePen();
 
 	call	?Instance@Cgdi@@SAPAV1@XZ		; Cgdi::Instance
 	mov	ecx, eax
@@ -49832,34 +51831,34 @@ $LN2@Render:
 	jmp	SHORT $LN7@Render
 $LN4@Render:
 
-; 560  :   else if (m_Equipe == red)
+; 587  :   else if (m_Equipe == red)
 
 	mov	eax, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [eax+148], 1
 	jne	SHORT $LN6@Render
 
-; 561  : 	  gdi->RedPen();
+; 588  : 	  gdi->RedPen();
 
 	call	?Instance@Cgdi@@SAPAV1@XZ		; Cgdi::Instance
 	mov	ecx, eax
 	call	?RedPen@Cgdi@@QAEXXZ			; Cgdi::RedPen
 
-; 562  :   else
+; 589  :   else
 
 	jmp	SHORT $LN7@Render
 $LN6@Render:
 
-; 563  :   {
-; 564  : 	  gdi->GreenPen();
+; 590  :   {
+; 591  : 	  gdi->GreenPen();
 
 	call	?Instance@Cgdi@@SAPAV1@XZ		; Cgdi::Instance
 	mov	ecx, eax
 	call	?GreenPen@Cgdi@@QAEXXZ			; Cgdi::GreenPen
 $LN7@Render:
 
-; 565  :   }
-; 566  : 
-; 567  :   m_vecBotVBTrans = WorldTransform(m_vecBotVB,
+; 592  :   }
+; 593  : 
+; 594  :   m_vecBotVBTrans = WorldTransform(m_vecBotVB,
 
 	lea	ecx, DWORD PTR $T15[ebp]
 	push	ecx
@@ -49901,12 +51900,12 @@ $LN7@Render:
 	lea	ecx, DWORD PTR $T10[ebp]
 	call	??1?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAE@XZ ; std::vector<Vector2D,std::allocator<Vector2D> >::~vector<Vector2D,std::allocator<Vector2D> >
 
-; 568  :                                    Pos(),
-; 569  :                                    Facing(),
-; 570  :                                    Facing().Perp(),
-; 571  :                                    Scale());
-; 572  : 
-; 573  :   gdi->ClosedShape(m_vecBotVBTrans);
+; 595  :                                    Pos(),
+; 596  :                                    Facing(),
+; 597  :                                    Facing().Perp(),
+; 598  :                                    Scale());
+; 599  : 
+; 600  :   gdi->ClosedShape(m_vecBotVBTrans);
 
 	mov	eax, DWORD PTR _this$[ebp]
 	add	eax, 264				; 00000108H
@@ -49915,15 +51914,15 @@ $LN7@Render:
 	mov	ecx, eax
 	call	?ClosedShape@Cgdi@@QAEXABV?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@@Z ; Cgdi::ClosedShape
 
-; 574  :   
-; 575  :   //draw the head
-; 576  :   gdi->BrownBrush();
+; 601  :   
+; 602  :   //draw the head
+; 603  :   gdi->BrownBrush();
 
 	call	?Instance@Cgdi@@SAPAV1@XZ		; Cgdi::Instance
 	mov	ecx, eax
 	call	?BrownBrush@Cgdi@@QAEXXZ		; Cgdi::BrownBrush
 
-; 577  :   gdi->Circle(Pos(), 6.0 * Scale().x);
+; 604  :   gdi->Circle(Pos(), 6.0 * Scale().x);
 
 	lea	ecx, DWORD PTR $T9[ebp]
 	push	ecx
@@ -49951,38 +51950,38 @@ $LN7@Render:
 	mov	ecx, eax
 	call	?Circle@Cgdi@@QAEXUVector2D@@N@Z	; Cgdi::Circle
 
-; 578  : 
-; 579  : 
-; 580  :   //render the bot's weapon
-; 581  :   m_pWeaponSys->RenderCurrentWeapon();
+; 605  : 
+; 606  : 
+; 607  :   //render the bot's weapon
+; 608  :   m_pWeaponSys->RenderCurrentWeapon();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx+180]
 	call	?RenderCurrentWeapon@Raven_WeaponSystem@@QBEXXZ ; Raven_WeaponSystem::RenderCurrentWeapon
 
-; 582  : 
-; 583  :   //render a thick red circle if the bot gets hit by a weapon
-; 584  :   if (m_bHit)
+; 609  : 
+; 610  :   //render a thick red circle if the bot gets hit by a weapon
+; 611  :   if (m_bHit)
 
 	mov	edx, DWORD PTR _this$[ebp]
 	movzx	eax, BYTE PTR [edx+244]
 	test	eax, eax
 	je	$LN9@Render
 
-; 585  :   {
-; 586  :     gdi->ThickRedPen();
+; 612  :   {
+; 613  :     gdi->ThickRedPen();
 
 	call	?Instance@Cgdi@@SAPAV1@XZ		; Cgdi::Instance
 	mov	ecx, eax
 	call	?ThickRedPen@Cgdi@@QAEXXZ		; Cgdi::ThickRedPen
 
-; 587  :     gdi->HollowBrush();
+; 614  :     gdi->HollowBrush();
 
 	call	?Instance@Cgdi@@SAPAV1@XZ		; Cgdi::Instance
 	mov	ecx, eax
 	call	?HollowBrush@Cgdi@@QAEXXZ		; Cgdi::HollowBrush
 
-; 588  :     gdi->Circle(m_vPosition, BRadius()+1);
+; 615  :     gdi->Circle(m_vPosition, BRadius()+1);
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?BRadius@BaseGameEntity@@QBENXZ		; BaseGameEntity::BRadius
@@ -50007,30 +52006,30 @@ $LN7@Render:
 	mov	ecx, eax
 	call	?Circle@Cgdi@@QAEXUVector2D@@N@Z	; Cgdi::Circle
 
-; 589  : 
-; 590  :     if (m_iNumUpdatesHitPersistant <= 0)
+; 616  : 
+; 617  :     if (m_iNumUpdatesHitPersistant <= 0)
 
 	mov	edx, DWORD PTR _this$[ebp]
 	cmp	DWORD PTR [edx+240], 0
 	jg	SHORT $LN9@Render
 
-; 591  :     {
-; 592  :       m_bHit = false;
+; 618  :     {
+; 619  :       m_bHit = false;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	BYTE PTR [eax+244], 0
 $LN9@Render:
 
-; 593  :     }
-; 594  :   }
-; 595  : 
-; 596  :   gdi->TransparentText();
+; 620  :     }
+; 621  :   }
+; 622  : 
+; 623  :   gdi->TransparentText();
 
 	call	?Instance@Cgdi@@SAPAV1@XZ		; Cgdi::Instance
 	mov	ecx, eax
 	call	?TransparentText@Cgdi@@QAEXXZ		; Cgdi::TransparentText
 
-; 597  :   gdi->TextColor(0,255,0);
+; 624  :   gdi->TextColor(0,255,0);
 
 	push	0
 	push	255					; 000000ffH
@@ -50039,16 +52038,16 @@ $LN9@Render:
 	mov	ecx, eax
 	call	?TextColor@Cgdi@@QAEXHHH@Z		; Cgdi::TextColor
 
-; 598  : 
-; 599  :   if (UserOptions->m_bShowBotIDs)
+; 625  : 
+; 626  :   if (UserOptions->m_bShowBotIDs)
 
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
 	movzx	ecx, BYTE PTR [eax+11]
 	test	ecx, ecx
 	je	$LN10@Render
 
-; 600  :   {
-; 601  :     gdi->TextAtPos(Pos().x -10, Pos().y-20, std::to_string(ID()));
+; 627  :   {
+; 628  :     gdi->TextAtPos(Pos().x -10, Pos().y-20, std::to_string(ID()));
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?ID@BaseGameEntity@@QBEHXZ		; BaseGameEntity::ID
@@ -50087,17 +52086,17 @@ $LN9@Render:
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 $LN10@Render:
 
-; 602  :   }
-; 603  : 
-; 604  :   if (UserOptions->m_bShowBotHealth)
+; 629  :   }
+; 630  : 
+; 631  :   if (UserOptions->m_bShowBotHealth)
 
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
 	movzx	ecx, BYTE PTR [eax+12]
 	test	ecx, ecx
 	je	$LN11@Render
 
-; 605  :   {
-; 606  :     gdi->TextAtPos(Pos().x-40, Pos().y-5, "H:"+ std::to_string(Health()));
+; 632  :   {
+; 633  :     gdi->TextAtPos(Pos().x-40, Pos().y-5, "H:"+ std::to_string(Health()));
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?Health@Raven_Bot@@QBEHXZ		; Raven_Bot::Health
@@ -50112,7 +52111,7 @@ $LN10@Render:
 	mov	DWORD PTR __$EHRec$[ebp+8], 1
 	mov	ecx, DWORD PTR tv338[ebp]
 	push	ecx
-	push	OFFSET $SG187591
+	push	OFFSET $SG193826
 	lea	edx, DWORD PTR $T18[ebp]
 	push	edx
 	call	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QBD$$QAV10@@Z ; std::operator+<char,std::char_traits<char>,std::allocator<char> >
@@ -50150,17 +52149,17 @@ $LN10@Render:
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 $LN11@Render:
 
-; 607  :   }
-; 608  : 
-; 609  :   if (UserOptions->m_bShowScore)
+; 634  :   }
+; 635  : 
+; 636  :   if (UserOptions->m_bShowScore)
 
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
 	movzx	ecx, BYTE PTR [eax+13]
 	test	ecx, ecx
 	je	$LN12@Render
 
-; 610  :   {
-; 611  :     gdi->TextAtPos(Pos().x-40, Pos().y+10, "Scr:"+ std::to_string(Score()));
+; 637  :   {
+; 638  :     gdi->TextAtPos(Pos().x-40, Pos().y+10, "Scr:"+ std::to_string(Score()));
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?Score@Raven_Bot@@QBEHXZ		; Raven_Bot::Score
@@ -50175,7 +52174,7 @@ $LN11@Render:
 	mov	DWORD PTR __$EHRec$[ebp+8], 3
 	mov	ecx, DWORD PTR tv342[ebp]
 	push	ecx
-	push	OFFSET $SG187593
+	push	OFFSET $SG193828
 	lea	edx, DWORD PTR $T16[ebp]
 	push	edx
 	call	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@QBD$$QAV10@@Z ; std::operator+<char,std::char_traits<char>,std::allocator<char> >
@@ -50214,10 +52213,10 @@ $LN11@Render:
 $LN12@Render:
 $LN1@Render:
 
-; 612  :   }    
-; 613  : 
-; 614  : 
-; 615  : }
+; 639  :   }    
+; 640  : 
+; 641  : 
+; 642  : }
 
 	mov	ecx, DWORD PTR __$EHRec$[ebp]
 	mov	DWORD PTR fs:0, ecx
@@ -50265,11 +52264,11 @@ text$x	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.cpp
 _TEXT	SEGMENT
-tv183 = -104						; size = 4
-tv177 = -100						; size = 4
-tv153 = -96						; size = 4
-tv145 = -92						; size = 4
-tv139 = -88						; size = 4
+tv187 = -104						; size = 4
+tv181 = -100						; size = 4
+tv157 = -96						; size = 4
+tv149 = -92						; size = 4
+tv143 = -88						; size = 4
 $T2 = -84						; size = 4
 $T3 = -80						; size = 4
 $T4 = -76						; size = 4
@@ -50292,7 +52291,7 @@ __$EHRec$ = -12						; size = 12
 ??1Raven_Bot@@UAE@XZ PROC				; Raven_Bot::~Raven_Bot
 ; _this$ = ecx
 
-; 158  : {
+; 162  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -50318,16 +52317,16 @@ __$EHRec$ = -12						; size = 12
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [eax], OFFSET ??_7Raven_Bot@@6B@
 
-; 159  :   debug_con << "deleting raven bot (id = " << ID() << ")" << "";
+; 163  :   debug_con << "deleting raven bot (id = " << ID() << ")" << "";
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?ID@BaseGameEntity@@QBEHXZ		; BaseGameEntity::ID
 	mov	DWORD PTR $T18[ebp], eax
-	push	OFFSET $SG187311
-	push	OFFSET $SG187310
+	push	OFFSET $SG193483
+	push	OFFSET $SG193482
 	lea	ecx, DWORD PTR $T18[ebp]
 	push	ecx
-	push	OFFSET $SG187309
+	push	OFFSET $SG193481
 	call	?Instance@DebugConsole@@SAPAV1@XZ	; DebugConsole::Instance
 	mov	ecx, eax
 	call	??$?6$$BY0BK@D@DebugConsole@@QAEAAV0@AAY0BK@$$CBD@Z ; DebugConsole::operator<<<char [26]>
@@ -50338,8 +52337,8 @@ __$EHRec$ = -12						; size = 12
 	mov	ecx, eax
 	call	??$?6$$BY00D@DebugConsole@@QAEAAV0@AAY00$$CBD@Z ; DebugConsole::operator<<<char [1]>
 
-; 160  :   
-; 161  :   delete m_pBrain;
+; 164  :   
+; 165  :   delete m_pBrain;
 
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	eax, DWORD PTR [edx+156]
@@ -50357,13 +52356,13 @@ __$EHRec$ = -12						; size = 12
 	call	edx
 	cmp	esi, esp
 	call	__RTC_CheckEsp
-	mov	DWORD PTR tv139[ebp], eax
+	mov	DWORD PTR tv143[ebp], eax
 	jmp	SHORT $LN4@Raven_Bot
 $LN3@Raven_Bot:
-	mov	DWORD PTR tv139[ebp], 0
+	mov	DWORD PTR tv143[ebp], 0
 $LN4@Raven_Bot:
 
-; 162  :   delete m_pPathPlanner;
+; 166  :   delete m_pPathPlanner;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+168]
@@ -50375,13 +52374,13 @@ $LN4@Raven_Bot:
 	push	1
 	mov	ecx, DWORD PTR $T15[ebp]
 	call	??_GRaven_PathPlanner@@QAEPAXI@Z
-	mov	DWORD PTR tv145[ebp], eax
+	mov	DWORD PTR tv149[ebp], eax
 	jmp	SHORT $LN6@Raven_Bot
 $LN5@Raven_Bot:
-	mov	DWORD PTR tv145[ebp], 0
+	mov	DWORD PTR tv149[ebp], 0
 $LN6@Raven_Bot:
 
-; 163  :   delete m_pSteering;
+; 167  :   delete m_pSteering;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax+164]
@@ -50399,13 +52398,13 @@ $LN6@Raven_Bot:
 	call	eax
 	cmp	esi, esp
 	call	__RTC_CheckEsp
-	mov	DWORD PTR tv153[ebp], eax
+	mov	DWORD PTR tv157[ebp], eax
 	jmp	SHORT $LN8@Raven_Bot
 $LN7@Raven_Bot:
-	mov	DWORD PTR tv153[ebp], 0
+	mov	DWORD PTR tv157[ebp], 0
 $LN8@Raven_Bot:
 
-; 164  :   delete m_pWeaponSelectionRegulator;
+; 168  :   delete m_pWeaponSelectionRegulator;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	edx, DWORD PTR [ecx+184]
@@ -50416,7 +52415,7 @@ $LN8@Raven_Bot:
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 
-; 165  :   delete m_pTargSys;
+; 169  :   delete m_pTargSys;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	edx, DWORD PTR [ecx+172]
@@ -50427,7 +52426,7 @@ $LN8@Raven_Bot:
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 
-; 166  :   delete m_pGoalArbitrationRegulator;
+; 170  :   delete m_pGoalArbitrationRegulator;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	edx, DWORD PTR [ecx+188]
@@ -50438,7 +52437,7 @@ $LN8@Raven_Bot:
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 
-; 167  :   delete m_pTargetSelectionRegulator;
+; 171  :   delete m_pTargetSelectionRegulator;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	edx, DWORD PTR [ecx+192]
@@ -50449,7 +52448,7 @@ $LN8@Raven_Bot:
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 
-; 168  :   delete m_pTriggerTestRegulator;
+; 172  :   delete m_pTriggerTestRegulator;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	edx, DWORD PTR [ecx+196]
@@ -50460,7 +52459,7 @@ $LN8@Raven_Bot:
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 
-; 169  :   delete m_pVisionUpdateRegulator;
+; 173  :   delete m_pVisionUpdateRegulator;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	edx, DWORD PTR [ecx+200]
@@ -50471,7 +52470,7 @@ $LN8@Raven_Bot:
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 
-; 170  :   delete m_pWeaponSys;
+; 174  :   delete m_pWeaponSys;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	edx, DWORD PTR [ecx+180]
@@ -50483,13 +52482,13 @@ $LN8@Raven_Bot:
 	push	1
 	mov	ecx, DWORD PTR $T5[ebp]
 	call	??_GRaven_WeaponSystem@@QAEPAXI@Z
-	mov	DWORD PTR tv177[ebp], eax
+	mov	DWORD PTR tv181[ebp], eax
 	jmp	SHORT $LN10@Raven_Bot
 $LN9@Raven_Bot:
-	mov	DWORD PTR tv177[ebp], 0
+	mov	DWORD PTR tv181[ebp], 0
 $LN10@Raven_Bot:
 
-; 171  :   delete m_pSensoryMem;
+; 175  :   delete m_pSensoryMem;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	edx, DWORD PTR [ecx+160]
@@ -50501,14 +52500,20 @@ $LN10@Raven_Bot:
 	push	1
 	mov	ecx, DWORD PTR $T3[ebp]
 	call	??_GRaven_SensoryMemory@@QAEPAXI@Z
-	mov	DWORD PTR tv183[ebp], eax
+	mov	DWORD PTR tv187[ebp], eax
 	jmp	SHORT $LN1@Raven_Bot
 $LN11@Raven_Bot:
-	mov	DWORD PTR tv183[ebp], 0
+	mov	DWORD PTR tv187[ebp], 0
 $LN1@Raven_Bot:
 
-; 172  : }
+; 176  : }
 
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 296				; 00000128H
+	call	??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
 	mov	ecx, DWORD PTR _this$[ebp]
 	add	ecx, 264				; 00000108H
 	call	??1?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAE@XZ ; std::vector<Vector2D,std::allocator<Vector2D> >::~vector<Vector2D,std::allocator<Vector2D> >
@@ -50545,60 +52550,60 @@ text$x	ENDS
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.h
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.cpp
 _TEXT	SEGMENT
-tv781 = -520						; size = 4
-tv877 = -516						; size = 8
-tv935 = -508						; size = 4
-tv746 = -504						; size = 4
-tv678 = -500						; size = 4
-tv872 = -496						; size = 8
-tv931 = -488						; size = 4
-tv868 = -484						; size = 8
-tv929 = -476						; size = 4
-tv864 = -472						; size = 8
-tv927 = -464						; size = 4
-tv667 = -460						; size = 4
-tv654 = -456						; size = 4
-tv641 = -452						; size = 4
-tv855 = -448						; size = 8
-tv919 = -440						; size = 4
-tv607 = -436						; size = 4
-tv850 = -432						; size = 8
-tv915 = -424						; size = 4
-tv541 = -420						; size = 4
-tv845 = -416						; size = 8
-tv911 = -408						; size = 4
-tv507 = -404						; size = 4
-tv840 = -400						; size = 8
-tv907 = -392						; size = 4
-tv473 = -388						; size = 4
-tv835 = -384						; size = 8
-tv903 = -376						; size = 4
-tv439 = -372						; size = 4
-tv425 = -368						; size = 4
-tv822 = -364						; size = 8
-tv891 = -356						; size = 4
-tv819 = -352						; size = 8
-tv889 = -344						; size = 4
-tv816 = -340						; size = 4
-tv887 = -336						; size = 4
-tv813 = -332						; size = 4
-tv885 = -328						; size = 4
+tv791 = -520						; size = 4
+tv891 = -516						; size = 8
+tv953 = -508						; size = 4
+tv756 = -504						; size = 4
+tv688 = -500						; size = 4
+tv886 = -496						; size = 8
+tv949 = -488						; size = 4
+tv882 = -484						; size = 8
+tv947 = -476						; size = 4
+tv878 = -472						; size = 8
+tv945 = -464						; size = 4
+tv677 = -460						; size = 4
+tv664 = -456						; size = 4
+tv651 = -452						; size = 4
+tv869 = -448						; size = 8
+tv937 = -440						; size = 4
+tv617 = -436						; size = 4
+tv864 = -432						; size = 8
+tv933 = -424						; size = 4
+tv551 = -420						; size = 4
+tv859 = -416						; size = 8
+tv929 = -408						; size = 4
+tv517 = -404						; size = 4
+tv854 = -400						; size = 8
+tv925 = -392						; size = 4
+tv483 = -388						; size = 4
+tv849 = -384						; size = 8
+tv921 = -376						; size = 4
+tv449 = -372						; size = 4
+tv435 = -368						; size = 4
+tv832 = -364						; size = 8
+tv905 = -356						; size = 4
+tv829 = -352						; size = 8
+tv903 = -344						; size = 4
+tv826 = -340						; size = 4
+tv901 = -336						; size = 4
+tv823 = -332						; size = 4
+tv899 = -328						; size = 4
 tv69 = -324						; size = 4
-tv809 = -320						; size = 8
-tv884 = -312						; size = 4
-tv804 = -308						; size = 8
-tv883 = -300						; size = 4
-tv799 = -296						; size = 8
-tv882 = -288						; size = 4
+tv819 = -320						; size = 8
+tv898 = -312						; size = 4
+tv814 = -308						; size = 8
+tv897 = -300						; size = 4
+tv809 = -296						; size = 8
+tv896 = -288						; size = 4
 tv147 = -284						; size = 4
-tv795 = -280						; size = 8
-tv881 = -272						; size = 4
-tv791 = -268						; size = 8
-tv880 = -260						; size = 4
-tv787 = -256						; size = 8
-tv879 = -248						; size = 4
-tv783 = -244						; size = 8
-tv878 = -236						; size = 4
+tv805 = -280						; size = 8
+tv895 = -272						; size = 4
+tv801 = -268						; size = 8
+tv894 = -260						; size = 4
+tv797 = -256						; size = 8
+tv893 = -248						; size = 4
+tv793 = -244						; size = 8
+tv892 = -236						; size = 4
 $T2 = -232						; size = 4
 $T3 = -228						; size = 4
 $T4 = -224						; size = 4
@@ -50652,7 +52657,7 @@ _SetEquipe$ = 28					; size = 1
 ??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z PROC	; Raven_Bot::Raven_Bot
 ; _this$ = ecx
 
-; 113  : {
+; 117  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -50675,67 +52680,67 @@ _SetEquipe$ = 28					; size = 1
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 90   : 	MovingEntity(pos,
+; 94   : 	MovingEntity(pos,
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T46[ebp], esp
-	push	OFFSET $SG187244
+	push	OFFSET $SG193390
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv878[ebp], eax
+	mov	DWORD PTR tv892[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv783[ebp]
+	fstp	QWORD PTR tv793[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv783[ebp]
+	movsd	xmm0, QWORD PTR tv793[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T45[ebp], esp
-	push	OFFSET $SG187245
+	push	OFFSET $SG193391
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv879[ebp], eax
+	mov	DWORD PTR tv893[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 1
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv787[ebp]
+	fstp	QWORD PTR tv797[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv787[ebp]
+	movsd	xmm0, QWORD PTR tv797[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T43[ebp], esp
-	push	OFFSET $SG187246
+	push	OFFSET $SG193392
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv880[ebp], eax
+	mov	DWORD PTR tv894[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 2
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv791[ebp]
+	fstp	QWORD PTR tv801[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv791[ebp]
+	movsd	xmm0, QWORD PTR tv801[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T42[ebp], esp
-	push	OFFSET $SG187247
+	push	OFFSET $SG193393
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv881[ebp], eax
+	mov	DWORD PTR tv895[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 3
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv795[ebp]
+	fstp	QWORD PTR tv805[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv795[ebp]
+	movsd	xmm0, QWORD PTR tv805[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	lea	ecx, DWORD PTR $T44[ebp]
 	call	??0Vector2D@@QAE@NN@Z			; Vector2D::Vector2D
@@ -50754,17 +52759,17 @@ _SetEquipe$ = 28					; size = 1
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T41[ebp], esp
-	push	OFFSET $SG187248
+	push	OFFSET $SG193394
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv882[ebp], eax
+	mov	DWORD PTR tv896[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 4
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv799[ebp]
+	fstp	QWORD PTR tv809[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv799[ebp]
+	movsd	xmm0, QWORD PTR tv809[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 8
 	xorps	xmm0, xmm0
@@ -50787,17 +52792,17 @@ _SetEquipe$ = 28					; size = 1
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T39[ebp], esp
-	push	OFFSET $SG187249
+	push	OFFSET $SG193395
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv883[ebp], eax
+	mov	DWORD PTR tv897[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 5
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv804[ebp]
+	fstp	QWORD PTR tv814[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv804[ebp]
+	movsd	xmm0, QWORD PTR tv814[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 8
 	xorps	xmm0, xmm0
@@ -50820,17 +52825,17 @@ _SetEquipe$ = 28					; size = 1
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T37[ebp], esp
-	push	OFFSET $SG187250
+	push	OFFSET $SG193396
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv884[ebp], eax
+	mov	DWORD PTR tv898[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 6
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv809[ebp]
+	fstp	QWORD PTR tv819[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv809[ebp]
+	movsd	xmm0, QWORD PTR tv819[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 16					; 00000010H
 	mov	ecx, esp
@@ -50847,33 +52852,33 @@ _SetEquipe$ = 28					; size = 1
 	mov	DWORD PTR tv69[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 7
 
-; 113  : {
+; 117  : {
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [ecx], OFFSET ??_7Raven_Bot@@6B@
 
-; 109  : 	m_Status(spawning),
+; 113  : 	m_Status(spawning),
 
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [edx+144], 2
 
-; 104  : 	m_pWorld(world),
+; 108  : 	m_pWorld(world),
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR _world$[ebp]
 	mov	DWORD PTR [eax+152], ecx
 
-; 105  : 	m_pBrain(NULL),
+; 109  : 	m_pBrain(NULL),
 
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [edx+156], 0
 
-; 103  : 	m_pSteering(NULL),
+; 107  : 	m_pSteering(NULL),
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [eax+164], 0
 
-; 102  : 	m_pPathPlanner(NULL),
+; 106  : 	m_pPathPlanner(NULL),
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [ecx+168], 0
@@ -50885,115 +52890,115 @@ _SetEquipe$ = 28					; size = 1
 	mov	DWORD PTR [edx+176], 0
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.cpp
 
-; 101  : 	m_iHealth(script->GetInt("Bot_MaxHealth")),
+; 105  : 	m_iHealth(script->GetInt("Bot_MaxHealth")),
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T36[ebp], esp
-	push	OFFSET $SG187251
+	push	OFFSET $SG193397
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv885[ebp], eax
+	mov	DWORD PTR tv899[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 8
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 7
 	mov	ecx, eax
 	call	?GetInt@Scriptor@@QAEHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetInt
-	mov	DWORD PTR tv813[ebp], eax
+	mov	DWORD PTR tv823[ebp], eax
 	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR tv813[ebp]
+	mov	ecx, DWORD PTR tv823[ebp]
 	mov	DWORD PTR [eax+204], ecx
 
-; 91   : 		script->GetDouble("Bot_Scale"),
-; 92   : 		Vector2D(0, 0),
-; 93   : 		script->GetDouble("Bot_MaxSpeed"),
-; 94   : 		Vector2D(1, 0),
-; 95   : 		script->GetDouble("Bot_Mass"),
-; 96   : 		Vector2D(script->GetDouble("Bot_Scale"), script->GetDouble("Bot_Scale")),
-; 97   : 		script->GetDouble("Bot_MaxHeadTurnRate"),
-; 98   : 		script->GetDouble("Bot_MaxForce")),
-; 99   : 
-; 100  : 	m_iMaxHealth(script->GetInt("Bot_MaxHealth")),
+; 95   : 		script->GetDouble("Bot_Scale"),
+; 96   : 		Vector2D(0, 0),
+; 97   : 		script->GetDouble("Bot_MaxSpeed"),
+; 98   : 		Vector2D(1, 0),
+; 99   : 		script->GetDouble("Bot_Mass"),
+; 100  : 		Vector2D(script->GetDouble("Bot_Scale"), script->GetDouble("Bot_Scale")),
+; 101  : 		script->GetDouble("Bot_MaxHeadTurnRate"),
+; 102  : 		script->GetDouble("Bot_MaxForce")),
+; 103  : 
+; 104  : 	m_iMaxHealth(script->GetInt("Bot_MaxHealth")),
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T35[ebp], esp
-	push	OFFSET $SG187252
+	push	OFFSET $SG193398
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv887[ebp], eax
+	mov	DWORD PTR tv901[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 9
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 7
 	mov	ecx, eax
 	call	?GetInt@Scriptor@@QAEHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetInt
-	mov	DWORD PTR tv816[ebp], eax
+	mov	DWORD PTR tv826[ebp], eax
 	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR tv816[ebp]
+	mov	eax, DWORD PTR tv826[ebp]
 	mov	DWORD PTR [edx+208], eax
 
-; 108  : 	m_iScore(0),
+; 112  : 	m_iScore(0),
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [ecx+212], 0
 
-; 113  : {
+; 117  : {
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	add	ecx, 216				; 000000d8H
 	call	??0Vector2D@@QAE@XZ			; Vector2D::Vector2D
 
-; 111  : 	m_dFieldOfView(DegsToRads(script->GetDouble("Bot_FOV")))
+; 115  : 	m_dFieldOfView(DegsToRads(script->GetDouble("Bot_FOV")))
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T34[ebp], esp
-	push	OFFSET $SG187253
+	push	OFFSET $SG193399
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv889[ebp], eax
+	mov	DWORD PTR tv903[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 10		; 0000000aH
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 7
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv819[ebp]
+	fstp	QWORD PTR tv829[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv819[ebp]
+	movsd	xmm0, QWORD PTR tv829[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	call	?DegsToRads@@YANN@Z			; DegsToRads
 	add	esp, 8
 	mov	edx, DWORD PTR _this$[ebp]
 	fstp	QWORD PTR [edx+232]
 
-; 106  : 	m_iNumUpdatesHitPersistant((int)(FrameRate * script->GetDouble("HitFlashTime"))),
+; 110  : 	m_iNumUpdatesHitPersistant((int)(FrameRate * script->GetDouble("HitFlashTime"))),
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T33[ebp], esp
-	push	OFFSET $SG187254
+	push	OFFSET $SG193400
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv891[ebp], eax
+	mov	DWORD PTR tv905[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 11		; 0000000bH
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 7
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv822[ebp]
+	fstp	QWORD PTR tv832[ebp]
 	movsd	xmm0, QWORD PTR __real@404e000000000000
-	mulsd	xmm0, QWORD PTR tv822[ebp]
+	mulsd	xmm0, QWORD PTR tv832[ebp]
 	cvttsd2si eax, xmm0
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [ecx+240], eax
 
-; 107  : 	m_bHit(false),
+; 111  : 	m_bHit(false),
 
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	BYTE PTR [edx+244], 0
 
-; 110  : 	m_bPossessed(false),
+; 114  : 	m_bPossessed(false),
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	BYTE PTR [eax+245], 0
 
-; 113  : {
+; 117  : {
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	add	ecx, 248				; 000000f8H
@@ -51003,48 +53008,56 @@ _SetEquipe$ = 28					; size = 1
 	add	ecx, 264				; 00000108H
 	call	??0?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAE@XZ ; std::vector<Vector2D,std::allocator<Vector2D> >::vector<Vector2D,std::allocator<Vector2D> >
 	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+	mov	BYTE PTR __$EHRec$[ebp+8], 14		; 0000000eH
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 296				; 00000128H
+	call	??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
 
-; 114  : 	SetEntityType(type_bot);
+; 118  : 	SetEntityType(type_bot);
 
 	push	1
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?SetEntityType@BaseGameEntity@@QAEXH@Z	; BaseGameEntity::SetEntityType
 
-; 115  : 	if (SetEquipe == true)
+; 119  : 	if (SetEquipe == true)
 
 	movzx	ecx, BYTE PTR _SetEquipe$[ebp]
 	cmp	ecx, 1
 	jne	SHORT $LN2@Raven_Bot
 
-; 116  : 	{
-; 117  : 		SetEquipeRed();
+; 120  : 	{
+; 121  : 		SetEquipeRed();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?SetEquipeRed@Raven_Bot@@QAEXXZ		; Raven_Bot::SetEquipeRed
 
-; 118  : 	}
-; 119  : 	else
+; 122  : 	}
+; 123  : 	else
 
 	jmp	SHORT $LN3@Raven_Bot
 $LN2@Raven_Bot:
 
-; 120  : 	{
-; 121  : 		SetEquipeYellow();
+; 124  : 	{
+; 125  : 		SetEquipeYellow();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?SetEquipeYellow@Raven_Bot@@QAEXXZ	; Raven_Bot::SetEquipeYellow
 $LN3@Raven_Bot:
 
-; 122  : 	}
-; 123  : 
-; 124  : 	SetUpVertexBuffer();
+; 126  : 	}
+; 127  : 
+; 128  : 	SetUpVertexBuffer();
 
 	mov	ecx, DWORD PTR _this$[ebp]
-	call	?SetUpVertexBuffer@Raven_Bot@@AAEXXZ	; Raven_Bot::SetUpVertexBuffer
+	call	?SetUpVertexBuffer@Raven_Bot@@QAEXXZ	; Raven_Bot::SetUpVertexBuffer
 
-; 125  : 
-; 126  : 	//a bot starts off facing in the direction it is heading
-; 127  : 	m_vFacing = m_vHeading;
+; 129  : 
+; 130  : 	//a bot starts off facing in the direction it is heading
+; 131  : 	m_vFacing = m_vHeading;
 
 	mov	edx, DWORD PTR _this$[ebp]
 	add	edx, 80					; 00000050H
@@ -51059,42 +53072,42 @@ $LN3@Raven_Bot:
 	mov	edx, DWORD PTR [edx+12]
 	mov	DWORD PTR [eax+12], edx
 
-; 128  : 
-; 129  : 	//create the navigation module
-; 130  : 	m_pPathPlanner = new Raven_PathPlanner(this);
+; 132  : 
+; 133  : 	//create the navigation module
+; 134  : 	m_pPathPlanner = new Raven_PathPlanner(this);
 
 	push	32					; 00000020H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T31[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 14		; 0000000eH
+	mov	BYTE PTR __$EHRec$[ebp+8], 16		; 00000010H
 	cmp	DWORD PTR $T31[ebp], 0
 	je	SHORT $LN5@Raven_Bot
 	mov	eax, DWORD PTR _this$[ebp]
 	push	eax
 	mov	ecx, DWORD PTR $T31[ebp]
 	call	??0Raven_PathPlanner@@QAE@PAVRaven_Bot@@@Z ; Raven_PathPlanner::Raven_PathPlanner
-	mov	DWORD PTR tv425[ebp], eax
+	mov	DWORD PTR tv435[ebp], eax
 	jmp	SHORT $LN6@Raven_Bot
 $LN5@Raven_Bot:
-	mov	DWORD PTR tv425[ebp], 0
+	mov	DWORD PTR tv435[ebp], 0
 $LN6@Raven_Bot:
-	mov	ecx, DWORD PTR tv425[ebp]
+	mov	ecx, DWORD PTR tv435[ebp]
 	mov	DWORD PTR $T32[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	eax, DWORD PTR $T32[ebp]
 	mov	DWORD PTR [edx+168], eax
 
-; 131  : 
-; 132  : 	//create the steering behavior class
-; 133  : 	m_pSteering = new Raven_Steering(world, this);
+; 135  : 
+; 136  : 	//create the steering behavior class
+; 137  : 	m_pSteering = new Raven_Steering(world, this);
 
 	push	184					; 000000b8H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T29[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	BYTE PTR __$EHRec$[ebp+8], 17		; 00000011H
 	cmp	DWORD PTR $T29[ebp], 0
 	je	SHORT $LN7@Raven_Bot
 	mov	ecx, DWORD PTR _this$[ebp]
@@ -51103,382 +53116,382 @@ $LN6@Raven_Bot:
 	push	edx
 	mov	ecx, DWORD PTR $T29[ebp]
 	call	??0Raven_Steering@@QAE@PAVRaven_Game@@PAVRaven_Bot@@@Z ; Raven_Steering::Raven_Steering
-	mov	DWORD PTR tv439[ebp], eax
+	mov	DWORD PTR tv449[ebp], eax
 	jmp	SHORT $LN8@Raven_Bot
 $LN7@Raven_Bot:
-	mov	DWORD PTR tv439[ebp], 0
+	mov	DWORD PTR tv449[ebp], 0
 $LN8@Raven_Bot:
-	mov	eax, DWORD PTR tv439[ebp]
+	mov	eax, DWORD PTR tv449[ebp]
 	mov	DWORD PTR $T30[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	edx, DWORD PTR $T30[ebp]
 	mov	DWORD PTR [ecx+164], edx
 
-; 134  : 
-; 135  : 	//create the regulators
-; 136  : 	m_pWeaponSelectionRegulator = new Regulator(script->GetDouble("Bot_WeaponSelectionFrequency"));
+; 138  : 
+; 139  : 	//create the regulators
+; 140  : 	m_pWeaponSelectionRegulator = new Regulator(script->GetDouble("Bot_WeaponSelectionFrequency"));
 
 	push	16					; 00000010H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T27[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 16		; 00000010H
+	mov	BYTE PTR __$EHRec$[ebp+8], 18		; 00000012H
 	cmp	DWORD PTR $T27[ebp], 0
 	je	SHORT $LN9@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T26[ebp], esp
-	push	OFFSET $SG187260
+	push	OFFSET $SG193406
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv903[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 17		; 00000011H
-	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 16		; 00000010H
-	mov	ecx, eax
-	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv835[ebp]
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv835[ebp]
-	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR $T27[ebp]
-	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv473[ebp], eax
-	jmp	SHORT $LN10@Raven_Bot
-$LN9@Raven_Bot:
-	mov	DWORD PTR tv473[ebp], 0
-$LN10@Raven_Bot:
-	mov	eax, DWORD PTR tv473[ebp]
-	mov	DWORD PTR $T28[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR $T28[ebp]
-	mov	DWORD PTR [ecx+184], edx
-
-; 137  : 	m_pGoalArbitrationRegulator = new Regulator(script->GetDouble("Bot_GoalAppraisalUpdateFreq"));
-
-	push	16					; 00000010H
-	call	??2@YAPAXI@Z				; operator new
-	add	esp, 4
-	mov	DWORD PTR $T24[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 18		; 00000012H
-	cmp	DWORD PTR $T24[ebp], 0
-	je	SHORT $LN11@Raven_Bot
-	sub	esp, 28					; 0000001cH
-	mov	ecx, esp
-	mov	DWORD PTR $T23[ebp], esp
-	push	OFFSET $SG187262
-	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv907[ebp], eax
+	mov	DWORD PTR tv921[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 19		; 00000013H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 18		; 00000012H
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv840[ebp]
+	fstp	QWORD PTR tv849[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv840[ebp]
+	movsd	xmm0, QWORD PTR tv849[ebp]
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR $T24[ebp]
+	mov	ecx, DWORD PTR $T27[ebp]
 	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv507[ebp], eax
-	jmp	SHORT $LN12@Raven_Bot
-$LN11@Raven_Bot:
-	mov	DWORD PTR tv507[ebp], 0
-$LN12@Raven_Bot:
-	mov	eax, DWORD PTR tv507[ebp]
-	mov	DWORD PTR $T25[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	DWORD PTR tv483[ebp], eax
+	jmp	SHORT $LN10@Raven_Bot
+$LN9@Raven_Bot:
+	mov	DWORD PTR tv483[ebp], 0
+$LN10@Raven_Bot:
+	mov	eax, DWORD PTR tv483[ebp]
+	mov	DWORD PTR $T28[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
 	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR $T25[ebp]
-	mov	DWORD PTR [ecx+188], edx
+	mov	edx, DWORD PTR $T28[ebp]
+	mov	DWORD PTR [ecx+184], edx
 
-; 138  : 	m_pTargetSelectionRegulator = new Regulator(script->GetDouble("Bot_TargetingUpdateFreq"));
+; 141  : 	m_pGoalArbitrationRegulator = new Regulator(script->GetDouble("Bot_GoalAppraisalUpdateFreq"));
 
 	push	16					; 00000010H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
-	mov	DWORD PTR $T21[ebp], eax
+	mov	DWORD PTR $T24[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 20		; 00000014H
-	cmp	DWORD PTR $T21[ebp], 0
-	je	SHORT $LN13@Raven_Bot
+	cmp	DWORD PTR $T24[ebp], 0
+	je	SHORT $LN11@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T20[ebp], esp
-	push	OFFSET $SG187264
+	mov	DWORD PTR $T23[ebp], esp
+	push	OFFSET $SG193408
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv911[ebp], eax
+	mov	DWORD PTR tv925[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 21		; 00000015H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 20		; 00000014H
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv845[ebp]
+	fstp	QWORD PTR tv854[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv845[ebp]
+	movsd	xmm0, QWORD PTR tv854[ebp]
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR $T21[ebp]
+	mov	ecx, DWORD PTR $T24[ebp]
 	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv541[ebp], eax
-	jmp	SHORT $LN14@Raven_Bot
-$LN13@Raven_Bot:
-	mov	DWORD PTR tv541[ebp], 0
-$LN14@Raven_Bot:
-	mov	eax, DWORD PTR tv541[ebp]
-	mov	DWORD PTR $T22[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	DWORD PTR tv517[ebp], eax
+	jmp	SHORT $LN12@Raven_Bot
+$LN11@Raven_Bot:
+	mov	DWORD PTR tv517[ebp], 0
+$LN12@Raven_Bot:
+	mov	eax, DWORD PTR tv517[ebp]
+	mov	DWORD PTR $T25[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
 	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR $T22[ebp]
-	mov	DWORD PTR [ecx+192], edx
+	mov	edx, DWORD PTR $T25[ebp]
+	mov	DWORD PTR [ecx+188], edx
 
-; 139  : 	m_pTriggerTestRegulator = new Regulator(script->GetDouble("Bot_TriggerUpdateFreq"));
+; 142  : 	m_pTargetSelectionRegulator = new Regulator(script->GetDouble("Bot_TargetingUpdateFreq"));
 
 	push	16					; 00000010H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
-	mov	DWORD PTR $T18[ebp], eax
+	mov	DWORD PTR $T21[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 22		; 00000016H
-	cmp	DWORD PTR $T18[ebp], 0
-	je	SHORT $LN15@Raven_Bot
+	cmp	DWORD PTR $T21[ebp], 0
+	je	SHORT $LN13@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T17[ebp], esp
-	push	OFFSET $SG187266
+	mov	DWORD PTR $T20[ebp], esp
+	push	OFFSET $SG193410
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv915[ebp], eax
+	mov	DWORD PTR tv929[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 23		; 00000017H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 22		; 00000016H
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv850[ebp]
+	fstp	QWORD PTR tv859[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv850[ebp]
+	movsd	xmm0, QWORD PTR tv859[ebp]
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR $T18[ebp]
+	mov	ecx, DWORD PTR $T21[ebp]
 	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv607[ebp], eax
-	jmp	SHORT $LN16@Raven_Bot
-$LN15@Raven_Bot:
-	mov	DWORD PTR tv607[ebp], 0
-$LN16@Raven_Bot:
-	mov	eax, DWORD PTR tv607[ebp]
-	mov	DWORD PTR $T19[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	DWORD PTR tv551[ebp], eax
+	jmp	SHORT $LN14@Raven_Bot
+$LN13@Raven_Bot:
+	mov	DWORD PTR tv551[ebp], 0
+$LN14@Raven_Bot:
+	mov	eax, DWORD PTR tv551[ebp]
+	mov	DWORD PTR $T22[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
 	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR $T19[ebp]
-	mov	DWORD PTR [ecx+196], edx
+	mov	edx, DWORD PTR $T22[ebp]
+	mov	DWORD PTR [ecx+192], edx
 
-; 140  : 	m_pVisionUpdateRegulator = new Regulator(script->GetDouble("Bot_VisionUpdateFreq"));
+; 143  : 	m_pTriggerTestRegulator = new Regulator(script->GetDouble("Bot_TriggerUpdateFreq"));
 
 	push	16					; 00000010H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
-	mov	DWORD PTR $T15[ebp], eax
+	mov	DWORD PTR $T18[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 24		; 00000018H
-	cmp	DWORD PTR $T15[ebp], 0
-	je	SHORT $LN17@Raven_Bot
+	cmp	DWORD PTR $T18[ebp], 0
+	je	SHORT $LN15@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T14[ebp], esp
-	push	OFFSET $SG187268
+	mov	DWORD PTR $T17[ebp], esp
+	push	OFFSET $SG193412
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv919[ebp], eax
+	mov	DWORD PTR tv933[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 25		; 00000019H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 24		; 00000018H
-	mov	ecx, eax
-	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv855[ebp]
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv855[ebp]
-	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR $T15[ebp]
-	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv641[ebp], eax
-	jmp	SHORT $LN18@Raven_Bot
-$LN17@Raven_Bot:
-	mov	DWORD PTR tv641[ebp], 0
-$LN18@Raven_Bot:
-	mov	eax, DWORD PTR tv641[ebp]
-	mov	DWORD PTR $T16[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR $T16[ebp]
-	mov	DWORD PTR [ecx+200], edx
-
-; 141  : 
-; 142  : 	//create the goal queue
-; 143  : 	m_pBrain = new Goal_Think(this);
-
-	push	44					; 0000002cH
-	call	??2@YAPAXI@Z				; operator new
-	add	esp, 4
-	mov	DWORD PTR $T12[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 26		; 0000001aH
-	cmp	DWORD PTR $T12[ebp], 0
-	je	SHORT $LN19@Raven_Bot
-	mov	eax, DWORD PTR _this$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR $T12[ebp]
-	call	??0Goal_Think@@QAE@PAVRaven_Bot@@@Z	; Goal_Think::Goal_Think
-	mov	DWORD PTR tv654[ebp], eax
-	jmp	SHORT $LN20@Raven_Bot
-$LN19@Raven_Bot:
-	mov	DWORD PTR tv654[ebp], 0
-$LN20@Raven_Bot:
-	mov	ecx, DWORD PTR tv654[ebp]
-	mov	DWORD PTR $T13[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR $T13[ebp]
-	mov	DWORD PTR [edx+156], eax
-
-; 144  : 
-; 145  : 	//create the targeting system
-; 146  : 	m_pTargSys = new Raven_TargetingSystem(this);
-
-	push	8
-	call	??2@YAPAXI@Z				; operator new
-	add	esp, 4
-	mov	DWORD PTR $T10[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 27		; 0000001bH
-	cmp	DWORD PTR $T10[ebp], 0
-	je	SHORT $LN21@Raven_Bot
-	mov	ecx, DWORD PTR _this$[ebp]
-	push	ecx
-	mov	ecx, DWORD PTR $T10[ebp]
-	call	??0Raven_TargetingSystem@@QAE@PAVRaven_Bot@@@Z ; Raven_TargetingSystem::Raven_TargetingSystem
-	mov	DWORD PTR tv667[ebp], eax
-	jmp	SHORT $LN22@Raven_Bot
-$LN21@Raven_Bot:
-	mov	DWORD PTR tv667[ebp], 0
-$LN22@Raven_Bot:
-	mov	edx, DWORD PTR tv667[ebp]
-	mov	DWORD PTR $T11[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR $T11[ebp]
-	mov	DWORD PTR [eax+172], ecx
-
-; 147  : 
-; 148  : 	m_pWeaponSys = new Raven_WeaponSystem(this,
-
-	push	48					; 00000030H
-	call	??2@YAPAXI@Z				; operator new
-	add	esp, 4
-	mov	DWORD PTR $T8[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
-	cmp	DWORD PTR $T8[ebp], 0
-	je	$LN23@Raven_Bot
-	sub	esp, 28					; 0000001cH
-	mov	ecx, esp
-	mov	DWORD PTR $T7[ebp], esp
-	push	OFFSET $SG187272
-	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv927[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 29		; 0000001dH
-	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
 	fstp	QWORD PTR tv864[ebp]
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR tv864[ebp]
 	movsd	QWORD PTR [esp], xmm0
+	mov	ecx, DWORD PTR $T18[ebp]
+	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
+	mov	DWORD PTR tv617[ebp], eax
+	jmp	SHORT $LN16@Raven_Bot
+$LN15@Raven_Bot:
+	mov	DWORD PTR tv617[ebp], 0
+$LN16@Raven_Bot:
+	mov	eax, DWORD PTR tv617[ebp]
+	mov	DWORD PTR $T19[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR $T19[ebp]
+	mov	DWORD PTR [ecx+196], edx
+
+; 144  : 	m_pVisionUpdateRegulator = new Regulator(script->GetDouble("Bot_VisionUpdateFreq"));
+
+	push	16					; 00000010H
+	call	??2@YAPAXI@Z				; operator new
+	add	esp, 4
+	mov	DWORD PTR $T15[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 26		; 0000001aH
+	cmp	DWORD PTR $T15[ebp], 0
+	je	SHORT $LN17@Raven_Bot
+	sub	esp, 28					; 0000001cH
+	mov	ecx, esp
+	mov	DWORD PTR $T14[ebp], esp
+	push	OFFSET $SG193414
+	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
+	mov	DWORD PTR tv937[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 27		; 0000001bH
+	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
+	mov	BYTE PTR __$EHRec$[ebp+8], 26		; 0000001aH
+	mov	ecx, eax
+	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
+	fstp	QWORD PTR tv869[ebp]
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR tv869[ebp]
+	movsd	QWORD PTR [esp], xmm0
+	mov	ecx, DWORD PTR $T15[ebp]
+	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
+	mov	DWORD PTR tv651[ebp], eax
+	jmp	SHORT $LN18@Raven_Bot
+$LN17@Raven_Bot:
+	mov	DWORD PTR tv651[ebp], 0
+$LN18@Raven_Bot:
+	mov	eax, DWORD PTR tv651[ebp]
+	mov	DWORD PTR $T16[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR $T16[ebp]
+	mov	DWORD PTR [ecx+200], edx
+
+; 145  : 
+; 146  : 	//create the goal queue
+; 147  : 	m_pBrain = new Goal_Think(this);
+
+	push	44					; 0000002cH
+	call	??2@YAPAXI@Z				; operator new
+	add	esp, 4
+	mov	DWORD PTR $T12[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
+	cmp	DWORD PTR $T12[ebp], 0
+	je	SHORT $LN19@Raven_Bot
+	mov	eax, DWORD PTR _this$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR $T12[ebp]
+	call	??0Goal_Think@@QAE@PAVRaven_Bot@@@Z	; Goal_Think::Goal_Think
+	mov	DWORD PTR tv664[ebp], eax
+	jmp	SHORT $LN20@Raven_Bot
+$LN19@Raven_Bot:
+	mov	DWORD PTR tv664[ebp], 0
+$LN20@Raven_Bot:
+	mov	ecx, DWORD PTR tv664[ebp]
+	mov	DWORD PTR $T13[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR $T13[ebp]
+	mov	DWORD PTR [edx+156], eax
+
+; 148  : 
+; 149  : 	//create the targeting system
+; 150  : 	m_pTargSys = new Raven_TargetingSystem(this);
+
+	push	8
+	call	??2@YAPAXI@Z				; operator new
+	add	esp, 4
+	mov	DWORD PTR $T10[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 29		; 0000001dH
+	cmp	DWORD PTR $T10[ebp], 0
+	je	SHORT $LN21@Raven_Bot
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR $T10[ebp]
+	call	??0Raven_TargetingSystem@@QAE@PAVRaven_Bot@@@Z ; Raven_TargetingSystem::Raven_TargetingSystem
+	mov	DWORD PTR tv677[ebp], eax
+	jmp	SHORT $LN22@Raven_Bot
+$LN21@Raven_Bot:
+	mov	DWORD PTR tv677[ebp], 0
+$LN22@Raven_Bot:
+	mov	edx, DWORD PTR tv677[ebp]
+	mov	DWORD PTR $T11[ebp], edx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR $T11[ebp]
+	mov	DWORD PTR [eax+172], ecx
+
+; 151  : 
+; 152  : 	m_pWeaponSys = new Raven_WeaponSystem(this,
+
+	push	48					; 00000030H
+	call	??2@YAPAXI@Z				; operator new
+	add	esp, 4
+	mov	DWORD PTR $T8[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
+	cmp	DWORD PTR $T8[ebp], 0
+	je	$LN23@Raven_Bot
+	sub	esp, 28					; 0000001cH
+	mov	ecx, esp
+	mov	DWORD PTR $T7[ebp], esp
+	push	OFFSET $SG193418
+	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
+	mov	DWORD PTR tv945[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 31		; 0000001fH
+	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
+	mov	ecx, eax
+	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
+	fstp	QWORD PTR tv878[ebp]
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR tv878[ebp]
+	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T6[ebp], esp
-	push	OFFSET $SG187273
+	push	OFFSET $SG193419
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv929[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
+	mov	DWORD PTR tv947[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 32		; 00000020H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv868[ebp]
+	fstp	QWORD PTR tv882[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv868[ebp]
+	movsd	xmm0, QWORD PTR tv882[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T5[ebp], esp
-	push	OFFSET $SG187274
+	push	OFFSET $SG193420
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv931[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 31		; 0000001fH
+	mov	DWORD PTR tv949[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 33		; 00000021H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv872[ebp]
+	fstp	QWORD PTR tv886[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv872[ebp]
+	movsd	xmm0, QWORD PTR tv886[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	mov	edx, DWORD PTR _this$[ebp]
 	push	edx
 	mov	ecx, DWORD PTR $T8[ebp]
 	call	??0Raven_WeaponSystem@@QAE@PAVRaven_Bot@@NNN@Z ; Raven_WeaponSystem::Raven_WeaponSystem
-	mov	DWORD PTR tv678[ebp], eax
-	mov	eax, DWORD PTR tv678[ebp]
-	mov	DWORD PTR tv746[ebp], eax
+	mov	DWORD PTR tv688[ebp], eax
+	mov	eax, DWORD PTR tv688[ebp]
+	mov	DWORD PTR tv756[ebp], eax
 	jmp	SHORT $LN24@Raven_Bot
 $LN23@Raven_Bot:
-	mov	DWORD PTR tv746[ebp], 0
+	mov	DWORD PTR tv756[ebp], 0
 $LN24@Raven_Bot:
-	mov	ecx, DWORD PTR tv746[ebp]
+	mov	ecx, DWORD PTR tv756[ebp]
 	mov	DWORD PTR $T9[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
 	mov	edx, DWORD PTR _this$[ebp]
 	mov	eax, DWORD PTR $T9[ebp]
 	mov	DWORD PTR [edx+180], eax
 
-; 149  : 		script->GetDouble("Bot_ReactionTime"),
-; 150  : 		script->GetDouble("Bot_AimAccuracy"),
-; 151  : 		script->GetDouble("Bot_AimPersistance"));
-; 152  : 
-; 153  : 	m_pSensoryMem = new Raven_SensoryMemory(this, script->GetDouble("Bot_MemorySpan"));
+; 153  : 		script->GetDouble("Bot_ReactionTime"),
+; 154  : 		script->GetDouble("Bot_AimAccuracy"),
+; 155  : 		script->GetDouble("Bot_AimPersistance"));
+; 156  : 
+; 157  : 	m_pSensoryMem = new Raven_SensoryMemory(this, script->GetDouble("Bot_MemorySpan"));
 
 	push	24					; 00000018H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T3[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 32		; 00000020H
+	mov	BYTE PTR __$EHRec$[ebp+8], 34		; 00000022H
 	cmp	DWORD PTR $T3[ebp], 0
 	je	SHORT $LN25@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T2[ebp], esp
-	push	OFFSET $SG187276
+	push	OFFSET $SG193422
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv935[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 33		; 00000021H
+	mov	DWORD PTR tv953[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 35		; 00000023H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 32		; 00000020H
+	mov	BYTE PTR __$EHRec$[ebp+8], 34		; 00000022H
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv877[ebp]
+	fstp	QWORD PTR tv891[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv877[ebp]
+	movsd	xmm0, QWORD PTR tv891[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	mov	ecx, DWORD PTR _this$[ebp]
 	push	ecx
 	mov	ecx, DWORD PTR $T3[ebp]
 	call	??0Raven_SensoryMemory@@QAE@PAVRaven_Bot@@N@Z ; Raven_SensoryMemory::Raven_SensoryMemory
-	mov	DWORD PTR tv781[ebp], eax
+	mov	DWORD PTR tv791[ebp], eax
 	jmp	SHORT $LN26@Raven_Bot
 $LN25@Raven_Bot:
-	mov	DWORD PTR tv781[ebp], 0
+	mov	DWORD PTR tv791[ebp], 0
 $LN26@Raven_Bot:
-	mov	edx, DWORD PTR tv781[ebp]
+	mov	edx, DWORD PTR tv791[ebp]
 	mov	DWORD PTR $T4[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR $T4[ebp]
 	mov	DWORD PTR [eax+160], ecx
 
-; 154  : }
+; 158  : }
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	eax, DWORD PTR _this$[ebp]
@@ -51539,107 +53552,115 @@ __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$13:
 	add	ecx, 264				; 00000108H
 	jmp	??1?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAE@XZ ; std::vector<Vector2D,std::allocator<Vector2D> >::~vector<Vector2D,std::allocator<Vector2D> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$14:
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	jmp	??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$15:
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 296				; 00000128H
+	jmp	??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$16:
 	push	32					; 00000020H
 	mov	eax, DWORD PTR $T31[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$15:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$17:
 	push	184					; 000000b8H
 	mov	eax, DWORD PTR $T29[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$16:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$18:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T27[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$17:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$19:
 	mov	ecx, DWORD PTR $T26[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$18:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$20:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T24[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$19:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$21:
 	mov	ecx, DWORD PTR $T23[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$20:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$22:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T21[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$21:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$23:
 	mov	ecx, DWORD PTR $T20[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$22:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$24:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T18[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$23:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$25:
 	mov	ecx, DWORD PTR $T17[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$24:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$26:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T15[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$25:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$27:
 	mov	ecx, DWORD PTR $T14[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$26:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$28:
 	push	44					; 0000002cH
 	mov	eax, DWORD PTR $T12[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$27:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$29:
 	push	8
 	mov	eax, DWORD PTR $T10[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$28:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$30:
 	push	48					; 00000030H
 	mov	eax, DWORD PTR $T8[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$29:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$31:
 	mov	ecx, DWORD PTR $T7[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$30:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$32:
 	mov	ecx, DWORD PTR $T6[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$31:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$33:
 	mov	ecx, DWORD PTR $T5[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$32:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$34:
 	push	24					; 00000018H
 	mov	eax, DWORD PTR $T3[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$33:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z$35:
 	mov	ecx, DWORD PTR $T2[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __ehhandler$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@_N@Z:
@@ -51657,105 +53678,111 @@ text$x	ENDS
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.h
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.cpp
 _TEXT	SEGMENT
-tv778 = -520						; size = 4
-tv874 = -516						; size = 8
-tv932 = -508						; size = 4
-tv743 = -504						; size = 4
-tv675 = -500						; size = 4
-tv869 = -496						; size = 8
-tv928 = -488						; size = 4
-tv865 = -484						; size = 8
-tv926 = -476						; size = 4
-tv861 = -472						; size = 8
-tv924 = -464						; size = 4
-tv664 = -460						; size = 4
-tv651 = -456						; size = 4
-tv638 = -452						; size = 4
-tv852 = -448						; size = 8
-tv916 = -440						; size = 4
-tv604 = -436						; size = 4
-tv847 = -432						; size = 8
-tv912 = -424						; size = 4
-tv538 = -420						; size = 4
-tv842 = -416						; size = 8
-tv908 = -408						; size = 4
-tv504 = -404						; size = 4
-tv837 = -400						; size = 8
-tv904 = -392						; size = 4
-tv470 = -388						; size = 4
-tv832 = -384						; size = 8
-tv900 = -376						; size = 4
-tv436 = -372						; size = 4
-tv422 = -368						; size = 4
-tv819 = -364						; size = 8
-tv888 = -356						; size = 4
-tv816 = -352						; size = 8
-tv886 = -344						; size = 4
-tv813 = -340						; size = 4
-tv884 = -336						; size = 4
-tv810 = -332						; size = 4
-tv882 = -328						; size = 4
-tv69 = -324						; size = 4
-tv806 = -320						; size = 8
-tv881 = -312						; size = 4
-tv801 = -308						; size = 8
-tv880 = -300						; size = 4
-tv796 = -296						; size = 8
-tv879 = -288						; size = 4
-tv147 = -284						; size = 4
-tv792 = -280						; size = 8
-tv878 = -272						; size = 4
-tv788 = -268						; size = 8
-tv877 = -260						; size = 4
-tv784 = -256						; size = 8
-tv876 = -248						; size = 4
-tv780 = -244						; size = 8
-tv875 = -236						; size = 4
-$T2 = -232						; size = 4
-$T3 = -228						; size = 4
-$T4 = -224						; size = 4
-$T5 = -220						; size = 4
-$T6 = -216						; size = 4
-$T7 = -212						; size = 4
-$T8 = -208						; size = 4
-$T9 = -204						; size = 4
-$T10 = -200						; size = 4
-$T11 = -196						; size = 4
-$T12 = -192						; size = 4
-$T13 = -188						; size = 4
-$T14 = -184						; size = 4
-$T15 = -180						; size = 4
-$T16 = -176						; size = 4
-$T17 = -172						; size = 4
-$T18 = -168						; size = 4
-$T19 = -164						; size = 4
-$T20 = -160						; size = 4
-$T21 = -156						; size = 4
-$T22 = -152						; size = 4
-$T23 = -148						; size = 4
-$T24 = -144						; size = 4
-$T25 = -140						; size = 4
-$T26 = -136						; size = 4
-$T27 = -132						; size = 4
-$T28 = -128						; size = 4
-$T29 = -124						; size = 4
-$T30 = -120						; size = 4
-$T31 = -116						; size = 4
-$T32 = -112						; size = 4
-$T33 = -108						; size = 4
-$T34 = -104						; size = 4
-$T35 = -100						; size = 4
-$T36 = -96						; size = 4
-$T37 = -92						; size = 4
-$T38 = -88						; size = 16
-$T39 = -72						; size = 4
-$T40 = -68						; size = 16
-$T41 = -52						; size = 4
-$T42 = -48						; size = 4
-$T43 = -44						; size = 4
-$T44 = -40						; size = 16
-$T45 = -24						; size = 4
-$T46 = -20						; size = 4
+tv810 = -568						; size = 4
+tv914 = -564						; size = 8
+tv976 = -556						; size = 4
+tv775 = -552						; size = 4
+tv707 = -548						; size = 4
+tv909 = -544						; size = 8
+tv972 = -536						; size = 4
+tv905 = -532						; size = 8
+tv970 = -524						; size = 4
+tv901 = -520						; size = 8
+tv968 = -512						; size = 4
+tv696 = -508						; size = 4
+tv683 = -504						; size = 4
+tv670 = -500						; size = 4
+tv892 = -496						; size = 8
+tv960 = -488						; size = 4
+tv636 = -484						; size = 4
+tv887 = -480						; size = 8
+tv956 = -472						; size = 4
+tv602 = -468						; size = 4
+tv882 = -464						; size = 8
+tv952 = -456						; size = 4
+tv536 = -452						; size = 4
+tv877 = -448						; size = 8
+tv948 = -440						; size = 4
+tv502 = -436						; size = 4
+tv872 = -432						; size = 8
+tv944 = -424						; size = 4
+tv468 = -420						; size = 4
+tv454 = -416						; size = 4
+tv863 = -412						; size = 4
+tv861 = -408						; size = 4
+tv851 = -404						; size = 8
+tv928 = -396						; size = 4
+tv848 = -392						; size = 8
+tv926 = -384						; size = 4
+tv845 = -380						; size = 4
+tv924 = -376						; size = 4
+tv842 = -372						; size = 4
+tv922 = -368						; size = 4
+tv69 = -364						; size = 4
+tv838 = -360						; size = 8
+tv921 = -352						; size = 4
+tv833 = -348						; size = 8
+tv920 = -340						; size = 4
+tv828 = -336						; size = 8
+tv919 = -328						; size = 4
+tv147 = -324						; size = 4
+tv824 = -320						; size = 8
+tv918 = -312						; size = 4
+tv820 = -308						; size = 8
+tv917 = -300						; size = 4
+tv816 = -296						; size = 8
+tv916 = -288						; size = 4
+tv812 = -284						; size = 8
+tv915 = -276						; size = 4
+$T2 = -272						; size = 4
+$T3 = -268						; size = 4
+$T4 = -264						; size = 4
+$T5 = -260						; size = 4
+$T6 = -256						; size = 4
+$T7 = -252						; size = 4
+$T8 = -248						; size = 4
+$T9 = -244						; size = 4
+$T10 = -240						; size = 4
+$T11 = -236						; size = 4
+$T12 = -232						; size = 4
+$T13 = -228						; size = 4
+$T14 = -224						; size = 4
+$T15 = -220						; size = 4
+$T16 = -216						; size = 4
+$T17 = -212						; size = 4
+$T18 = -208						; size = 4
+$T19 = -204						; size = 4
+$T20 = -200						; size = 4
+$T21 = -196						; size = 4
+$T22 = -192						; size = 4
+$T23 = -188						; size = 4
+$T24 = -184						; size = 4
+$T25 = -180						; size = 4
+$T26 = -176						; size = 4
+$T27 = -172						; size = 4
+$T28 = -168						; size = 4
+$T29 = -164						; size = 4
+$T30 = -160						; size = 4
+$T31 = -156						; size = 4
+$T32 = -152						; size = 4
+$T33 = -145						; size = 1
+$T34 = -144						; size = 16
+$T35 = -125						; size = 1
+$T36 = -124						; size = 16
+$T37 = -108						; size = 4
+$T38 = -104						; size = 4
+$T39 = -100						; size = 4
+$T40 = -96						; size = 4
+$T41 = -92						; size = 4
+$T42 = -88						; size = 16
+$T43 = -72						; size = 4
+$T44 = -68						; size = 16
+$T45 = -52						; size = 4
+$T46 = -48						; size = 4
+$T47 = -44						; size = 4
+$T48 = -40						; size = 16
+$T49 = -24						; size = 4
+$T50 = -20						; size = 4
 _this$ = -16						; size = 4
 __$EHRec$ = -12						; size = 12
 _world$ = 8						; size = 4
@@ -51771,11 +53798,11 @@ _pos$ = 12						; size = 16
 	push	__ehhandler$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z
 	mov	eax, DWORD PTR fs:0
 	push	eax
-	sub	esp, 508				; 000001fcH
+	sub	esp, 556				; 0000022cH
 	push	edi
 	push	ecx
-	lea	edi, DWORD PTR [ebp-520]
-	mov	ecx, 127				; 0000007fH
+	lea	edi, DWORD PTR [ebp-568]
+	mov	ecx, 139				; 0000008bH
 	mov	eax, -858993460				; ccccccccH
 	rep stosd
 	pop	ecx
@@ -51790,65 +53817,65 @@ _pos$ = 12						; size = 16
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T46[ebp], esp
-	push	OFFSET $SG187156
+	mov	DWORD PTR $T50[ebp], esp
+	push	OFFSET $SG193302
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv875[ebp], eax
+	mov	DWORD PTR tv915[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv780[ebp]
+	fstp	QWORD PTR tv812[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv780[ebp]
+	movsd	xmm0, QWORD PTR tv812[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T45[ebp], esp
-	push	OFFSET $SG187157
+	mov	DWORD PTR $T49[ebp], esp
+	push	OFFSET $SG193303
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv876[ebp], eax
+	mov	DWORD PTR tv916[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 1
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv784[ebp]
+	fstp	QWORD PTR tv816[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv784[ebp]
+	movsd	xmm0, QWORD PTR tv816[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T43[ebp], esp
-	push	OFFSET $SG187158
+	mov	DWORD PTR $T47[ebp], esp
+	push	OFFSET $SG193304
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv877[ebp], eax
+	mov	DWORD PTR tv917[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 2
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv788[ebp]
+	fstp	QWORD PTR tv820[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv788[ebp]
+	movsd	xmm0, QWORD PTR tv820[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T42[ebp], esp
-	push	OFFSET $SG187159
+	mov	DWORD PTR $T46[ebp], esp
+	push	OFFSET $SG193305
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv878[ebp], eax
+	mov	DWORD PTR tv918[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 3
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv792[ebp]
+	fstp	QWORD PTR tv824[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv792[ebp]
+	movsd	xmm0, QWORD PTR tv824[ebp]
 	movsd	QWORD PTR [esp], xmm0
-	lea	ecx, DWORD PTR $T44[ebp]
+	lea	ecx, DWORD PTR $T48[ebp]
 	call	??0Vector2D@@QAE@NN@Z			; Vector2D::Vector2D
 	mov	DWORD PTR tv147[ebp], eax
 	mov	eax, DWORD PTR tv147[ebp]
@@ -51864,18 +53891,18 @@ _pos$ = 12						; size = 16
 	mov	DWORD PTR [ecx+12], eax
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T41[ebp], esp
-	push	OFFSET $SG187160
+	mov	DWORD PTR $T45[ebp], esp
+	push	OFFSET $SG193306
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv879[ebp], eax
+	mov	DWORD PTR tv919[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 4
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv796[ebp]
+	fstp	QWORD PTR tv828[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv796[ebp]
+	movsd	xmm0, QWORD PTR tv828[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 8
 	xorps	xmm0, xmm0
@@ -51883,7 +53910,7 @@ _pos$ = 12						; size = 16
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR __real@3ff0000000000000
 	movsd	QWORD PTR [esp], xmm0
-	lea	ecx, DWORD PTR $T40[ebp]
+	lea	ecx, DWORD PTR $T44[ebp]
 	call	??0Vector2D@@QAE@NN@Z			; Vector2D::Vector2D
 	sub	esp, 16					; 00000010H
 	mov	ecx, esp
@@ -51897,18 +53924,18 @@ _pos$ = 12						; size = 16
 	mov	DWORD PTR [ecx+12], eax
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T39[ebp], esp
-	push	OFFSET $SG187161
+	mov	DWORD PTR $T43[ebp], esp
+	push	OFFSET $SG193307
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv880[ebp], eax
+	mov	DWORD PTR tv920[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 5
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv801[ebp]
+	fstp	QWORD PTR tv833[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv801[ebp]
+	movsd	xmm0, QWORD PTR tv833[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 8
 	xorps	xmm0, xmm0
@@ -51916,7 +53943,7 @@ _pos$ = 12						; size = 16
 	sub	esp, 8
 	xorps	xmm0, xmm0
 	movsd	QWORD PTR [esp], xmm0
-	lea	ecx, DWORD PTR $T38[ebp]
+	lea	ecx, DWORD PTR $T42[ebp]
 	call	??0Vector2D@@QAE@NN@Z			; Vector2D::Vector2D
 	sub	esp, 16					; 00000010H
 	mov	ecx, esp
@@ -51930,18 +53957,18 @@ _pos$ = 12						; size = 16
 	mov	DWORD PTR [ecx+12], eax
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T37[ebp], esp
-	push	OFFSET $SG187162
+	mov	DWORD PTR $T41[ebp], esp
+	push	OFFSET $SG193308
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv881[ebp], eax
+	mov	DWORD PTR tv921[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 6
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv806[ebp]
+	fstp	QWORD PTR tv838[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv806[ebp]
+	movsd	xmm0, QWORD PTR tv838[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 16					; 00000010H
 	mov	ecx, esp
@@ -52000,18 +54027,18 @@ _pos$ = 12						; size = 16
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T36[ebp], esp
-	push	OFFSET $SG187163
+	mov	DWORD PTR $T40[ebp], esp
+	push	OFFSET $SG193309
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv882[ebp], eax
+	mov	DWORD PTR tv922[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 8
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 7
 	mov	ecx, eax
 	call	?GetInt@Scriptor@@QAEHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetInt
-	mov	DWORD PTR tv810[ebp], eax
+	mov	DWORD PTR tv842[ebp], eax
 	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR tv810[ebp]
+	mov	ecx, DWORD PTR tv842[ebp]
 	mov	DWORD PTR [eax+204], ecx
 
 ; 29   :                script->GetDouble("Bot_Scale"),
@@ -52027,18 +54054,18 @@ _pos$ = 12						; size = 16
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T35[ebp], esp
-	push	OFFSET $SG187164
+	mov	DWORD PTR $T39[ebp], esp
+	push	OFFSET $SG193310
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv884[ebp], eax
+	mov	DWORD PTR tv924[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 9
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 7
 	mov	ecx, eax
 	call	?GetInt@Scriptor@@QAEHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetInt
-	mov	DWORD PTR tv813[ebp], eax
+	mov	DWORD PTR tv845[ebp], eax
 	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR tv813[ebp]
+	mov	eax, DWORD PTR tv845[ebp]
 	mov	DWORD PTR [edx+208], eax
 
 ; 46   :                  m_iScore(0),
@@ -52056,18 +54083,18 @@ _pos$ = 12						; size = 16
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T34[ebp], esp
-	push	OFFSET $SG187165
+	mov	DWORD PTR $T38[ebp], esp
+	push	OFFSET $SG193311
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv886[ebp], eax
+	mov	DWORD PTR tv926[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 10		; 0000000aH
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 7
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv816[ebp]
+	fstp	QWORD PTR tv848[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv816[ebp]
+	movsd	xmm0, QWORD PTR tv848[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	call	?DegsToRads@@YANN@Z			; DegsToRads
 	add	esp, 8
@@ -52078,18 +54105,18 @@ _pos$ = 12						; size = 16
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T33[ebp], esp
-	push	OFFSET $SG187166
+	mov	DWORD PTR $T37[ebp], esp
+	push	OFFSET $SG193312
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv888[ebp], eax
+	mov	DWORD PTR tv928[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 11		; 0000000bH
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 7
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv819[ebp]
+	fstp	QWORD PTR tv851[ebp]
 	movsd	xmm0, QWORD PTR __real@404e000000000000
-	mulsd	xmm0, QWORD PTR tv819[ebp]
+	mulsd	xmm0, QWORD PTR tv851[ebp]
 	cvttsd2si eax, xmm0
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	DWORD PTR [ecx+240], eax
@@ -52114,6 +54141,14 @@ _pos$ = 12						; size = 16
 	add	ecx, 264				; 00000108H
 	call	??0?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAE@XZ ; std::vector<Vector2D,std::allocator<Vector2D> >::vector<Vector2D,std::allocator<Vector2D> >
 	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+	mov	BYTE PTR __$EHRec$[ebp+8], 14		; 0000000eH
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 296				; 00000128H
+	call	??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
 
 ; 52   :   SetEntityType(type_bot);
 
@@ -52127,448 +54162,484 @@ _pos$ = 12						; size = 16
 	call	?SetEquipeNone@Raven_Bot@@QAEXXZ	; Raven_Bot::SetEquipeNone
 
 ; 54   : 
-; 55   :   SetUpVertexBuffer();
+; 55   : 
+; 56   :   m_vecObservation = std::vector<double>(0);
+
+	lea	ecx, DWORD PTR $T35[ebp]
+	call	??0?$allocator@N@std@@QAE@XZ		; std::allocator<double>::allocator<double>
+	push	eax
+	push	0
+	lea	ecx, DWORD PTR $T36[ebp]
+	call	??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z ; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+	mov	DWORD PTR tv861[ebp], eax
+	mov	ecx, DWORD PTR tv861[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	call	??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z ; std::vector<double,std::allocator<double> >::operator=
+	lea	ecx, DWORD PTR $T36[ebp]
+	call	??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
+
+; 57   :   m_vecTarget = std::vector<double>(0);
+
+	lea	ecx, DWORD PTR $T33[ebp]
+	call	??0?$allocator@N@std@@QAE@XZ		; std::allocator<double>::allocator<double>
+	push	eax
+	push	0
+	lea	ecx, DWORD PTR $T34[ebp]
+	call	??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z ; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+	mov	DWORD PTR tv863[ebp], eax
+	mov	edx, DWORD PTR tv863[ebp]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 296				; 00000128H
+	call	??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z ; std::vector<double,std::allocator<double> >::operator=
+	lea	ecx, DWORD PTR $T34[ebp]
+	call	??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
+
+; 58   : 
+; 59   :   SetUpVertexBuffer();
 
 	mov	ecx, DWORD PTR _this$[ebp]
-	call	?SetUpVertexBuffer@Raven_Bot@@AAEXXZ	; Raven_Bot::SetUpVertexBuffer
+	call	?SetUpVertexBuffer@Raven_Bot@@QAEXXZ	; Raven_Bot::SetUpVertexBuffer
 
-; 56   :   
-; 57   :   //a bot starts off facing in the direction it is heading
-; 58   :   m_vFacing = m_vHeading;
+; 60   :   
+; 61   :   //a bot starts off facing in the direction it is heading
+; 62   :   m_vFacing = m_vHeading;
 
+	mov	eax, DWORD PTR _this$[ebp]
+	add	eax, 80					; 00000050H
 	mov	ecx, DWORD PTR _this$[ebp]
-	add	ecx, 80					; 00000050H
-	mov	edx, DWORD PTR _this$[ebp]
-	add	edx, 216				; 000000d8H
-	mov	eax, DWORD PTR [ecx]
-	mov	DWORD PTR [edx], eax
-	mov	eax, DWORD PTR [ecx+4]
-	mov	DWORD PTR [edx+4], eax
-	mov	eax, DWORD PTR [ecx+8]
-	mov	DWORD PTR [edx+8], eax
-	mov	ecx, DWORD PTR [ecx+12]
-	mov	DWORD PTR [edx+12], ecx
+	add	ecx, 216				; 000000d8H
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR [ecx], edx
+	mov	edx, DWORD PTR [eax+4]
+	mov	DWORD PTR [ecx+4], edx
+	mov	edx, DWORD PTR [eax+8]
+	mov	DWORD PTR [ecx+8], edx
+	mov	eax, DWORD PTR [eax+12]
+	mov	DWORD PTR [ecx+12], eax
 
-; 59   : 
-; 60   :   //create the navigation module
-; 61   :   m_pPathPlanner = new Raven_PathPlanner(this);
+; 63   : 
+; 64   :   //create the navigation module
+; 65   :   m_pPathPlanner = new Raven_PathPlanner(this);
 
 	push	32					; 00000020H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T31[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 14		; 0000000eH
+	mov	BYTE PTR __$EHRec$[ebp+8], 16		; 00000010H
 	cmp	DWORD PTR $T31[ebp], 0
 	je	SHORT $LN3@Raven_Bot
-	mov	edx, DWORD PTR _this$[ebp]
-	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
 	mov	ecx, DWORD PTR $T31[ebp]
 	call	??0Raven_PathPlanner@@QAE@PAVRaven_Bot@@@Z ; Raven_PathPlanner::Raven_PathPlanner
-	mov	DWORD PTR tv422[ebp], eax
+	mov	DWORD PTR tv454[ebp], eax
 	jmp	SHORT $LN4@Raven_Bot
 $LN3@Raven_Bot:
-	mov	DWORD PTR tv422[ebp], 0
+	mov	DWORD PTR tv454[ebp], 0
 $LN4@Raven_Bot:
-	mov	eax, DWORD PTR tv422[ebp]
-	mov	DWORD PTR $T32[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR $T32[ebp]
-	mov	DWORD PTR [ecx+168], edx
+	mov	edx, DWORD PTR tv454[ebp]
+	mov	DWORD PTR $T32[ebp], edx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR $T32[ebp]
+	mov	DWORD PTR [eax+168], ecx
 
-; 62   : 
-; 63   :   //create the steering behavior class
-; 64   :   m_pSteering = new Raven_Steering(world, this);
+; 66   : 
+; 67   :   //create the steering behavior class
+; 68   :   m_pSteering = new Raven_Steering(world, this);
 
 	push	184					; 000000b8H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T29[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	BYTE PTR __$EHRec$[ebp+8], 17		; 00000011H
 	cmp	DWORD PTR $T29[ebp], 0
 	je	SHORT $LN5@Raven_Bot
-	mov	eax, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _this$[ebp]
+	push	edx
+	mov	eax, DWORD PTR _world$[ebp]
 	push	eax
-	mov	ecx, DWORD PTR _world$[ebp]
-	push	ecx
 	mov	ecx, DWORD PTR $T29[ebp]
 	call	??0Raven_Steering@@QAE@PAVRaven_Game@@PAVRaven_Bot@@@Z ; Raven_Steering::Raven_Steering
-	mov	DWORD PTR tv436[ebp], eax
+	mov	DWORD PTR tv468[ebp], eax
 	jmp	SHORT $LN6@Raven_Bot
 $LN5@Raven_Bot:
-	mov	DWORD PTR tv436[ebp], 0
+	mov	DWORD PTR tv468[ebp], 0
 $LN6@Raven_Bot:
-	mov	edx, DWORD PTR tv436[ebp]
-	mov	DWORD PTR $T30[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR $T30[ebp]
-	mov	DWORD PTR [eax+164], ecx
+	mov	ecx, DWORD PTR tv468[ebp]
+	mov	DWORD PTR $T30[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR $T30[ebp]
+	mov	DWORD PTR [edx+164], eax
 
-; 65   : 
-; 66   :   //create the regulators
-; 67   :   m_pWeaponSelectionRegulator = new Regulator(script->GetDouble("Bot_WeaponSelectionFrequency"));
+; 69   : 
+; 70   :   //create the regulators
+; 71   :   m_pWeaponSelectionRegulator = new Regulator(script->GetDouble("Bot_WeaponSelectionFrequency"));
 
 	push	16					; 00000010H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T27[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 16		; 00000010H
+	mov	BYTE PTR __$EHRec$[ebp+8], 18		; 00000012H
 	cmp	DWORD PTR $T27[ebp], 0
 	je	SHORT $LN7@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T26[ebp], esp
-	push	OFFSET $SG187170
+	push	OFFSET $SG193316
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv900[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 17		; 00000011H
-	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 16		; 00000010H
-	mov	ecx, eax
-	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv832[ebp]
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv832[ebp]
-	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR $T27[ebp]
-	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv470[ebp], eax
-	jmp	SHORT $LN8@Raven_Bot
-$LN7@Raven_Bot:
-	mov	DWORD PTR tv470[ebp], 0
-$LN8@Raven_Bot:
-	mov	edx, DWORD PTR tv470[ebp]
-	mov	DWORD PTR $T28[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR $T28[ebp]
-	mov	DWORD PTR [eax+184], ecx
-
-; 68   :   m_pGoalArbitrationRegulator =  new Regulator(script->GetDouble("Bot_GoalAppraisalUpdateFreq"));
-
-	push	16					; 00000010H
-	call	??2@YAPAXI@Z				; operator new
-	add	esp, 4
-	mov	DWORD PTR $T24[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 18		; 00000012H
-	cmp	DWORD PTR $T24[ebp], 0
-	je	SHORT $LN9@Raven_Bot
-	sub	esp, 28					; 0000001cH
-	mov	ecx, esp
-	mov	DWORD PTR $T23[ebp], esp
-	push	OFFSET $SG187172
-	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv904[ebp], eax
+	mov	DWORD PTR tv944[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 19		; 00000013H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 18		; 00000012H
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv837[ebp]
+	fstp	QWORD PTR tv872[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv837[ebp]
+	movsd	xmm0, QWORD PTR tv872[ebp]
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR $T24[ebp]
+	mov	ecx, DWORD PTR $T27[ebp]
 	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv504[ebp], eax
-	jmp	SHORT $LN10@Raven_Bot
-$LN9@Raven_Bot:
-	mov	DWORD PTR tv504[ebp], 0
-$LN10@Raven_Bot:
-	mov	edx, DWORD PTR tv504[ebp]
-	mov	DWORD PTR $T25[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR $T25[ebp]
-	mov	DWORD PTR [eax+188], ecx
+	mov	DWORD PTR tv502[ebp], eax
+	jmp	SHORT $LN8@Raven_Bot
+$LN7@Raven_Bot:
+	mov	DWORD PTR tv502[ebp], 0
+$LN8@Raven_Bot:
+	mov	ecx, DWORD PTR tv502[ebp]
+	mov	DWORD PTR $T28[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR $T28[ebp]
+	mov	DWORD PTR [edx+184], eax
 
-; 69   :   m_pTargetSelectionRegulator = new Regulator(script->GetDouble("Bot_TargetingUpdateFreq"));
+; 72   :   m_pGoalArbitrationRegulator =  new Regulator(script->GetDouble("Bot_GoalAppraisalUpdateFreq"));
 
 	push	16					; 00000010H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
-	mov	DWORD PTR $T21[ebp], eax
+	mov	DWORD PTR $T24[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 20		; 00000014H
-	cmp	DWORD PTR $T21[ebp], 0
-	je	SHORT $LN11@Raven_Bot
+	cmp	DWORD PTR $T24[ebp], 0
+	je	SHORT $LN9@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T20[ebp], esp
-	push	OFFSET $SG187174
+	mov	DWORD PTR $T23[ebp], esp
+	push	OFFSET $SG193318
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv908[ebp], eax
+	mov	DWORD PTR tv948[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 21		; 00000015H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 20		; 00000014H
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv842[ebp]
+	fstp	QWORD PTR tv877[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv842[ebp]
+	movsd	xmm0, QWORD PTR tv877[ebp]
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR $T21[ebp]
+	mov	ecx, DWORD PTR $T24[ebp]
 	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv538[ebp], eax
-	jmp	SHORT $LN12@Raven_Bot
-$LN11@Raven_Bot:
-	mov	DWORD PTR tv538[ebp], 0
-$LN12@Raven_Bot:
-	mov	edx, DWORD PTR tv538[ebp]
-	mov	DWORD PTR $T22[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR $T22[ebp]
-	mov	DWORD PTR [eax+192], ecx
+	mov	DWORD PTR tv536[ebp], eax
+	jmp	SHORT $LN10@Raven_Bot
+$LN9@Raven_Bot:
+	mov	DWORD PTR tv536[ebp], 0
+$LN10@Raven_Bot:
+	mov	ecx, DWORD PTR tv536[ebp]
+	mov	DWORD PTR $T25[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR $T25[ebp]
+	mov	DWORD PTR [edx+188], eax
 
-; 70   :   m_pTriggerTestRegulator = new Regulator(script->GetDouble("Bot_TriggerUpdateFreq"));
+; 73   :   m_pTargetSelectionRegulator = new Regulator(script->GetDouble("Bot_TargetingUpdateFreq"));
 
 	push	16					; 00000010H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
-	mov	DWORD PTR $T18[ebp], eax
+	mov	DWORD PTR $T21[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 22		; 00000016H
-	cmp	DWORD PTR $T18[ebp], 0
-	je	SHORT $LN13@Raven_Bot
+	cmp	DWORD PTR $T21[ebp], 0
+	je	SHORT $LN11@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T17[ebp], esp
-	push	OFFSET $SG187176
+	mov	DWORD PTR $T20[ebp], esp
+	push	OFFSET $SG193320
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv912[ebp], eax
+	mov	DWORD PTR tv952[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 23		; 00000017H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 22		; 00000016H
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv847[ebp]
+	fstp	QWORD PTR tv882[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv847[ebp]
+	movsd	xmm0, QWORD PTR tv882[ebp]
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR $T18[ebp]
+	mov	ecx, DWORD PTR $T21[ebp]
 	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv604[ebp], eax
-	jmp	SHORT $LN14@Raven_Bot
-$LN13@Raven_Bot:
-	mov	DWORD PTR tv604[ebp], 0
-$LN14@Raven_Bot:
-	mov	edx, DWORD PTR tv604[ebp]
-	mov	DWORD PTR $T19[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR $T19[ebp]
-	mov	DWORD PTR [eax+196], ecx
+	mov	DWORD PTR tv602[ebp], eax
+	jmp	SHORT $LN12@Raven_Bot
+$LN11@Raven_Bot:
+	mov	DWORD PTR tv602[ebp], 0
+$LN12@Raven_Bot:
+	mov	ecx, DWORD PTR tv602[ebp]
+	mov	DWORD PTR $T22[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR $T22[ebp]
+	mov	DWORD PTR [edx+192], eax
 
-; 71   :   m_pVisionUpdateRegulator = new Regulator(script->GetDouble("Bot_VisionUpdateFreq"));
+; 74   :   m_pTriggerTestRegulator = new Regulator(script->GetDouble("Bot_TriggerUpdateFreq"));
 
 	push	16					; 00000010H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
-	mov	DWORD PTR $T15[ebp], eax
+	mov	DWORD PTR $T18[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 24		; 00000018H
-	cmp	DWORD PTR $T15[ebp], 0
-	je	SHORT $LN15@Raven_Bot
+	cmp	DWORD PTR $T18[ebp], 0
+	je	SHORT $LN13@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
-	mov	DWORD PTR $T14[ebp], esp
-	push	OFFSET $SG187178
+	mov	DWORD PTR $T17[ebp], esp
+	push	OFFSET $SG193322
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv916[ebp], eax
+	mov	DWORD PTR tv956[ebp], eax
 	mov	BYTE PTR __$EHRec$[ebp+8], 25		; 00000019H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
 	mov	BYTE PTR __$EHRec$[ebp+8], 24		; 00000018H
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv852[ebp]
+	fstp	QWORD PTR tv887[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv852[ebp]
+	movsd	xmm0, QWORD PTR tv887[ebp]
+	movsd	QWORD PTR [esp], xmm0
+	mov	ecx, DWORD PTR $T18[ebp]
+	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
+	mov	DWORD PTR tv636[ebp], eax
+	jmp	SHORT $LN14@Raven_Bot
+$LN13@Raven_Bot:
+	mov	DWORD PTR tv636[ebp], 0
+$LN14@Raven_Bot:
+	mov	ecx, DWORD PTR tv636[ebp]
+	mov	DWORD PTR $T19[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR $T19[ebp]
+	mov	DWORD PTR [edx+196], eax
+
+; 75   :   m_pVisionUpdateRegulator = new Regulator(script->GetDouble("Bot_VisionUpdateFreq"));
+
+	push	16					; 00000010H
+	call	??2@YAPAXI@Z				; operator new
+	add	esp, 4
+	mov	DWORD PTR $T15[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 26		; 0000001aH
+	cmp	DWORD PTR $T15[ebp], 0
+	je	SHORT $LN15@Raven_Bot
+	sub	esp, 28					; 0000001cH
+	mov	ecx, esp
+	mov	DWORD PTR $T14[ebp], esp
+	push	OFFSET $SG193324
+	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
+	mov	DWORD PTR tv960[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 27		; 0000001bH
+	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
+	mov	BYTE PTR __$EHRec$[ebp+8], 26		; 0000001aH
+	mov	ecx, eax
+	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
+	fstp	QWORD PTR tv892[ebp]
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR tv892[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	mov	ecx, DWORD PTR $T15[ebp]
 	call	??0Regulator@@QAE@N@Z			; Regulator::Regulator
-	mov	DWORD PTR tv638[ebp], eax
+	mov	DWORD PTR tv670[ebp], eax
 	jmp	SHORT $LN16@Raven_Bot
 $LN15@Raven_Bot:
-	mov	DWORD PTR tv638[ebp], 0
+	mov	DWORD PTR tv670[ebp], 0
 $LN16@Raven_Bot:
-	mov	edx, DWORD PTR tv638[ebp]
-	mov	DWORD PTR $T16[ebp], edx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR $T16[ebp]
-	mov	DWORD PTR [eax+200], ecx
+	mov	ecx, DWORD PTR tv670[ebp]
+	mov	DWORD PTR $T16[ebp], ecx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR $T16[ebp]
+	mov	DWORD PTR [edx+200], eax
 
-; 72   : 
-; 73   :   //create the goal queue
-; 74   :   m_pBrain = new Goal_Think(this);
+; 76   : 
+; 77   :   //create the goal queue
+; 78   :   m_pBrain = new Goal_Think(this);
 
 	push	44					; 0000002cH
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T12[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 26		; 0000001aH
+	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
 	cmp	DWORD PTR $T12[ebp], 0
 	je	SHORT $LN17@Raven_Bot
-	mov	edx, DWORD PTR _this$[ebp]
-	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	push	ecx
 	mov	ecx, DWORD PTR $T12[ebp]
 	call	??0Goal_Think@@QAE@PAVRaven_Bot@@@Z	; Goal_Think::Goal_Think
-	mov	DWORD PTR tv651[ebp], eax
+	mov	DWORD PTR tv683[ebp], eax
 	jmp	SHORT $LN18@Raven_Bot
 $LN17@Raven_Bot:
-	mov	DWORD PTR tv651[ebp], 0
+	mov	DWORD PTR tv683[ebp], 0
 $LN18@Raven_Bot:
-	mov	eax, DWORD PTR tv651[ebp]
-	mov	DWORD PTR $T13[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR $T13[ebp]
-	mov	DWORD PTR [ecx+156], edx
+	mov	edx, DWORD PTR tv683[ebp]
+	mov	DWORD PTR $T13[ebp], edx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR $T13[ebp]
+	mov	DWORD PTR [eax+156], ecx
 
-; 75   : 
-; 76   :   //create the targeting system
-; 77   :   m_pTargSys = new Raven_TargetingSystem(this);
+; 79   : 
+; 80   :   //create the targeting system
+; 81   :   m_pTargSys = new Raven_TargetingSystem(this);
 
 	push	8
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T10[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 27		; 0000001bH
+	mov	BYTE PTR __$EHRec$[ebp+8], 29		; 0000001dH
 	cmp	DWORD PTR $T10[ebp], 0
 	je	SHORT $LN19@Raven_Bot
-	mov	eax, DWORD PTR _this$[ebp]
-	push	eax
+	mov	edx, DWORD PTR _this$[ebp]
+	push	edx
 	mov	ecx, DWORD PTR $T10[ebp]
 	call	??0Raven_TargetingSystem@@QAE@PAVRaven_Bot@@@Z ; Raven_TargetingSystem::Raven_TargetingSystem
-	mov	DWORD PTR tv664[ebp], eax
+	mov	DWORD PTR tv696[ebp], eax
 	jmp	SHORT $LN20@Raven_Bot
 $LN19@Raven_Bot:
-	mov	DWORD PTR tv664[ebp], 0
+	mov	DWORD PTR tv696[ebp], 0
 $LN20@Raven_Bot:
-	mov	ecx, DWORD PTR tv664[ebp]
-	mov	DWORD PTR $T11[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR $T11[ebp]
-	mov	DWORD PTR [edx+172], eax
+	mov	eax, DWORD PTR tv696[ebp]
+	mov	DWORD PTR $T11[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR $T11[ebp]
+	mov	DWORD PTR [ecx+172], edx
 
-; 78   : 
-; 79   :   m_pWeaponSys = new Raven_WeaponSystem(this,
+; 82   : 
+; 83   :   m_pWeaponSys = new Raven_WeaponSystem(this,
 
 	push	48					; 00000030H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T8[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
 	cmp	DWORD PTR $T8[ebp], 0
 	je	$LN21@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T7[ebp], esp
-	push	OFFSET $SG187182
+	push	OFFSET $SG193328
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv924[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 29		; 0000001dH
+	mov	DWORD PTR tv968[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 31		; 0000001fH
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv861[ebp]
+	fstp	QWORD PTR tv901[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv861[ebp]
+	movsd	xmm0, QWORD PTR tv901[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T6[ebp], esp
-	push	OFFSET $SG187183
+	push	OFFSET $SG193329
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv926[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
+	mov	DWORD PTR tv970[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 32		; 00000020H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv865[ebp]
+	fstp	QWORD PTR tv905[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv865[ebp]
+	movsd	xmm0, QWORD PTR tv905[ebp]
 	movsd	QWORD PTR [esp], xmm0
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T5[ebp], esp
-	push	OFFSET $SG187184
+	push	OFFSET $SG193330
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv928[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 31		; 0000001fH
+	mov	DWORD PTR tv972[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 33		; 00000021H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 28		; 0000001cH
+	mov	BYTE PTR __$EHRec$[ebp+8], 30		; 0000001eH
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv869[ebp]
+	fstp	QWORD PTR tv909[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv869[ebp]
+	movsd	xmm0, QWORD PTR tv909[ebp]
 	movsd	QWORD PTR [esp], xmm0
-	mov	ecx, DWORD PTR _this$[ebp]
-	push	ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	push	eax
 	mov	ecx, DWORD PTR $T8[ebp]
 	call	??0Raven_WeaponSystem@@QAE@PAVRaven_Bot@@NNN@Z ; Raven_WeaponSystem::Raven_WeaponSystem
-	mov	DWORD PTR tv675[ebp], eax
-	mov	edx, DWORD PTR tv675[ebp]
-	mov	DWORD PTR tv743[ebp], edx
+	mov	DWORD PTR tv707[ebp], eax
+	mov	ecx, DWORD PTR tv707[ebp]
+	mov	DWORD PTR tv775[ebp], ecx
 	jmp	SHORT $LN22@Raven_Bot
 $LN21@Raven_Bot:
-	mov	DWORD PTR tv743[ebp], 0
+	mov	DWORD PTR tv775[ebp], 0
 $LN22@Raven_Bot:
-	mov	eax, DWORD PTR tv743[ebp]
-	mov	DWORD PTR $T9[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR $T9[ebp]
-	mov	DWORD PTR [ecx+180], edx
+	mov	edx, DWORD PTR tv775[ebp]
+	mov	DWORD PTR $T9[ebp], edx
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR $T9[ebp]
+	mov	DWORD PTR [eax+180], ecx
 
-; 80   :                                         script->GetDouble("Bot_ReactionTime"),
-; 81   :                                         script->GetDouble("Bot_AimAccuracy"),
-; 82   :                                         script->GetDouble("Bot_AimPersistance"));
-; 83   : 
-; 84   :   m_pSensoryMem = new Raven_SensoryMemory(this, script->GetDouble("Bot_MemorySpan"));
+; 84   :                                         script->GetDouble("Bot_ReactionTime"),
+; 85   :                                         script->GetDouble("Bot_AimAccuracy"),
+; 86   :                                         script->GetDouble("Bot_AimPersistance"));
+; 87   : 
+; 88   :   m_pSensoryMem = new Raven_SensoryMemory(this, script->GetDouble("Bot_MemorySpan"));
 
 	push	24					; 00000018H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T3[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 32		; 00000020H
+	mov	BYTE PTR __$EHRec$[ebp+8], 34		; 00000022H
 	cmp	DWORD PTR $T3[ebp], 0
 	je	SHORT $LN23@Raven_Bot
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T2[ebp], esp
-	push	OFFSET $SG187186
+	push	OFFSET $SG193332
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
-	mov	DWORD PTR tv932[ebp], eax
-	mov	BYTE PTR __$EHRec$[ebp+8], 33		; 00000021H
+	mov	DWORD PTR tv976[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 35		; 00000023H
 	call	?Instance@Raven_Scriptor@@SAPAV1@XZ	; Raven_Scriptor::Instance
-	mov	BYTE PTR __$EHRec$[ebp+8], 32		; 00000020H
+	mov	BYTE PTR __$EHRec$[ebp+8], 34		; 00000022H
 	mov	ecx, eax
 	call	?GetDouble@Scriptor@@QAENV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Scriptor::GetDouble
-	fstp	QWORD PTR tv874[ebp]
+	fstp	QWORD PTR tv914[ebp]
 	sub	esp, 8
-	movsd	xmm0, QWORD PTR tv874[ebp]
+	movsd	xmm0, QWORD PTR tv914[ebp]
 	movsd	QWORD PTR [esp], xmm0
-	mov	eax, DWORD PTR _this$[ebp]
-	push	eax
+	mov	edx, DWORD PTR _this$[ebp]
+	push	edx
 	mov	ecx, DWORD PTR $T3[ebp]
 	call	??0Raven_SensoryMemory@@QAE@PAVRaven_Bot@@N@Z ; Raven_SensoryMemory::Raven_SensoryMemory
-	mov	DWORD PTR tv778[ebp], eax
+	mov	DWORD PTR tv810[ebp], eax
 	jmp	SHORT $LN24@Raven_Bot
 $LN23@Raven_Bot:
-	mov	DWORD PTR tv778[ebp], 0
+	mov	DWORD PTR tv810[ebp], 0
 $LN24@Raven_Bot:
-	mov	ecx, DWORD PTR tv778[ebp]
-	mov	DWORD PTR $T4[ebp], ecx
-	mov	BYTE PTR __$EHRec$[ebp+8], 13		; 0000000dH
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR $T4[ebp]
-	mov	DWORD PTR [edx+160], eax
+	mov	eax, DWORD PTR tv810[ebp]
+	mov	DWORD PTR $T4[ebp], eax
+	mov	BYTE PTR __$EHRec$[ebp+8], 15		; 0000000fH
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR $T4[ebp]
+	mov	DWORD PTR [ecx+160], edx
 
-; 85   : }
+; 89   : }
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	mov	eax, DWORD PTR _this$[ebp]
@@ -52576,7 +54647,7 @@ $LN24@Raven_Bot:
 	mov	DWORD PTR fs:0, ecx
 	pop	ecx
 	pop	edi
-	add	esp, 520				; 00000208H
+	add	esp, 568				; 00000238H
 	cmp	ebp, esp
 	call	__RTC_CheckEsp
 	mov	esp, ebp
@@ -52585,40 +54656,40 @@ $LN24@Raven_Bot:
 _TEXT	ENDS
 text$x	SEGMENT
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$0:
-	mov	ecx, DWORD PTR $T46[ebp]
+	mov	ecx, DWORD PTR $T50[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$1:
-	mov	ecx, DWORD PTR $T45[ebp]
+	mov	ecx, DWORD PTR $T49[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$2:
-	mov	ecx, DWORD PTR $T43[ebp]
+	mov	ecx, DWORD PTR $T47[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$3:
-	mov	ecx, DWORD PTR $T42[ebp]
+	mov	ecx, DWORD PTR $T46[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$4:
-	mov	ecx, DWORD PTR $T41[ebp]
+	mov	ecx, DWORD PTR $T45[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$5:
-	mov	ecx, DWORD PTR $T39[ebp]
+	mov	ecx, DWORD PTR $T43[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$6:
-	mov	ecx, DWORD PTR $T37[ebp]
+	mov	ecx, DWORD PTR $T41[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$7:
 	mov	ecx, DWORD PTR _this$[ebp]
 	jmp	??1MovingEntity@@UAE@XZ			; MovingEntity::~MovingEntity
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$8:
-	mov	ecx, DWORD PTR $T36[ebp]
+	mov	ecx, DWORD PTR $T40[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$9:
-	mov	ecx, DWORD PTR $T35[ebp]
+	mov	ecx, DWORD PTR $T39[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$10:
-	mov	ecx, DWORD PTR $T34[ebp]
+	mov	ecx, DWORD PTR $T38[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$11:
-	mov	ecx, DWORD PTR $T33[ebp]
+	mov	ecx, DWORD PTR $T37[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$12:
 	mov	ecx, DWORD PTR _this$[ebp]
@@ -52629,113 +54700,121 @@ __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$13:
 	add	ecx, 264				; 00000108H
 	jmp	??1?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAE@XZ ; std::vector<Vector2D,std::allocator<Vector2D> >::~vector<Vector2D,std::allocator<Vector2D> >
 __unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$14:
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 280				; 00000118H
+	jmp	??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$15:
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 296				; 00000128H
+	jmp	??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$18:
 	push	32					; 00000020H
 	mov	eax, DWORD PTR $T31[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$15:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$19:
 	push	184					; 000000b8H
 	mov	eax, DWORD PTR $T29[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$16:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$20:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T27[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$17:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$21:
 	mov	ecx, DWORD PTR $T26[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$18:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$22:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T24[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$19:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$23:
 	mov	ecx, DWORD PTR $T23[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$20:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$24:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T21[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$21:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$25:
 	mov	ecx, DWORD PTR $T20[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$22:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$26:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T18[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$23:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$27:
 	mov	ecx, DWORD PTR $T17[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$24:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$28:
 	push	16					; 00000010H
 	mov	eax, DWORD PTR $T15[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$25:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$29:
 	mov	ecx, DWORD PTR $T14[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$26:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$30:
 	push	44					; 0000002cH
 	mov	eax, DWORD PTR $T12[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$27:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$31:
 	push	8
 	mov	eax, DWORD PTR $T10[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$28:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$32:
 	push	48					; 00000030H
 	mov	eax, DWORD PTR $T8[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$29:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$33:
 	mov	ecx, DWORD PTR $T7[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$30:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$34:
 	mov	ecx, DWORD PTR $T6[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$31:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$35:
 	mov	ecx, DWORD PTR $T5[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$32:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$36:
 	push	24					; 00000018H
 	mov	eax, DWORD PTR $T3[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
 	add	esp, 8
 	ret	0
-__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$33:
+__unwindfunclet$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z$37:
 	mov	ecx, DWORD PTR $T2[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 __ehhandler$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z:
 	mov	edx, DWORD PTR [esp+8]
 	lea	eax, DWORD PTR [edx+12]
-	mov	ecx, DWORD PTR [edx-516]
+	mov	ecx, DWORD PTR [edx-564]
 	xor	ecx, eax
 	call	@__security_check_cookie@4
 	mov	eax, OFFSET __ehfuncinfo$??0Raven_Bot@@QAE@PAVRaven_Game@@UVector2D@@@Z
@@ -52758,15 +54837,15 @@ _NumBotVerts$ = -24					; size = 4
 _this$ = -20						; size = 4
 __$ArrayPad$ = -16					; size = 4
 __$EHRec$ = -12						; size = 12
-?SetUpVertexBuffer@Raven_Bot@@AAEXXZ PROC		; Raven_Bot::SetUpVertexBuffer
+?SetUpVertexBuffer@Raven_Bot@@QAEXXZ PROC		; Raven_Bot::SetUpVertexBuffer
 ; _this$ = ecx
 
-; 620  : {
+; 647  : {
 
 	push	ebp
 	mov	ebp, esp
 	push	-1
-	push	__ehhandler$?SetUpVertexBuffer@Raven_Bot@@AAEXXZ
+	push	__ehhandler$?SetUpVertexBuffer@Raven_Bot@@QAEXXZ
 	mov	eax, DWORD PTR fs:0
 	push	eax
 	sub	esp, 136				; 00000088H
@@ -52785,12 +54864,12 @@ __$EHRec$ = -12						; size = 12
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 621  :   //setup the vertex buffers and calculate the bounding radius
-; 622  :   const int NumBotVerts = 4;
+; 648  :   //setup the vertex buffers and calculate the bounding radius
+; 649  :   const int NumBotVerts = 4;
 
 	mov	DWORD PTR _NumBotVerts$[ebp], 4
 
-; 623  :   const Vector2D bot[NumBotVerts] = {Vector2D(-3, 8),
+; 650  :   const Vector2D bot[NumBotVerts] = {Vector2D(-3, 8),
 
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR __real@4020000000000000
@@ -52801,7 +54880,7 @@ __$EHRec$ = -12						; size = 12
 	lea	ecx, DWORD PTR _bot$[ebp]
 	call	??0Vector2D@@QAE@NN@Z			; Vector2D::Vector2D
 
-; 624  :                                      Vector2D(3,10),
+; 651  :                                      Vector2D(3,10),
 
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR __real@4024000000000000
@@ -52812,7 +54891,7 @@ __$EHRec$ = -12						; size = 12
 	lea	ecx, DWORD PTR _bot$[ebp+16]
 	call	??0Vector2D@@QAE@NN@Z			; Vector2D::Vector2D
 
-; 625  :                                      Vector2D(3,-10),
+; 652  :                                      Vector2D(3,-10),
 
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR __real@c024000000000000
@@ -52823,7 +54902,7 @@ __$EHRec$ = -12						; size = 12
 	lea	ecx, DWORD PTR _bot$[ebp+32]
 	call	??0Vector2D@@QAE@NN@Z			; Vector2D::Vector2D
 
-; 626  :                                      Vector2D(-3,-8)};
+; 653  :                                      Vector2D(-3,-8)};
 
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR __real@c020000000000000
@@ -52834,19 +54913,19 @@ __$EHRec$ = -12						; size = 12
 	lea	ecx, DWORD PTR _bot$[ebp+48]
 	call	??0Vector2D@@QAE@NN@Z			; Vector2D::Vector2D
 
-; 627  : 
-; 628  :   m_dBoundingRadius = 0.0;
+; 654  : 
+; 655  :   m_dBoundingRadius = 0.0;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	xorps	xmm0, xmm0
 	movsd	QWORD PTR [eax+56], xmm0
 
-; 629  :   double scale = script->GetDouble("Bot_Scale");
+; 656  :   double scale = script->GetDouble("Bot_Scale");
 
 	sub	esp, 28					; 0000001cH
 	mov	ecx, esp
 	mov	DWORD PTR $T2[ebp], esp
-	push	OFFSET $SG187609
+	push	OFFSET $SG193844
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	mov	DWORD PTR tv190[ebp], eax
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
@@ -52858,8 +54937,8 @@ __$EHRec$ = -12						; size = 12
 	movsd	xmm0, QWORD PTR tv189[ebp]
 	movsd	QWORD PTR _scale$[ebp], xmm0
 
-; 630  :   
-; 631  :   for (int vtx=0; vtx<NumBotVerts; ++vtx)
+; 657  :   
+; 658  :   for (int vtx=0; vtx<NumBotVerts; ++vtx)
 
 	mov	DWORD PTR _vtx$3[ebp], 0
 	jmp	SHORT $LN4@SetUpVerte
@@ -52871,8 +54950,8 @@ $LN4@SetUpVerte:
 	cmp	DWORD PTR _vtx$3[ebp], 4
 	jge	$LN3@SetUpVerte
 
-; 632  :   {
-; 633  :     m_vecBotVB.push_back(bot[vtx]);
+; 659  :   {
+; 660  :     m_vecBotVB.push_back(bot[vtx]);
 
 	mov	edx, DWORD PTR _vtx$3[ebp]
 	shl	edx, 4
@@ -52882,10 +54961,10 @@ $LN4@SetUpVerte:
 	add	ecx, 248				; 000000f8H
 	call	?push_back@?$vector@UVector2D@@V?$allocator@UVector2D@@@std@@@std@@QAEXABUVector2D@@@Z ; std::vector<Vector2D,std::allocator<Vector2D> >::push_back
 
-; 634  : 
-; 635  :     //set the bounding radius to the length of the 
-; 636  :     //greatest extent
-; 637  :     if (abs(bot[vtx].x)*scale > m_dBoundingRadius)
+; 661  : 
+; 662  :     //set the bounding radius to the length of the 
+; 663  :     //greatest extent
+; 664  :     if (abs(bot[vtx].x)*scale > m_dBoundingRadius)
 
 	mov	ecx, DWORD PTR _vtx$3[ebp]
 	shl	ecx, 4
@@ -52901,8 +54980,8 @@ $LN4@SetUpVerte:
 	comisd	xmm0, QWORD PTR [edx+56]
 	jbe	SHORT $LN5@SetUpVerte
 
-; 638  :     {
-; 639  :       m_dBoundingRadius = abs(bot[vtx].x*scale);
+; 665  :     {
+; 666  :       m_dBoundingRadius = abs(bot[vtx].x*scale);
 
 	mov	eax, DWORD PTR _vtx$3[ebp]
 	shl	eax, 4
@@ -52916,9 +54995,9 @@ $LN4@SetUpVerte:
 	fstp	QWORD PTR [ecx+56]
 $LN5@SetUpVerte:
 
-; 640  :     }
-; 641  : 
-; 642  :     if (abs(bot[vtx].y)*scale > m_dBoundingRadius)
+; 667  :     }
+; 668  : 
+; 669  :     if (abs(bot[vtx].y)*scale > m_dBoundingRadius)
 
 	mov	edx, DWORD PTR _vtx$3[ebp]
 	shl	edx, 4
@@ -52934,8 +55013,8 @@ $LN5@SetUpVerte:
 	comisd	xmm0, QWORD PTR [eax+56]
 	jbe	SHORT $LN6@SetUpVerte
 
-; 643  :     {
-; 644  :       m_dBoundingRadius = abs(bot[vtx].y)*scale;
+; 670  :     {
+; 671  :       m_dBoundingRadius = abs(bot[vtx].y)*scale;
 
 	mov	ecx, DWORD PTR _vtx$3[ebp]
 	shl	ecx, 4
@@ -52951,13 +55030,13 @@ $LN5@SetUpVerte:
 	movsd	QWORD PTR [edx+56], xmm0
 $LN6@SetUpVerte:
 
-; 645  :     }
-; 646  :   }
+; 672  :     }
+; 673  :   }
 
 	jmp	$LN2@SetUpVerte
 $LN3@SetUpVerte:
 
-; 647  : }
+; 674  : }
 
 	push	edx
 	mov	ecx, ebp
@@ -52994,10 +55073,10 @@ $LN9@SetUpVerte:
 	DB	0
 _TEXT	ENDS
 text$x	SEGMENT
-__unwindfunclet$?SetUpVertexBuffer@Raven_Bot@@AAEXXZ$0:
+__unwindfunclet$?SetUpVertexBuffer@Raven_Bot@@QAEXXZ$0:
 	mov	ecx, DWORD PTR $T2[ebp]
 	jmp	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
-__ehhandler$?SetUpVertexBuffer@Raven_Bot@@AAEXXZ:
+__ehhandler$?SetUpVertexBuffer@Raven_Bot@@QAEXXZ:
 	mov	edx, DWORD PTR [esp+8]
 	lea	eax, DWORD PTR [edx+12]
 	mov	ecx, DWORD PTR [edx-144]
@@ -53006,10 +55085,10 @@ __ehhandler$?SetUpVertexBuffer@Raven_Bot@@AAEXXZ:
 	mov	ecx, DWORD PTR [edx-4]
 	xor	ecx, eax
 	call	@__security_check_cookie@4
-	mov	eax, OFFSET __ehfuncinfo$?SetUpVertexBuffer@Raven_Bot@@AAEXXZ
+	mov	eax, OFFSET __ehfuncinfo$?SetUpVertexBuffer@Raven_Bot@@QAEXXZ
 	jmp	___CxxFrameHandler3
 text$x	ENDS
-?SetUpVertexBuffer@Raven_Bot@@AAEXXZ ENDP		; Raven_Bot::SetUpVertexBuffer
+?SetUpVertexBuffer@Raven_Bot@@QAEXXZ ENDP		; Raven_Bot::SetUpVertexBuffer
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.cpp
 _TEXT	SEGMENT
@@ -53021,10 +55100,10 @@ _accel$ = -56						; size = 16
 _BrakingRate$5 = -36					; size = 8
 _force$ = -24						; size = 16
 _this$ = -4						; size = 4
-?UpdateMovement@Raven_Bot@@AAEXXZ PROC			; Raven_Bot::UpdateMovement
+?UpdateMovement@Raven_Bot@@QAEXXZ PROC			; Raven_Bot::UpdateMovement
 ; _this$ = ecx
 
-; 245  : {
+; 272  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -53038,8 +55117,8 @@ _this$ = -4						; size = 4
 	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 246  :   //calculate the combined steering force
-; 247  :   Vector2D force = m_pSteering->Calculate();
+; 273  :   //calculate the combined steering force
+; 274  :   Vector2D force = m_pSteering->Calculate();
 
 	lea	eax, DWORD PTR _force$[ebp]
 	push	eax
@@ -53047,10 +55126,10 @@ _this$ = -4						; size = 4
 	mov	ecx, DWORD PTR [ecx+164]
 	call	?Calculate@Raven_Steering@@QAE?AUVector2D@@XZ ; Raven_Steering::Calculate
 
-; 248  : 
-; 249  :   //if no steering force is produced decelerate the player by applying a
-; 250  :   //braking force
-; 251  :   if (m_pSteering->Force().isZero())
+; 275  : 
+; 276  :   //if no steering force is produced decelerate the player by applying a
+; 277  :   //braking force
+; 278  :   if (m_pSteering->Force().isZero())
 
 	lea	edx, DWORD PTR $T4[ebp]
 	push	edx
@@ -53063,14 +55142,14 @@ _this$ = -4						; size = 4
 	test	ecx, ecx
 	je	SHORT $LN2@UpdateMove
 
-; 252  :   {
-; 253  :     const double BrakingRate = 0.8; 
+; 279  :   {
+; 280  :     const double BrakingRate = 0.8; 
 
 	movsd	xmm0, QWORD PTR __real@3fe999999999999a
 	movsd	QWORD PTR _BrakingRate$5[ebp], xmm0
 
-; 254  : 
-; 255  :     m_vVelocity = m_vVelocity * BrakingRate;                                     
+; 281  : 
+; 282  :     m_vVelocity = m_vVelocity * BrakingRate;                                     
 
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR __real@3fe999999999999a
@@ -53094,10 +55173,10 @@ _this$ = -4						; size = 4
 	mov	DWORD PTR [ecx+12], eax
 $LN2@UpdateMove:
 
-; 256  :   }
-; 257  : 
-; 258  :   //calculate the acceleration
-; 259  :   Vector2D accel = force / m_dMass;
+; 283  :   }
+; 284  : 
+; 285  :   //calculate the acceleration
+; 286  :   Vector2D accel = force / m_dMass;
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	sub	esp, 8
@@ -53110,9 +55189,9 @@ $LN2@UpdateMove:
 	call	??K@YA?AUVector2D@@ABU0@N@Z		; operator/
 	add	esp, 16					; 00000010H
 
-; 260  : 
-; 261  :   //update the velocity
-; 262  :   m_vVelocity += accel;
+; 287  : 
+; 288  :   //update the velocity
+; 289  :   m_vVelocity += accel;
 
 	lea	ecx, DWORD PTR _accel$[ebp]
 	push	ecx
@@ -53120,9 +55199,9 @@ $LN2@UpdateMove:
 	add	ecx, 64					; 00000040H
 	call	??YVector2D@@QAEABU0@ABU0@@Z		; Vector2D::operator+=
 
-; 263  : 
-; 264  :   //make sure vehicle does not exceed maximum velocity
-; 265  :   m_vVelocity.Truncate(m_dMaxSpeed);
+; 290  : 
+; 291  :   //make sure vehicle does not exceed maximum velocity
+; 292  :   m_vVelocity.Truncate(m_dMaxSpeed);
 
 	mov	edx, DWORD PTR _this$[ebp]
 	sub	esp, 8
@@ -53132,9 +55211,9 @@ $LN2@UpdateMove:
 	add	ecx, 64					; 00000040H
 	call	?Truncate@Vector2D@@QAEXN@Z		; Vector2D::Truncate
 
-; 266  : 
-; 267  :   //update the position
-; 268  :   m_vPosition += m_vVelocity;
+; 293  : 
+; 294  :   //update the position
+; 295  :   m_vPosition += m_vVelocity;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	add	eax, 64					; 00000040H
@@ -53143,10 +55222,10 @@ $LN2@UpdateMove:
 	add	ecx, 24					; 00000018H
 	call	??YVector2D@@QAEABU0@ABU0@@Z		; Vector2D::operator+=
 
-; 269  : 
-; 270  :   //if the vehicle has a non zero velocity the heading and side vectors must 
-; 271  :   //be updated
-; 272  :   if (!m_vVelocity.isZero())
+; 296  : 
+; 297  :   //if the vehicle has a non zero velocity the heading and side vectors must 
+; 298  :   //be updated
+; 299  :   if (!m_vVelocity.isZero())
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	add	ecx, 64					; 00000040H
@@ -53155,8 +55234,8 @@ $LN2@UpdateMove:
 	test	ecx, ecx
 	jne	SHORT $LN3@UpdateMove
 
-; 273  :   {    
-; 274  :     m_vHeading = Vec2DNormalize(m_vVelocity);
+; 300  :   {    
+; 301  :     m_vHeading = Vec2DNormalize(m_vVelocity);
 
 	mov	edx, DWORD PTR _this$[ebp]
 	add	edx, 64					; 00000040H
@@ -53176,8 +55255,8 @@ $LN2@UpdateMove:
 	mov	eax, DWORD PTR [eax+12]
 	mov	DWORD PTR [ecx+12], eax
 
-; 275  : 
-; 276  :     m_vSide = m_vHeading.Perp();
+; 302  : 
+; 303  :     m_vSide = m_vHeading.Perp();
 
 	lea	ecx, DWORD PTR $T1[ebp]
 	push	ecx
@@ -53196,8 +55275,8 @@ $LN2@UpdateMove:
 	mov	DWORD PTR [edx+12], eax
 $LN3@UpdateMove:
 
-; 277  :   }
-; 278  : }
+; 304  :   }
+; 305  : }
 
 	push	edx
 	mov	ecx, ebp
@@ -53238,7 +55317,7 @@ $LN5@UpdateMove:
 	DB	99					; 00000063H
 	DB	101					; 00000065H
 	DB	0
-?UpdateMovement@Raven_Bot@@AAEXXZ ENDP			; Raven_Bot::UpdateMovement
+?UpdateMovement@Raven_Bot@@QAEXXZ ENDP			; Raven_Bot::UpdateMovement
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_targetingsystem.h
@@ -53283,6 +55362,37 @@ _this$ = -4						; size = 4
 	pop	ebp
 	ret	0
 ?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ ENDP ; Raven_TargetingSystem::GetTarget
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_targetingsystem.h
+;	COMDAT ?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ
+_TEXT	SEGMENT
+tv66 = -8						; size = 4
+_this$ = -4						; size = 4
+?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ PROC	; Raven_TargetingSystem::isTargetPresent, COMDAT
+; _this$ = ecx
+
+; 45   :   bool       isTargetPresent()const{return m_pCurrentTarget != 0;}
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	cmp	DWORD PTR [eax+4], 0
+	je	SHORT $LN3@isTargetPr
+	mov	DWORD PTR tv66[ebp], 1
+	jmp	SHORT $LN4@isTargetPr
+$LN3@isTargetPr:
+	mov	DWORD PTR tv66[ebp], 0
+$LN4@isTargetPr:
+	mov	al, BYTE PTR tv66[ebp]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ ENDP	; Raven_TargetingSystem::isTargetPresent
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\misc\utils.h
@@ -58737,6 +60847,69 @@ _rhs$ = 8						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\vector2d.h
+;	COMDAT ?Distance@Vector2D@@QBENABU1@@Z
+_TEXT	SEGMENT
+_xSeparation$ = -20					; size = 8
+_ySeparation$ = -12					; size = 8
+_this$ = -4						; size = 4
+_v2$ = 8						; size = 4
+?Distance@Vector2D@@QBENABU1@@Z PROC			; Vector2D::Distance, COMDAT
+; _this$ = ecx
+
+; 185  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 20					; 00000014H
+	mov	eax, -858993460				; ccccccccH
+	mov	DWORD PTR [ebp-20], eax
+	mov	DWORD PTR [ebp-16], eax
+	mov	DWORD PTR [ebp-12], eax
+	mov	DWORD PTR [ebp-8], eax
+	mov	DWORD PTR [ebp-4], eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 186  :   double ySeparation = v2.y - y;
+
+	mov	eax, DWORD PTR _v2$[ebp]
+	mov	ecx, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR [eax+8]
+	subsd	xmm0, QWORD PTR [ecx+8]
+	movsd	QWORD PTR _ySeparation$[ebp], xmm0
+
+; 187  :   double xSeparation = v2.x - x;
+
+	mov	edx, DWORD PTR _v2$[ebp]
+	mov	eax, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR [edx]
+	subsd	xmm0, QWORD PTR [eax]
+	movsd	QWORD PTR _xSeparation$[ebp], xmm0
+
+; 188  : 
+; 189  :   return sqrt(ySeparation*ySeparation + xSeparation*xSeparation);
+
+	movsd	xmm0, QWORD PTR _ySeparation$[ebp]
+	mulsd	xmm0, QWORD PTR _ySeparation$[ebp]
+	movsd	xmm1, QWORD PTR _xSeparation$[ebp]
+	mulsd	xmm1, QWORD PTR _xSeparation$[ebp]
+	addsd	xmm0, xmm1
+	sub	esp, 8
+	movsd	QWORD PTR [esp], xmm0
+	call	_sqrt
+	add	esp, 8
+
+; 190  : }
+
+	add	esp, 20					; 00000014H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?Distance@Vector2D@@QBENABU1@@Z ENDP			; Vector2D::Distance
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\vector2d.h
 ;	COMDAT ?Truncate@Vector2D@@QAEXN@Z
 _TEXT	SEGMENT
 tv73 = -12						; size = 8
@@ -59133,6 +61306,2743 @@ _this$ = -4						; size = 4
 	pop	ebp
 	ret	0
 ??0Vector2D@@QAE@XZ ENDP				; Vector2D::Vector2D
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z
+_TEXT	SEGMENT
+__Pnext$ = -32						; size = 4
+__Lock$ = -24						; size = 4
+_this$ = -16						; size = 4
+__$EHRec$ = -12						; size = 12
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z PROC ; std::vector<double,std::allocator<double> >::_Orphan_range, COMDAT
+; _this$ = ecx
+
+; 1936 : 		{	// orphan iterators within specified (inclusive) range
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 20					; 00000014H
+	mov	eax, -858993460				; ccccccccH
+	mov	DWORD PTR [ebp-32], eax
+	mov	DWORD PTR [ebp-28], eax
+	mov	DWORD PTR [ebp-24], eax
+	mov	DWORD PTR [ebp-20], eax
+	mov	DWORD PTR [ebp-16], eax
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1937 : 		_Lockit _Lock(_LOCK_DEBUG);
+
+	push	3
+	lea	ecx, DWORD PTR __Lock$[ebp]
+	call	??0_Lockit@std@@QAE@H@Z			; std::_Lockit::_Lockit
+	mov	DWORD PTR __$EHRec$[ebp+8], 0
+
+; 1938 : 
+; 1939 : 		const_iterator ** _Pnext = reinterpret_cast<const_iterator **>(this->_Getpfirst());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getpfirst
+	mov	DWORD PTR __Pnext$[ebp], eax
+
+; 1940 : 
+; 1941 : 		if (_Pnext)
+
+	cmp	DWORD PTR __Pnext$[ebp], 0
+	je	SHORT $LN4@Orphan_ran
+$LN2@Orphan_ran:
+
+; 1942 : 			{
+; 1943 : 			while (*_Pnext)
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	cmp	DWORD PTR [eax], 0
+	je	SHORT $LN4@Orphan_ran
+
+; 1944 : 				{
+; 1945 : 				if ((*_Pnext)->_Ptr < _First || _Last < (*_Pnext)->_Ptr)
+
+	mov	ecx, DWORD PTR __Pnext$[ebp]
+	mov	edx, DWORD PTR [ecx]
+	mov	eax, DWORD PTR [edx+8]
+	cmp	eax, DWORD PTR __First$[ebp]
+	jb	SHORT $LN7@Orphan_ran
+	mov	ecx, DWORD PTR __Pnext$[ebp]
+	mov	edx, DWORD PTR [ecx]
+	mov	eax, DWORD PTR __Last$[ebp]
+	cmp	eax, DWORD PTR [edx+8]
+	jae	SHORT $LN5@Orphan_ran
+$LN7@Orphan_ran:
+
+; 1946 : 					{	// skip the iterator
+; 1947 : 					_Pnext = reinterpret_cast<const_iterator **>((*_Pnext)->_Getpnext());
+
+	mov	ecx, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [ecx]
+	call	?_Getpnext@_Iterator_base12@std@@QAEPAPAU12@XZ ; std::_Iterator_base12::_Getpnext
+	mov	DWORD PTR __Pnext$[ebp], eax
+
+; 1948 : 					}
+; 1949 : 				else
+
+	jmp	SHORT $LN6@Orphan_ran
+$LN5@Orphan_ran:
+
+; 1950 : 					{	// orphan the iterator
+; 1951 : 					(*_Pnext)->_Clrcont();
+
+	mov	edx, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [edx]
+	call	?_Clrcont@_Iterator_base12@std@@QAEXXZ	; std::_Iterator_base12::_Clrcont
+
+; 1952 : 					*_Pnext = *reinterpret_cast<const_iterator **>((*_Pnext)->_Getpnext());
+
+	mov	eax, DWORD PTR __Pnext$[ebp]
+	mov	ecx, DWORD PTR [eax]
+	call	?_Getpnext@_Iterator_base12@std@@QAEPAPAU12@XZ ; std::_Iterator_base12::_Getpnext
+	mov	ecx, DWORD PTR __Pnext$[ebp]
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR [ecx], edx
+$LN6@Orphan_ran:
+
+; 1953 : 					}
+; 1954 : 				}
+
+	jmp	SHORT $LN2@Orphan_ran
+$LN4@Orphan_ran:
+
+; 1955 : 			}
+; 1956 : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+8], -1
+	lea	ecx, DWORD PTR __Lock$[ebp]
+	call	??1_Lockit@std@@QAE@XZ			; std::_Lockit::~_Lockit
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN13@Orphan_ran
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	add	esp, 32					; 00000020H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+	npad	1
+$LN13@Orphan_ran:
+	DD	1
+	DD	$LN12@Orphan_ran
+$LN12@Orphan_ran:
+	DD	-24					; ffffffe8H
+	DD	4
+	DD	$LN10@Orphan_ran
+$LN10@Orphan_ran:
+	DB	95					; 0000005fH
+	DB	76					; 0000004cH
+	DB	111					; 0000006fH
+	DB	99					; 00000063H
+	DB	107					; 0000006bH
+	DB	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z$0:
+	lea	ecx, DWORD PTR __Lock$[ebp]
+	jmp	??1_Lockit@std@@QAE@XZ			; std::_Lockit::~_Lockit
+__ehhandler$?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-24]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?_Orphan_range@?$vector@NV?$allocator@N@std@@@std@@ABEXPAN0@Z ENDP ; std::vector<double,std::allocator<double> >::_Orphan_range
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ
+_TEXT	SEGMENT
+?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ PROC ; std::vector<double,std::allocator<double> >::_Xlength, COMDAT
+
+; 1925 : 		{	// report a length_error
+
+	push	ebp
+	mov	ebp, esp
+
+; 1926 : 		_Xlength_error("vector<T> too long");
+
+	push	OFFSET ??_C@_0BD@OLBABOEK@vector?$DMT?$DO?5too?5long@
+	call	?_Xlength_error@std@@YAXPBD@Z		; std::_Xlength_error
+$LN2@Xlength:
+
+; 1927 : 		}
+
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	pop	ebp
+	ret	0
+?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ ENDP ; std::vector<double,std::allocator<double> >::_Xlength
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Tidy@?$vector@NV?$allocator@N@std@@@std@@AAEXXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Tidy@?$vector@NV?$allocator@N@std@@@std@@AAEXXZ PROC	; std::vector<double,std::allocator<double> >::_Tidy, COMDAT
+; _this$ = ecx
+
+; 1910 : 		{	// free all storage
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1911 : 		this->_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Orphan_all
+
+; 1912 : 
+; 1913 : 		if (this->_Myfirst() != pointer())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	cmp	DWORD PTR [eax], 0
+	je	SHORT $LN1@Tidy
+
+; 1914 : 			{	// destroy and deallocate old array
+; 1915 : 			_Destroy(this->_Myfirst(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN0@Z ; std::vector<double,std::allocator<double> >::_Destroy
+
+; 1916 : 			this->_Getal().deallocate(this->_Myfirst(), capacity());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?capacity@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::capacity
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	mov	ecx, eax
+	call	?deallocate@?$allocator@N@std@@QAEXQANI@Z ; std::allocator<double>::deallocate
+
+; 1917 : 
+; 1918 : 			this->_Myfirst() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	DWORD PTR [eax], 0
+
+; 1919 : 			this->_Mylast() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	DWORD PTR [eax], 0
+
+; 1920 : 			this->_Myend() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+	mov	DWORD PTR [eax], 0
+$LN1@Tidy:
+
+; 1921 : 			}
+; 1922 : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Tidy@?$vector@NV?$allocator@N@std@@@std@@AAEXXZ ENDP	; std::vector<double,std::allocator<double> >::_Tidy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Change_array@?$vector@NV?$allocator@N@std@@@std@@AAEXQANII@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__Newvec$ = 8						; size = 4
+__Newsize$ = 12						; size = 4
+__Newcapacity$ = 16					; size = 4
+?_Change_array@?$vector@NV?$allocator@N@std@@@std@@AAEXQANII@Z PROC ; std::vector<double,std::allocator<double> >::_Change_array, COMDAT
+; _this$ = ecx
+
+; 1895 : 		{	// orphan all iterators, discard old array, acquire new array
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	push	esi
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1896 : 		this->_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Orphan_all
+
+; 1897 : 
+; 1898 : 		if (this->_Myfirst() != pointer())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	cmp	DWORD PTR [eax], 0
+	je	SHORT $LN2@Change_arr
+
+; 1899 : 			{	// destroy and deallocate old array
+; 1900 : 			_Destroy(this->_Myfirst(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN0@Z ; std::vector<double,std::allocator<double> >::_Destroy
+
+; 1901 : 			this->_Getal().deallocate(this->_Myfirst(), capacity());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?capacity@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::capacity
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	mov	ecx, eax
+	call	?deallocate@?$allocator@N@std@@QAEXQANI@Z ; std::allocator<double>::deallocate
+$LN2@Change_arr:
+
+; 1902 : 			}
+; 1903 : 
+; 1904 : 		this->_Myfirst() = _Newvec;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR __Newvec$[ebp]
+	mov	DWORD PTR [eax], ecx
+
+; 1905 : 		this->_Mylast() = _Newvec + _Newsize;
+
+	mov	edx, DWORD PTR __Newsize$[ebp]
+	mov	eax, DWORD PTR __Newvec$[ebp]
+	lea	esi, DWORD PTR [eax+edx*8]
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	DWORD PTR [eax], esi
+
+; 1906 : 		this->_Myend() = _Newvec + _Newcapacity;
+
+	mov	ecx, DWORD PTR __Newcapacity$[ebp]
+	mov	edx, DWORD PTR __Newvec$[ebp]
+	lea	esi, DWORD PTR [edx+ecx*8]
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+	mov	DWORD PTR [eax], esi
+
+; 1907 : 		}
+
+	pop	esi
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	12					; 0000000cH
+?_Change_array@?$vector@NV?$allocator@N@std@@@std@@AAEXQANII@Z ENDP ; std::vector<double,std::allocator<double> >::_Change_array
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Buy@?$vector@NV?$allocator@N@std@@@std@@AAE_NI@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__Newcapacity$ = 8					; size = 4
+?_Buy@?$vector@NV?$allocator@N@std@@@std@@AAE_NI@Z PROC	; std::vector<double,std::allocator<double> >::_Buy, COMDAT
+; _this$ = ecx
+
+; 1872 : 		{	// allocate array with _Newcapacity elements
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	push	esi
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1873 : 		this->_Myfirst() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	DWORD PTR [eax], 0
+
+; 1874 : 		this->_Mylast() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	DWORD PTR [eax], 0
+
+; 1875 : 		this->_Myend() = pointer();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+	mov	DWORD PTR [eax], 0
+
+; 1876 : 
+; 1877 : 		if (_Newcapacity == 0)
+
+	cmp	DWORD PTR __Newcapacity$[ebp], 0
+	jne	SHORT $LN2@Buy
+
+; 1878 : 			{
+; 1879 : 			return (false);
+
+	xor	al, al
+	jmp	SHORT $LN4@Buy
+$LN2@Buy:
+
+; 1880 : 			}
+; 1881 : 
+; 1882 : 		if (_Newcapacity > max_size())
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?max_size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::max_size
+	cmp	DWORD PTR __Newcapacity$[ebp], eax
+	jbe	SHORT $LN3@Buy
+
+; 1883 : 			{
+; 1884 : 			_Xlength();
+
+	call	?_Xlength@?$vector@NV?$allocator@N@std@@@std@@CAXXZ ; std::vector<double,std::allocator<double> >::_Xlength
+$LN3@Buy:
+
+; 1885 : 			}
+; 1886 : 
+; 1887 : 		this->_Myfirst() = this->_Getal().allocate(_Newcapacity);
+
+	mov	eax, DWORD PTR __Newcapacity$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	mov	ecx, eax
+	call	?allocate@?$allocator@N@std@@QAEPANI@Z	; std::allocator<double>::allocate
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	DWORD PTR [eax], esi
+
+; 1888 : 		this->_Mylast() = this->_Myfirst();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	ecx, DWORD PTR [esi]
+	mov	DWORD PTR [eax], ecx
+
+; 1889 : 		this->_Myend() = this->_Myfirst() + _Newcapacity;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	edx, DWORD PTR [eax]
+	mov	eax, DWORD PTR __Newcapacity$[ebp]
+	lea	esi, DWORD PTR [edx+eax*8]
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+	mov	DWORD PTR [eax], esi
+
+; 1890 : 
+; 1891 : 		return (true);
+
+	mov	al, 1
+$LN4@Buy:
+
+; 1892 : 		}
+
+	pop	esi
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Buy@?$vector@NV?$allocator@N@std@@@std@@AAE_NI@Z ENDP	; std::vector<double,std::allocator<double> >::_Buy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Calculate_growth@?$vector@NV?$allocator@N@std@@@std@@ABEII@Z
+_TEXT	SEGMENT
+__Geometric$ = -12					; size = 4
+__Oldcapacity$ = -8					; size = 4
+_this$ = -4						; size = 4
+__Newsize$ = 8						; size = 4
+?_Calculate_growth@?$vector@NV?$allocator@N@std@@@std@@ABEII@Z PROC ; std::vector<double,std::allocator<double> >::_Calculate_growth, COMDAT
+; _this$ = ecx
+
+; 1853 : 		{	// given _Oldcapacity and _Newsize, calculate geometric growth
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 12					; 0000000cH
+	mov	DWORD PTR [ebp-12], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1854 : 		const size_type _Oldcapacity = capacity();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?capacity@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::capacity
+	mov	DWORD PTR __Oldcapacity$[ebp], eax
+
+; 1855 : 
+; 1856 : 		if (_Oldcapacity > max_size() - _Oldcapacity / 2)
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?max_size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ; std::vector<double,std::allocator<double> >::max_size
+	mov	ecx, DWORD PTR __Oldcapacity$[ebp]
+	shr	ecx, 1
+	sub	eax, ecx
+	cmp	DWORD PTR __Oldcapacity$[ebp], eax
+	jbe	SHORT $LN2@Calculate_
+
+; 1857 : 			{
+; 1858 : 			return (_Newsize);	// geometric growth would overflow
+
+	mov	eax, DWORD PTR __Newsize$[ebp]
+	jmp	SHORT $LN1@Calculate_
+$LN2@Calculate_:
+
+; 1859 : 			}
+; 1860 : 
+; 1861 : 		const size_type _Geometric = _Oldcapacity + _Oldcapacity / 2;
+
+	mov	edx, DWORD PTR __Oldcapacity$[ebp]
+	shr	edx, 1
+	add	edx, DWORD PTR __Oldcapacity$[ebp]
+	mov	DWORD PTR __Geometric$[ebp], edx
+
+; 1862 : 
+; 1863 : 		if (_Geometric < _Newsize)
+
+	mov	eax, DWORD PTR __Geometric$[ebp]
+	cmp	eax, DWORD PTR __Newsize$[ebp]
+	jae	SHORT $LN3@Calculate_
+
+; 1864 : 			{
+; 1865 : 			return (_Newsize);	// geometric growth would be insufficient
+
+	mov	eax, DWORD PTR __Newsize$[ebp]
+	jmp	SHORT $LN1@Calculate_
+$LN3@Calculate_:
+
+; 1866 : 			}
+; 1867 : 
+; 1868 : 		return (_Geometric);	// geometric growth is sufficient
+
+	mov	eax, DWORD PTR __Geometric$[ebp]
+$LN1@Calculate_:
+
+; 1869 : 		}
+
+	add	esp, 12					; 0000000cH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Calculate_growth@?$vector@NV?$allocator@N@std@@@std@@ABEII@Z ENDP ; std::vector<double,std::allocator<double> >::_Calculate_growth
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Destroy@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN0@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+?_Destroy@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN0@Z PROC ; std::vector<double,std::allocator<double> >::_Destroy, COMDAT
+; _this$ = ecx
+
+; 1848 : 		{	// destroy [_First, _Last) using allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1849 : 		_Destroy_range(_First, _Last, this->_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	mov	eax, DWORD PTR __Last$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	call	??$_Destroy_range@V?$allocator@N@std@@@std@@YAXPAN0AAV?$allocator@N@0@@Z ; std::_Destroy_range<std::allocator<double> >
+	add	esp, 12					; 0000000cH
+
+; 1850 : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?_Destroy@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN0@Z ENDP ; std::vector<double,std::allocator<double> >::_Destroy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Umove_if_noexcept@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00@Z
+_TEXT	SEGMENT
+$T1 = -5						; size = 1
+_this$ = -4						; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+?_Umove_if_noexcept@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00@Z PROC ; std::vector<double,std::allocator<double> >::_Umove_if_noexcept, COMDAT
+; _this$ = ecx
+
+; 1842 : 		{	// move_if_noexcept [_First, _Last) to raw _Dest, using allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1843 : 		_Umove_if_noexcept1(_First, _Last, _Dest,
+
+	xor	eax, eax
+	mov	BYTE PTR $T1[ebp], al
+	movzx	ecx, BYTE PTR $T1[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Dest$[ebp]
+	push	edx
+	mov	eax, DWORD PTR __Last$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __First$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Umove_if_noexcept1@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00U?$integral_constant@_N$00@2@@Z ; std::vector<double,std::allocator<double> >::_Umove_if_noexcept1
+
+; 1844 : 			bool_constant<disjunction_v<is_nothrow_move_constructible<_Ty>, negation<is_copy_constructible<_Ty>>>>{});
+; 1845 : 		}
+
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	12					; 0000000cH
+?_Umove_if_noexcept@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00@Z ENDP ; std::vector<double,std::allocator<double> >::_Umove_if_noexcept
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Umove_if_noexcept1@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00U?$integral_constant@_N$00@2@@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+___formal$ = 20						; size = 1
+?_Umove_if_noexcept1@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00U?$integral_constant@_N$00@2@@Z PROC ; std::vector<double,std::allocator<double> >::_Umove_if_noexcept1, COMDAT
+; _this$ = ecx
+
+; 1832 : 		{	// move [_First, _Last) to raw _Dest, using allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1833 : 		_Uninitialized_move(_First, _Last, _Dest, this->_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	mov	eax, DWORD PTR __Dest$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Last$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __First$[ebp]
+	push	edx
+	call	??$_Uninitialized_move@PANPANV?$allocator@N@std@@@std@@YAPANQAN0PANAAV?$allocator@N@0@@Z ; std::_Uninitialized_move<double *,double *,std::allocator<double> >
+	add	esp, 16					; 00000010H
+
+; 1834 : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	16					; 00000010H
+?_Umove_if_noexcept1@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN00U?$integral_constant@_N$00@2@@Z ENDP ; std::vector<double,std::allocator<double> >::_Umove_if_noexcept1
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Umove@?$vector@NV?$allocator@N@std@@@std@@AAEPANPAN00@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__First$ = 8						; size = 4
+__Last$ = 12						; size = 4
+__Dest$ = 16						; size = 4
+?_Umove@?$vector@NV?$allocator@N@std@@@std@@AAEPANPAN00@Z PROC ; std::vector<double,std::allocator<double> >::_Umove, COMDAT
+; _this$ = ecx
+
+; 1827 : 		{	// move [_First, _Last) to raw _Dest, using allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1828 : 		return (_Uninitialized_move(_First, _Last, _Dest, this->_Getal()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	mov	eax, DWORD PTR __Dest$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Last$[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __First$[ebp]
+	push	edx
+	call	??$_Uninitialized_move@PANPANV?$allocator@N@std@@@std@@YAPANQAN0PANAAV?$allocator@N@0@@Z ; std::_Uninitialized_move<double *,double *,std::allocator<double> >
+	add	esp, 16					; 00000010H
+
+; 1829 : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	12					; 0000000cH
+?_Umove@?$vector@NV?$allocator@N@std@@@std@@AAEPANPAN00@Z ENDP ; std::vector<double,std::allocator<double> >::_Umove
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Udefault@?$vector@NV?$allocator@N@std@@@std@@AAEPANPANI@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__Dest$ = 8						; size = 4
+__Count$ = 12						; size = 4
+?_Udefault@?$vector@NV?$allocator@N@std@@@std@@AAEPANPANI@Z PROC ; std::vector<double,std::allocator<double> >::_Udefault, COMDAT
+; _this$ = ecx
+
+; 1811 : 		{	// fill raw _Dest with _Count value-initialized objects, using allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1812 : 		return (_Uninitialized_value_construct_n(_Dest, _Count, this->_Getal()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Dest$[ebp]
+	push	ecx
+	call	??$_Uninitialized_value_construct_n@PANIV?$allocator@N@std@@@std@@YAPANPANIAAV?$allocator@N@0@@Z ; std::_Uninitialized_value_construct_n<double *,unsigned int,std::allocator<double> >
+	add	esp, 12					; 0000000cH
+
+; 1813 : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?_Udefault@?$vector@NV?$allocator@N@std@@@std@@AAEPANPANI@Z ENDP ; std::vector<double,std::allocator<double> >::_Udefault
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Has_unused_capacity@?$vector@NV?$allocator@N@std@@@std@@ABE_NXZ
+_TEXT	SEGMENT
+tv77 = -8						; size = 4
+_this$ = -4						; size = 4
+?_Has_unused_capacity@?$vector@NV?$allocator@N@std@@@std@@ABE_NXZ PROC ; std::vector<double,std::allocator<double> >::_Has_unused_capacity, COMDAT
+; _this$ = ecx
+
+; 1725 : 		{	// micro-optimization for capacity() != size()
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	push	esi
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1726 : 		return (this->_Myend() != this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	ecx, DWORD PTR [esi]
+	cmp	ecx, DWORD PTR [eax]
+	je	SHORT $LN3@Has_unused
+	mov	DWORD PTR tv77[ebp], 1
+	jmp	SHORT $LN4@Has_unused
+$LN3@Has_unused:
+	mov	DWORD PTR tv77[ebp], 0
+$LN4@Has_unused:
+	mov	al, BYTE PTR tv77[ebp]
+
+; 1727 : 		}
+
+	pop	esi
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Has_unused_capacity@?$vector@NV?$allocator@N@std@@@std@@ABE_NXZ ENDP ; std::vector<double,std::allocator<double> >::_Has_unused_capacity
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?capacity@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?capacity@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ PROC ; std::vector<double,std::allocator<double> >::capacity, COMDAT
+; _this$ = ecx
+
+; 1714 : 		{	// return current length of allocated storage
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	push	esi
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1715 : 		return (static_cast<size_type>(this->_Myend() - this->_Myfirst()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	sar	ecx, 3
+	mov	eax, ecx
+
+; 1716 : 		}
+
+	pop	esi
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?capacity@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ENDP ; std::vector<double,std::allocator<double> >::capacity
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?max_size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+$T1 = -12						; size = 4
+$T2 = -8						; size = 4
+_this$ = -4						; size = 4
+?max_size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ PROC ; std::vector<double,std::allocator<double> >::max_size, COMDAT
+; _this$ = ecx
+
+; 1708 : 		{	// return maximum possible length of sequence
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 12					; 0000000cH
+	mov	DWORD PTR [ebp-12], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1709 : 		return (_Min_value(static_cast<size_type>((numeric_limits<difference_type>::max)()),
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	call	?max_size@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAIABV?$allocator@N@2@@Z ; std::_Default_allocator_traits<std::allocator<double> >::max_size
+	add	esp, 4
+	mov	DWORD PTR $T2[ebp], eax
+	call	?max@?$numeric_limits@H@std@@SAHXZ	; std::numeric_limits<int>::max
+	mov	DWORD PTR $T1[ebp], eax
+	lea	eax, DWORD PTR $T2[ebp]
+	push	eax
+	lea	ecx, DWORD PTR $T1[ebp]
+	push	ecx
+	call	??$_Min_value@I@std@@YAABIABI0@Z	; std::_Min_value<unsigned int>
+	add	esp, 8
+	mov	eax, DWORD PTR [eax]
+
+; 1710 : 			_Alty_traits::max_size(this->_Getal())));
+; 1711 : 		}
+
+	add	esp, 12					; 0000000cH
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?max_size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ENDP ; std::vector<double,std::allocator<double> >::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ PROC	; std::vector<double,std::allocator<double> >::size, COMDAT
+; _this$ = ecx
+
+; 1703 : 		{	// return length of sequence
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	push	esi
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1704 : 		return (static_cast<size_type>(this->_Mylast() - this->_Myfirst()));
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR [esi]
+	sub	ecx, DWORD PTR [eax]
+	sar	ecx, 3
+	mov	eax, ecx
+
+; 1705 : 		}
+
+	pop	esi
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?size@?$vector@NV?$allocator@N@std@@@std@@QBEIXZ ENDP	; std::vector<double,std::allocator<double> >::size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+_this$ = -16						; size = 4
+__$EHRec$ = -12						; size = 12
+?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ PROC	; std::vector<double,std::allocator<double> >::clear, COMDAT
+; _this$ = ecx
+
+; 1589 : 		{	// erase all
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	push	esi
+	mov	DWORD PTR [ebp-16], -858993460		; ccccccccH
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 1590 : 		this->_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Orphan_all
+
+; 1591 : 		_Destroy(this->_Myfirst(), this->_Mylast());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Destroy@?$vector@NV?$allocator@N@std@@@std@@AAEXPAN0@Z ; std::vector<double,std::allocator<double> >::_Destroy
+
+; 1592 : 		this->_Mylast() = this->_Myfirst();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	edx, DWORD PTR [esi]
+	mov	DWORD PTR [eax], edx
+
+; 1593 : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	esi
+	add	esp, 16					; 00000010H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-12]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?clear@?$vector@NV?$allocator@N@std@@@std@@QAEXXZ ENDP	; std::vector<double,std::allocator<double> >::clear
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__Val$ = 8						; size = 4
+?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z PROC ; std::vector<double,std::allocator<double> >::push_back, COMDAT
+; _this$ = ecx
+
+; 936  : 		{	// insert by moving into element at end, provide strong guarantee
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 937  : 		emplace_back(_STD move(_Val));
+
+	mov	eax, DWORD PTR __Val$[ebp]
+	push	eax
+	call	??$move@AAN@std@@YA$$QANAAN@Z		; std::move<double &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$emplace_back@N@?$vector@NV?$allocator@N@std@@@std@@QAE@$$QAN@Z ; std::vector<double,std::allocator<double> >::emplace_back<double>
+
+; 938  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?push_back@?$vector@NV?$allocator@N@std@@@std@@QAEX$$QAN@Z ENDP ; std::vector<double,std::allocator<double> >::push_back
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -16						; size = 4
+__$EHRec$ = -12						; size = 12
+??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ PROC	; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >, COMDAT
+; _this$ = ecx
+
+; 893  : 		{	// destroy the object
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	mov	DWORD PTR [ebp-16], -858993460		; ccccccccH
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 894  : 		_Tidy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Tidy@?$vector@NV?$allocator@N@std@@@std@@AAEXXZ ; std::vector<double,std::allocator<double> >::_Tidy
+
+; 895  : 		}
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::~_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	add	esp, 16					; 00000010H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-8]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??1?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ENDP	; std::vector<double,std::allocator<double> >::~vector<double,std::allocator<double> >
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z
+_TEXT	SEGMENT
+$T2 = -17						; size = 1
+_this$ = -16						; size = 4
+__$EHRec$ = -12						; size = 12
+__Right$ = 8						; size = 4
+??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z PROC ; std::vector<double,std::allocator<double> >::operator=, COMDAT
+; _this$ = ecx
+
+; 875  : 		{	// assign by moving _Right
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	sub	esp, 8
+	mov	DWORD PTR [ebp-20], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-16], -858993460		; ccccccccH
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 876  : 		if (this != _STD addressof(_Right))
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	call	??$addressof@V?$vector@NV?$allocator@N@std@@@std@@@std@@YAPAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z ; std::addressof<std::vector<double,std::allocator<double> > >
+	add	esp, 4
+	cmp	DWORD PTR _this$[ebp], eax
+	je	SHORT $LN2@operator
+
+; 877  : 			{	// different, assign it
+; 878  : #pragma warning(push)
+; 879  : #pragma warning(disable: 4127)	// conditional expression is constant
+; 880  : 			if (_Always_equal_after_move<_Alty>
+; 881  : 				|| this->_Getal() == _Right._Getal())
+
+	mov	ecx, 1
+	test	ecx, ecx
+	je	SHORT $LN3@operator
+
+; 882  : 				{	// will steal _Right's contents (also, POCMA non-equal must reload array)
+; 883  : 				_Tidy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Tidy@?$vector@NV?$allocator@N@std@@@std@@AAEXXZ ; std::vector<double,std::allocator<double> >::_Tidy
+$LN3@operator:
+
+; 884  : 				}
+; 885  : #pragma warning(pop)
+; 886  : 			this->_Move_alloc(_Right._Getal());
+
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Move_alloc@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV?$allocator@N@2@@Z ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Move_alloc
+
+; 887  : 			_Move_assign_from(_STD move(_Right), bool_constant<_Always_equal_after_move<_Alty>>{});
+
+	xor	edx, edx
+	mov	BYTE PTR $T2[ebp], dl
+	movzx	eax, BYTE PTR $T2[ebp]
+	push	eax
+	mov	ecx, DWORD PTR __Right$[ebp]
+	push	ecx
+	call	??$move@AAV?$vector@NV?$allocator@N@std@@@std@@@std@@YA$$QAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z ; std::move<std::vector<double,std::allocator<double> > &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Move_assign_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z ; std::vector<double,std::allocator<double> >::_Move_assign_from
+$LN2@operator:
+
+; 888  : 			}
+; 889  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 890  : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	add	esp, 20					; 00000014H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-12]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??4?$vector@NV?$allocator@N@std@@@std@@QAEAAV01@$$QAV01@@Z ENDP ; std::vector<double,std::allocator<double> >::operator=
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Move_assign_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z
+_TEXT	SEGMENT
+$T1 = -5						; size = 1
+_this$ = -4						; size = 4
+__Right$ = 8						; size = 4
+___formal$ = 12						; size = 1
+?_Move_assign_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z PROC ; std::vector<double,std::allocator<double> >::_Move_assign_from, COMDAT
+; _this$ = ecx
+
+; 817  : 		{	// move from _Right, stealing its contents
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 818  : 		_Move_from(_STD move(_Right), true_type{});
+
+	xor	eax, eax
+	mov	BYTE PTR $T1[ebp], al
+	movzx	ecx, BYTE PTR $T1[ebp]
+	push	ecx
+	mov	edx, DWORD PTR __Right$[ebp]
+	push	edx
+	call	??$move@AAV?$vector@NV?$allocator@N@std@@@std@@@std@@YA$$QAV?$vector@NV?$allocator@N@std@@@0@AAV10@@Z ; std::move<std::vector<double,std::allocator<double> > &>
+	add	esp, 4
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Move_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z ; std::vector<double,std::allocator<double> >::_Move_from
+
+; 819  : 		}
+
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?_Move_assign_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z ENDP ; std::vector<double,std::allocator<double> >::_Move_assign_from
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Move_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z
+_TEXT	SEGMENT
+_this$ = -16						; size = 4
+__$EHRec$ = -12						; size = 12
+__Right$ = 8						; size = 4
+___formal$ = 12						; size = 1
+?_Move_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z PROC ; std::vector<double,std::allocator<double> >::_Move_from, COMDAT
+; _this$ = ecx
+
+; 762  : 		{	// move from _Right, stealing its contents
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$?_Move_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	push	esi
+	mov	DWORD PTR [ebp-16], -858993460		; ccccccccH
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 763  : 		this->_Swap_all(_Right);
+
+	mov	eax, DWORD PTR __Right$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV12@@Z ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Swap_all
+
+; 764  : 
+; 765  : 		this->_Myfirst() = _Right._Myfirst();
+
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR [esi]
+	mov	DWORD PTR [eax], ecx
+
+; 766  : 		this->_Mylast() = _Right._Mylast();
+
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	edx, DWORD PTR [esi]
+	mov	DWORD PTR [eax], edx
+
+; 767  : 		this->_Myend() = _Right._Myend();
+
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+	mov	ecx, DWORD PTR [esi]
+	mov	DWORD PTR [eax], ecx
+
+; 768  : 
+; 769  : 		_Right._Myfirst() = pointer();
+
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	DWORD PTR [eax], 0
+
+; 770  : 		_Right._Mylast() = pointer();
+
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	DWORD PTR [eax], 0
+
+; 771  : 		_Right._Myend() = pointer();
+
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+	mov	DWORD PTR [eax], 0
+
+; 772  : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	esi
+	add	esp, 16					; 00000010H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$?_Move_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-12]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$?_Move_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+?_Move_from@?$vector@NV?$allocator@N@std@@@std@@AAEX$$QAV12@U?$integral_constant@_N$00@2@@Z ENDP ; std::vector<double,std::allocator<double> >::_Move_from
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z
+_TEXT	SEGMENT
+tv69 = -24						; size = 4
+_this$ = -20						; size = 4
+__$EHRec$ = -16						; size = 16
+__Count$ = 8						; size = 4
+__Al$ = 12						; size = 4
+??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z PROC ; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >, COMDAT
+; _this$ = ecx
+
+; 661  : 		{	// construct from _Count * _Ty(), optional allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	sub	esp, 8
+	push	ebx
+	push	esi
+	push	edi
+	mov	DWORD PTR [ebp-24], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-20], -858993460		; ccccccccH
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR __$EHRec$[ebp], esp
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 660  : 		: _Mybase(_Al)
+
+	mov	eax, DWORD PTR __Al$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0ABV?$allocator@N@std@@X@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@ABV?$allocator@N@1@@Z ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > ><std::allocator<double> const &,void>
+	mov	DWORD PTR __$EHRec$[ebp+12], 0
+
+; 662  : 		if (_Buy(_Count))
+
+	mov	ecx, DWORD PTR __Count$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Buy@?$vector@NV?$allocator@N@std@@@std@@AAE_NI@Z ; std::vector<double,std::allocator<double> >::_Buy
+	movzx	edx, al
+	test	edx, edx
+	je	SHORT $LN1@vector
+
+; 663  : 			{	// nonzero, fill it
+; 664  : 			_TRY_BEGIN
+
+	mov	BYTE PTR __$EHRec$[ebp+12], 1
+
+; 665  : 			this->_Mylast() = _Udefault(this->_Myfirst(), _Count);
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+	mov	ecx, DWORD PTR [eax]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Udefault@?$vector@NV?$allocator@N@std@@@std@@AAEPANPANI@Z ; std::vector<double,std::allocator<double> >::_Udefault
+	mov	DWORD PTR tv69[ebp], eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+	mov	edx, DWORD PTR tv69[ebp]
+	mov	DWORD PTR [eax], edx
+	jmp	SHORT $LN5@vector
+__catch$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z$0:
+
+; 666  : 			_CATCH_ALL
+; 667  : 			_Tidy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Tidy@?$vector@NV?$allocator@N@std@@@std@@AAEXXZ ; std::vector<double,std::allocator<double> >::_Tidy
+
+; 668  : 			_RERAISE;
+
+	push	0
+	push	0
+	call	__CxxThrowException@8
+
+; 669  : 			_CATCH_END
+
+	mov	eax, $LN9@vector
+	ret	0
+$LN5@vector:
+	mov	DWORD PTR __$EHRec$[ebp+12], 0
+	jmp	SHORT $LN1@vector
+$LN9@vector:
+	mov	DWORD PTR __$EHRec$[ebp+12], 0
+$LN1@vector:
+
+; 670  : 			}
+; 671  : 		}
+
+	mov	DWORD PTR __$EHRec$[ebp+12], -1
+	mov	eax, DWORD PTR _this$[ebp]
+$LN4@vector:
+	mov	ecx, DWORD PTR __$EHRec$[ebp+4]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	pop	edi
+	pop	esi
+	pop	ebx
+	add	esp, 24					; 00000018H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__unwindfunclet$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z$2:
+	mov	ecx, DWORD PTR _this$[ebp]
+	jmp	??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::~_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >
+__ehhandler$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-28]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0?$vector@NV?$allocator@N@std@@@std@@QAE@IABV?$allocator@N@1@@Z ENDP ; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -16						; size = 4
+__$EHRec$ = -12						; size = 12
+??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ PROC	; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >, COMDAT
+; _this$ = ecx
+
+; 651  : 		{	// construct empty vector
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	mov	DWORD PTR [ebp-16], -858993460		; ccccccccH
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 650  : 		: _Mybase()
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >
+
+; 652  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	add	esp, 16					; 00000010H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-8]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??0?$vector@NV?$allocator@N@std@@@std@@QAE@XZ ENDP	; std::vector<double,std::allocator<double> >::vector<double,std::allocator<double> >
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ PROC ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_second, COMDAT
+; _this$ = ecx
+
+; 306  : 		{	// return const reference to second
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 307  : 		return (_Myval2);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 308  : 		}
+
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ENDP ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_second
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ PROC ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_second, COMDAT
+; _this$ = ecx
+
+; 301  : 		{	// return reference to second
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 302  : 		return (_Myval2);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 303  : 		}
+
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ENDP ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_second
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$allocator@N@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$allocator@N@2@XZ PROC ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_first, COMDAT
+; _this$ = ecx
+
+; 296  : 		{	// return const reference to first
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 297  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 298  : 		}
+
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$allocator@N@2@XZ ENDP ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_first
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
+;	COMDAT ?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$allocator@N@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$allocator@N@2@XZ PROC ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_first, COMDAT
+; _this$ = ecx
+
+; 291  : 		{	// return reference to first
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 292  : 		return (*this);
+
+	mov	eax, DWORD PTR _this$[ebp]
+
+; 293  : 		}
+
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$allocator@N@2@XZ ENDP ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_first
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??0?$_Vector_val@U?$_Simple_types@N@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+??0?$_Vector_val@U?$_Simple_types@N@std@@@std@@QAE@XZ PROC ; std::_Vector_val<std::_Simple_types<double> >::_Vector_val<std::_Simple_types<double> >, COMDAT
+; _this$ = ecx
+
+; 392  : 		{	// initialize values
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0_Container_base12@std@@QAE@XZ	; std::_Container_base12::_Container_base12
+
+; 389  : 		: _Myfirst(),
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [eax+4], 0
+
+; 390  : 		_Mylast(),
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [ecx+8], 0
+
+; 391  : 		_Myend()
+
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [edx+12], 0
+
+; 393  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$_Vector_val@U?$_Simple_types@N@std@@@std@@QAE@XZ ENDP ; std::_Vector_val<std::_Simple_types<double> >::_Vector_val<std::_Simple_types<double> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend, COMDAT
+; _this$ = ecx
+
+; 600  : 		{	// return const reference to _Myend
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 601  : 		return (_Get_data()._Myend);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	add	eax, 12					; 0000000cH
+
+; 602  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend, COMDAT
+; _this$ = ecx
+
+; 595  : 		{	// return reference to _Myend
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 596  : 		return (_Get_data()._Myend);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	add	eax, 12					; 0000000cH
+
+; 597  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myend@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myend
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast, COMDAT
+; _this$ = ecx
+
+; 590  : 		{	// return const reference to _Mylast
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 591  : 		return (_Get_data()._Mylast);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	add	eax, 8
+
+; 592  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast, COMDAT
+; _this$ = ecx
+
+; 585  : 		{	// return reference to _Mylast
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 586  : 		return (_Get_data()._Mylast);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	add	eax, 8
+
+; 587  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Mylast@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Mylast
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst, COMDAT
+; _this$ = ecx
+
+; 580  : 		{	// return const reference to _Myfirst
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 581  : 		return (_Get_data()._Myfirst);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	add	eax, 4
+
+; 582  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABQANXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst, COMDAT
+; _this$ = ecx
+
+; 575  : 		{	// return reference to _Myfirst
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 576  : 		return (_Get_data()._Myfirst);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	add	eax, 4
+
+; 577  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPANXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data, COMDAT
+; _this$ = ecx
+
+; 559  : 		{	// return const reference to _Vector_val
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 560  : 		return (_Mypair._Get_second());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_second
+
+; 561  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data, COMDAT
+; _this$ = ecx
+
+; 554  : 		{	// return reference to _Vector_val
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 555  : 		return (_Mypair._Get_second());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_second@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_second
+
+; 556  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$allocator@N@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$allocator@N@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal, COMDAT
+; _this$ = ecx
+
+; 549  : 		{	// return const reference to allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 550  : 		return (_Mypair._Get_first());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QBEABV?$allocator@N@2@XZ ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_first
+
+; 551  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$allocator@N@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal, COMDAT
+; _this$ = ecx
+
+; 544  : 		{	// return reference to allocator
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 545  : 		return (_Mypair._Get_first());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_first@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAEAAV?$allocator@N@2@XZ ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Get_first
+
+; 546  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV12@@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__Right$ = 8						; size = 4
+?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV12@@Z PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Swap_all, COMDAT
+; _this$ = ecx
+
+; 539  : 		{	// swap all iterators
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 540  : 		_Get_data()._Swap_all(_Right._Get_data());
+
+	mov	ecx, DWORD PTR __Right$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	mov	ecx, eax
+	call	?_Swap_all@_Container_base12@std@@QAEXAAU12@@Z ; std::_Container_base12::_Swap_all
+
+; 541  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Swap_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV12@@Z ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Swap_all
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Orphan_all, COMDAT
+; _this$ = ecx
+
+; 534  : 		{	// orphan all iterators
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 535  : 		_Get_data()._Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	mov	ecx, eax
+	call	?_Orphan_all@_Container_base12@std@@QAEXXZ ; std::_Container_base12::_Orphan_all
+
+; 536  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Orphan_all
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myproxy, COMDAT
+; _this$ = ecx
+
+; 523  : 		{	// return reference to _Myproxy
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 524  : 		return (_Get_data()._Myproxy);
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+
+; 525  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myproxy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getpfirst, COMDAT
+; _this$ = ecx
+
+; 518  : 		{	// get address of iterator chain
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 519  : 		return (_Get_data()._Getpfirst());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEABV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	mov	ecx, eax
+	call	?_Getpfirst@_Container_base12@std@@QBEPAPAU_Iterator_base12@2@XZ ; std::_Container_base12::_Getpfirst
+
+; 520  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?_Getpfirst@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QBEPAPAU_Iterator_base12@2@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getpfirst
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+__Proxy_allocator$ = -9					; size = 1
+_this$ = -4						; size = 4
+?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Free_proxy, COMDAT
+; _this$ = ecx
+
+; 509  : 		{	// destroy proxy
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 16					; 00000010H
+	mov	eax, -858993460				; ccccccccH
+	mov	DWORD PTR [ebp-16], eax
+	mov	DWORD PTR [ebp-12], eax
+	mov	DWORD PTR [ebp-8], eax
+	mov	DWORD PTR [ebp-4], eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 510  : 		_Alproxy _Proxy_allocator(_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	lea	ecx, DWORD PTR __Proxy_allocator$[ebp]
+	call	??$?0N@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@N@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><double>
+
+; 511  : 		_Orphan_all();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Orphan_all@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Orphan_all
+
+; 512  : 		_Alproxy_traits::destroy(_Proxy_allocator, _Myproxy());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	lea	ecx, DWORD PTR __Proxy_allocator$[ebp]
+	push	ecx
+	call	??$destroy@U_Container_proxy@std@@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@@Z ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::destroy<std::_Container_proxy>
+	add	esp, 8
+
+; 513  : 		_Deallocate_plain(_Proxy_allocator, _Myproxy());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myproxy
+	mov	edx, DWORD PTR [eax]
+	push	edx
+	lea	eax, DWORD PTR __Proxy_allocator$[ebp]
+	push	eax
+	call	??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@$0A@@std@@YAXAAV?$allocator@U_Container_proxy@std@@@0@QAU_Container_proxy@0@@Z ; std::_Deallocate_plain<std::allocator<std::_Container_proxy>,0>
+	add	esp, 8
+
+; 514  : 		_Myproxy() = nullptr;
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myproxy
+	mov	DWORD PTR [eax], 0
+
+; 515  : 		}
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@Free_proxy
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	add	esp, 16					; 00000010H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+	npad	2
+$LN5@Free_proxy:
+	DD	1
+	DD	$LN4@Free_proxy
+$LN4@Free_proxy:
+	DD	-9					; fffffff7H
+	DD	1
+	DD	$LN3@Free_proxy
+$LN3@Free_proxy:
+	DB	95					; 0000005fH
+	DB	80					; 00000050H
+	DB	114					; 00000072H
+	DB	111					; 0000006fH
+	DB	120					; 00000078H
+	DB	121					; 00000079H
+	DB	95					; 0000005fH
+	DB	97					; 00000061H
+	DB	108					; 0000006cH
+	DB	108					; 0000006cH
+	DB	111					; 0000006fH
+	DB	99					; 00000063H
+	DB	97					; 00000061H
+	DB	116					; 00000074H
+	DB	111					; 0000006fH
+	DB	114					; 00000072H
+	DB	0
+?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Free_proxy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ
+_TEXT	SEGMENT
+$T1 = -24						; size = 8
+__Proxy_allocator$ = -9					; size = 1
+_this$ = -4						; size = 4
+?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Alloc_proxy, COMDAT
+; _this$ = ecx
+
+; 501  : 		{	// construct proxy
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 24					; 00000018H
+	push	esi
+	mov	eax, -858993460				; ccccccccH
+	mov	DWORD PTR [ebp-24], eax
+	mov	DWORD PTR [ebp-20], eax
+	mov	DWORD PTR [ebp-16], eax
+	mov	DWORD PTR [ebp-12], eax
+	mov	DWORD PTR [ebp-8], eax
+	mov	DWORD PTR [ebp-4], eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 502  : 		_Alproxy _Proxy_allocator(_Getal());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	lea	ecx, DWORD PTR __Proxy_allocator$[ebp]
+	call	??$?0N@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@N@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><double>
+
+; 503  : 		_Myproxy() = _Unfancy(_Proxy_allocator.allocate(1));
+
+	push	1
+	lea	ecx, DWORD PTR __Proxy_allocator$[ebp]
+	call	?allocate@?$allocator@U_Container_proxy@std@@@std@@QAEPAU_Container_proxy@2@I@Z ; std::allocator<std::_Container_proxy>::allocate
+	push	eax
+	call	??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z ; std::_Unfancy<std::_Container_proxy>
+	add	esp, 4
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myproxy
+	mov	DWORD PTR [eax], esi
+
+; 504  : 		_Alproxy_traits::construct(_Proxy_allocator, _Myproxy(), _Container_proxy());
+
+	lea	ecx, DWORD PTR $T1[ebp]
+	call	??0_Container_proxy@std@@QAE@XZ		; std::_Container_proxy::_Container_proxy
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myproxy
+	mov	eax, DWORD PTR [eax]
+	push	eax
+	lea	ecx, DWORD PTR __Proxy_allocator$[ebp]
+	push	ecx
+	call	??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
+	add	esp, 12					; 0000000cH
+
+; 505  : 		_Myproxy()->_Mycont = _STD addressof(_Get_data());
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Get_data@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$_Vector_val@U?$_Simple_types@N@std@@@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Get_data
+	push	eax
+	call	??$addressof@V?$_Vector_val@U?$_Simple_types@N@std@@@std@@@std@@YAPAV?$_Vector_val@U?$_Simple_types@N@std@@@0@AAV10@@Z ; std::addressof<std::_Vector_val<std::_Simple_types<double> > >
+	add	esp, 4
+	mov	esi, eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Myproxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAPAU_Container_proxy@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Myproxy
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR [edx], esi
+
+; 506  : 		}
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@Alloc_prox
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	esi
+	add	esp, 24					; 00000018H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+$LN5@Alloc_prox:
+	DD	1
+	DD	$LN4@Alloc_prox
+$LN4@Alloc_prox:
+	DD	-9					; fffffff7H
+	DD	1
+	DD	$LN3@Alloc_prox
+$LN3@Alloc_prox:
+	DB	95					; 0000005fH
+	DB	80					; 00000050H
+	DB	114					; 00000072H
+	DB	111					; 0000006fH
+	DB	120					; 00000078H
+	DB	121					; 00000079H
+	DB	95					; 0000005fH
+	DB	97					; 00000061H
+	DB	108					; 0000006cH
+	DB	108					; 0000006cH
+	DB	111					; 0000006fH
+	DB	99					; 00000063H
+	DB	97					; 00000061H
+	DB	116					; 00000074H
+	DB	111					; 0000006fH
+	DB	114					; 00000072H
+	DB	0
+?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Alloc_proxy
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ?_Move_alloc@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV?$allocator@N@2@@Z
+_TEXT	SEGMENT
+tv72 = -6						; size = 1
+__Reload$ = -5						; size = 1
+_this$ = -4						; size = 4
+__Al$ = 8						; size = 4
+?_Move_alloc@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV?$allocator@N@2@@Z PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Move_alloc, COMDAT
+; _this$ = ecx
+
+; 483  : 		{	// replace old allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 484  : 		const bool _Reload = _Alty_traits::propagate_on_container_move_assignment::value
+; 485  : 			&& _Getal() != _Al;
+
+	mov	eax, 1
+	test	eax, eax
+	je	SHORT $LN5@Move_alloc
+	mov	ecx, DWORD PTR __Al$[ebp]
+	push	ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	call	??$?9NN@std@@YA_NABV?$allocator@N@0@0@Z	; std::operator!=<double,double>
+	add	esp, 8
+	movzx	edx, al
+	test	edx, edx
+	je	SHORT $LN5@Move_alloc
+	mov	BYTE PTR tv72[ebp], 1
+	jmp	SHORT $LN6@Move_alloc
+$LN5@Move_alloc:
+	mov	BYTE PTR tv72[ebp], 0
+$LN6@Move_alloc:
+	mov	al, BYTE PTR tv72[ebp]
+	mov	BYTE PTR __Reload$[ebp], al
+
+; 486  : 
+; 487  : 		if (_Reload)
+
+	movzx	ecx, BYTE PTR __Reload$[ebp]
+	test	ecx, ecx
+	je	SHORT $LN2@Move_alloc
+
+; 488  : 			{
+; 489  : 			_Free_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Free_proxy
+$LN2@Move_alloc:
+
+; 490  : 			}
+; 491  : 
+; 492  : 		_Pocma(_Getal(), _Al);
+
+	mov	edx, DWORD PTR __Al$[ebp]
+	push	edx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Getal@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEAAV?$allocator@N@2@XZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Getal
+	push	eax
+	call	??$_Pocma@V?$allocator@N@std@@@std@@YAXAAV?$allocator@N@0@0@Z ; std::_Pocma<std::allocator<double> >
+	add	esp, 8
+
+; 493  : 
+; 494  : 		if (_Reload)
+
+	movzx	eax, BYTE PTR __Reload$[ebp]
+	test	eax, eax
+	je	SHORT $LN1@Move_alloc
+
+; 495  : 			{
+; 496  : 			_Alloc_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Alloc_proxy
+$LN1@Move_alloc:
+
+; 497  : 			}
+; 498  : 		}
+
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?_Move_alloc@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXAAV?$allocator@N@2@@Z ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Move_alloc
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -16						; size = 4
+__$EHRec$ = -12						; size = 12
+??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::~_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >, COMDAT
+; _this$ = ecx
+
+; 460  : 		{	// destroy proxy
+
+	push	ebp
+	mov	ebp, esp
+	push	-1
+	push	__ehhandler$??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ
+	mov	eax, DWORD PTR fs:0
+	push	eax
+	push	ecx
+	mov	DWORD PTR [ebp-16], -858993460		; ccccccccH
+	mov	eax, DWORD PTR ___security_cookie
+	xor	eax, ebp
+	push	eax
+	lea	eax, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 461  : 		_Free_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Free_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Free_proxy
+
+; 462  : 		}
+
+	mov	ecx, DWORD PTR __$EHRec$[ebp]
+	mov	DWORD PTR fs:0, ecx
+	pop	ecx
+	add	esp, 16					; 00000010H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+_TEXT	ENDS
+;	COMDAT text$x
+text$x	SEGMENT
+__ehhandler$??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ:
+	mov	edx, DWORD PTR [esp+8]
+	lea	eax, DWORD PTR [edx+12]
+	mov	ecx, DWORD PTR [edx-8]
+	xor	ecx, eax
+	call	@__security_check_cookie@4
+	mov	eax, OFFSET __ehfuncinfo$??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ
+	jmp	___CxxFrameHandler3
+text$x	ENDS
+??1?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::~_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vector
+;	COMDAT ??0?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ
+_TEXT	SEGMENT
+$T1 = -5						; size = 1
+_this$ = -4						; size = 4
+??0?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ PROC ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >, COMDAT
+; _this$ = ecx
+
+; 446  : 		{	// default construct allocator
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 445  : 		: _Mypair(_Zero_then_variadic_args_t())
+
+	movzx	eax, BYTE PTR $T1[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??$?0$$V@?$_Compressed_pair@V?$allocator@N@std@@V?$_Vector_val@U?$_Simple_types@N@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1>::_Compressed_pair<std::allocator<double>,std::_Vector_val<std::_Simple_types<double> >,1><>
+
+; 447  : 		_Alloc_proxy();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?_Alloc_proxy@?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAEXXZ ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Alloc_proxy
+
+; 448  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$_Vector_alloc@U?$_Vec_base_types@NV?$allocator@N@std@@@std@@@std@@QAE@XZ ENDP ; std::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >::_Vector_alloc<std::_Vec_base_types<double,std::allocator<double> > >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ?max_size@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAIABV?$allocator@N@2@@Z
+_TEXT	SEGMENT
+___formal$ = 8						; size = 4
+?max_size@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAIABV?$allocator@N@2@@Z PROC ; std::_Default_allocator_traits<std::allocator<double> >::max_size, COMDAT
+
+; 891  : 		{	// get maximum size
+
+	push	ebp
+	mov	ebp, esp
+
+; 892  : 		return (static_cast<size_t>(-1) / sizeof(value_type));
+
+	mov	eax, 536870911				; 1fffffffH
+
+; 893  : 		}
+
+	pop	ebp
+	ret	0
+?max_size@?$_Default_allocator_traits@V?$allocator@N@std@@@std@@SAIABV?$allocator@N@2@@Z ENDP ; std::_Default_allocator_traits<std::allocator<double> >::max_size
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ?allocate@?$allocator@N@std@@QAEPANI@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__Count$ = 8						; size = 4
+?allocate@?$allocator@N@std@@QAEPANI@Z PROC		; std::allocator<double>::allocate, COMDAT
+; _this$ = ecx
+
+; 996  : 		{	// allocate array of _Count elements
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 997  : 		return (static_cast<_Ty *>(_Allocate<_New_alignof<_Ty>>(_Get_size_of_n<sizeof(_Ty)>(_Count))));
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	push	eax
+	call	??$_Get_size_of_n@$07@std@@YAII@Z	; std::_Get_size_of_n<8>
+	add	esp, 4
+	push	eax
+	call	??$_Allocate@$07U_Default_allocate_traits@std@@$0A@@std@@YAPAXI@Z ; std::_Allocate<8,std::_Default_allocate_traits,0>
+	add	esp, 4
+
+; 998  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?allocate@?$allocator@N@std@@QAEPANI@Z ENDP		; std::allocator<double>::allocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ?deallocate@?$allocator@N@std@@QAEXQANI@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+__Ptr$ = 8						; size = 4
+__Count$ = 12						; size = 4
+?deallocate@?$allocator@N@std@@QAEXQANI@Z PROC		; std::allocator<double>::deallocate, COMDAT
+; _this$ = ecx
+
+; 990  : 		{	// deallocate object at _Ptr
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 991  : 		// no overflow check on the following multiply; we assume _Allocate did that check
+; 992  : 		_Deallocate<_New_alignof<_Ty>>(_Ptr, sizeof(_Ty) * _Count);
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	shl	eax, 3
+	push	eax
+	mov	ecx, DWORD PTR __Ptr$[ebp]
+	push	ecx
+	call	??$_Deallocate@$07$0A@@std@@YAXPAXI@Z	; std::_Deallocate<8,0>
+	add	esp, 8
+
+; 993  : 		}
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+?deallocate@?$allocator@N@std@@QAEXQANI@Z ENDP		; std::allocator<double>::deallocate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??0?$allocator@N@std@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+??0?$allocator@N@std@@QAE@XZ PROC			; std::allocator<double>::allocator<double>, COMDAT
+; _this$ = ecx
+
+; 979  : 	constexpr allocator() noexcept
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 980  : 		{	// construct default allocator (do nothing)
+; 981  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0?$allocator@N@std@@QAE@XZ ENDP			; std::allocator<double>::allocator<double>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\misc\utils.h

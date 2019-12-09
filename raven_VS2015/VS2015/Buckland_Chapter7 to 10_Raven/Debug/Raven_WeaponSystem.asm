@@ -16,7 +16,7 @@ _BSS	ENDS
 CONST	SEGMENT
 ?piecewise_construct@std@@3Upiecewise_construct_t@1@B	ORG $+1 ; std::piecewise_construct
 	ORG $+3
-$SG180905 DB	' ', 00H
+$SG183068 DB	' ', 00H
 	ORG $+2
 ?colors@@3QBKB DD 0ffH					; colors
 	DD	0ff0000H
@@ -131,6 +131,28 @@ PUBLIC	??D@YA?AUVector2D@@ABU0@N@Z			; operator*
 PUBLIC	??G@YA?AUVector2D@@ABU0@0@Z			; operator-
 PUBLIC	??H@YA?AUVector2D@@ABU0@0@Z			; operator+
 PUBLIC	?Vec2DDistance@@YANABUVector2D@@0@Z		; Vec2DDistance
+PUBLIC	??0Matrix@C2DMatrix@@QAE@XZ			; C2DMatrix::Matrix::Matrix
+PUBLIC	?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z	; C2DMatrix::MatrixMultiply
+PUBLIC	??0C2DMatrix@@QAE@XZ				; C2DMatrix::C2DMatrix
+PUBLIC	?Identity@C2DMatrix@@QAEXXZ			; C2DMatrix::Identity
+PUBLIC	?Rotate@C2DMatrix@@QAEXN@Z			; C2DMatrix::Rotate
+PUBLIC	?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z ; C2DMatrix::TransformVector2Ds
+PUBLIC	?Vec2DRotateAroundOrigin@@YAXAAUVector2D@@N@Z	; Vec2DRotateAroundOrigin
+PUBLIC	?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ		; BaseGameEntity::Pos
+PUBLIC	?Velocity@MovingEntity@@QBE?AUVector2D@@XZ	; MovingEntity::Velocity
+PUBLIC	?MaxSpeed@MovingEntity@@QBENXZ			; MovingEntity::MaxSpeed
+PUBLIC	?Speed@MovingEntity@@QBENXZ			; MovingEntity::Speed
+PUBLIC	?Heading@MovingEntity@@QBE?AUVector2D@@XZ	; MovingEntity::Heading
+PUBLIC	?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ	; Raven_TargetingSystem::isTargetPresent
+PUBLIC	?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ ; Raven_TargetingSystem::GetTarget
+PUBLIC	?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ ; Raven_Bot::GetTargetSys
+PUBLIC	?GetTargetBot@Raven_Bot@@QBEQAV1@XZ		; Raven_Bot::GetTargetBot
+PUBLIC	?GetLastDesirabilityScore@Raven_Weapon@@QBENXZ	; Raven_Weapon::GetLastDesirabilityScore
+PUBLIC	?GetMaxProjectileSpeed@Raven_Weapon@@QBENXZ	; Raven_Weapon::GetMaxProjectileSpeed
+PUBLIC	?NumRoundsRemaining@Raven_Weapon@@QBEHXZ	; Raven_Weapon::NumRoundsRemaining
+PUBLIC	?IncrementRounds@Raven_Weapon@@QAEXH@Z		; Raven_Weapon::IncrementRounds
+PUBLIC	?GetType@Raven_Weapon@@QBEIXZ			; Raven_Weapon::GetType
+PUBLIC	??$Clamp@IHI@@YAXAAIABHABI@Z			; Clamp<unsigned int,int,unsigned int>
 PUBLIC	??0?$allocator@U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@std@@QAE@XZ ; std::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >
 PUBLIC	?deallocate@?$allocator@U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@std@@QAEXQAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@2@I@Z ; std::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >::deallocate
 PUBLIC	?allocate@?$allocator@U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@std@@QAEPAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@2@I@Z ; std::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >::allocate
@@ -200,7 +222,7 @@ PUBLIC	?AddNoiseToAim@Raven_WeaponSystem@@ABEXAAUVector2D@@@Z ; Raven_WeaponSyst
 PUBLIC	??0Raven_WeaponSystem@@QAE@PAVRaven_Bot@@NNN@Z	; Raven_WeaponSystem::Raven_WeaponSystem
 PUBLIC	??1Raven_WeaponSystem@@QAE@XZ			; Raven_WeaponSystem::~Raven_WeaponSystem
 PUBLIC	?Initialize@Raven_WeaponSystem@@QAEXXZ		; Raven_WeaponSystem::Initialize
-PUBLIC	?TakeAimAndShoot@Raven_WeaponSystem@@QBEXXZ	; Raven_WeaponSystem::TakeAimAndShoot
+PUBLIC	?TakeAimAndShoot@Raven_WeaponSystem@@QAE_NXZ	; Raven_WeaponSystem::TakeAimAndShoot
 PUBLIC	?SelectWeapon@Raven_WeaponSystem@@QAEXXZ	; Raven_WeaponSystem::SelectWeapon
 PUBLIC	?AddWeapon@Raven_WeaponSystem@@QAEXI@Z		; Raven_WeaponSystem::AddWeapon
 PUBLIC	?ChangeWeapon@Raven_WeaponSystem@@QAEXI@Z	; Raven_WeaponSystem::ChangeWeapon
@@ -210,28 +232,6 @@ PUBLIC	?GetWeaponFromInventory@Raven_WeaponSystem@@QAEPAVRaven_Weapon@@H@Z ; Rav
 PUBLIC	?GetAmmoRemainingForWeapon@Raven_WeaponSystem@@QAEHI@Z ; Raven_WeaponSystem::GetAmmoRemainingForWeapon
 PUBLIC	?RenderCurrentWeapon@Raven_WeaponSystem@@QBEXXZ	; Raven_WeaponSystem::RenderCurrentWeapon
 PUBLIC	?RenderDesirabilities@Raven_WeaponSystem@@QBEXXZ ; Raven_WeaponSystem::RenderDesirabilities
-PUBLIC	??0Matrix@C2DMatrix@@QAE@XZ			; C2DMatrix::Matrix::Matrix
-PUBLIC	?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z	; C2DMatrix::MatrixMultiply
-PUBLIC	??0C2DMatrix@@QAE@XZ				; C2DMatrix::C2DMatrix
-PUBLIC	?Identity@C2DMatrix@@QAEXXZ			; C2DMatrix::Identity
-PUBLIC	?Rotate@C2DMatrix@@QAEXN@Z			; C2DMatrix::Rotate
-PUBLIC	?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z ; C2DMatrix::TransformVector2Ds
-PUBLIC	?Vec2DRotateAroundOrigin@@YAXAAUVector2D@@N@Z	; Vec2DRotateAroundOrigin
-PUBLIC	?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ		; BaseGameEntity::Pos
-PUBLIC	?Velocity@MovingEntity@@QBE?AUVector2D@@XZ	; MovingEntity::Velocity
-PUBLIC	?MaxSpeed@MovingEntity@@QBENXZ			; MovingEntity::MaxSpeed
-PUBLIC	?Speed@MovingEntity@@QBENXZ			; MovingEntity::Speed
-PUBLIC	?Heading@MovingEntity@@QBE?AUVector2D@@XZ	; MovingEntity::Heading
-PUBLIC	?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ	; Raven_TargetingSystem::isTargetPresent
-PUBLIC	?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ ; Raven_TargetingSystem::GetTarget
-PUBLIC	?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ ; Raven_Bot::GetTargetSys
-PUBLIC	?GetTargetBot@Raven_Bot@@QBEQAV1@XZ		; Raven_Bot::GetTargetBot
-PUBLIC	?GetLastDesirabilityScore@Raven_Weapon@@QBENXZ	; Raven_Weapon::GetLastDesirabilityScore
-PUBLIC	?GetMaxProjectileSpeed@Raven_Weapon@@QBENXZ	; Raven_Weapon::GetMaxProjectileSpeed
-PUBLIC	?NumRoundsRemaining@Raven_Weapon@@QBEHXZ	; Raven_Weapon::NumRoundsRemaining
-PUBLIC	?IncrementRounds@Raven_Weapon@@QAEXH@Z		; Raven_Weapon::IncrementRounds
-PUBLIC	?GetType@Raven_Weapon@@QBEIXZ			; Raven_Weapon::GetType
-PUBLIC	??$Clamp@IHI@@YAXAAIABHABI@Z			; Clamp<unsigned int,int,unsigned int>
 PUBLIC	?GetNameOfType@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z ; GetNameOfType
 PUBLIC	?TextAtPos@Cgdi@@QAEXNNABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z ; Cgdi::TextAtPos
 PUBLIC	??0?$_Tree_unchecked_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@U_Iterator_base12@2@@std@@QAE@XZ ; std::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > >,std::_Iterator_base12>::_Tree_unchecked_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > >,std::_Iterator_base12>
@@ -269,7 +269,6 @@ PUBLIC	??0?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRa
 PUBLIC	??4?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@QAEAAV01@$$QAV01@@Z ; std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >::operator=
 PUBLIC	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QAV10@QBD@Z ; std::operator+<char,std::char_traits<char>,std::allocator<char> >
 PUBLIC	??$?HDU?$char_traits@D@std@@V?$allocator@D@1@@std@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@$$QAV10@ABV10@@Z ; std::operator+<char,std::char_traits<char>,std::allocator<char> >
-PUBLIC	??$move@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z ; std::move<std::basic_string<char,std::char_traits<char>,std::allocator<char> > &>
 PUBLIC	?pointer_to@?$pointer_traits@PBU?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@SAPBU?$pair@$$CBHPAVRaven_Weapon@@@2@ABU32@@Z ; std::pointer_traits<std::pair<int const ,Raven_Weapon *> const *>::pointer_to
 PUBLIC	?pointer_to@?$pointer_traits@PAU?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@SAPAU?$pair@$$CBHPAVRaven_Weapon@@@2@AAU32@@Z ; std::pointer_traits<std::pair<int const ,Raven_Weapon *> *>::pointer_to
 PUBLIC	??$addressof@$$CBV?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@YAPBV?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@0@ABV10@@Z ; std::addressof<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > const >
@@ -278,6 +277,7 @@ PUBLIC	??$try_emplace@$$V@?$map@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?
 PUBLIC	??$try_emplace@$$V@?$map@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@3@@std@@QAE?AU?$pair@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@_N@1@ABH@Z ; std::map<int,Raven_Weapon *,std::less<int>,std::allocator<std::pair<int const ,Raven_Weapon *> > >::try_emplace<>
 PUBLIC	??1?$pair@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@_N@std@@QAE@XZ ; std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >,bool>::~pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >,bool>
 PUBLIC	??$move@AAH@std@@YA$$QAHAAH@Z			; std::move<int &>
+PUBLIC	??$move@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z ; std::move<std::basic_string<char,std::char_traits<char>,std::allocator<char> > &>
 PUBLIC	??$_Unfancy@D@std@@YAPADPAD@Z			; std::_Unfancy<char>
 PUBLIC	??$move@AAV?$allocator@D@std@@@std@@YA$$QAV?$allocator@D@0@AAV10@@Z ; std::move<std::allocator<char> &>
 PUBLIC	??$?0V?$allocator@D@std@@X@?$_String_alloc@U?$_String_base_types@DV?$allocator@D@std@@@std@@@std@@QAE@$$QAV?$allocator@D@1@@Z ; std::_String_alloc<std::_String_base_types<char,std::allocator<char> > >::_String_alloc<std::_String_base_types<char,std::allocator<char> > ><std::allocator<char>,void>
@@ -307,8 +307,8 @@ PUBLIC	??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z
 PUBLIC	??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
 PUBLIC	??$?0U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >
 PUBLIC	??$?0ABU?$less@H@std@@U_Zero_then_variadic_args_t@1@@?$_Compressed_pair@U?$less@H@std@@V?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@2@$00@2@$00@std@@QAE@U_One_then_variadic_args_t@1@ABU?$less@H@1@$$QAU_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::less<int>,std::_Compressed_pair<std::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >,std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > >,1>,1>::_Compressed_pair<std::less<int>,std::_Compressed_pair<std::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >,std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > >,1>,1><std::less<int> const &,std::_Zero_then_variadic_args_t>
-PUBLIC	??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><char>
 PUBLIC	??$_Get_size_of_n@$07@std@@YAII@Z		; std::_Get_size_of_n<8>
+PUBLIC	??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><char>
 PUBLIC	??$swap@DX@std@@YAXAAD0@Z			; std::swap<char,void>
 PUBLIC	??$addressof@PAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@std@@YAPAPAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@0@AAPAU10@@Z ; std::addressof<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> *>
 PUBLIC	??$construct@PAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@AAPAU12@@?$_Default_allocator_traits@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@std@@@std@@SAXAAV?$allocator@U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@1@QAPAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@1@AAPAU31@@Z ; std::_Default_allocator_traits<std::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> > >::construct<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> *,std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> * &>
@@ -321,16 +321,16 @@ PUBLIC	??$destroy@PAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@
 PUBLIC	??$forward@ABQAD@std@@YAABQADABQAD@Z		; std::forward<char * const &>
 PUBLIC	??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPAXI@Z ; std::_Allocate_manually_vector_aligned<std::_Default_allocate_traits>
 PUBLIC	??$forward@U_Container_proxy@std@@@std@@YA$$QAU_Container_proxy@0@AAU10@@Z ; std::forward<std::_Container_proxy>
-PUBLIC	??$forward@U_Zero_then_variadic_args_t@std@@@std@@YA$$QAU_Zero_then_variadic_args_t@0@AAU10@@Z ; std::forward<std::_Zero_then_variadic_args_t>
 PUBLIC	??$forward@ABU?$less@H@std@@@std@@YAABU?$less@H@0@ABU10@@Z ; std::forward<std::less<int> const &>
+PUBLIC	??$forward@U_Zero_then_variadic_args_t@std@@@std@@YA$$QAU_Zero_then_variadic_args_t@0@AAU10@@Z ; std::forward<std::_Zero_then_variadic_args_t>
 PUBLIC	??$?0$$V@?$_Compressed_pair@V?$allocator@U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@std@@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@2@$00@std@@QAE@U_Zero_then_variadic_args_t@1@@Z ; std::_Compressed_pair<std::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >,std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > >,1>::_Compressed_pair<std::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >,std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > >,1><>
 PUBLIC	??$move@AAD@std@@YA$$QADAAD@Z			; std::move<char &>
 PUBLIC	??$forward@AAPAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@std@@YAAAPAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@0@AAPAU10@@Z ; std::forward<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> * &>
-PUBLIC	??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ ; std::forward_as_tuple<>
 PUBLIC	??$_Debug_lt_pred@AAU?$less@H@std@@AAHABH@std@@YA_NAAU?$less@H@0@AAHABH@Z ; std::_Debug_lt_pred<std::less<int> &,int &,int const &>
 PUBLIC	??$forward@H@std@@YA$$QAHAAH@Z			; std::forward<int>
 PUBLIC	??$forward_as_tuple@H@std@@YA?AV?$tuple@$$QAH@0@$$QAH@Z ; std::forward_as_tuple<int>
 PUBLIC	??0?$tuple@$$QAH@std@@QAE@$$QAV01@@Z		; std::tuple<int &&>::tuple<int &&>
+PUBLIC	??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ ; std::forward_as_tuple<>
 PUBLIC	??$emplace_hint@ABUpiecewise_construct_t@std@@V?$tuple@$$QAH@2@V?$tuple@$$V@2@@?$_Tree@V?$_Tmap_traits@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@3@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@$$QAH@1@$$QAV?$tuple@$$V@1@@Z ; std::_Tree<std::_Tmap_traits<int,Raven_Weapon *,std::less<int>,std::allocator<std::pair<int const ,Raven_Weapon *> >,0> >::emplace_hint<std::piecewise_construct_t const &,std::tuple<int &&>,std::tuple<> >
 PUBLIC	??$?0V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@_N@std@@QAE@$$QAV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@$$QA_N@Z ; std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >,bool>::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >,bool><std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >,bool,0>
 PUBLIC	??$?0AAV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@_N$0A@@?$pair@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@_N@std@@QAE@AAV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@$$QA_N@Z ; std::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >,bool>::pair<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >,bool><std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > > &,bool,0>
@@ -341,14 +341,14 @@ PUBLIC	??0?$tuple@ABH@std@@QAE@$$QAV01@@Z		; std::tuple<int const &>::tuple<int 
 PUBLIC	??$emplace_hint@ABUpiecewise_construct_t@std@@V?$tuple@ABH@2@V?$tuple@$$V@2@@?$_Tree@V?$_Tmap_traits@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@3@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@ABH@1@$$QAV?$tuple@$$V@1@@Z ; std::_Tree<std::_Tmap_traits<int,Raven_Weapon *,std::less<int>,std::allocator<std::pair<int const ,Raven_Weapon *> >,0> >::emplace_hint<std::piecewise_construct_t const &,std::tuple<int const &>,std::tuple<> >
 PUBLIC	??$_Lbound@H@?$_Tree@V?$_Tmap_traits@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@3@$0A@@std@@@std@@IBEPAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@1@ABH@Z ; std::_Tree<std::_Tmap_traits<int,Raven_Weapon *,std::less<int>,std::allocator<std::pair<int const ,Raven_Weapon *> >,0> >::_Lbound<int>
 PUBLIC	??$_Kfn@$$CBHPAVRaven_Weapon@@@?$_Tmap_traits@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@3@$0A@@std@@SAABHABU?$pair@$$CBHPAVRaven_Weapon@@@1@@Z ; std::_Tmap_traits<int,Raven_Weapon *,std::less<int>,std::allocator<std::pair<int const ,Raven_Weapon *> >,0>::_Kfn<int const ,Raven_Weapon *>
-PUBLIC	??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z ; std::forward<std::piecewise_construct_t const &>
-PUBLIC	??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z ; std::forward<std::tuple<> >
-PUBLIC	??$forward@_N@std@@YA$$QA_NAA_N@Z		; std::forward<bool>
 PUBLIC	??$?0H$$V$0A@@?$tuple@$$QAH@std@@QAE@$$QAH@Z	; std::tuple<int &&>::tuple<int &&><int,0>
+PUBLIC	??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z ; std::forward<std::piecewise_construct_t const &>
 PUBLIC	??$forward@V?$tuple@$$QAH@std@@@std@@YA$$QAV?$tuple@$$QAH@0@AAV10@@Z ; std::forward<std::tuple<int &&> >
+PUBLIC	??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z ; std::forward<std::tuple<> >
 PUBLIC	??$_Buynode@ABUpiecewise_construct_t@std@@V?$tuple@$$QAH@2@V?$tuple@$$V@2@@?$_Tree_comp_alloc@V?$_Tmap_traits@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@3@$0A@@std@@@std@@QAEPAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@$$QAH@1@$$QAV?$tuple@$$V@1@@Z ; std::_Tree_comp_alloc<std::_Tmap_traits<int,Raven_Weapon *,std::less<int>,std::allocator<std::pair<int const ,Raven_Weapon *> >,0> >::_Buynode<std::piecewise_construct_t const &,std::tuple<int &&>,std::tuple<> >
 PUBLIC	??$_Insert_hint@AAU?$pair@$$CBHPAVRaven_Weapon@@@std@@PAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@2@@?$_Tree@V?$_Tmap_traits@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@3@$0A@@std@@@std@@IAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@AAU?$pair@$$CBHPAVRaven_Weapon@@@1@PAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@1@@Z ; std::_Tree<std::_Tmap_traits<int,Raven_Weapon *,std::less<int>,std::allocator<std::pair<int const ,Raven_Weapon *> >,0> >::_Insert_hint<std::pair<int const ,Raven_Weapon *> &,std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> *>
 PUBLIC	??$forward@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@0@AAV10@@Z ; std::forward<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > > >
+PUBLIC	??$forward@_N@std@@YA$$QA_NAA_N@Z		; std::forward<bool>
 PUBLIC	??$forward@AAV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@@std@@YAAAV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@0@AAV10@@Z ; std::forward<std::_Tree_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > > &>
 PUBLIC	??$?0ABH$0A@@?$tuple@ABH@std@@QAE@ABH@Z		; std::tuple<int const &>::tuple<int const &><int const &,0>
 PUBLIC	??$forward@V?$tuple@ABH@std@@@std@@YA$$QAV?$tuple@ABH@0@AAV10@@Z ; std::forward<std::tuple<int const &> >
@@ -416,8 +416,8 @@ PUBLIC	??_C@_1LO@NPPEKPAI@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AAb?$AAa?$AAs?$AAi?$AAc?$
 PUBLIC	??_C@_1EA@OADAPGGK@?$AA?$CC?$AAs?$AAt?$AAr?$AAi?$AAn?$AAg?$AA?5?$AAs?$AAu?$AAb?$AAs?$AAc?$AAr?$AAi@ ; `string'
 PUBLIC	?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A	; std::codecvt<char,char,_Mbstatet>::id
 PUBLIC	??_C@_0BP@OLDKBHLM@map?1set?5iterators?5incompatible@ ; `string'
-PUBLIC	??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@ ; `string'
 PUBLIC	??_C@_1BCG@IPJAOLKM@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@ ; `string'
+PUBLIC	??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@ ; `string'
 PUBLIC	??_C@_0DG@LCFNIIPB@cannot?5dereference?5value?9initia@ ; `string'
 PUBLIC	??_C@_1BCE@NNLBKMMP@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@ ; `string'
 PUBLIC	??_C@_1HA@ILGCNILF@?$AA?$CC?$AAc?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr@ ; `string'
@@ -425,8 +425,8 @@ PUBLIC	??_C@_0CI@OKFEHCEB@cannot?5dereference?5end?5map?1set?5@ ; `string'
 PUBLIC	??_C@_1FE@NKHAAGMB@?$AA?$CC?$AAc?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAr?$AAe?$AAf?$AAe?$AAr@ ; `string'
 PUBLIC	?id@?$collate@D@std@@2V0locale@2@A		; std::collate<char>::id
 PUBLIC	??_C@_0CF@JILFNJOL@map?1set?5erase?5iterator?5outside?5@ ; `string'
-PUBLIC	??_C@_1EO@CEDAEPC@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5@ ; `string'
 PUBLIC	??_C@_1BEO@FIBINPCG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_1EO@CEDAEPC@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5@ ; `string'
 PUBLIC	??_C@_1NM@IMGHIKKF@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAv?$AAa?$AAl?$AA?$DM@ ; `string'
 PUBLIC	??_C@_0BI@OELFEEAK@?$DMClamp?$DOMaxVal?5?$DM?5MinVal?$CB@ ; `string'
 PUBLIC	??_C@_1HO@GLAEGOGM@?$AA?$CI?$AA?$CI?$AAd?$AAo?$AAu?$AAb?$AAl?$AAe?$AA?$CJ?$AAm?$AAi?$AAn?$AAV?$AAa?$AAl@ ; `string'
@@ -438,13 +438,13 @@ PUBLIC	?id@?$numpunct@D@std@@2V0locale@2@A		; std::numpunct<char>::id
 PUBLIC	??_C@_0BA@JFNIOLAK@string?5too?5long@		; `string'
 PUBLIC	??_C@_1EO@GFNCMDLA@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAA?$AAl?$AAl?$AAo?$AAc?$AAa?$AAt?$AAe?$AA_@ ; `string'
 PUBLIC	??_C@_0CG@MOLIBF@map?1set?5insert?5iterator?5outside@ ; `string'
-PUBLIC	??_C@_1FA@HNFOKDLB@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAn?$AAs?$AAe?$AAr?$AAt@ ; `string'
 PUBLIC	??_C@_1BFM@PPFCBLHJ@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ ; `string'
+PUBLIC	??_C@_1FA@HNFOKDLB@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAn?$AAs?$AAe?$AAr?$AAt@ ; `string'
 PUBLIC	??_C@_0DE@JECMPNID@cannot?5decrement?5value?9initiali@ ; `string'
+PUBLIC	??_C@_1BCG@NMFPLOKI@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@ ; `string'
 PUBLIC	??_C@_1GM@ECOECPCJ@?$AA?$CC?$AAc?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAc?$AAr?$AAe?$AAm?$AAe@ ; `string'
 PUBLIC	??_C@_0CI@FJCIBNID@cannot?5decrement?5begin?5map?1set?5@ ; `string'
 PUBLIC	??_C@_1FE@HAEBNAIH@?$AA?$CC?$AAc?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAc?$AAr?$AAe?$AAm?$AAe@ ; `string'
-PUBLIC	??_C@_1BCG@NMFPLOKI@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@ ; `string'
 PUBLIC	??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long@ ; `string'
 PUBLIC	__real@0010000000000000
 PUBLIC	__real@00800000
@@ -584,33 +584,6 @@ rtc$IMZ	ENDS
 CONST	SEGMENT
 ??_C@_0BE@JONHPENG@map?1set?$DMT?$DO?5too?5long@ DB 'map/set<T> too long', 00H ; `string'
 CONST	ENDS
-;	COMDAT ??_C@_1BCG@NMFPLOKI@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@
-CONST	SEGMENT
-??_C@_1BCG@NMFPLOKI@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@ DB 's'
-	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'T', 00H
-	DB	'r', 00H, 'e', 00H, 'e', 00H, '_', 00H, 'c', 00H, 'o', 00H, 'n'
-	DB	00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H, 't', 00H, 'e', 00H
-	DB	'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, '<', 00H, 'c'
-	DB	00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H, ' ', 00H, 's', 00H
-	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'T', 00H, 'r'
-	DB	00H, 'e', 00H, 'e', 00H, '_', 00H, 'v', 00H, 'a', 00H, 'l', 00H
-	DB	'<', 00H, 's', 00H, 't', 00H, 'r', 00H, 'u', 00H, 'c', 00H, 't'
-	DB	00H, ' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H
-	DB	'_', 00H, 'T', 00H, 'r', 00H, 'e', 00H, 'e', 00H, '_', 00H, 's'
-	DB	00H, 'i', 00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H
-	DB	't', 00H, 'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's'
-	DB	00H, 't', 00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H
-	DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, 'p', 00H, 'a'
-	DB	00H, 'i', 00H, 'r', 00H, '<', 00H, 'i', 00H, 'n', 00H, 't', 00H
-	DB	' ', 00H, 'c', 00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, ' '
-	DB	00H, ',', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
-	DB	' ', 00H, 'R', 00H, 'a', 00H, 'v', 00H, 'e', 00H, 'n', 00H, '_'
-	DB	00H, 'W', 00H, 'e', 00H, 'a', 00H, 'p', 00H, 'o', 00H, 'n', 00H
-	DB	' ', 00H, '*', 00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H, '>'
-	DB	00H, ' ', 00H, '>', 00H, ':', 00H, ':', 00H, 'o', 00H, 'p', 00H
-	DB	'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' '
-	DB	00H, '-', 00H, '-', 00H, 00H, 00H		; `string'
-CONST	ENDS
 ;	COMDAT ??_C@_1FE@HAEBNAIH@?$AA?$CC?$AAc?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAc?$AAr?$AAe?$AAm?$AAe@
 CONST	SEGMENT
 ??_C@_1FE@HAEBNAIH@?$AA?$CC?$AAc?$AAa?$AAn?$AAn?$AAo?$AAt?$AA?5?$AAd?$AAe?$AAc?$AAr?$AAe?$AAm?$AAe@ DB '"'
@@ -640,10 +613,48 @@ CONST	SEGMENT
 	DB	'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, '"'
 	DB	00H, 00H, 00H				; `string'
 CONST	ENDS
+;	COMDAT ??_C@_1BCG@NMFPLOKI@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@
+CONST	SEGMENT
+??_C@_1BCG@NMFPLOKI@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@ DB 's'
+	DB	00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'T', 00H
+	DB	'r', 00H, 'e', 00H, 'e', 00H, '_', 00H, 'c', 00H, 'o', 00H, 'n'
+	DB	00H, 's', 00H, 't', 00H, '_', 00H, 'i', 00H, 't', 00H, 'e', 00H
+	DB	'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, '<', 00H, 'c'
+	DB	00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H, ' ', 00H, 's', 00H
+	DB	't', 00H, 'd', 00H, ':', 00H, ':', 00H, '_', 00H, 'T', 00H, 'r'
+	DB	00H, 'e', 00H, 'e', 00H, '_', 00H, 'v', 00H, 'a', 00H, 'l', 00H
+	DB	'<', 00H, 's', 00H, 't', 00H, 'r', 00H, 'u', 00H, 'c', 00H, 't'
+	DB	00H, ' ', 00H, 's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H
+	DB	'_', 00H, 'T', 00H, 'r', 00H, 'e', 00H, 'e', 00H, '_', 00H, 's'
+	DB	00H, 'i', 00H, 'm', 00H, 'p', 00H, 'l', 00H, 'e', 00H, '_', 00H
+	DB	't', 00H, 'y', 00H, 'p', 00H, 'e', 00H, 's', 00H, '<', 00H, 's'
+	DB	00H, 't', 00H, 'r', 00H, 'u', 00H, 'c', 00H, 't', 00H, ' ', 00H
+	DB	's', 00H, 't', 00H, 'd', 00H, ':', 00H, ':', 00H, 'p', 00H, 'a'
+	DB	00H, 'i', 00H, 'r', 00H, '<', 00H, 'i', 00H, 'n', 00H, 't', 00H
+	DB	' ', 00H, 'c', 00H, 'o', 00H, 'n', 00H, 's', 00H, 't', 00H, ' '
+	DB	00H, ',', 00H, 'c', 00H, 'l', 00H, 'a', 00H, 's', 00H, 's', 00H
+	DB	' ', 00H, 'R', 00H, 'a', 00H, 'v', 00H, 'e', 00H, 'n', 00H, '_'
+	DB	00H, 'W', 00H, 'e', 00H, 'a', 00H, 'p', 00H, 'o', 00H, 'n', 00H
+	DB	' ', 00H, '*', 00H, '>', 00H, ' ', 00H, '>', 00H, ' ', 00H, '>'
+	DB	00H, ' ', 00H, '>', 00H, ':', 00H, ':', 00H, 'o', 00H, 'p', 00H
+	DB	'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' '
+	DB	00H, '-', 00H, '-', 00H, 00H, 00H		; `string'
+CONST	ENDS
 ;	COMDAT ??_C@_0DE@JECMPNID@cannot?5decrement?5value?9initiali@
 CONST	SEGMENT
 ??_C@_0DE@JECMPNID@cannot?5decrement?5value?9initiali@ DB 'cannot decreme'
 	DB	'nt value-initialized map/set iterator', 00H	; `string'
+CONST	ENDS
+;	COMDAT ??_C@_1FA@HNFOKDLB@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAn?$AAs?$AAe?$AAr?$AAt@
+CONST	SEGMENT
+??_C@_1FA@HNFOKDLB@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAn?$AAs?$AAe?$AAr?$AAt@ DB '"'
+	DB	00H, 'm', 00H, 'a', 00H, 'p', 00H, '/', 00H, 's', 00H, 'e', 00H
+	DB	't', 00H, ' ', 00H, 'i', 00H, 'n', 00H, 's', 00H, 'e', 00H, 'r'
+	DB	00H, 't', 00H, ' ', 00H, 'i', 00H, 't', 00H, 'e', 00H, 'r', 00H
+	DB	'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H, 'o', 00H, 'u'
+	DB	00H, 't', 00H, 's', 00H, 'i', 00H, 'd', 00H, 'e', 00H, ' ', 00H
+	DB	'r', 00H, 'a', 00H, 'n', 00H, 'g', 00H, 'e', 00H, '"', 00H, 00H
+	DB	00H						; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_1BFM@PPFCBLHJ@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
 CONST	SEGMENT
@@ -675,17 +686,6 @@ CONST	SEGMENT
 	DB	00H, ' ', 00H, '>', 00H, ':', 00H, ':', 00H, '_', 00H, 'I', 00H
 	DB	'n', 00H, 's', 00H, 'e', 00H, 'r', 00H, 't', 00H, '_', 00H, 'h'
 	DB	00H, 'i', 00H, 'n', 00H, 't', 00H, 00H, 00H	; `string'
-CONST	ENDS
-;	COMDAT ??_C@_1FA@HNFOKDLB@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAn?$AAs?$AAe?$AAr?$AAt@
-CONST	SEGMENT
-??_C@_1FA@HNFOKDLB@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAn?$AAs?$AAe?$AAr?$AAt@ DB '"'
-	DB	00H, 'm', 00H, 'a', 00H, 'p', 00H, '/', 00H, 's', 00H, 'e', 00H
-	DB	't', 00H, ' ', 00H, 'i', 00H, 'n', 00H, 's', 00H, 'e', 00H, 'r'
-	DB	00H, 't', 00H, ' ', 00H, 'i', 00H, 't', 00H, 'e', 00H, 'r', 00H
-	DB	'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' ', 00H, 'o', 00H, 'u'
-	DB	00H, 't', 00H, 's', 00H, 'i', 00H, 'd', 00H, 'e', 00H, ' ', 00H
-	DB	'r', 00H, 'a', 00H, 'n', 00H, 'g', 00H, 'e', 00H, '"', 00H, 00H
-	DB	00H						; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_0CG@MOLIBF@map?1set?5insert?5iterator?5outside@
 CONST	SEGMENT
@@ -765,6 +765,16 @@ CONST	SEGMENT
 	DB	'>', 00H, ':', 00H, ':', 00H, '_', 00H, 'E', 00H, 'x', 00H, 't'
 	DB	00H, 'r', 00H, 'a', 00H, 'c', 00H, 't', 00H, 00H, 00H ; `string'
 CONST	ENDS
+;	COMDAT ??_C@_1EO@CEDAEPC@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5@
+CONST	SEGMENT
+??_C@_1EO@CEDAEPC@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5@ DB '"'
+	DB	00H, 'm', 00H, 'a', 00H, 'p', 00H, '/', 00H, 's', 00H, 'e', 00H
+	DB	't', 00H, ' ', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 's', 00H, 'e'
+	DB	00H, ' ', 00H, 'i', 00H, 't', 00H, 'e', 00H, 'r', 00H, 'a', 00H
+	DB	't', 00H, 'o', 00H, 'r', 00H, ' ', 00H, 'o', 00H, 'u', 00H, 't'
+	DB	00H, 's', 00H, 'i', 00H, 'd', 00H, 'e', 00H, ' ', 00H, 'r', 00H
+	DB	'a', 00H, 'n', 00H, 'g', 00H, 'e', 00H, '"', 00H, 00H, 00H ; `string'
+CONST	ENDS
 ;	COMDAT ??_C@_1BEO@FIBINPCG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA?$DM?$AAc?$AAl?$AAa?$AAs@
 CONST	SEGMENT
 ??_C@_1BEO@FIBINPCG@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA?$DM?$AAc?$AAl?$AAa?$AAs@ DB 's'
@@ -794,16 +804,6 @@ CONST	SEGMENT
 	DB	'*', 00H, '>', 00H, ' ', 00H, '>', 00H, ',', 00H, '0', 00H, '>'
 	DB	00H, ' ', 00H, '>', 00H, ':', 00H, ':', 00H, 'e', 00H, 'r', 00H
 	DB	'a', 00H, 's', 00H, 'e', 00H, 00H, 00H	; `string'
-CONST	ENDS
-;	COMDAT ??_C@_1EO@CEDAEPC@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5@
-CONST	SEGMENT
-??_C@_1EO@CEDAEPC@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAe?$AAr?$AAa?$AAs?$AAe?$AA?5@ DB '"'
-	DB	00H, 'm', 00H, 'a', 00H, 'p', 00H, '/', 00H, 's', 00H, 'e', 00H
-	DB	't', 00H, ' ', 00H, 'e', 00H, 'r', 00H, 'a', 00H, 's', 00H, 'e'
-	DB	00H, ' ', 00H, 'i', 00H, 't', 00H, 'e', 00H, 'r', 00H, 'a', 00H
-	DB	't', 00H, 'o', 00H, 'r', 00H, ' ', 00H, 'o', 00H, 'u', 00H, 't'
-	DB	00H, 's', 00H, 'i', 00H, 'd', 00H, 'e', 00H, ' ', 00H, 'r', 00H
-	DB	'a', 00H, 'n', 00H, 'g', 00H, 'e', 00H, '"', 00H, 00H, 00H ; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_0CF@JILFNJOL@map?1set?5erase?5iterator?5outside?5@
 CONST	SEGMENT
@@ -871,6 +871,15 @@ CONST	SEGMENT
 ??_C@_0DG@LCFNIIPB@cannot?5dereference?5value?9initia@ DB 'cannot derefer'
 	DB	'ence value-initialized map/set iterator', 00H ; `string'
 CONST	ENDS
+;	COMDAT ??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@
+CONST	SEGMENT
+??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@ DB '"'
+	DB	00H, 'm', 00H, 'a', 00H, 'p', 00H, '/', 00H, 's', 00H, 'e', 00H
+	DB	't', 00H, ' ', 00H, 'i', 00H, 't', 00H, 'e', 00H, 'r', 00H, 'a'
+	DB	00H, 't', 00H, 'o', 00H, 'r', 00H, 's', 00H, ' ', 00H, 'i', 00H
+	DB	'n', 00H, 'c', 00H, 'o', 00H, 'm', 00H, 'p', 00H, 'a', 00H, 't'
+	DB	00H, 'i', 00H, 'b', 00H, 'l', 00H, 'e', 00H, '"', 00H, 00H, 00H ; `string'
+CONST	ENDS
 ;	COMDAT ??_C@_1BCG@IPJAOLKM@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@
 CONST	SEGMENT
 ??_C@_1BCG@IPJAOLKM@?$AAs?$AAt?$AAd?$AA?3?$AA?3?$AA_?$AAT?$AAr?$AAe?$AAe?$AA_?$AAc?$AAo?$AAn?$AAs@ DB 's'
@@ -897,15 +906,6 @@ CONST	SEGMENT
 	DB	00H, ' ', 00H, '>', 00H, ':', 00H, ':', 00H, 'o', 00H, 'p', 00H
 	DB	'e', 00H, 'r', 00H, 'a', 00H, 't', 00H, 'o', 00H, 'r', 00H, ' '
 	DB	00H, '=', 00H, '=', 00H, 00H, 00H		; `string'
-CONST	ENDS
-;	COMDAT ??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@
-CONST	SEGMENT
-??_C@_1EC@JLIDLCDH@?$AA?$CC?$AAm?$AAa?$AAp?$AA?1?$AAs?$AAe?$AAt?$AA?5?$AAi?$AAt?$AAe?$AAr?$AAa?$AAt@ DB '"'
-	DB	00H, 'm', 00H, 'a', 00H, 'p', 00H, '/', 00H, 's', 00H, 'e', 00H
-	DB	't', 00H, ' ', 00H, 'i', 00H, 't', 00H, 'e', 00H, 'r', 00H, 'a'
-	DB	00H, 't', 00H, 'o', 00H, 'r', 00H, 's', 00H, ' ', 00H, 'i', 00H
-	DB	'n', 00H, 'c', 00H, 'o', 00H, 'm', 00H, 'p', 00H, 'a', 00H, 't'
-	DB	00H, 'i', 00H, 'b', 00H, 'l', 00H, 'e', 00H, '"', 00H, 00H, 00H ; `string'
 CONST	ENDS
 ;	COMDAT ??_C@_0BP@OLDKBHLM@map?1set?5iterators?5incompatible@
 CONST	SEGMENT
@@ -4025,6 +4025,28 @@ __Arg$ = 8						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@_N@std@@YA$$QA_NAA_N@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@_N@std@@YA$$QA_NAA_N@Z PROC			; std::forward<bool>, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@_N@std@@YA$$QA_NAA_N@Z ENDP			; std::forward<bool>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
 ;	COMDAT ??$forward@V?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@@std@@YA$$QAV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@0@AAV10@@Z
 _TEXT	SEGMENT
 __Arg$ = 8						; size = 4
@@ -5600,6 +5622,28 @@ text$x	ENDS
 ??$_Buynode@ABUpiecewise_construct_t@std@@V?$tuple@$$QAH@2@V?$tuple@$$V@2@@?$_Tree_comp_alloc@V?$_Tmap_traits@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@3@$0A@@std@@@std@@QAEPAU?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@$$QAH@1@$$QAV?$tuple@$$V@1@@Z ENDP ; std::_Tree_comp_alloc<std::_Tmap_traits<int,Raven_Weapon *,std::less<int>,std::allocator<std::pair<int const ,Raven_Weapon *> >,0> >::_Buynode<std::piecewise_construct_t const &,std::tuple<int &&>,std::tuple<> >
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z PROC ; std::forward<std::tuple<> >, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z ENDP ; std::forward<std::tuple<> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
 ;	COMDAT ??$forward@V?$tuple@$$QAH@std@@@std@@YA$$QAV?$tuple@$$QAH@0@AAV10@@Z
 _TEXT	SEGMENT
 __Arg$ = 8						; size = 4
@@ -5619,6 +5663,28 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$forward@V?$tuple@$$QAH@std@@@std@@YA$$QAV?$tuple@$$QAH@0@AAV10@@Z ENDP ; std::forward<std::tuple<int &&> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z PROC ; std::forward<std::piecewise_construct_t const &>, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z ENDP ; std::forward<std::piecewise_construct_t const &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
@@ -5688,72 +5754,6 @@ __ehhandler$??$?0H$$V$0A@@?$tuple@$$QAH@std@@QAE@$$QAH@Z:
 	jmp	___CxxFrameHandler3
 text$x	ENDS
 ??$?0H$$V$0A@@?$tuple@$$QAH@std@@QAE@$$QAH@Z ENDP	; std::tuple<int &&>::tuple<int &&><int,0>
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
-;	COMDAT ??$forward@_N@std@@YA$$QA_NAA_N@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$forward@_N@std@@YA$$QA_NAA_N@Z PROC			; std::forward<bool>, COMDAT
-
-; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
-
-	push	ebp
-	mov	ebp, esp
-
-; 1574 : 	return (static_cast<_Ty&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1575 : 	}
-
-	pop	ebp
-	ret	0
-??$forward@_N@std@@YA$$QA_NAA_N@Z ENDP			; std::forward<bool>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
-;	COMDAT ??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z PROC ; std::forward<std::tuple<> >, COMDAT
-
-; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
-
-	push	ebp
-	mov	ebp, esp
-
-; 1574 : 	return (static_cast<_Ty&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1575 : 	}
-
-	pop	ebp
-	ret	0
-??$forward@V?$tuple@$$V@std@@@std@@YA$$QAV?$tuple@$$V@0@AAV10@@Z ENDP ; std::forward<std::tuple<> >
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
-;	COMDAT ??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z PROC ; std::forward<std::piecewise_construct_t const &>, COMDAT
-
-; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
-
-	push	ebp
-	mov	ebp, esp
-
-; 1574 : 	return (static_cast<_Ty&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1575 : 	}
-
-	pop	ebp
-	ret	0
-??$forward@ABUpiecewise_construct_t@std@@@std@@YAABUpiecewise_construct_t@0@ABU10@@Z ENDP ; std::forward<std::piecewise_construct_t const &>
-_TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xlocnum
 ;	COMDAT ??__E?id@?$numpunct@D@std@@2V0locale@2@A@@YAXXZ
@@ -6426,6 +6426,32 @@ __ehhandler$??$emplace_hint@ABUpiecewise_construct_t@std@@V?$tuple@$$QAH@2@V?$tu
 text$x	ENDS
 ??$emplace_hint@ABUpiecewise_construct_t@std@@V?$tuple@$$QAH@2@V?$tuple@$$V@2@@?$_Tree@V?$_Tmap_traits@HPAVRaven_Weapon@@U?$less@H@std@@V?$allocator@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@3@$0A@@std@@@std@@QAE?AV?$_Tree_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@V?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@1@ABUpiecewise_construct_t@1@$$QAV?$tuple@$$QAH@1@$$QAV?$tuple@$$V@1@@Z ENDP ; std::_Tree<std::_Tmap_traits<int,Raven_Weapon *,std::less<int>,std::allocator<std::pair<int const ,Raven_Weapon *> >,0> >::emplace_hint<std::piecewise_construct_t const &,std::tuple<int &&>,std::tuple<> >
 ; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
+;	COMDAT ??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ
+_TEXT	SEGMENT
+___$ReturnUdt$ = 8					; size = 4
+??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ PROC	; std::forward_as_tuple<>, COMDAT
+
+; 1073 : 	{	// forward arguments in a tuple
+
+	push	ebp
+	mov	ebp, esp
+
+; 1074 : 	return (tuple<_Types&&...>(_STD forward<_Types>(_Args)...));
+
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	call	??0?$tuple@$$V@std@@QAE@XZ		; std::tuple<>::tuple<>
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+
+; 1075 : 	}
+
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	pop	ebp
+	ret	0
+??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ ENDP	; std::forward_as_tuple<>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_weaponsystem.cpp
 ;	COMDAT ??0?$tuple@$$QAH@std@@QAE@$$QAV01@@Z
 _TEXT	SEGMENT
@@ -6601,32 +6627,6 @@ $LN8@Debug_lt_p:
 ??$_Debug_lt_pred@AAU?$less@H@std@@AAHABH@std@@YA_NAAU?$less@H@0@AAHABH@Z ENDP ; std::_Debug_lt_pred<std::less<int> &,int &,int const &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\tuple
-;	COMDAT ??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ
-_TEXT	SEGMENT
-___$ReturnUdt$ = 8					; size = 4
-??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ PROC	; std::forward_as_tuple<>, COMDAT
-
-; 1073 : 	{	// forward arguments in a tuple
-
-	push	ebp
-	mov	ebp, esp
-
-; 1074 : 	return (tuple<_Types&&...>(_STD forward<_Types>(_Args)...));
-
-	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
-	call	??0?$tuple@$$V@std@@QAE@XZ		; std::tuple<>::tuple<>
-	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
-
-; 1075 : 	}
-
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	pop	ebp
-	ret	0
-??$forward_as_tuple@$$V@std@@YA?AV?$tuple@$$V@0@XZ ENDP	; std::forward_as_tuple<>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xlocale
 ;	COMDAT ??__E?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A@@YAXXZ
 text$di	SEGMENT
@@ -6745,28 +6745,6 @@ ___formal$ = 8						; size = 1
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
-;	COMDAT ??$forward@ABU?$less@H@std@@@std@@YAABU?$less@H@0@ABU10@@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$forward@ABU?$less@H@std@@@std@@YAABU?$less@H@0@ABU10@@Z PROC ; std::forward<std::less<int> const &>, COMDAT
-
-; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
-
-	push	ebp
-	mov	ebp, esp
-
-; 1574 : 	return (static_cast<_Ty&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1575 : 	}
-
-	pop	ebp
-	ret	0
-??$forward@ABU?$less@H@std@@@std@@YAABU?$less@H@0@ABU10@@Z ENDP ; std::forward<std::less<int> const &>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
 ;	COMDAT ??$forward@U_Zero_then_variadic_args_t@std@@@std@@YA$$QAU_Zero_then_variadic_args_t@0@AAU10@@Z
 _TEXT	SEGMENT
 __Arg$ = 8						; size = 4
@@ -6786,6 +6764,28 @@ __Arg$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ??$forward@U_Zero_then_variadic_args_t@std@@@std@@YA$$QAU_Zero_then_variadic_args_t@0@AAU10@@Z ENDP ; std::forward<std::_Zero_then_variadic_args_t>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$forward@ABU?$less@H@std@@@std@@YAABU?$less@H@0@ABU10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$forward@ABU?$less@H@std@@@std@@YAABU?$less@H@0@ABU10@@Z PROC ; std::forward<std::less<int> const &>, COMDAT
+
+; 1573 : 	{	// forward an lvalue as either an lvalue or an rvalue
+
+	push	ebp
+	mov	ebp, esp
+
+; 1574 : 	return (static_cast<_Ty&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1575 : 	}
+
+	pop	ebp
+	ret	0
+??$forward@ABU?$less@H@std@@@std@@YAABU?$less@H@0@ABU10@@Z ENDP ; std::forward<std::less<int> const &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
@@ -7753,6 +7753,31 @@ $LN3@swap:
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+___formal$ = 8						; size = 4
+??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z PROC ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><char>, COMDAT
+; _this$ = ecx
+
+; 986  : 		{	// construct from a related allocator (do nothing)
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 987  : 		}
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z ENDP ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><char>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
 ;	COMDAT ??$_Get_size_of_n@$07@std@@YAII@Z
 _TEXT	SEGMENT
 __Result$ = -8						; size = 4
@@ -7802,31 +7827,6 @@ $LN2@Get_size_o:
 	pop	ebp
 	ret	0
 ??$_Get_size_of_n@$07@std@@YAII@Z ENDP			; std::_Get_size_of_n<8>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
-;	COMDAT ??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-___formal$ = 8						; size = 4
-??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z PROC ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><char>, COMDAT
-; _this$ = ecx
-
-; 986  : 		{	// construct from a related allocator (do nothing)
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 987  : 		}
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z ENDP ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><char>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xutility
@@ -9535,6 +9535,28 @@ __Ptr$ = 8						; size = 4
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
+;	COMDAT ??$move@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z
+_TEXT	SEGMENT
+__Arg$ = 8						; size = 4
+??$move@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z PROC ; std::move<std::basic_string<char,std::char_traits<char>,std::allocator<char> > &>, COMDAT
+
+; 1588 : 	{	// forward _Arg as movable
+
+	push	ebp
+	mov	ebp, esp
+
+; 1589 : 	return (static_cast<remove_reference_t<_Ty>&&>(_Arg));
+
+	mov	eax, DWORD PTR __Arg$[ebp]
+
+; 1590 : 	}
+
+	pop	ebp
+	ret	0
+??$move@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z ENDP ; std::move<std::basic_string<char,std::char_traits<char>,std::allocator<char> > &>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
 ;	COMDAT ??$move@AAH@std@@YA$$QAHAAH@Z
 _TEXT	SEGMENT
 __Arg$ = 8						; size = 4
@@ -9765,28 +9787,6 @@ __Val$ = 8						; size = 4
 	pop	ebp
 	ret	0
 ?pointer_to@?$pointer_traits@PBU?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@SAPBU?$pair@$$CBHPAVRaven_Weapon@@@2@ABU32@@Z ENDP ; std::pointer_traits<std::pair<int const ,Raven_Weapon *> const *>::pointer_to
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\type_traits
-;	COMDAT ??$move@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z
-_TEXT	SEGMENT
-__Arg$ = 8						; size = 4
-??$move@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z PROC ; std::move<std::basic_string<char,std::char_traits<char>,std::allocator<char> > &>, COMDAT
-
-; 1588 : 	{	// forward _Arg as movable
-
-	push	ebp
-	mov	ebp, esp
-
-; 1589 : 	return (static_cast<remove_reference_t<_Ty>&&>(_Arg));
-
-	mov	eax, DWORD PTR __Arg$[ebp]
-
-; 1590 : 	}
-
-	pop	ebp
-	ret	0
-??$move@AAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@std@@YA$$QAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@0@AAV10@@Z ENDP ; std::move<std::basic_string<char,std::char_traits<char>,std::allocator<char> > &>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xstring
@@ -11767,1158 +11767,6 @@ __ehhandler$?GetNameOfType@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$alloca
 text$x	ENDS
 ?GetNameOfType@@YA?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z ENDP ; GetNameOfType
 ; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\misc\utils.h
-;	COMDAT ??$Clamp@IHI@@YAXAAIABHABI@Z
-_TEXT	SEGMENT
-tv76 = -4						; size = 4
-_arg$ = 8						; size = 4
-_minVal$ = 12						; size = 4
-_maxVal$ = 16						; size = 4
-??$Clamp@IHI@@YAXAAIABHABI@Z PROC			; Clamp<unsigned int,int,unsigned int>, COMDAT
-
-; 174  : {
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-
-; 175  :   assert ( ((double)minVal < (double)maxVal) && "<Clamp>MaxVal < MinVal!");
-
-	mov	eax, DWORD PTR _minVal$[ebp]
-	cvtsi2sd xmm0, DWORD PTR [eax]
-	mov	ecx, DWORD PTR _maxVal$[ebp]
-	mov	edx, DWORD PTR [ecx]
-	mov	DWORD PTR tv76[ebp], edx
-	cvtsi2sd xmm1, DWORD PTR tv76[ebp]
-	mov	eax, DWORD PTR tv76[ebp]
-	shr	eax, 31					; 0000001fH
-	addsd	xmm1, QWORD PTR __xmm@41f00000000000000000000000000000[eax*8]
-	comisd	xmm1, xmm0
-	jbe	SHORT $LN5@Clamp
-	mov	ecx, OFFSET ??_C@_0BI@OELFEEAK@?$DMClamp?$DOMaxVal?5?$DM?5MinVal?$CB@
-	test	ecx, ecx
-	jne	SHORT $LN6@Clamp
-$LN5@Clamp:
-	push	175					; 000000afH
-	push	OFFSET ??_C@_1KE@MBCCOECJ@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAn?$AAt?$AAr?$AAe?$AAm?$AAb@
-	push	OFFSET ??_C@_1HO@GLAEGOGM@?$AA?$CI?$AA?$CI?$AAd?$AAo?$AAu?$AAb?$AAl?$AAe?$AA?$CJ?$AAm?$AAi?$AAn?$AAV?$AAa?$AAl@
-	call	__wassert
-	add	esp, 12					; 0000000cH
-$LN6@Clamp:
-
-; 176  : 
-; 177  :   if (arg < (T)minVal)
-
-	mov	eax, DWORD PTR _arg$[ebp]
-	mov	ecx, DWORD PTR _minVal$[ebp]
-	mov	edx, DWORD PTR [eax]
-	cmp	edx, DWORD PTR [ecx]
-	jae	SHORT $LN2@Clamp
-
-; 178  :   {
-; 179  :     arg = (T)minVal;
-
-	mov	eax, DWORD PTR _arg$[ebp]
-	mov	ecx, DWORD PTR _minVal$[ebp]
-	mov	edx, DWORD PTR [ecx]
-	mov	DWORD PTR [eax], edx
-$LN2@Clamp:
-
-; 180  :   }
-; 181  : 
-; 182  :   if (arg > (T)maxVal)
-
-	mov	eax, DWORD PTR _arg$[ebp]
-	mov	ecx, DWORD PTR _maxVal$[ebp]
-	mov	edx, DWORD PTR [eax]
-	cmp	edx, DWORD PTR [ecx]
-	jbe	SHORT $LN3@Clamp
-
-; 183  :   {
-; 184  :     arg = (T)maxVal;
-
-	mov	eax, DWORD PTR _arg$[ebp]
-	mov	ecx, DWORD PTR _maxVal$[ebp]
-	mov	edx, DWORD PTR [ecx]
-	mov	DWORD PTR [eax], edx
-$LN3@Clamp:
-
-; 185  :   }
-; 186  : }
-
-	add	esp, 4
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$Clamp@IHI@@YAXAAIABHABI@Z ENDP			; Clamp<unsigned int,int,unsigned int>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
-;	COMDAT ?GetType@Raven_Weapon@@QBEIXZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?GetType@Raven_Weapon@@QBEIXZ PROC			; Raven_Weapon::GetType, COMDAT
-; _this$ = ecx
-
-; 132  :   unsigned int  GetType()const{return m_iType;}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR [eax+12]
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?GetType@Raven_Weapon@@QBEIXZ ENDP			; Raven_Weapon::GetType
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
-;	COMDAT ?IncrementRounds@Raven_Weapon@@QAEXH@Z
-_TEXT	SEGMENT
-$T1 = -8						; size = 4
-_this$ = -4						; size = 4
-_num$ = 8						; size = 4
-?IncrementRounds@Raven_Weapon@@QAEXH@Z PROC		; Raven_Weapon::IncrementRounds, COMDAT
-; _this$ = ecx
-
-; 173  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 8
-	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 174  :   m_iNumRoundsLeft+=num;
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR [eax+44]
-	add	ecx, DWORD PTR _num$[ebp]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	DWORD PTR [edx+44], ecx
-
-; 175  :   Clamp(m_iNumRoundsLeft, 0, m_iMaxRoundsCarried);
-
-	mov	DWORD PTR $T1[ebp], 0
-	mov	eax, DWORD PTR _this$[ebp]
-	add	eax, 48					; 00000030H
-	push	eax
-	lea	ecx, DWORD PTR $T1[ebp]
-	push	ecx
-	mov	edx, DWORD PTR _this$[ebp]
-	add	edx, 44					; 0000002cH
-	push	edx
-	call	??$Clamp@IHI@@YAXAAIABHABI@Z		; Clamp<unsigned int,int,unsigned int>
-	add	esp, 12					; 0000000cH
-
-; 176  : } 
-
-	add	esp, 8
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?IncrementRounds@Raven_Weapon@@QAEXH@Z ENDP		; Raven_Weapon::IncrementRounds
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
-;	COMDAT ?NumRoundsRemaining@Raven_Weapon@@QBEHXZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?NumRoundsRemaining@Raven_Weapon@@QBEHXZ PROC		; Raven_Weapon::NumRoundsRemaining, COMDAT
-; _this$ = ecx
-
-; 129  :   int           NumRoundsRemaining()const{return m_iNumRoundsLeft;}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR [eax+44]
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?NumRoundsRemaining@Raven_Weapon@@QBEHXZ ENDP		; Raven_Weapon::NumRoundsRemaining
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
-;	COMDAT ?GetMaxProjectileSpeed@Raven_Weapon@@QBENXZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?GetMaxProjectileSpeed@Raven_Weapon@@QBENXZ PROC	; Raven_Weapon::GetMaxProjectileSpeed, COMDAT
-; _this$ = ecx
-
-; 126  :   double         GetMaxProjectileSpeed()const{return m_dMaxProjectileSpeed;}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	fld	QWORD PTR [eax+88]
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?GetMaxProjectileSpeed@Raven_Weapon@@QBENXZ ENDP	; Raven_Weapon::GetMaxProjectileSpeed
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
-;	COMDAT ?GetLastDesirabilityScore@Raven_Weapon@@QBENXZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?GetLastDesirabilityScore@Raven_Weapon@@QBENXZ PROC	; Raven_Weapon::GetLastDesirabilityScore, COMDAT
-; _this$ = ecx
-
-; 123  :   double         GetLastDesirabilityScore()const{return m_dLastDesirabilityScore;}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	fld	QWORD PTR [eax+72]
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?GetLastDesirabilityScore@Raven_Weapon@@QBENXZ ENDP	; Raven_Weapon::GetLastDesirabilityScore
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.h
-;	COMDAT ?GetTargetBot@Raven_Bot@@QBEQAV1@XZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?GetTargetBot@Raven_Bot@@QBEQAV1@XZ PROC		; Raven_Bot::GetTargetBot, COMDAT
-; _this$ = ecx
-
-; 226  :   Raven_Bot* const                   GetTargetBot()const{return m_pTargSys->GetTarget();}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR [eax+172]
-	call	?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ ; Raven_TargetingSystem::GetTarget
-	add	esp, 4
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?GetTargetBot@Raven_Bot@@QBEQAV1@XZ ENDP		; Raven_Bot::GetTargetBot
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.h
-;	COMDAT ?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ PROC ; Raven_Bot::GetTargetSys, COMDAT
-; _this$ = ecx
-
-; 225  :   Raven_TargetingSystem* const       GetTargetSys(){return m_pTargSys;}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR [eax+172]
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ ENDP ; Raven_Bot::GetTargetSys
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_targetingsystem.h
-;	COMDAT ?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ PROC ; Raven_TargetingSystem::GetTarget, COMDAT
-; _this$ = ecx
-
-; 65   :   Raven_Bot* GetTarget()const{return m_pCurrentTarget;}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR [eax+4]
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ ENDP ; Raven_TargetingSystem::GetTarget
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_targetingsystem.h
-;	COMDAT ?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ
-_TEXT	SEGMENT
-tv66 = -8						; size = 4
-_this$ = -4						; size = 4
-?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ PROC	; Raven_TargetingSystem::isTargetPresent, COMDAT
-; _this$ = ecx
-
-; 45   :   bool       isTargetPresent()const{return m_pCurrentTarget != 0;}
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 8
-	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	cmp	DWORD PTR [eax+4], 0
-	je	SHORT $LN3@isTargetPr
-	mov	DWORD PTR tv66[ebp], 1
-	jmp	SHORT $LN4@isTargetPr
-$LN3@isTargetPr:
-	mov	DWORD PTR tv66[ebp], 0
-$LN4@isTargetPr:
-	mov	al, BYTE PTR tv66[ebp]
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ ENDP	; Raven_TargetingSystem::isTargetPresent
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\movingentity.h
-;	COMDAT ?Heading@MovingEntity@@QBE?AUVector2D@@XZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-___$ReturnUdt$ = 8					; size = 4
-?Heading@MovingEntity@@QBE?AUVector2D@@XZ PROC		; MovingEntity::Heading, COMDAT
-; _this$ = ecx
-
-; 92   :   Vector2D  Heading()const{return m_vHeading;}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	add	eax, 80					; 00000050H
-	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
-	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR [ecx], edx
-	mov	edx, DWORD PTR [eax+4]
-	mov	DWORD PTR [ecx+4], edx
-	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR [ecx+8], edx
-	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR [ecx+12], eax
-	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?Heading@MovingEntity@@QBE?AUVector2D@@XZ ENDP		; MovingEntity::Heading
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\movingentity.h
-;	COMDAT ?Speed@MovingEntity@@QBENXZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?Speed@MovingEntity@@QBENXZ PROC			; MovingEntity::Speed, COMDAT
-; _this$ = ecx
-
-; 89   :   double    Speed()const{return m_vVelocity.Length();}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	add	ecx, 64					; 00000040H
-	call	?Length@Vector2D@@QBENXZ		; Vector2D::Length
-	add	esp, 4
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?Speed@MovingEntity@@QBENXZ ENDP			; MovingEntity::Speed
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\movingentity.h
-;	COMDAT ?MaxSpeed@MovingEntity@@QBENXZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?MaxSpeed@MovingEntity@@QBENXZ PROC			; MovingEntity::MaxSpeed, COMDAT
-; _this$ = ecx
-
-; 82   :   double    MaxSpeed()const{return m_dMaxSpeed;}                       
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	fld	QWORD PTR [eax+120]
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?MaxSpeed@MovingEntity@@QBENXZ ENDP			; MovingEntity::MaxSpeed
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\movingentity.h
-;	COMDAT ?Velocity@MovingEntity@@QBE?AUVector2D@@XZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-___$ReturnUdt$ = 8					; size = 4
-?Velocity@MovingEntity@@QBE?AUVector2D@@XZ PROC		; MovingEntity::Velocity, COMDAT
-; _this$ = ecx
-
-; 75   :   Vector2D  Velocity()const{return m_vVelocity;}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	add	eax, 64					; 00000040H
-	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
-	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR [ecx], edx
-	mov	edx, DWORD PTR [eax+4]
-	mov	DWORD PTR [ecx+4], edx
-	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR [ecx+8], edx
-	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR [ecx+12], eax
-	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?Velocity@MovingEntity@@QBE?AUVector2D@@XZ ENDP		; MovingEntity::Velocity
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\basegameentity.h
-;	COMDAT ?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-___$ReturnUdt$ = 8					; size = 4
-?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ PROC		; BaseGameEntity::Pos, COMDAT
-; _this$ = ecx
-
-; 89   :   Vector2D     Pos()const{return m_vPosition;}
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	eax, DWORD PTR _this$[ebp]
-	add	eax, 24					; 00000018H
-	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
-	mov	edx, DWORD PTR [eax]
-	mov	DWORD PTR [ecx], edx
-	mov	edx, DWORD PTR [eax+4]
-	mov	DWORD PTR [ecx+4], edx
-	mov	edx, DWORD PTR [eax+8]
-	mov	DWORD PTR [ecx+8], edx
-	mov	eax, DWORD PTR [eax+12]
-	mov	DWORD PTR [ecx+12], eax
-	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ ENDP		; BaseGameEntity::Pos
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\transformations.h
-;	COMDAT ?Vec2DRotateAroundOrigin@@YAXAAUVector2D@@N@Z
-_TEXT	SEGMENT
-_mat$ = -76						; size = 72
-_v$ = 8							; size = 4
-_ang$ = 12						; size = 8
-?Vec2DRotateAroundOrigin@@YAXAAUVector2D@@N@Z PROC	; Vec2DRotateAroundOrigin, COMDAT
-
-; 196  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 80					; 00000050H
-	push	edi
-	lea	edi, DWORD PTR [ebp-80]
-	mov	ecx, 20					; 00000014H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-
-; 197  :   //create a transformation matrix
-; 198  :   C2DMatrix mat;
-
-	lea	ecx, DWORD PTR _mat$[ebp]
-	call	??0C2DMatrix@@QAE@XZ			; C2DMatrix::C2DMatrix
-
-; 199  : 
-; 200  :   //rotate
-; 201  :   mat.Rotate(ang);
-
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR _ang$[ebp]
-	movsd	QWORD PTR [esp], xmm0
-	lea	ecx, DWORD PTR _mat$[ebp]
-	call	?Rotate@C2DMatrix@@QAEXN@Z		; C2DMatrix::Rotate
-
-; 202  : 	
-; 203  :   //now transform the object's vertices
-; 204  :   mat.TransformVector2Ds(v);
-
-	mov	eax, DWORD PTR _v$[ebp]
-	push	eax
-	lea	ecx, DWORD PTR _mat$[ebp]
-	call	?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z ; C2DMatrix::TransformVector2Ds
-
-; 205  : }
-
-	push	edx
-	mov	ecx, ebp
-	push	eax
-	lea	edx, DWORD PTR $LN5@Vec2DRotat
-	call	@_RTC_CheckStackVars@8
-	pop	eax
-	pop	edx
-	pop	edi
-	add	esp, 80					; 00000050H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-	npad	1
-$LN5@Vec2DRotat:
-	DD	1
-	DD	$LN4@Vec2DRotat
-$LN4@Vec2DRotat:
-	DD	-76					; ffffffb4H
-	DD	72					; 00000048H
-	DD	$LN3@Vec2DRotat
-$LN3@Vec2DRotat:
-	DB	109					; 0000006dH
-	DB	97					; 00000061H
-	DB	116					; 00000074H
-	DB	0
-?Vec2DRotateAroundOrigin@@YAXAAUVector2D@@N@Z ENDP	; Vec2DRotateAroundOrigin
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
-;	COMDAT ?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z
-_TEXT	SEGMENT
-_tempY$ = -20						; size = 8
-_tempX$ = -12						; size = 8
-_this$ = -4						; size = 4
-_vPoint$ = 8						; size = 4
-?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z PROC	; C2DMatrix::TransformVector2Ds, COMDAT
-; _this$ = ecx
-
-; 134  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 20					; 00000014H
-	mov	eax, -858993460				; ccccccccH
-	mov	DWORD PTR [ebp-20], eax
-	mov	DWORD PTR [ebp-16], eax
-	mov	DWORD PTR [ebp-12], eax
-	mov	DWORD PTR [ebp-8], eax
-	mov	DWORD PTR [ebp-4], eax
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 135  : 
-; 136  :   double tempX =(m_Matrix._11*vPoint.x) + (m_Matrix._21*vPoint.y) + (m_Matrix._31);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _vPoint$[ebp]
-	movsd	xmm0, QWORD PTR [eax]
-	mulsd	xmm0, QWORD PTR [ecx]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _vPoint$[ebp]
-	movsd	xmm1, QWORD PTR [edx+24]
-	mulsd	xmm1, QWORD PTR [eax+8]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	addsd	xmm0, QWORD PTR [ecx+48]
-	movsd	QWORD PTR _tempX$[ebp], xmm0
-
-; 137  : 
-; 138  :   double tempY = (m_Matrix._12*vPoint.x) + (m_Matrix._22*vPoint.y) + (m_Matrix._32);
-
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _vPoint$[ebp]
-	movsd	xmm0, QWORD PTR [edx+8]
-	mulsd	xmm0, QWORD PTR [eax]
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _vPoint$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+32]
-	mulsd	xmm1, QWORD PTR [edx+8]
-	addsd	xmm0, xmm1
-	mov	eax, DWORD PTR _this$[ebp]
-	addsd	xmm0, QWORD PTR [eax+56]
-	movsd	QWORD PTR _tempY$[ebp], xmm0
-
-; 139  :   
-; 140  :   vPoint.x = tempX;
-
-	mov	ecx, DWORD PTR _vPoint$[ebp]
-	movsd	xmm0, QWORD PTR _tempX$[ebp]
-	movsd	QWORD PTR [ecx], xmm0
-
-; 141  : 
-; 142  :   vPoint.y = tempY;
-
-	mov	edx, DWORD PTR _vPoint$[ebp]
-	movsd	xmm0, QWORD PTR _tempY$[ebp]
-	movsd	QWORD PTR [edx+8], xmm0
-
-; 143  : }
-
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z ENDP	; C2DMatrix::TransformVector2Ds
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
-;	COMDAT ?Rotate@C2DMatrix@@QAEXN@Z
-_TEXT	SEGMENT
-_Cos$ = -100						; size = 8
-_Sin$ = -92						; size = 8
-_mat$ = -80						; size = 72
-_this$ = -4						; size = 4
-_rot$ = 8						; size = 8
-?Rotate@C2DMatrix@@QAEXN@Z PROC				; C2DMatrix::Rotate, COMDAT
-; _this$ = ecx
-
-; 191  : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 100				; 00000064H
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-100]
-	mov	ecx, 25					; 00000019H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 192  :   C2DMatrix::Matrix mat;
-
-	lea	ecx, DWORD PTR _mat$[ebp]
-	call	??0Matrix@C2DMatrix@@QAE@XZ		; C2DMatrix::Matrix::Matrix
-
-; 193  : 
-; 194  :   double Sin = sin(rot);
-
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR _rot$[ebp]
-	movsd	QWORD PTR [esp], xmm0
-	call	_sin
-	add	esp, 8
-	fstp	QWORD PTR _Sin$[ebp]
-
-; 195  :   double Cos = cos(rot);
-
-	sub	esp, 8
-	movsd	xmm0, QWORD PTR _rot$[ebp]
-	movsd	QWORD PTR [esp], xmm0
-	call	_cos
-	add	esp, 8
-	fstp	QWORD PTR _Cos$[ebp]
-
-; 196  :   
-; 197  :   mat._11 = Cos;  mat._12 = Sin; mat._13 = 0;
-
-	movsd	xmm0, QWORD PTR _Cos$[ebp]
-	movsd	QWORD PTR _mat$[ebp], xmm0
-	movsd	xmm0, QWORD PTR _Sin$[ebp]
-	movsd	QWORD PTR _mat$[ebp+8], xmm0
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR _mat$[ebp+16], xmm0
-
-; 198  :   
-; 199  :   mat._21 = -Sin; mat._22 = Cos; mat._23 = 0;
-
-	movsd	xmm0, QWORD PTR _Sin$[ebp]
-	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
-	movsd	QWORD PTR _mat$[ebp+24], xmm0
-	movsd	xmm0, QWORD PTR _Cos$[ebp]
-	movsd	QWORD PTR _mat$[ebp+32], xmm0
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR _mat$[ebp+40], xmm0
-
-; 200  :   
-; 201  :   mat._31 = 0; mat._32 = 0;mat._33 = 1;
-
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR _mat$[ebp+48], xmm0
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR _mat$[ebp+56], xmm0
-	movsd	xmm0, QWORD PTR __real@3ff0000000000000
-	movsd	QWORD PTR _mat$[ebp+64], xmm0
-
-; 202  :   
-; 203  :   //and multiply
-; 204  :   MatrixMultiply(mat);
-
-	lea	eax, DWORD PTR _mat$[ebp]
-	push	eax
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z ; C2DMatrix::MatrixMultiply
-
-; 205  : }
-
-	push	edx
-	mov	ecx, ebp
-	push	eax
-	lea	edx, DWORD PTR $LN5@Rotate
-	call	@_RTC_CheckStackVars@8
-	pop	eax
-	pop	edx
-	pop	edi
-	add	esp, 100				; 00000064H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	8
-	npad	3
-$LN5@Rotate:
-	DD	1
-	DD	$LN4@Rotate
-$LN4@Rotate:
-	DD	-80					; ffffffb0H
-	DD	72					; 00000048H
-	DD	$LN3@Rotate
-$LN3@Rotate:
-	DB	109					; 0000006dH
-	DB	97					; 00000061H
-	DB	116					; 00000074H
-	DB	0
-?Rotate@C2DMatrix@@QAEXN@Z ENDP				; C2DMatrix::Rotate
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
-;	COMDAT ?Identity@C2DMatrix@@QAEXXZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-?Identity@C2DMatrix@@QAEXXZ PROC			; C2DMatrix::Identity, COMDAT
-; _this$ = ecx
-
-; 149  : {
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 150  :   m_Matrix._11 = 1; m_Matrix._12 = 0; m_Matrix._13 = 0;
-
-	mov	eax, DWORD PTR _this$[ebp]
-	movsd	xmm0, QWORD PTR __real@3ff0000000000000
-	movsd	QWORD PTR [eax], xmm0
-	mov	ecx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [ecx+8], xmm0
-	mov	edx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [edx+16], xmm0
-
-; 151  : 
-; 152  :   m_Matrix._21 = 0; m_Matrix._22 = 1; m_Matrix._23 = 0;
-
-	mov	eax, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [eax+24], xmm0
-	mov	ecx, DWORD PTR _this$[ebp]
-	movsd	xmm0, QWORD PTR __real@3ff0000000000000
-	movsd	QWORD PTR [ecx+32], xmm0
-	mov	edx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [edx+40], xmm0
-
-; 153  : 
-; 154  :   m_Matrix._31 = 0; m_Matrix._32 = 0; m_Matrix._33 = 1;
-
-	mov	eax, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [eax+48], xmm0
-	mov	ecx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [ecx+56], xmm0
-	mov	edx, DWORD PTR _this$[ebp]
-	movsd	xmm0, QWORD PTR __real@3ff0000000000000
-	movsd	QWORD PTR [edx+64], xmm0
-
-; 155  : 
-; 156  :   }
-
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-?Identity@C2DMatrix@@QAEXXZ ENDP			; C2DMatrix::Identity
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
-;	COMDAT ??0C2DMatrix@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-??0C2DMatrix@@QAE@XZ PROC				; C2DMatrix::C2DMatrix, COMDAT
-; _this$ = ecx
-
-; 49   :   C2DMatrix()
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	??0Matrix@C2DMatrix@@QAE@XZ		; C2DMatrix::Matrix::Matrix
-
-; 50   :   {
-; 51   :     //initialize the matrix to an identity matrix
-; 52   :     Identity();
-
-	mov	ecx, DWORD PTR _this$[ebp]
-	call	?Identity@C2DMatrix@@QAEXXZ		; C2DMatrix::Identity
-
-; 53   :   }
-
-	mov	eax, DWORD PTR _this$[ebp]
-	add	esp, 4
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??0C2DMatrix@@QAE@XZ ENDP				; C2DMatrix::C2DMatrix
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
-;	COMDAT ?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z
-_TEXT	SEGMENT
-_mat_temp$ = -80					; size = 72
-_this$ = -4						; size = 4
-_mIn$ = 8						; size = 4
-?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z PROC	; C2DMatrix::MatrixMultiply, COMDAT
-; _this$ = ecx
-
-; 95   : {
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 84					; 00000054H
-	push	esi
-	push	edi
-	push	ecx
-	lea	edi, DWORD PTR [ebp-84]
-	mov	ecx, 21					; 00000015H
-	mov	eax, -858993460				; ccccccccH
-	rep stosd
-	pop	ecx
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 96   :   C2DMatrix::Matrix mat_temp;
-
-	lea	ecx, DWORD PTR _mat_temp$[ebp]
-	call	??0Matrix@C2DMatrix@@QAE@XZ		; C2DMatrix::Matrix::Matrix
-
-; 97   :   
-; 98   :   //first row
-; 99   :   mat_temp._11 = (m_Matrix._11*mIn._11) + (m_Matrix._12*mIn._21) + (m_Matrix._13*mIn._31);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _mIn$[ebp]
-	movsd	xmm0, QWORD PTR [eax]
-	mulsd	xmm0, QWORD PTR [ecx]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [edx+8]
-	mulsd	xmm1, QWORD PTR [eax+24]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+16]
-	mulsd	xmm1, QWORD PTR [edx+48]
-	addsd	xmm0, xmm1
-	movsd	QWORD PTR _mat_temp$[ebp], xmm0
-
-; 100  :   mat_temp._12 = (m_Matrix._11*mIn._12) + (m_Matrix._12*mIn._22) + (m_Matrix._13*mIn._32);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _mIn$[ebp]
-	movsd	xmm0, QWORD PTR [eax]
-	mulsd	xmm0, QWORD PTR [ecx+8]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [edx+8]
-	mulsd	xmm1, QWORD PTR [eax+32]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+16]
-	mulsd	xmm1, QWORD PTR [edx+56]
-	addsd	xmm0, xmm1
-	movsd	QWORD PTR _mat_temp$[ebp+8], xmm0
-
-; 101  :   mat_temp._13 = (m_Matrix._11*mIn._13) + (m_Matrix._12*mIn._23) + (m_Matrix._13*mIn._33);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _mIn$[ebp]
-	movsd	xmm0, QWORD PTR [eax]
-	mulsd	xmm0, QWORD PTR [ecx+16]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [edx+8]
-	mulsd	xmm1, QWORD PTR [eax+40]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+16]
-	mulsd	xmm1, QWORD PTR [edx+64]
-	addsd	xmm0, xmm1
-	movsd	QWORD PTR _mat_temp$[ebp+16], xmm0
-
-; 102  : 
-; 103  :   //second
-; 104  :   mat_temp._21 = (m_Matrix._21*mIn._11) + (m_Matrix._22*mIn._21) + (m_Matrix._23*mIn._31);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _mIn$[ebp]
-	movsd	xmm0, QWORD PTR [eax+24]
-	mulsd	xmm0, QWORD PTR [ecx]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [edx+32]
-	mulsd	xmm1, QWORD PTR [eax+24]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+40]
-	mulsd	xmm1, QWORD PTR [edx+48]
-	addsd	xmm0, xmm1
-	movsd	QWORD PTR _mat_temp$[ebp+24], xmm0
-
-; 105  :   mat_temp._22 = (m_Matrix._21*mIn._12) + (m_Matrix._22*mIn._22) + (m_Matrix._23*mIn._32);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _mIn$[ebp]
-	movsd	xmm0, QWORD PTR [eax+24]
-	mulsd	xmm0, QWORD PTR [ecx+8]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [edx+32]
-	mulsd	xmm1, QWORD PTR [eax+32]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+40]
-	mulsd	xmm1, QWORD PTR [edx+56]
-	addsd	xmm0, xmm1
-	movsd	QWORD PTR _mat_temp$[ebp+32], xmm0
-
-; 106  :   mat_temp._23 = (m_Matrix._21*mIn._13) + (m_Matrix._22*mIn._23) + (m_Matrix._23*mIn._33);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _mIn$[ebp]
-	movsd	xmm0, QWORD PTR [eax+24]
-	mulsd	xmm0, QWORD PTR [ecx+16]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [edx+32]
-	mulsd	xmm1, QWORD PTR [eax+40]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+40]
-	mulsd	xmm1, QWORD PTR [edx+64]
-	addsd	xmm0, xmm1
-	movsd	QWORD PTR _mat_temp$[ebp+40], xmm0
-
-; 107  : 
-; 108  :   //third
-; 109  :   mat_temp._31 = (m_Matrix._31*mIn._11) + (m_Matrix._32*mIn._21) + (m_Matrix._33*mIn._31);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _mIn$[ebp]
-	movsd	xmm0, QWORD PTR [eax+48]
-	mulsd	xmm0, QWORD PTR [ecx]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [edx+56]
-	mulsd	xmm1, QWORD PTR [eax+24]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+64]
-	mulsd	xmm1, QWORD PTR [edx+48]
-	addsd	xmm0, xmm1
-	movsd	QWORD PTR _mat_temp$[ebp+48], xmm0
-
-; 110  :   mat_temp._32 = (m_Matrix._31*mIn._12) + (m_Matrix._32*mIn._22) + (m_Matrix._33*mIn._32);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _mIn$[ebp]
-	movsd	xmm0, QWORD PTR [eax+48]
-	mulsd	xmm0, QWORD PTR [ecx+8]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [edx+56]
-	mulsd	xmm1, QWORD PTR [eax+32]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+64]
-	mulsd	xmm1, QWORD PTR [edx+56]
-	addsd	xmm0, xmm1
-	movsd	QWORD PTR _mat_temp$[ebp+56], xmm0
-
-; 111  :   mat_temp._33 = (m_Matrix._31*mIn._13) + (m_Matrix._32*mIn._23) + (m_Matrix._33*mIn._33);
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	ecx, DWORD PTR _mIn$[ebp]
-	movsd	xmm0, QWORD PTR [eax+48]
-	mulsd	xmm0, QWORD PTR [ecx+16]
-	mov	edx, DWORD PTR _this$[ebp]
-	mov	eax, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [edx+56]
-	mulsd	xmm1, QWORD PTR [eax+40]
-	addsd	xmm0, xmm1
-	mov	ecx, DWORD PTR _this$[ebp]
-	mov	edx, DWORD PTR _mIn$[ebp]
-	movsd	xmm1, QWORD PTR [ecx+64]
-	mulsd	xmm1, QWORD PTR [edx+64]
-	addsd	xmm0, xmm1
-	movsd	QWORD PTR _mat_temp$[ebp+64], xmm0
-
-; 112  : 
-; 113  :   m_Matrix = mat_temp;
-
-	mov	ecx, 18					; 00000012H
-	lea	esi, DWORD PTR _mat_temp$[ebp]
-	mov	edi, DWORD PTR _this$[ebp]
-	rep movsd
-
-; 114  : }
-
-	push	edx
-	mov	ecx, ebp
-	push	eax
-	lea	edx, DWORD PTR $LN5@MatrixMult
-	call	@_RTC_CheckStackVars@8
-	pop	eax
-	pop	edx
-	pop	edi
-	pop	esi
-	add	esp, 84					; 00000054H
-	cmp	ebp, esp
-	call	__RTC_CheckEsp
-	mov	esp, ebp
-	pop	ebp
-	ret	4
-	npad	1
-$LN5@MatrixMult:
-	DD	1
-	DD	$LN4@MatrixMult
-$LN4@MatrixMult:
-	DD	-80					; ffffffb0H
-	DD	72					; 00000048H
-	DD	$LN3@MatrixMult
-$LN3@MatrixMult:
-	DB	109					; 0000006dH
-	DB	97					; 00000061H
-	DB	116					; 00000074H
-	DB	95					; 0000005fH
-	DB	116					; 00000074H
-	DB	101					; 00000065H
-	DB	109					; 0000006dH
-	DB	112					; 00000070H
-	DB	0
-?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z ENDP	; C2DMatrix::MatrixMultiply
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
-;	COMDAT ??0Matrix@C2DMatrix@@QAE@XZ
-_TEXT	SEGMENT
-_this$ = -4						; size = 4
-??0Matrix@C2DMatrix@@QAE@XZ PROC			; C2DMatrix::Matrix::Matrix, COMDAT
-; _this$ = ecx
-
-; 32   :     Matrix()
-
-	push	ebp
-	mov	ebp, esp
-	push	ecx
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-	mov	DWORD PTR _this$[ebp], ecx
-
-; 33   :     {
-; 34   :       _11=0.0; _12=0.0; _13=0.0;
-
-	mov	eax, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [eax], xmm0
-	mov	ecx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [ecx+8], xmm0
-	mov	edx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [edx+16], xmm0
-
-; 35   :       _21=0.0; _22=0.0; _23=0.0;
-
-	mov	eax, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [eax+24], xmm0
-	mov	ecx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [ecx+32], xmm0
-	mov	edx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [edx+40], xmm0
-
-; 36   :       _31=0.0; _32=0.0; _33=0.0;
-
-	mov	eax, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [eax+48], xmm0
-	mov	ecx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [ecx+56], xmm0
-	mov	edx, DWORD PTR _this$[ebp]
-	xorps	xmm0, xmm0
-	movsd	QWORD PTR [edx+64], xmm0
-
-; 37   :     }
-
-	mov	eax, DWORD PTR _this$[ebp]
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??0Matrix@C2DMatrix@@QAE@XZ ENDP			; C2DMatrix::Matrix::Matrix
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_weaponsystem.cpp
 _TEXT	SEGMENT
 tv227 = -304						; size = 4
@@ -12954,7 +11802,7 @@ __$EHRec$ = -12						; size = 12
 ?RenderDesirabilities@Raven_WeaponSystem@@QBEXXZ PROC	; Raven_WeaponSystem::RenderDesirabilities
 ; _this$ = ecx
 
-; 341  : {
+; 345  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -12978,7 +11826,7 @@ __$EHRec$ = -12						; size = 12
 	mov	DWORD PTR fs:0, eax
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 342  :   Vector2D p = m_pOwner->Pos();
+; 346  :   Vector2D p = m_pOwner->Pos();
 
 	lea	eax, DWORD PTR _p$[ebp]
 	push	eax
@@ -12986,19 +11834,19 @@ __$EHRec$ = -12						; size = 12
 	mov	ecx, DWORD PTR [ecx]
 	call	?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ	; BaseGameEntity::Pos
 
-; 343  : 
-; 344  :   int num = 0;
+; 347  : 
+; 348  :   int num = 0;
 
 	mov	DWORD PTR _num$[ebp], 0
 
-; 345  :   
-; 346  :   WeaponMap::const_iterator curWeap;
+; 349  :   
+; 350  :   WeaponMap::const_iterator curWeap;
 
 	lea	ecx, DWORD PTR _curWeap$[ebp]
 	call	??0?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@QAE@XZ ; std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >
 	mov	DWORD PTR __$EHRec$[ebp+8], 0
 
-; 347  :   for (curWeap=m_WeaponMap.begin(); curWeap != m_WeaponMap.end(); ++curWeap)
+; 351  :   for (curWeap=m_WeaponMap.begin(); curWeap != m_WeaponMap.end(); ++curWeap)
 
 	lea	edx, DWORD PTR $T7[ebp]
 	push	edx
@@ -13038,8 +11886,8 @@ $LN4@RenderDesi:
 	test	ecx, ecx
 	je	SHORT $LN3@RenderDesi
 
-; 348  :   {
-; 349  :     if (curWeap->second) num++;
+; 352  :   {
+; 353  :     if (curWeap->second) num++;
 
 	lea	ecx, DWORD PTR _curWeap$[ebp]
 	call	??C?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@QBEPBU?$pair@$$CBHPAVRaven_Weapon@@@1@XZ ; std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >::operator->
@@ -13050,19 +11898,19 @@ $LN4@RenderDesi:
 	mov	DWORD PTR _num$[ebp], edx
 $LN8@RenderDesi:
 
-; 350  :   }
+; 354  :   }
 
 	jmp	SHORT $LN2@RenderDesi
 $LN3@RenderDesi:
 
-; 351  : 
-; 352  :   int offset = 15 * num;
+; 355  : 
+; 356  :   int offset = 15 * num;
 
 	imul	eax, DWORD PTR _num$[ebp], 15
 	mov	DWORD PTR _offset$[ebp], eax
 
-; 353  : 
-; 354  :     for (curWeap=m_WeaponMap.begin(); curWeap != m_WeaponMap.end(); ++curWeap)
+; 357  : 
+; 358  :     for (curWeap=m_WeaponMap.begin(); curWeap != m_WeaponMap.end(); ++curWeap)
 
 	lea	ecx, DWORD PTR $T4[ebp]
 	push	ecx
@@ -13102,16 +11950,16 @@ $LN7@RenderDesi:
 	test	eax, eax
 	je	$LN6@RenderDesi
 
-; 355  :     {
-; 356  :       if (curWeap->second)
+; 359  :     {
+; 360  :       if (curWeap->second)
 
 	lea	ecx, DWORD PTR _curWeap$[ebp]
 	call	??C?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@QBEPBU?$pair@$$CBHPAVRaven_Weapon@@@1@XZ ; std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >::operator->
 	cmp	DWORD PTR [eax+4], 0
 	je	$LN9@RenderDesi
 
-; 357  :       {
-; 358  :         double score = curWeap->second->GetLastDesirabilityScore();
+; 361  :       {
+; 362  :         double score = curWeap->second->GetLastDesirabilityScore();
 
 	lea	ecx, DWORD PTR _curWeap$[ebp]
 	call	??C?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@QBEPBU?$pair@$$CBHPAVRaven_Weapon@@@1@XZ ; std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >::operator->
@@ -13119,7 +11967,7 @@ $LN7@RenderDesi:
 	call	?GetLastDesirabilityScore@Raven_Weapon@@QBENXZ ; Raven_Weapon::GetLastDesirabilityScore
 	fstp	QWORD PTR _score$12[ebp]
 
-; 359  :         std::string type = GetNameOfType(curWeap->second->GetType());
+; 363  :         std::string type = GetNameOfType(curWeap->second->GetType());
 
 	lea	ecx, DWORD PTR _curWeap$[ebp]
 	call	??C?$_Tree_const_iterator@V?$_Tree_val@U?$_Tree_simple_types@U?$pair@$$CBHPAVRaven_Weapon@@@std@@@std@@@std@@@std@@QBEPBU?$pair@$$CBHPAVRaven_Weapon@@@1@XZ ; std::_Tree_const_iterator<std::_Tree_val<std::_Tree_simple_types<std::pair<int const ,Raven_Weapon *> > > >::operator->
@@ -13132,12 +11980,12 @@ $LN7@RenderDesi:
 	add	esp, 8
 	mov	BYTE PTR __$EHRec$[ebp+8], 3
 
-; 360  : 
-; 361  :         gdi->TextAtPos(p.x+10.0, p.y-offset, std::to_string(score) + " " + type);
+; 364  : 
+; 365  :         gdi->TextAtPos(p.x+10.0, p.y-offset, std::to_string(score) + " " + type);
 
 	lea	edx, DWORD PTR _type$11[ebp]
 	push	edx
-	push	OFFSET $SG180905
+	push	OFFSET $SG183068
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR _score$12[ebp]
 	movsd	QWORD PTR [esp], xmm0
@@ -13193,26 +12041,26 @@ $LN7@RenderDesi:
 	lea	ecx, DWORD PTR $T10[ebp]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 
-; 362  : 
-; 363  :         offset+=15;
+; 366  : 
+; 367  :         offset+=15;
 
 	mov	eax, DWORD PTR _offset$[ebp]
 	add	eax, 15					; 0000000fH
 	mov	DWORD PTR _offset$[ebp], eax
 
-; 364  :       }
+; 368  :       }
 
 	mov	BYTE PTR __$EHRec$[ebp+8], 0
 	lea	ecx, DWORD PTR _type$11[ebp]
 	call	??1?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::~basic_string<char,std::char_traits<char>,std::allocator<char> >
 $LN9@RenderDesi:
 
-; 365  :     }
+; 369  :     }
 
 	jmp	$LN5@RenderDesi
 $LN6@RenderDesi:
 
-; 366  : }
+; 370  : }
 
 	mov	DWORD PTR __$EHRec$[ebp+8], -1
 	lea	ecx, DWORD PTR _curWeap$[ebp]
@@ -13313,7 +12161,7 @@ _this$ = -4						; size = 4
 ?RenderCurrentWeapon@Raven_WeaponSystem@@QBEXXZ PROC	; Raven_WeaponSystem::RenderCurrentWeapon
 ; _this$ = ecx
 
-; 336  : {
+; 340  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -13323,7 +12171,7 @@ _this$ = -4						; size = 4
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 337  :   GetCurrentWeapon()->Render();
+; 341  :   GetCurrentWeapon()->Render();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ ; Raven_WeaponSystem::GetCurrentWeapon
@@ -13337,7 +12185,7 @@ _this$ = -4						; size = 4
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 338  : }
+; 342  : }
 
 	pop	esi
 	add	esp, 8
@@ -13358,7 +12206,7 @@ _weapon_type$ = 8					; size = 4
 ?GetAmmoRemainingForWeapon@Raven_WeaponSystem@@QAEHI@Z PROC ; Raven_WeaponSystem::GetAmmoRemainingForWeapon
 ; _this$ = ecx
 
-; 315  : {
+; 319  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -13368,7 +12216,7 @@ _weapon_type$ = 8					; size = 4
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 316  :   if (m_WeaponMap[weapon_type])
+; 320  :   if (m_WeaponMap[weapon_type])
 
 	mov	eax, DWORD PTR _weapon_type$[ebp]
 	mov	DWORD PTR $T2[ebp], eax
@@ -13380,8 +12228,8 @@ _weapon_type$ = 8					; size = 4
 	cmp	DWORD PTR [eax], 0
 	je	SHORT $LN2@GetAmmoRem
 
-; 317  :   {
-; 318  :     return m_WeaponMap[weapon_type]->NumRoundsRemaining();
+; 321  :   {
+; 322  :     return m_WeaponMap[weapon_type]->NumRoundsRemaining();
 
 	mov	edx, DWORD PTR _weapon_type$[ebp]
 	mov	DWORD PTR $T1[ebp], edx
@@ -13395,14 +12243,14 @@ _weapon_type$ = 8					; size = 4
 	jmp	SHORT $LN1@GetAmmoRem
 $LN2@GetAmmoRem:
 
-; 319  :   }
-; 320  : 
-; 321  :   return 0;
+; 323  :   }
+; 324  : 
+; 325  :   return 0;
 
 	xor	eax, eax
 $LN1@GetAmmoRem:
 
-; 322  : }
+; 326  : }
 
 	add	esp, 12					; 0000000cH
 	cmp	ebp, esp
@@ -13455,7 +12303,7 @@ _this$ = -4						; size = 4
 ?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ PROC ; Raven_WeaponSystem::GetCurrentWeapon, COMDAT
 ; _this$ = ecx
 
-; 98   :   Raven_Weapon* GetCurrentWeapon()const{return m_pCurrentWeapon;} 
+; 100  :   Raven_Weapon* GetCurrentWeapon()const{return m_pCurrentWeapon;} 
 
 	push	ebp
 	mov	ebp, esp
@@ -13478,7 +12326,7 @@ _pos$ = 8						; size = 16
 ?ShootAt@Raven_WeaponSystem@@QBEXUVector2D@@@Z PROC	; Raven_WeaponSystem::ShootAt
 ; _this$ = ecx
 
-; 329  : {
+; 333  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -13488,7 +12336,7 @@ _pos$ = 8						; size = 16
 	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 330  :   GetCurrentWeapon()->ShootAt(pos);
+; 334  :   GetCurrentWeapon()->ShootAt(pos);
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ ; Raven_WeaponSystem::GetCurrentWeapon
@@ -13512,7 +12360,7 @@ _pos$ = 8						; size = 16
 	cmp	esi, esp
 	call	__RTC_CheckEsp
 
-; 331  : }
+; 335  : }
 
 	pop	esi
 	add	esp, 8
@@ -14215,7 +13063,7 @@ text$x	ENDS
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_weaponsystem.cpp
 _TEXT	SEGMENT
 tv184 = -124						; size = 4
-tv315 = -120						; size = 8
+tv316 = -120						; size = 8
 tv162 = -112						; size = 4
 tv265 = -108						; size = 8
 tv223 = -100						; size = 8
@@ -14225,7 +13073,7 @@ $T3 = -60						; size = 16
 $T4 = -44						; size = 16
 _AimingPos$5 = -24					; size = 16
 _this$ = -4						; size = 4
-?TakeAimAndShoot@Raven_WeaponSystem@@QBEXXZ PROC	; Raven_WeaponSystem::TakeAimAndShoot
+?TakeAimAndShoot@Raven_WeaponSystem@@QAE_NXZ PROC	; Raven_WeaponSystem::TakeAimAndShoot
 ; _this$ = ecx
 
 ; 194  : {
@@ -14411,21 +13259,26 @@ $LN7@TakeAimAnd:
 	call	eax
 	cmp	esi, esp
 	call	__RTC_CheckEsp
+
+; 226  : 		return true;
+
+	mov	al, 1
+	jmp	$LN3@TakeAimAnd
 $LN8@TakeAimAnd:
 
-; 226  :       }
-; 227  :     }
-; 228  : 
-; 229  :     //no need to predict movement, aim directly at target
-; 230  :     else
+; 227  :       }
+; 228  :     }
+; 229  : 
+; 230  :     //no need to predict movement, aim directly at target
+; 231  :     else
 
 	jmp	$LN9@TakeAimAnd
 $LN5@TakeAimAnd:
 
-; 231  :     {
-; 232  :       //if the weapon is aimed correctly and it has been in view for a period
-; 233  :       //longer than the bot's reaction time, shoot the weapon
-; 234  :       if ( m_pOwner->RotateFacingTowardPosition(AimingPos) &&
+; 232  :     {
+; 233  :       //if the weapon is aimed correctly and it has been in view for a period
+; 234  :       //longer than the bot's reaction time, shoot the weapon
+; 235  :       if ( m_pOwner->RotateFacingTowardPosition(AimingPos) &&
 
 	sub	esp, 16					; 00000010H
 	mov	ecx, esp
@@ -14448,24 +13301,24 @@ $LN5@TakeAimAnd:
 	call	?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ ; Raven_Bot::GetTargetSys
 	mov	ecx, eax
 	call	?GetTimeTargetHasBeenVisible@Raven_TargetingSystem@@QBENXZ ; Raven_TargetingSystem::GetTimeTargetHasBeenVisible
-	fstp	QWORD PTR tv315[ebp]
-	movsd	xmm0, QWORD PTR tv315[ebp]
+	fstp	QWORD PTR tv316[ebp]
+	movsd	xmm0, QWORD PTR tv316[ebp]
 	mov	ecx, DWORD PTR _this$[ebp]
 	comisd	xmm0, QWORD PTR [ecx+24]
 	jbe	SHORT $LN9@TakeAimAnd
 
-; 235  :            (m_pOwner->GetTargetSys()->GetTimeTargetHasBeenVisible() >
-; 236  :             m_dReactionTime) )
-; 237  :       {
-; 238  :         AddNoiseToAim(AimingPos);
+; 236  :            (m_pOwner->GetTargetSys()->GetTimeTargetHasBeenVisible() >
+; 237  :             m_dReactionTime) )
+; 238  :       {
+; 239  :         AddNoiseToAim(AimingPos);
 
 	lea	edx, DWORD PTR _AimingPos$5[ebp]
 	push	edx
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?AddNoiseToAim@Raven_WeaponSystem@@ABEXAAUVector2D@@@Z ; Raven_WeaponSystem::AddNoiseToAim
 
-; 239  :         
-; 240  :         GetCurrentWeapon()->ShootAt(AimingPos);
+; 240  :         
+; 241  :         GetCurrentWeapon()->ShootAt(AimingPos);
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ ; Raven_WeaponSystem::GetCurrentWeapon
@@ -14488,22 +13341,27 @@ $LN5@TakeAimAnd:
 	call	eax
 	cmp	esi, esp
 	call	__RTC_CheckEsp
+
+; 242  : 		return true;
+
+	mov	al, 1
+	jmp	SHORT $LN3@TakeAimAnd
 $LN9@TakeAimAnd:
 
-; 241  :       }
-; 242  :     }
-; 243  : 
-; 244  :   }
-; 245  :   
-; 246  :   //no target to shoot at so rotate facing to be parallel with the bot's
-; 247  :   //heading direction
-; 248  :   else
+; 243  :       }
+; 244  :     }
+; 245  : 
+; 246  :   }
+; 247  :   
+; 248  :   //no target to shoot at so rotate facing to be parallel with the bot's
+; 249  :   //heading direction
+; 250  :   else
 
 	jmp	SHORT $LN3@TakeAimAnd
 $LN2@TakeAimAnd:
 
-; 249  :   {
-; 250  :     m_pOwner->RotateFacingTowardPosition(m_pOwner->Pos()+ m_pOwner->Heading());
+; 251  :   {
+; 252  :     m_pOwner->RotateFacingTowardPosition(m_pOwner->Pos()+ m_pOwner->Heading());
 
 	lea	ecx, DWORD PTR $T3[ebp]
 	push	ecx
@@ -14533,10 +13391,15 @@ $LN2@TakeAimAnd:
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx]
 	call	?RotateFacingTowardPosition@Raven_Bot@@QAE_NUVector2D@@@Z ; Raven_Bot::RotateFacingTowardPosition
+
+; 253  : 
+; 254  : 	return false;
+
+	xor	al, al
 $LN3@TakeAimAnd:
 
-; 251  :   }
-; 252  : }
+; 255  :   }
+; 256  : }
 
 	push	edx
 	mov	ecx, ebp
@@ -14553,7 +13416,7 @@ $LN3@TakeAimAnd:
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-	npad	2
+	npad	1
 $LN13@TakeAimAnd:
 	DD	1
 	DD	$LN12@TakeAimAnd
@@ -14572,7 +13435,7 @@ $LN11@TakeAimAnd:
 	DB	111					; 0000006fH
 	DB	115					; 00000073H
 	DB	0
-?TakeAimAndShoot@Raven_WeaponSystem@@QBEXXZ ENDP	; Raven_WeaponSystem::TakeAimAndShoot
+?TakeAimAndShoot@Raven_WeaponSystem@@QAE_NXZ ENDP	; Raven_WeaponSystem::TakeAimAndShoot
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_weaponsystem.cpp
@@ -15080,7 +13943,7 @@ _AimingPos$ = 8						; size = 4
 ?AddNoiseToAim@Raven_WeaponSystem@@ABEXAAUVector2D@@@Z PROC ; Raven_WeaponSystem::AddNoiseToAim
 ; _this$ = ecx
 
-; 260  : {
+; 264  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -15095,14 +13958,14 @@ _AimingPos$ = 8						; size = 4
 	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 261  : 	double NoiseAim = m_dAimAccuracy;
+; 265  : 	double NoiseAim = m_dAimAccuracy;
 
 	mov	eax, DWORD PTR _this$[ebp]
 	movsd	xmm0, QWORD PTR [eax+32]
 	movsd	QWORD PTR _NoiseAim$[ebp], xmm0
 
-; 262  : 
-; 263  : 	double DistToTarget = Vec2DDistance(m_pOwner->Pos(), m_pOwner->GetTargetSys()->GetTarget()->Pos());
+; 266  : 
+; 267  : 	double DistToTarget = Vec2DDistance(m_pOwner->Pos(), m_pOwner->GetTargetSys()->GetTarget()->Pos());
 
 	lea	ecx, DWORD PTR $T5[ebp]
 	push	ecx
@@ -15124,8 +13987,8 @@ _AimingPos$ = 8						; size = 4
 	add	esp, 8
 	fstp	QWORD PTR _DistToTarget$[ebp]
 
-; 264  : 
-; 265  : 	Vector2D toPos = AimingPos - m_pOwner->Pos();
+; 268  : 
+; 269  : 	Vector2D toPos = AimingPos - m_pOwner->Pos();
 
 	lea	edx, DWORD PTR $T3[ebp]
 	push	edx
@@ -15140,8 +14003,8 @@ _AimingPos$ = 8						; size = 4
 	call	??G@YA?AUVector2D@@ABU0@0@Z		; operator-
 	add	esp, 12					; 0000000cH
 
-; 266  : 
-; 267  : 	NoiseAim += m_pCurrentWeapon->GetRangeDeceleration(DistToTarget);
+; 270  : 
+; 271  : 	NoiseAim += m_pCurrentWeapon->GetRangeDeceleration(DistToTarget);
 
 	mov	esi, esp
 	sub	esp, 8
@@ -15161,8 +14024,8 @@ _AimingPos$ = 8						; size = 4
 	addsd	xmm0, QWORD PTR _NoiseAim$[ebp]
 	movsd	QWORD PTR _NoiseAim$[ebp], xmm0
 
-; 268  : 
-; 269  : 	NoiseAim += 0.01*(m_pOwner->Speed());
+; 272  : 
+; 273  : 	NoiseAim += 0.01*(m_pOwner->Speed());
 
 	mov	eax, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [eax]
@@ -15173,8 +14036,8 @@ _AimingPos$ = 8						; size = 4
 	addsd	xmm0, QWORD PTR _NoiseAim$[ebp]
 	movsd	QWORD PTR _NoiseAim$[ebp], xmm0
 
-; 270  : 
-; 271  : 	NoiseAim += 0.01*(m_pOwner->GetTargetSys()->GetTarget()->Speed());
+; 274  : 
+; 275  : 	NoiseAim += 0.01*(m_pOwner->GetTargetSys()->GetTarget()->Speed());
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	mov	ecx, DWORD PTR [ecx]
@@ -15189,24 +14052,24 @@ _AimingPos$ = 8						; size = 4
 	addsd	xmm0, QWORD PTR _NoiseAim$[ebp]
 	movsd	QWORD PTR _NoiseAim$[ebp], xmm0
 
-; 272  : 
-; 273  : 	//threshold because it is insane sometimes
-; 274  : 	if (NoiseAim > 0.9)
+; 276  : 
+; 277  : 	//threshold because it is insane sometimes
+; 278  : 	if (NoiseAim > 0.9)
 
 	movsd	xmm0, QWORD PTR _NoiseAim$[ebp]
 	comisd	xmm0, QWORD PTR __real@3feccccccccccccd
 	jbe	SHORT $LN2@AddNoiseTo
 
-; 275  : 	{
-; 276  : 		NoiseAim = 0.9;
+; 279  : 	{
+; 280  : 		NoiseAim = 0.9;
 
 	movsd	xmm0, QWORD PTR __real@3feccccccccccccd
 	movsd	QWORD PTR _NoiseAim$[ebp], xmm0
 $LN2@AddNoiseTo:
 
-; 277  : 	}
-; 278  : 
-; 279  : 	Vec2DRotateAroundOrigin(toPos, RandInRange(-NoiseAim, NoiseAim));
+; 281  : 	}
+; 282  : 
+; 283  : 	Vec2DRotateAroundOrigin(toPos, RandInRange(-NoiseAim, NoiseAim));
 
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR _NoiseAim$[ebp]
@@ -15223,8 +14086,8 @@ $LN2@AddNoiseTo:
 	call	?Vec2DRotateAroundOrigin@@YAXAAUVector2D@@N@Z ; Vec2DRotateAroundOrigin
 	add	esp, 12					; 0000000cH
 
-; 280  : 
-; 281  : 	AimingPos = toPos + m_pOwner->Pos();
+; 284  : 
+; 285  : 	AimingPos = toPos + m_pOwner->Pos();
 
 	lea	eax, DWORD PTR $T2[ebp]
 	push	eax
@@ -15248,7 +14111,7 @@ $LN2@AddNoiseTo:
 	mov	eax, DWORD PTR [eax+12]
 	mov	DWORD PTR [ecx+12], eax
 
-; 282  : }
+; 286  : }
 
 	push	edx
 	mov	ecx, ebp
@@ -15301,7 +14164,7 @@ ___$ReturnUdt$ = 8					; size = 4
 ?PredictFuturePositionOfTarget@Raven_WeaponSystem@@ABE?AUVector2D@@XZ PROC ; Raven_WeaponSystem::PredictFuturePositionOfTarget
 ; _this$ = ecx
 
-; 291  : {
+; 295  : {
 
 	push	ebp
 	mov	ebp, esp
@@ -15315,7 +14178,7 @@ ___$ReturnUdt$ = 8					; size = 4
 	pop	ecx
 	mov	DWORD PTR _this$[ebp], ecx
 
-; 292  :   double MaxSpeed = GetCurrentWeapon()->GetMaxProjectileSpeed();
+; 296  :   double MaxSpeed = GetCurrentWeapon()->GetMaxProjectileSpeed();
 
 	mov	ecx, DWORD PTR _this$[ebp]
 	call	?GetCurrentWeapon@Raven_WeaponSystem@@QBEPAVRaven_Weapon@@XZ ; Raven_WeaponSystem::GetCurrentWeapon
@@ -15323,9 +14186,9 @@ ___$ReturnUdt$ = 8					; size = 4
 	call	?GetMaxProjectileSpeed@Raven_Weapon@@QBENXZ ; Raven_Weapon::GetMaxProjectileSpeed
 	fstp	QWORD PTR _MaxSpeed$[ebp]
 
-; 293  :   
-; 294  :   //if the target is ahead and facing the agent shoot at its current pos
-; 295  :   Vector2D ToEnemy = m_pOwner->GetTargetBot()->Pos() - m_pOwner->Pos();
+; 297  :   
+; 298  :   //if the target is ahead and facing the agent shoot at its current pos
+; 299  :   Vector2D ToEnemy = m_pOwner->GetTargetBot()->Pos() - m_pOwner->Pos();
 
 	lea	eax, DWORD PTR $T5[ebp]
 	push	eax
@@ -15346,11 +14209,11 @@ ___$ReturnUdt$ = 8					; size = 4
 	call	??G@YA?AUVector2D@@ABU0@0@Z		; operator-
 	add	esp, 12					; 0000000cH
 
-; 296  :  
-; 297  :   //the lookahead time is proportional to the distance between the enemy
-; 298  :   //and the pursuer; and is inversely proportional to the sum of the
-; 299  :   //agent's velocities
-; 300  :   double LookAheadTime = ToEnemy.Length() / 
+; 300  :  
+; 301  :   //the lookahead time is proportional to the distance between the enemy
+; 302  :   //and the pursuer; and is inversely proportional to the sum of the
+; 303  :   //agent's velocities
+; 304  :   double LookAheadTime = ToEnemy.Length() / 
 
 	lea	ecx, DWORD PTR _ToEnemy$[ebp]
 	call	?Length@Vector2D@@QBENXZ		; Vector2D::Length
@@ -15369,10 +14232,10 @@ ___$ReturnUdt$ = 8					; size = 4
 	divsd	xmm1, xmm0
 	movsd	QWORD PTR _LookAheadTime$[ebp], xmm1
 
-; 301  :                         (MaxSpeed + m_pOwner->GetTargetBot()->MaxSpeed());
-; 302  :   
-; 303  :   //return the predicted future position of the enemy
-; 304  :   return m_pOwner->GetTargetBot()->Pos() + 
+; 305  :                         (MaxSpeed + m_pOwner->GetTargetBot()->MaxSpeed());
+; 306  :   
+; 307  :   //return the predicted future position of the enemy
+; 308  :   return m_pOwner->GetTargetBot()->Pos() + 
 
 	sub	esp, 8
 	movsd	xmm0, QWORD PTR _LookAheadTime$[ebp]
@@ -15404,8 +14267,8 @@ ___$ReturnUdt$ = 8					; size = 4
 	add	esp, 12					; 0000000cH
 	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
 
-; 305  :          m_pOwner->GetTargetBot()->Velocity() * LookAheadTime;
-; 306  : }
+; 309  :          m_pOwner->GetTargetBot()->Velocity() * LookAheadTime;
+; 310  : }
 
 	push	edx
 	mov	ecx, ebp
@@ -20275,6 +19138,1158 @@ _this$ = -4						; size = 4
 	pop	ebp
 	ret	0
 ??0?$allocator@U?$_Tree_node@U?$pair@$$CBHPAVRaven_Weapon@@@std@@PAX@std@@@std@@QAE@XZ ENDP ; std::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >::allocator<std::_Tree_node<std::pair<int const ,Raven_Weapon *>,void *> >
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\misc\utils.h
+;	COMDAT ??$Clamp@IHI@@YAXAAIABHABI@Z
+_TEXT	SEGMENT
+tv76 = -4						; size = 4
+_arg$ = 8						; size = 4
+_minVal$ = 12						; size = 4
+_maxVal$ = 16						; size = 4
+??$Clamp@IHI@@YAXAAIABHABI@Z PROC			; Clamp<unsigned int,int,unsigned int>, COMDAT
+
+; 174  : {
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 175  :   assert ( ((double)minVal < (double)maxVal) && "<Clamp>MaxVal < MinVal!");
+
+	mov	eax, DWORD PTR _minVal$[ebp]
+	cvtsi2sd xmm0, DWORD PTR [eax]
+	mov	ecx, DWORD PTR _maxVal$[ebp]
+	mov	edx, DWORD PTR [ecx]
+	mov	DWORD PTR tv76[ebp], edx
+	cvtsi2sd xmm1, DWORD PTR tv76[ebp]
+	mov	eax, DWORD PTR tv76[ebp]
+	shr	eax, 31					; 0000001fH
+	addsd	xmm1, QWORD PTR __xmm@41f00000000000000000000000000000[eax*8]
+	comisd	xmm1, xmm0
+	jbe	SHORT $LN5@Clamp
+	mov	ecx, OFFSET ??_C@_0BI@OELFEEAK@?$DMClamp?$DOMaxVal?5?$DM?5MinVal?$CB@
+	test	ecx, ecx
+	jne	SHORT $LN6@Clamp
+$LN5@Clamp:
+	push	175					; 000000afH
+	push	OFFSET ??_C@_1KE@MBCCOECJ@?$AAc?$AA?3?$AA?2?$AAu?$AAs?$AAe?$AAr?$AAs?$AA?2?$AAn?$AAt?$AAr?$AAe?$AAm?$AAb@
+	push	OFFSET ??_C@_1HO@GLAEGOGM@?$AA?$CI?$AA?$CI?$AAd?$AAo?$AAu?$AAb?$AAl?$AAe?$AA?$CJ?$AAm?$AAi?$AAn?$AAV?$AAa?$AAl@
+	call	__wassert
+	add	esp, 12					; 0000000cH
+$LN6@Clamp:
+
+; 176  : 
+; 177  :   if (arg < (T)minVal)
+
+	mov	eax, DWORD PTR _arg$[ebp]
+	mov	ecx, DWORD PTR _minVal$[ebp]
+	mov	edx, DWORD PTR [eax]
+	cmp	edx, DWORD PTR [ecx]
+	jae	SHORT $LN2@Clamp
+
+; 178  :   {
+; 179  :     arg = (T)minVal;
+
+	mov	eax, DWORD PTR _arg$[ebp]
+	mov	ecx, DWORD PTR _minVal$[ebp]
+	mov	edx, DWORD PTR [ecx]
+	mov	DWORD PTR [eax], edx
+$LN2@Clamp:
+
+; 180  :   }
+; 181  : 
+; 182  :   if (arg > (T)maxVal)
+
+	mov	eax, DWORD PTR _arg$[ebp]
+	mov	ecx, DWORD PTR _maxVal$[ebp]
+	mov	edx, DWORD PTR [eax]
+	cmp	edx, DWORD PTR [ecx]
+	jbe	SHORT $LN3@Clamp
+
+; 183  :   {
+; 184  :     arg = (T)maxVal;
+
+	mov	eax, DWORD PTR _arg$[ebp]
+	mov	ecx, DWORD PTR _maxVal$[ebp]
+	mov	edx, DWORD PTR [ecx]
+	mov	DWORD PTR [eax], edx
+$LN3@Clamp:
+
+; 185  :   }
+; 186  : }
+
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$Clamp@IHI@@YAXAAIABHABI@Z ENDP			; Clamp<unsigned int,int,unsigned int>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
+;	COMDAT ?GetType@Raven_Weapon@@QBEIXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?GetType@Raven_Weapon@@QBEIXZ PROC			; Raven_Weapon::GetType, COMDAT
+; _this$ = ecx
+
+; 132  :   unsigned int  GetType()const{return m_iType;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+12]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?GetType@Raven_Weapon@@QBEIXZ ENDP			; Raven_Weapon::GetType
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
+;	COMDAT ?IncrementRounds@Raven_Weapon@@QAEXH@Z
+_TEXT	SEGMENT
+$T1 = -8						; size = 4
+_this$ = -4						; size = 4
+_num$ = 8						; size = 4
+?IncrementRounds@Raven_Weapon@@QAEXH@Z PROC		; Raven_Weapon::IncrementRounds, COMDAT
+; _this$ = ecx
+
+; 173  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 174  :   m_iNumRoundsLeft+=num;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [eax+44]
+	add	ecx, DWORD PTR _num$[ebp]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	DWORD PTR [edx+44], ecx
+
+; 175  :   Clamp(m_iNumRoundsLeft, 0, m_iMaxRoundsCarried);
+
+	mov	DWORD PTR $T1[ebp], 0
+	mov	eax, DWORD PTR _this$[ebp]
+	add	eax, 48					; 00000030H
+	push	eax
+	lea	ecx, DWORD PTR $T1[ebp]
+	push	ecx
+	mov	edx, DWORD PTR _this$[ebp]
+	add	edx, 44					; 0000002cH
+	push	edx
+	call	??$Clamp@IHI@@YAXAAIABHABI@Z		; Clamp<unsigned int,int,unsigned int>
+	add	esp, 12					; 0000000cH
+
+; 176  : } 
+
+	add	esp, 8
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?IncrementRounds@Raven_Weapon@@QAEXH@Z ENDP		; Raven_Weapon::IncrementRounds
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
+;	COMDAT ?NumRoundsRemaining@Raven_Weapon@@QBEHXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?NumRoundsRemaining@Raven_Weapon@@QBEHXZ PROC		; Raven_Weapon::NumRoundsRemaining, COMDAT
+; _this$ = ecx
+
+; 129  :   int           NumRoundsRemaining()const{return m_iNumRoundsLeft;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+44]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?NumRoundsRemaining@Raven_Weapon@@QBEHXZ ENDP		; Raven_Weapon::NumRoundsRemaining
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
+;	COMDAT ?GetMaxProjectileSpeed@Raven_Weapon@@QBENXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?GetMaxProjectileSpeed@Raven_Weapon@@QBENXZ PROC	; Raven_Weapon::GetMaxProjectileSpeed, COMDAT
+; _this$ = ecx
+
+; 126  :   double         GetMaxProjectileSpeed()const{return m_dMaxProjectileSpeed;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	fld	QWORD PTR [eax+88]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?GetMaxProjectileSpeed@Raven_Weapon@@QBENXZ ENDP	; Raven_Weapon::GetMaxProjectileSpeed
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\armory\raven_weapon.h
+;	COMDAT ?GetLastDesirabilityScore@Raven_Weapon@@QBENXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?GetLastDesirabilityScore@Raven_Weapon@@QBENXZ PROC	; Raven_Weapon::GetLastDesirabilityScore, COMDAT
+; _this$ = ecx
+
+; 123  :   double         GetLastDesirabilityScore()const{return m_dLastDesirabilityScore;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	fld	QWORD PTR [eax+72]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?GetLastDesirabilityScore@Raven_Weapon@@QBENXZ ENDP	; Raven_Weapon::GetLastDesirabilityScore
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.h
+;	COMDAT ?GetTargetBot@Raven_Bot@@QBEQAV1@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?GetTargetBot@Raven_Bot@@QBEQAV1@XZ PROC		; Raven_Bot::GetTargetBot, COMDAT
+; _this$ = ecx
+
+; 229  :   Raven_Bot* const                   GetTargetBot()const{return m_pTargSys->GetTarget();}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR [eax+172]
+	call	?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ ; Raven_TargetingSystem::GetTarget
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?GetTargetBot@Raven_Bot@@QBEQAV1@XZ ENDP		; Raven_Bot::GetTargetBot
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_bot.h
+;	COMDAT ?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ PROC ; Raven_Bot::GetTargetSys, COMDAT
+; _this$ = ecx
+
+; 228  :   Raven_TargetingSystem* const       GetTargetSys(){return m_pTargSys;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+172]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?GetTargetSys@Raven_Bot@@QAEQAVRaven_TargetingSystem@@XZ ENDP ; Raven_Bot::GetTargetSys
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_targetingsystem.h
+;	COMDAT ?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ PROC ; Raven_TargetingSystem::GetTarget, COMDAT
+; _this$ = ecx
+
+; 65   :   Raven_Bot* GetTarget()const{return m_pCurrentTarget;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR [eax+4]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?GetTarget@Raven_TargetingSystem@@QBEPAVRaven_Bot@@XZ ENDP ; Raven_TargetingSystem::GetTarget
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\raven_targetingsystem.h
+;	COMDAT ?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ
+_TEXT	SEGMENT
+tv66 = -8						; size = 4
+_this$ = -4						; size = 4
+?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ PROC	; Raven_TargetingSystem::isTargetPresent, COMDAT
+; _this$ = ecx
+
+; 45   :   bool       isTargetPresent()const{return m_pCurrentTarget != 0;}
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	cmp	DWORD PTR [eax+4], 0
+	je	SHORT $LN3@isTargetPr
+	mov	DWORD PTR tv66[ebp], 1
+	jmp	SHORT $LN4@isTargetPr
+$LN3@isTargetPr:
+	mov	DWORD PTR tv66[ebp], 0
+$LN4@isTargetPr:
+	mov	al, BYTE PTR tv66[ebp]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?isTargetPresent@Raven_TargetingSystem@@QBE_NXZ ENDP	; Raven_TargetingSystem::isTargetPresent
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\movingentity.h
+;	COMDAT ?Heading@MovingEntity@@QBE?AUVector2D@@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+___$ReturnUdt$ = 8					; size = 4
+?Heading@MovingEntity@@QBE?AUVector2D@@XZ PROC		; MovingEntity::Heading, COMDAT
+; _this$ = ecx
+
+; 92   :   Vector2D  Heading()const{return m_vHeading;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	add	eax, 80					; 00000050H
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR [ecx], edx
+	mov	edx, DWORD PTR [eax+4]
+	mov	DWORD PTR [ecx+4], edx
+	mov	edx, DWORD PTR [eax+8]
+	mov	DWORD PTR [ecx+8], edx
+	mov	eax, DWORD PTR [eax+12]
+	mov	DWORD PTR [ecx+12], eax
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?Heading@MovingEntity@@QBE?AUVector2D@@XZ ENDP		; MovingEntity::Heading
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\movingentity.h
+;	COMDAT ?Speed@MovingEntity@@QBENXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?Speed@MovingEntity@@QBENXZ PROC			; MovingEntity::Speed, COMDAT
+; _this$ = ecx
+
+; 89   :   double    Speed()const{return m_vVelocity.Length();}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	add	ecx, 64					; 00000040H
+	call	?Length@Vector2D@@QBENXZ		; Vector2D::Length
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?Speed@MovingEntity@@QBENXZ ENDP			; MovingEntity::Speed
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\movingentity.h
+;	COMDAT ?MaxSpeed@MovingEntity@@QBENXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?MaxSpeed@MovingEntity@@QBENXZ PROC			; MovingEntity::MaxSpeed, COMDAT
+; _this$ = ecx
+
+; 82   :   double    MaxSpeed()const{return m_dMaxSpeed;}                       
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	fld	QWORD PTR [eax+120]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?MaxSpeed@MovingEntity@@QBENXZ ENDP			; MovingEntity::MaxSpeed
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\movingentity.h
+;	COMDAT ?Velocity@MovingEntity@@QBE?AUVector2D@@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+___$ReturnUdt$ = 8					; size = 4
+?Velocity@MovingEntity@@QBE?AUVector2D@@XZ PROC		; MovingEntity::Velocity, COMDAT
+; _this$ = ecx
+
+; 75   :   Vector2D  Velocity()const{return m_vVelocity;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	add	eax, 64					; 00000040H
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR [ecx], edx
+	mov	edx, DWORD PTR [eax+4]
+	mov	DWORD PTR [ecx+4], edx
+	mov	edx, DWORD PTR [eax+8]
+	mov	DWORD PTR [ecx+8], edx
+	mov	eax, DWORD PTR [eax+12]
+	mov	DWORD PTR [ecx+12], eax
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?Velocity@MovingEntity@@QBE?AUVector2D@@XZ ENDP		; MovingEntity::Velocity
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\game\basegameentity.h
+;	COMDAT ?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+___$ReturnUdt$ = 8					; size = 4
+?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ PROC		; BaseGameEntity::Pos, COMDAT
+; _this$ = ecx
+
+; 89   :   Vector2D     Pos()const{return m_vPosition;}
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	eax, DWORD PTR _this$[ebp]
+	add	eax, 24					; 00000018H
+	mov	ecx, DWORD PTR ___$ReturnUdt$[ebp]
+	mov	edx, DWORD PTR [eax]
+	mov	DWORD PTR [ecx], edx
+	mov	edx, DWORD PTR [eax+4]
+	mov	DWORD PTR [ecx+4], edx
+	mov	edx, DWORD PTR [eax+8]
+	mov	DWORD PTR [ecx+8], edx
+	mov	eax, DWORD PTR [eax+12]
+	mov	DWORD PTR [ecx+12], eax
+	mov	eax, DWORD PTR ___$ReturnUdt$[ebp]
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?Pos@BaseGameEntity@@QBE?AUVector2D@@XZ ENDP		; BaseGameEntity::Pos
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\transformations.h
+;	COMDAT ?Vec2DRotateAroundOrigin@@YAXAAUVector2D@@N@Z
+_TEXT	SEGMENT
+_mat$ = -76						; size = 72
+_v$ = 8							; size = 4
+_ang$ = 12						; size = 8
+?Vec2DRotateAroundOrigin@@YAXAAUVector2D@@N@Z PROC	; Vec2DRotateAroundOrigin, COMDAT
+
+; 196  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 80					; 00000050H
+	push	edi
+	lea	edi, DWORD PTR [ebp-80]
+	mov	ecx, 20					; 00000014H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+
+; 197  :   //create a transformation matrix
+; 198  :   C2DMatrix mat;
+
+	lea	ecx, DWORD PTR _mat$[ebp]
+	call	??0C2DMatrix@@QAE@XZ			; C2DMatrix::C2DMatrix
+
+; 199  : 
+; 200  :   //rotate
+; 201  :   mat.Rotate(ang);
+
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR _ang$[ebp]
+	movsd	QWORD PTR [esp], xmm0
+	lea	ecx, DWORD PTR _mat$[ebp]
+	call	?Rotate@C2DMatrix@@QAEXN@Z		; C2DMatrix::Rotate
+
+; 202  : 	
+; 203  :   //now transform the object's vertices
+; 204  :   mat.TransformVector2Ds(v);
+
+	mov	eax, DWORD PTR _v$[ebp]
+	push	eax
+	lea	ecx, DWORD PTR _mat$[ebp]
+	call	?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z ; C2DMatrix::TransformVector2Ds
+
+; 205  : }
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@Vec2DRotat
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	edi
+	add	esp, 80					; 00000050H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+	npad	1
+$LN5@Vec2DRotat:
+	DD	1
+	DD	$LN4@Vec2DRotat
+$LN4@Vec2DRotat:
+	DD	-76					; ffffffb4H
+	DD	72					; 00000048H
+	DD	$LN3@Vec2DRotat
+$LN3@Vec2DRotat:
+	DB	109					; 0000006dH
+	DB	97					; 00000061H
+	DB	116					; 00000074H
+	DB	0
+?Vec2DRotateAroundOrigin@@YAXAAUVector2D@@N@Z ENDP	; Vec2DRotateAroundOrigin
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
+;	COMDAT ?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z
+_TEXT	SEGMENT
+_tempY$ = -20						; size = 8
+_tempX$ = -12						; size = 8
+_this$ = -4						; size = 4
+_vPoint$ = 8						; size = 4
+?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z PROC	; C2DMatrix::TransformVector2Ds, COMDAT
+; _this$ = ecx
+
+; 134  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 20					; 00000014H
+	mov	eax, -858993460				; ccccccccH
+	mov	DWORD PTR [ebp-20], eax
+	mov	DWORD PTR [ebp-16], eax
+	mov	DWORD PTR [ebp-12], eax
+	mov	DWORD PTR [ebp-8], eax
+	mov	DWORD PTR [ebp-4], eax
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 135  : 
+; 136  :   double tempX =(m_Matrix._11*vPoint.x) + (m_Matrix._21*vPoint.y) + (m_Matrix._31);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _vPoint$[ebp]
+	movsd	xmm0, QWORD PTR [eax]
+	mulsd	xmm0, QWORD PTR [ecx]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _vPoint$[ebp]
+	movsd	xmm1, QWORD PTR [edx+24]
+	mulsd	xmm1, QWORD PTR [eax+8]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	addsd	xmm0, QWORD PTR [ecx+48]
+	movsd	QWORD PTR _tempX$[ebp], xmm0
+
+; 137  : 
+; 138  :   double tempY = (m_Matrix._12*vPoint.x) + (m_Matrix._22*vPoint.y) + (m_Matrix._32);
+
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _vPoint$[ebp]
+	movsd	xmm0, QWORD PTR [edx+8]
+	mulsd	xmm0, QWORD PTR [eax]
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _vPoint$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+32]
+	mulsd	xmm1, QWORD PTR [edx+8]
+	addsd	xmm0, xmm1
+	mov	eax, DWORD PTR _this$[ebp]
+	addsd	xmm0, QWORD PTR [eax+56]
+	movsd	QWORD PTR _tempY$[ebp], xmm0
+
+; 139  :   
+; 140  :   vPoint.x = tempX;
+
+	mov	ecx, DWORD PTR _vPoint$[ebp]
+	movsd	xmm0, QWORD PTR _tempX$[ebp]
+	movsd	QWORD PTR [ecx], xmm0
+
+; 141  : 
+; 142  :   vPoint.y = tempY;
+
+	mov	edx, DWORD PTR _vPoint$[ebp]
+	movsd	xmm0, QWORD PTR _tempY$[ebp]
+	movsd	QWORD PTR [edx+8], xmm0
+
+; 143  : }
+
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+?TransformVector2Ds@C2DMatrix@@QAEXAAUVector2D@@@Z ENDP	; C2DMatrix::TransformVector2Ds
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
+;	COMDAT ?Rotate@C2DMatrix@@QAEXN@Z
+_TEXT	SEGMENT
+_Cos$ = -100						; size = 8
+_Sin$ = -92						; size = 8
+_mat$ = -80						; size = 72
+_this$ = -4						; size = 4
+_rot$ = 8						; size = 8
+?Rotate@C2DMatrix@@QAEXN@Z PROC				; C2DMatrix::Rotate, COMDAT
+; _this$ = ecx
+
+; 191  : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 100				; 00000064H
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-100]
+	mov	ecx, 25					; 00000019H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 192  :   C2DMatrix::Matrix mat;
+
+	lea	ecx, DWORD PTR _mat$[ebp]
+	call	??0Matrix@C2DMatrix@@QAE@XZ		; C2DMatrix::Matrix::Matrix
+
+; 193  : 
+; 194  :   double Sin = sin(rot);
+
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR _rot$[ebp]
+	movsd	QWORD PTR [esp], xmm0
+	call	_sin
+	add	esp, 8
+	fstp	QWORD PTR _Sin$[ebp]
+
+; 195  :   double Cos = cos(rot);
+
+	sub	esp, 8
+	movsd	xmm0, QWORD PTR _rot$[ebp]
+	movsd	QWORD PTR [esp], xmm0
+	call	_cos
+	add	esp, 8
+	fstp	QWORD PTR _Cos$[ebp]
+
+; 196  :   
+; 197  :   mat._11 = Cos;  mat._12 = Sin; mat._13 = 0;
+
+	movsd	xmm0, QWORD PTR _Cos$[ebp]
+	movsd	QWORD PTR _mat$[ebp], xmm0
+	movsd	xmm0, QWORD PTR _Sin$[ebp]
+	movsd	QWORD PTR _mat$[ebp+8], xmm0
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR _mat$[ebp+16], xmm0
+
+; 198  :   
+; 199  :   mat._21 = -Sin; mat._22 = Cos; mat._23 = 0;
+
+	movsd	xmm0, QWORD PTR _Sin$[ebp]
+	xorps	xmm0, QWORD PTR __xmm@80000000000000008000000000000000
+	movsd	QWORD PTR _mat$[ebp+24], xmm0
+	movsd	xmm0, QWORD PTR _Cos$[ebp]
+	movsd	QWORD PTR _mat$[ebp+32], xmm0
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR _mat$[ebp+40], xmm0
+
+; 200  :   
+; 201  :   mat._31 = 0; mat._32 = 0;mat._33 = 1;
+
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR _mat$[ebp+48], xmm0
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR _mat$[ebp+56], xmm0
+	movsd	xmm0, QWORD PTR __real@3ff0000000000000
+	movsd	QWORD PTR _mat$[ebp+64], xmm0
+
+; 202  :   
+; 203  :   //and multiply
+; 204  :   MatrixMultiply(mat);
+
+	lea	eax, DWORD PTR _mat$[ebp]
+	push	eax
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z ; C2DMatrix::MatrixMultiply
+
+; 205  : }
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@Rotate
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	edi
+	add	esp, 100				; 00000064H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	8
+	npad	3
+$LN5@Rotate:
+	DD	1
+	DD	$LN4@Rotate
+$LN4@Rotate:
+	DD	-80					; ffffffb0H
+	DD	72					; 00000048H
+	DD	$LN3@Rotate
+$LN3@Rotate:
+	DB	109					; 0000006dH
+	DB	97					; 00000061H
+	DB	116					; 00000074H
+	DB	0
+?Rotate@C2DMatrix@@QAEXN@Z ENDP				; C2DMatrix::Rotate
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
+;	COMDAT ?Identity@C2DMatrix@@QAEXXZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+?Identity@C2DMatrix@@QAEXXZ PROC			; C2DMatrix::Identity, COMDAT
+; _this$ = ecx
+
+; 149  : {
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 150  :   m_Matrix._11 = 1; m_Matrix._12 = 0; m_Matrix._13 = 0;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR __real@3ff0000000000000
+	movsd	QWORD PTR [eax], xmm0
+	mov	ecx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [ecx+8], xmm0
+	mov	edx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [edx+16], xmm0
+
+; 151  : 
+; 152  :   m_Matrix._21 = 0; m_Matrix._22 = 1; m_Matrix._23 = 0;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [eax+24], xmm0
+	mov	ecx, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR __real@3ff0000000000000
+	movsd	QWORD PTR [ecx+32], xmm0
+	mov	edx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [edx+40], xmm0
+
+; 153  : 
+; 154  :   m_Matrix._31 = 0; m_Matrix._32 = 0; m_Matrix._33 = 1;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [eax+48], xmm0
+	mov	ecx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [ecx+56], xmm0
+	mov	edx, DWORD PTR _this$[ebp]
+	movsd	xmm0, QWORD PTR __real@3ff0000000000000
+	movsd	QWORD PTR [edx+64], xmm0
+
+; 155  : 
+; 156  :   }
+
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+?Identity@C2DMatrix@@QAEXXZ ENDP			; C2DMatrix::Identity
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
+;	COMDAT ??0C2DMatrix@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+??0C2DMatrix@@QAE@XZ PROC				; C2DMatrix::C2DMatrix, COMDAT
+; _this$ = ecx
+
+; 49   :   C2DMatrix()
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	??0Matrix@C2DMatrix@@QAE@XZ		; C2DMatrix::Matrix::Matrix
+
+; 50   :   {
+; 51   :     //initialize the matrix to an identity matrix
+; 52   :     Identity();
+
+	mov	ecx, DWORD PTR _this$[ebp]
+	call	?Identity@C2DMatrix@@QAEXXZ		; C2DMatrix::Identity
+
+; 53   :   }
+
+	mov	eax, DWORD PTR _this$[ebp]
+	add	esp, 4
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0C2DMatrix@@QAE@XZ ENDP				; C2DMatrix::C2DMatrix
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
+;	COMDAT ?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z
+_TEXT	SEGMENT
+_mat_temp$ = -80					; size = 72
+_this$ = -4						; size = 4
+_mIn$ = 8						; size = 4
+?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z PROC	; C2DMatrix::MatrixMultiply, COMDAT
+; _this$ = ecx
+
+; 95   : {
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 84					; 00000054H
+	push	esi
+	push	edi
+	push	ecx
+	lea	edi, DWORD PTR [ebp-84]
+	mov	ecx, 21					; 00000015H
+	mov	eax, -858993460				; ccccccccH
+	rep stosd
+	pop	ecx
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 96   :   C2DMatrix::Matrix mat_temp;
+
+	lea	ecx, DWORD PTR _mat_temp$[ebp]
+	call	??0Matrix@C2DMatrix@@QAE@XZ		; C2DMatrix::Matrix::Matrix
+
+; 97   :   
+; 98   :   //first row
+; 99   :   mat_temp._11 = (m_Matrix._11*mIn._11) + (m_Matrix._12*mIn._21) + (m_Matrix._13*mIn._31);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _mIn$[ebp]
+	movsd	xmm0, QWORD PTR [eax]
+	mulsd	xmm0, QWORD PTR [ecx]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [edx+8]
+	mulsd	xmm1, QWORD PTR [eax+24]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+16]
+	mulsd	xmm1, QWORD PTR [edx+48]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR _mat_temp$[ebp], xmm0
+
+; 100  :   mat_temp._12 = (m_Matrix._11*mIn._12) + (m_Matrix._12*mIn._22) + (m_Matrix._13*mIn._32);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _mIn$[ebp]
+	movsd	xmm0, QWORD PTR [eax]
+	mulsd	xmm0, QWORD PTR [ecx+8]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [edx+8]
+	mulsd	xmm1, QWORD PTR [eax+32]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+16]
+	mulsd	xmm1, QWORD PTR [edx+56]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR _mat_temp$[ebp+8], xmm0
+
+; 101  :   mat_temp._13 = (m_Matrix._11*mIn._13) + (m_Matrix._12*mIn._23) + (m_Matrix._13*mIn._33);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _mIn$[ebp]
+	movsd	xmm0, QWORD PTR [eax]
+	mulsd	xmm0, QWORD PTR [ecx+16]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [edx+8]
+	mulsd	xmm1, QWORD PTR [eax+40]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+16]
+	mulsd	xmm1, QWORD PTR [edx+64]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR _mat_temp$[ebp+16], xmm0
+
+; 102  : 
+; 103  :   //second
+; 104  :   mat_temp._21 = (m_Matrix._21*mIn._11) + (m_Matrix._22*mIn._21) + (m_Matrix._23*mIn._31);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _mIn$[ebp]
+	movsd	xmm0, QWORD PTR [eax+24]
+	mulsd	xmm0, QWORD PTR [ecx]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [edx+32]
+	mulsd	xmm1, QWORD PTR [eax+24]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+40]
+	mulsd	xmm1, QWORD PTR [edx+48]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR _mat_temp$[ebp+24], xmm0
+
+; 105  :   mat_temp._22 = (m_Matrix._21*mIn._12) + (m_Matrix._22*mIn._22) + (m_Matrix._23*mIn._32);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _mIn$[ebp]
+	movsd	xmm0, QWORD PTR [eax+24]
+	mulsd	xmm0, QWORD PTR [ecx+8]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [edx+32]
+	mulsd	xmm1, QWORD PTR [eax+32]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+40]
+	mulsd	xmm1, QWORD PTR [edx+56]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR _mat_temp$[ebp+32], xmm0
+
+; 106  :   mat_temp._23 = (m_Matrix._21*mIn._13) + (m_Matrix._22*mIn._23) + (m_Matrix._23*mIn._33);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _mIn$[ebp]
+	movsd	xmm0, QWORD PTR [eax+24]
+	mulsd	xmm0, QWORD PTR [ecx+16]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [edx+32]
+	mulsd	xmm1, QWORD PTR [eax+40]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+40]
+	mulsd	xmm1, QWORD PTR [edx+64]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR _mat_temp$[ebp+40], xmm0
+
+; 107  : 
+; 108  :   //third
+; 109  :   mat_temp._31 = (m_Matrix._31*mIn._11) + (m_Matrix._32*mIn._21) + (m_Matrix._33*mIn._31);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _mIn$[ebp]
+	movsd	xmm0, QWORD PTR [eax+48]
+	mulsd	xmm0, QWORD PTR [ecx]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [edx+56]
+	mulsd	xmm1, QWORD PTR [eax+24]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+64]
+	mulsd	xmm1, QWORD PTR [edx+48]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR _mat_temp$[ebp+48], xmm0
+
+; 110  :   mat_temp._32 = (m_Matrix._31*mIn._12) + (m_Matrix._32*mIn._22) + (m_Matrix._33*mIn._32);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _mIn$[ebp]
+	movsd	xmm0, QWORD PTR [eax+48]
+	mulsd	xmm0, QWORD PTR [ecx+8]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [edx+56]
+	mulsd	xmm1, QWORD PTR [eax+32]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+64]
+	mulsd	xmm1, QWORD PTR [edx+56]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR _mat_temp$[ebp+56], xmm0
+
+; 111  :   mat_temp._33 = (m_Matrix._31*mIn._13) + (m_Matrix._32*mIn._23) + (m_Matrix._33*mIn._33);
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	ecx, DWORD PTR _mIn$[ebp]
+	movsd	xmm0, QWORD PTR [eax+48]
+	mulsd	xmm0, QWORD PTR [ecx+16]
+	mov	edx, DWORD PTR _this$[ebp]
+	mov	eax, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [edx+56]
+	mulsd	xmm1, QWORD PTR [eax+40]
+	addsd	xmm0, xmm1
+	mov	ecx, DWORD PTR _this$[ebp]
+	mov	edx, DWORD PTR _mIn$[ebp]
+	movsd	xmm1, QWORD PTR [ecx+64]
+	mulsd	xmm1, QWORD PTR [edx+64]
+	addsd	xmm0, xmm1
+	movsd	QWORD PTR _mat_temp$[ebp+64], xmm0
+
+; 112  : 
+; 113  :   m_Matrix = mat_temp;
+
+	mov	ecx, 18					; 00000012H
+	lea	esi, DWORD PTR _mat_temp$[ebp]
+	mov	edi, DWORD PTR _this$[ebp]
+	rep movsd
+
+; 114  : }
+
+	push	edx
+	mov	ecx, ebp
+	push	eax
+	lea	edx, DWORD PTR $LN5@MatrixMult
+	call	@_RTC_CheckStackVars@8
+	pop	eax
+	pop	edx
+	pop	edi
+	pop	esi
+	add	esp, 84					; 00000054H
+	cmp	ebp, esp
+	call	__RTC_CheckEsp
+	mov	esp, ebp
+	pop	ebp
+	ret	4
+	npad	1
+$LN5@MatrixMult:
+	DD	1
+	DD	$LN4@MatrixMult
+$LN4@MatrixMult:
+	DD	-80					; ffffffb0H
+	DD	72					; 00000048H
+	DD	$LN3@MatrixMult
+$LN3@MatrixMult:
+	DB	109					; 0000006dH
+	DB	97					; 00000061H
+	DB	116					; 00000074H
+	DB	95					; 0000005fH
+	DB	116					; 00000074H
+	DB	101					; 00000065H
+	DB	109					; 0000006dH
+	DB	112					; 00000070H
+	DB	0
+?MatrixMultiply@C2DMatrix@@AAEXAAUMatrix@1@@Z ENDP	; C2DMatrix::MatrixMultiply
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\c2dmatrix.h
+;	COMDAT ??0Matrix@C2DMatrix@@QAE@XZ
+_TEXT	SEGMENT
+_this$ = -4						; size = 4
+??0Matrix@C2DMatrix@@QAE@XZ PROC			; C2DMatrix::Matrix::Matrix, COMDAT
+; _this$ = ecx
+
+; 32   :     Matrix()
+
+	push	ebp
+	mov	ebp, esp
+	push	ecx
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+	mov	DWORD PTR _this$[ebp], ecx
+
+; 33   :     {
+; 34   :       _11=0.0; _12=0.0; _13=0.0;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [eax], xmm0
+	mov	ecx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [ecx+8], xmm0
+	mov	edx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [edx+16], xmm0
+
+; 35   :       _21=0.0; _22=0.0; _23=0.0;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [eax+24], xmm0
+	mov	ecx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [ecx+32], xmm0
+	mov	edx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [edx+40], xmm0
+
+; 36   :       _31=0.0; _32=0.0; _33=0.0;
+
+	mov	eax, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [eax+48], xmm0
+	mov	ecx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [ecx+56], xmm0
+	mov	edx, DWORD PTR _this$[ebp]
+	xorps	xmm0, xmm0
+	movsd	QWORD PTR [edx+64], xmm0
+
+; 37   :     }
+
+	mov	eax, DWORD PTR _this$[ebp]
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??0Matrix@C2DMatrix@@QAE@XZ ENDP			; C2DMatrix::Matrix::Matrix
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\common\2d\vector2d.h

@@ -192,7 +192,7 @@ LRESULT CALLBACK WindowProc (HWND   hwnd,
 			 break;
          case VK_ADD:
 
-           g_pRaven->AddBots(1); break;
+           g_pRaven->AddBots(1, false); break;
 
          case VK_SUBTRACT:
 
@@ -241,7 +241,7 @@ LRESULT CALLBACK WindowProc (HWND   hwnd,
 
       case IDM_GAME_ADDBOT:
 
-          g_pRaven->AddBots(1);
+          g_pRaven->AddBots(1,false);
           
           break;
 

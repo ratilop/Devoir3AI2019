@@ -274,6 +274,15 @@
     <ClCompile Include="armory\Weapon_Grenade.cpp">
       <Filter>Game\weapons &amp; projectiles\weapons</Filter>
     </ClCompile>
+    <ClCompile Include="CData.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="CNeuralNet.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
+    <ClCompile Include="LearningBot.cpp">
+      <Filter>AI</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="armory\Raven_Weapon.h">
@@ -617,6 +626,15 @@
     </ClInclude>
     <ClInclude Include="armory\Weapon_Grenade.h">
       <Filter>Game\weapons &amp; projectiles\weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="CData.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="CNeuralNet.h">
+      <Filter>AI</Filter>
+    </ClInclude>
+    <ClInclude Include="LearningBot.h">
+      <Filter>AI</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

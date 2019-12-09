@@ -339,6 +339,8 @@
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="CData.cpp" />
+    <ClCompile Include="CNeuralNet.cpp" />
     <ClCompile Include="goals\AttackTargetGoal_Evaluator.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
@@ -444,6 +446,7 @@
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="LearningBot.cpp" />
     <ClCompile Include="lua\Raven_Scriptor.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
@@ -590,6 +593,8 @@
     <ClInclude Include="armory\Weapon_RailGun.h" />
     <ClInclude Include="armory\Weapon_RocketLauncher.h" />
     <ClInclude Include="armory\Weapon_ShotGun.h" />
+    <ClInclude Include="CData.h" />
+    <ClInclude Include="CNeuralNet.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="goals\AttackTargetGoal_Evaluator.h" />
     <ClInclude Include="goals\ExploreGoal_Evaluator.h" />
@@ -613,6 +618,7 @@
     <ClInclude Include="goals\Raven_Feature.h" />
     <ClInclude Include="goals\Raven_Goal_Types.h" />
     <ClInclude Include="GraveMarkers.h" />
+    <ClInclude Include="LearningBot.h" />
     <ClInclude Include="lua\Raven_Scriptor.h" />
     <ClInclude Include="navigation\PathEdge.h" />
     <ClInclude Include="navigation\PathManager.h" />

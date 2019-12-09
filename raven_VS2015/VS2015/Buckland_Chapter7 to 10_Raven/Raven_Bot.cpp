@@ -52,6 +52,10 @@ Raven_Bot::Raven_Bot(Raven_Game* world,Vector2D pos):
   SetEntityType(type_bot);
   SetEquipeNone();
 
+
+  m_vecObservation = std::vector<double>(0);
+  m_vecTarget = std::vector<double>(0);
+
   SetUpVertexBuffer();
   
   //a bot starts off facing in the direction it is heading
@@ -231,7 +235,30 @@ void Raven_Bot::Update()
 
     //this method aims the bot's current weapon at the current target
     //and takes a shot if a shot is possible
-    m_pWeaponSys->TakeAimAndShoot();
+	bool haveShoot = m_pWeaponSys->TakeAimAndShoot();
+
+
+	//sauvegarder les donnes pour un eventuel apprentissage
+
+
+	if (m_pTargSys->isTargetPresent()) {
+
+		m_vecObservation.clear();
+		m_vecTarget.clear();
+
+		m_vecObservation.push_back((Pos().Distance(m_pTargSys->GetTarget()->Pos())));
+		m_vecObservation.push_back(m_pTargSys->isTargetWithinFOV());
+		m_vecObservation.push_back(m_pWeaponSys->GetAmmoRemainingForWeapon(m_pWeaponSys->GetCurrentWeapon()->GetType()));
+		m_vecObservation.push_back(m_pWeaponSys->GetCurrentWeapon()->GetType());
+		m_vecObservation.push_back((Health()));
+
+		if (!haveShoot) {
+			m_vecTarget.push_back(0); // La classe est ngative.  Ne tire pas 
+		}
+		else {
+			m_vecTarget.push_back(1); // la classe de l'observation est positive. Il tire
+		}
+	}
   }
 }
 

@@ -27,6 +27,9 @@
 
 #include "goals/Goal_Think.h"
 #include "goals/Raven_Goal_Types.h"
+#include "Debug/DebugConsole.h"
+
+#include <thread> // pour la fonction d'apprentissage
 
 
 
@@ -45,6 +48,10 @@ Raven_Game::Raven_Game():m_pSelectedBot(NULL),
 {
   //load in the default map
   LoadMap(script->GetString("StartMap"));
+
+  m_TrainingSet = CData();
+
+  m_LancerApprentissage = false;
 }
 
 
@@ -99,6 +106,24 @@ void Raven_Game::Clear()
 
   m_pSelectedBot = NULL;
 
+
+}
+
+
+void Raven_Game::TrainThread() {
+
+	m_LancerApprentissage = true;
+
+	debug_con << "lancement de l'apprentissage" << "";
+
+	m_ModeleApprentissage = CNeuralNet(m_TrainingSet.GetInputNb(), m_TrainingSet.GetTargetsNb(), NUM_HIDDEN_NEURONS, LEARNING_RATE);
+	bool isTraining = m_ModeleApprentissage.Train(&m_TrainingSet);
+
+	if (isTraining) {
+		debug_con << "Modele d'apprentissage de tir est appris" << "";
+		m_estEntraine = true;
+
+	}
 
 }
 
@@ -157,24 +182,36 @@ void Raven_Game::Update()
     {
       bSpawnPossible = AttemptToAddBot(*curBot);
     }
-    
     //if this bot's status is 'dead' add a grave at its current location 
     //then change its status to 'respawning'
-    else if ((*curBot)->isDead())
-    {
-      //create a grave
-      m_pGraveMarkers->AddGrave((*curBot)->Pos());
+	else if ((*curBot)->isDead())
+	{
+		//create a grave
+		m_pGraveMarkers->AddGrave((*curBot)->Pos());
 
-      //change its status to spawning
-      (*curBot)->SetSpawning();
-    }
+		//change its status to spawning
+		(*curBot)->SetSpawning();
 
+		if (m_estEntraine & RandBool())
+		{
+			AddBots(1, true);
+		}
+	}
     //if this bot is alive update it.
     else if ( (*curBot)->isAlive())
     {
       (*curBot)->Update();
-    }  
-  } 
+
+	  if ((m_TrainingSet.GetInputSet().size() < 200) & ((*curBot)->Score() > 1)) 
+	  {
+		  //ajouter une observation au jeu d'entrainement
+		  AddData((*curBot)->GetDataShoot(), (*curBot)->GetTargetShoot());
+		  // Ajouter a partir du bot humain les donnes necessaires au robot 
+		  // AddHumanData( human->GetDataShoot(), human -> GetTargetShoot());
+		  debug_con << "la taille du training set" << m_TrainingSet.GetInputSet().size() << "";
+	  }
+	}
+ }  
 
   //update the triggers
   m_pMap->UpdateTriggerSystem(m_Bots);
@@ -195,6 +232,15 @@ void Raven_Game::Update()
 
     m_bRemoveABot = false;
   }
+
+  if ((m_TrainingSet.GetInputSet().size() >= 200) & (!m_LancerApprentissage))
+  {
+	  debug_con << "On passe par la" << "";
+
+	  std::thread t1(&Raven_Game::TrainThread, this);
+	  t1.detach();
+  }
+
 }
 
 
@@ -246,14 +292,20 @@ bool Raven_Game::AttemptToAddBot(Raven_Bot* pBot)
 //
 //  Adds a bot and switches on the default steering behavior
 //-----------------------------------------------------------------------------
-void Raven_Game::AddBots(unsigned int NumBotsToAdd)
+void Raven_Game::AddBots(unsigned int NumBotsToAdd, bool islearningBot)
 { 
   while (NumBotsToAdd--)
   {
     //create a bot. (its position is irrelevant at this point because it will
     //not be rendered until it is spawned)
-    Raven_Bot* rb = new Raven_Bot(this, Vector2D());
-
+	  Raven_Bot* rb;
+	  if (!islearningBot)
+		  rb = new Raven_Bot(this, Vector2D());
+	  else
+	  {
+		  rb = new LearningBot(this, Vector2D());
+		  debug_con << "Instanciation d'un bot apprenant" << rb->ID() << "";
+	  }
     //switch the default steering behaviors on
     rb->GetSteering()->WallAvoidanceOn();
     rb->GetSteering()->SeparationOn();
@@ -305,6 +357,30 @@ void Raven_Game::RemoveBot()
   {
 	  ChangementEquipe();
   }
+}
+
+
+
+bool Raven_Game::AddData(vector<double>& data, vector<double>& targets)
+{
+	if (data.size() > 0 && targets.size() > 0) 
+	{
+
+		if (m_TrainingSet.GetInputNb() <= 0)
+		{
+			m_TrainingSet.SetInputNb(data.size());
+			m_TrainingSet.SetTargetsNb(targets.size());
+		}
+			
+		if (data.size() == m_TrainingSet.GetInputNb() && targets.size() == m_TrainingSet.GetTargetsNb()) {
+
+			m_TrainingSet.AddData(data, targets);
+			return true;
+		}
+	}
+
+	return false;
+
 }
 
 //------------------------------ AddGrenade --------------------------------
@@ -420,7 +496,7 @@ bool Raven_Game::LoadMap(const std::string& filename)
   //load the new map data
   if (m_pMap->LoadMap(filename))
   { 
-    AddBots(script->GetInt("NumBots"));
+    AddBots(script->GetInt("NumBots"), false);
   
     return true;
   }

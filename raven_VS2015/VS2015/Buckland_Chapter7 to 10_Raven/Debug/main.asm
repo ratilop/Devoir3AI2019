@@ -16,29 +16,29 @@ _BSS	SEGMENT
 ?g_pRaven@@3PAVRaven_Game@@A DD 01H DUP (?)		; g_pRaven
 _BSS	ENDS
 _DATA	SEGMENT
-?g_szApplicationName@@3PADA DD FLAT:$SG181859		; g_szApplicationName
-?g_szWindowClassName@@3PADA DD FLAT:$SG181861		; g_szWindowClassName
+?g_szApplicationName@@3PADA DD FLAT:$SG183970		; g_szApplicationName
+?g_szWindowClassName@@3PADA DD FLAT:$SG183972		; g_szWindowClassName
 _DATA	ENDS
 CONST	SEGMENT
 ?piecewise_construct@std@@3Upiecewise_construct_t@1@B	ORG $+1 ; std::piecewise_construct
-$SG181948 DB	00H
+$SG184082 DB	00H
 	ORG $+2
-$SG181859 DB	'Raven', 00H
+$SG183970 DB	'Raven', 00H
 	ORG $+2
-$SG181861 DB	'MyWindowClass', 00H
+$SG183972 DB	'MyWindowClass', 00H
 	ORG $+2
-$SG181945 DB	'map', 00H
-$SG181946 DB	'Raven map file (*.map)', 00H
+$SG184079 DB	'map', 00H
+$SG184080 DB	'Raven map file (*.map)', 00H
 	ORG $+1
-$SG181947 DB	'Filename: ', 00H
+$SG184081 DB	'Filename: ', 00H
 	ORG $+1
-$SG182004 DB	'Error', 00H
+$SG184138 DB	'Error', 00H
 	ORG $+2
-$SG182005 DB	'Registration Failed!', 00H
+$SG184139 DB	'Registration Failed!', 00H
 	ORG $+3
-$SG182008 DB	'Error!', 00H
+$SG184142 DB	'Error!', 00H
 	ORG $+1
-$SG182009 DB	'CreateWindowEx Failed!', 00H
+$SG184143 DB	'CreateWindowEx Failed!', 00H
 	ORG $+1
 ?colors@@3QBKB DD 0ffH					; colors
 	DD	0ff0000H
@@ -379,9 +379,9 @@ PUBLIC	??$destroy@U_Container_proxy@std@@@?$_Default_allocator_traits@V?$allocat
 PUBLIC	??$_Deallocate_plain@V?$allocator@U_Container_proxy@std@@@std@@$0A@@std@@YAXAAV?$allocator@U_Container_proxy@std@@@0@QAU_Container_proxy@0@@Z ; std::_Deallocate_plain<std::allocator<std::_Container_proxy>,0>
 PUBLIC	??$_Unfancy@U_Container_proxy@std@@@std@@YAPAU_Container_proxy@0@PAU10@@Z ; std::_Unfancy<std::_Container_proxy>
 PUBLIC	??$construct@U_Container_proxy@std@@U12@@?$_Default_allocator_traits@V?$allocator@U_Container_proxy@std@@@std@@@std@@SAXAAV?$allocator@U_Container_proxy@std@@@1@QAU_Container_proxy@1@$$QAU31@@Z ; std::_Default_allocator_traits<std::allocator<std::_Container_proxy> >::construct<std::_Container_proxy,std::_Container_proxy>
+PUBLIC	??$_Get_size_of_n@$07@std@@YAII@Z		; std::_Get_size_of_n<8>
 PUBLIC	??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><char>
 PUBLIC	?pointer_to@?$pointer_traits@PAD@std@@SAPADAAD@Z ; std::pointer_traits<char *>::pointer_to
-PUBLIC	??$_Get_size_of_n@$07@std@@YAII@Z		; std::_Get_size_of_n<8>
 PUBLIC	??$_Verify_range@D@std@@YAXQBD0@Z		; std::_Verify_range<char>
 PUBLIC	??$_Adl_verify_range1@PBDPBD@std@@YAXABQBD0U?$integral_constant@_N$00@0@@Z ; std::_Adl_verify_range1<char const *,char const *>
 PUBLIC	??R?$default_delete@V_Facet_base@std@@@std@@QBEXPAV_Facet_base@1@@Z ; std::default_delete<std::_Facet_base>::operator()
@@ -742,7 +742,7 @@ EXTRN	??1Raven_Game@@QAE@XZ:PROC			; Raven_Game::~Raven_Game
 EXTRN	?Render@Raven_Game@@QAEXXZ:PROC			; Raven_Game::Render
 EXTRN	?Update@Raven_Game@@QAEXXZ:PROC			; Raven_Game::Update
 EXTRN	?LoadMap@Raven_Game@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z:PROC ; Raven_Game::LoadMap
-EXTRN	?AddBots@Raven_Game@@QAEXI@Z:PROC		; Raven_Game::AddBots
+EXTRN	?AddBots@Raven_Game@@QAEXI_N@Z:PROC		; Raven_Game::AddBots
 EXTRN	?RemoveBot@Raven_Game@@QAEXXZ:PROC		; Raven_Game::RemoveBot
 EXTRN	?ClickRightMouseButton@Raven_Game@@QAEXUtagPOINTS@@@Z:PROC ; Raven_Game::ClickRightMouseButton
 EXTRN	?ClickLeftMouseButton@Raven_Game@@QAEXUtagPOINTS@@@Z:PROC ; Raven_Game::ClickLeftMouseButton
@@ -8028,58 +8028,6 @@ $LN2@Verify_ran:
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
-;	COMDAT ??$_Get_size_of_n@$07@std@@YAII@Z
-_TEXT	SEGMENT
-__Result$ = -8						; size = 4
-__Max_possible$ = -4					; size = 4
-__Count$ = 8						; size = 4
-??$_Get_size_of_n@$07@std@@YAII@Z PROC			; std::_Get_size_of_n<8>, COMDAT
-
-; 23   : 	{	// gets the size of _Count copies of a type sized _Ty_size
-
-	push	ebp
-	mov	ebp, esp
-	sub	esp, 8
-	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
-	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
-
-; 24   : 	constexpr size_t _Max_possible = static_cast<size_t>(-1) / _Ty_size;
-
-	mov	DWORD PTR __Max_possible$[ebp], 536870911 ; 1fffffffH
-
-; 25   : 	size_t _Result = _Count * _Ty_size;
-
-	mov	eax, DWORD PTR __Count$[ebp]
-	shl	eax, 3
-	mov	DWORD PTR __Result$[ebp], eax
-
-; 26   : 	if (_Max_possible < _Count)
-
-	cmp	DWORD PTR __Count$[ebp], 536870911	; 1fffffffH
-	jbe	SHORT $LN2@Get_size_o
-
-; 27   : 		{	// multiply overflow, try allocating all of memory and assume the
-; 28   : 			// allocation function will throw bad_alloc
-; 29   : 		_Result = static_cast<size_t>(-1);
-
-	mov	DWORD PTR __Result$[ebp], -1
-$LN2@Get_size_o:
-
-; 30   : 		}
-; 31   : 
-; 32   : 	return (_Result);
-
-	mov	eax, DWORD PTR __Result$[ebp]
-
-; 33   : 	}
-
-	mov	esp, ebp
-	pop	ebp
-	ret	0
-??$_Get_size_of_n@$07@std@@YAII@Z ENDP			; std::_Get_size_of_n<8>
-_TEXT	ENDS
-; Function compile flags: /Odtp /RTCsu
-; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
 ;	COMDAT ?pointer_to@?$pointer_traits@PAD@std@@SAPADAAD@Z
 _TEXT	SEGMENT
 __Val$ = 8						; size = 4
@@ -8129,6 +8077,58 @@ ___formal$ = 8						; size = 4
 	pop	ebp
 	ret	4
 ??$?0D@?$allocator@U_Container_proxy@std@@@std@@QAE@ABV?$allocator@D@1@@Z ENDP ; std::allocator<std::_Container_proxy>::allocator<std::_Container_proxy><char>
+_TEXT	ENDS
+; Function compile flags: /Odtp /RTCsu
+; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
+;	COMDAT ??$_Get_size_of_n@$07@std@@YAII@Z
+_TEXT	SEGMENT
+__Result$ = -8						; size = 4
+__Max_possible$ = -4					; size = 4
+__Count$ = 8						; size = 4
+??$_Get_size_of_n@$07@std@@YAII@Z PROC			; std::_Get_size_of_n<8>, COMDAT
+
+; 23   : 	{	// gets the size of _Count copies of a type sized _Ty_size
+
+	push	ebp
+	mov	ebp, esp
+	sub	esp, 8
+	mov	DWORD PTR [ebp-8], -858993460		; ccccccccH
+	mov	DWORD PTR [ebp-4], -858993460		; ccccccccH
+
+; 24   : 	constexpr size_t _Max_possible = static_cast<size_t>(-1) / _Ty_size;
+
+	mov	DWORD PTR __Max_possible$[ebp], 536870911 ; 1fffffffH
+
+; 25   : 	size_t _Result = _Count * _Ty_size;
+
+	mov	eax, DWORD PTR __Count$[ebp]
+	shl	eax, 3
+	mov	DWORD PTR __Result$[ebp], eax
+
+; 26   : 	if (_Max_possible < _Count)
+
+	cmp	DWORD PTR __Count$[ebp], 536870911	; 1fffffffH
+	jbe	SHORT $LN2@Get_size_o
+
+; 27   : 		{	// multiply overflow, try allocating all of memory and assume the
+; 28   : 			// allocation function will throw bad_alloc
+; 29   : 		_Result = static_cast<size_t>(-1);
+
+	mov	DWORD PTR __Result$[ebp], -1
+$LN2@Get_size_o:
+
+; 30   : 		}
+; 31   : 
+; 32   : 	return (_Result);
+
+	mov	eax, DWORD PTR __Result$[ebp]
+
+; 33   : 	}
+
+	mov	esp, ebp
+	pop	ebp
+	ret	0
+??$_Get_size_of_n@$07@std@@YAII@Z ENDP			; std::_Get_size_of_n<8>
 _TEXT	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\xmemory0
@@ -10215,20 +10215,20 @@ text$x	ENDS
 ; Function compile flags: /Odtp /RTCsu
 ; File c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\main.cpp
 _TEXT	SEGMENT
-tv455 = -348						; size = 4
-tv442 = -344						; size = 4
-tv429 = -340						; size = 4
-tv416 = -336						; size = 4
-tv403 = -332						; size = 4
-tv390 = -328						; size = 4
-tv377 = -324						; size = 4
-tv364 = -320						; size = 4
-tv344 = -316						; size = 4
-tv324 = -312						; size = 4
-tv311 = -308						; size = 4
-tv298 = -304						; size = 4
-tv285 = -300						; size = 4
-tv243 = -296						; size = 4
+tv457 = -348						; size = 4
+tv444 = -344						; size = 4
+tv431 = -340						; size = 4
+tv418 = -336						; size = 4
+tv405 = -332						; size = 4
+tv392 = -328						; size = 4
+tv379 = -324						; size = 4
+tv366 = -320						; size = 4
+tv346 = -316						; size = 4
+tv326 = -312						; size = 4
+tv313 = -308						; size = 4
+tv300 = -304						; size = 4
+tv287 = -300						; size = 4
+tv244 = -296						; size = 4
 tv187 = -292						; size = 4
 tv95 = -288						; size = 4
 tv64 = -284						; size = 4
@@ -10439,7 +10439,7 @@ $LN8@WindowProc:
 ; 97   :          //create the game
 ; 98   :          g_pRaven = new Raven_Game();
 
-	push	60					; 0000003cH
+	push	168					; 000000a8H
 	call	??2@YAPAXI@Z				; operator new
 	add	esp, 4
 	mov	DWORD PTR $T6[ebp], eax
@@ -10888,11 +10888,12 @@ $LN22@WindowProc:
 
 ; 193  :          case VK_ADD:
 ; 194  : 
-; 195  :            g_pRaven->AddBots(1); break;
+; 195  :            g_pRaven->AddBots(1, false); break;
 
+	push	0
 	push	1
 	mov	ecx, DWORD PTR ?g_pRaven@@3PAVRaven_Game@@A ; g_pRaven
-	call	?AddBots@Raven_Game@@QAEXI@Z		; Raven_Game::AddBots
+	call	?AddBots@Raven_Game@@QAEXI_N@Z		; Raven_Game::AddBots
 	jmp	SHORT $LN4@WindowProc
 $LN23@WindowProc:
 
@@ -10957,13 +10958,13 @@ $LN26@WindowProc:
 ; 225  :      switch(wParam)
 
 	mov	eax, DWORD PTR _wParam$[ebp]
-	mov	DWORD PTR tv243[ebp], eax
-	mov	ecx, DWORD PTR tv243[ebp]
+	mov	DWORD PTR tv244[ebp], eax
+	mov	ecx, DWORD PTR tv244[ebp]
 	sub	ecx, 40001				; 00009c41H
-	mov	DWORD PTR tv243[ebp], ecx
-	cmp	DWORD PTR tv243[ebp], 17		; 00000011H
+	mov	DWORD PTR tv244[ebp], ecx
+	cmp	DWORD PTR tv244[ebp], 17		; 00000011H
 	ja	$LN6@WindowProc
-	mov	edx, DWORD PTR tv243[ebp]
+	mov	edx, DWORD PTR tv244[ebp]
 	jmp	DWORD PTR $LN91@WindowProc[edx*4]
 $LN27@WindowProc:
 
@@ -10974,11 +10975,11 @@ $LN27@WindowProc:
 ; 230  :           
 ; 231  :           FileOpenDlg(hwnd, szFileName, szTitleName, "Raven map file (*.map)", "map");
 
-	push	OFFSET $SG181945
+	push	OFFSET $SG184079
 	lea	ecx, DWORD PTR $T12[ebp]
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	mov	DWORD PTR __$EHRec$[ebp+8], 1
-	push	OFFSET $SG181946
+	push	OFFSET $SG184080
 	lea	ecx, DWORD PTR $T11[ebp]
 	call	??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@QBD@Z ; std::basic_string<char,std::char_traits<char>,std::allocator<char> >::basic_string<char,std::char_traits<char>,std::allocator<char> >
 	mov	BYTE PTR __$EHRec$[ebp+8], 2
@@ -11002,9 +11003,9 @@ $LN27@WindowProc:
 ; 232  : 
 ; 233  :           debug_con << "Filename: " << szTitleName << "";
 
-	push	OFFSET $SG181948
+	push	OFFSET $SG184082
 	push	OFFSET ?szTitleName@?1??WindowProc@@YGJPAUHWND__@@IIJ@Z@4PADA
-	push	OFFSET $SG181947
+	push	OFFSET $SG184081
 	call	?Instance@DebugConsole@@SAPAV1@XZ	; DebugConsole::Instance
 	mov	ecx, eax
 	call	??$?6$$BY0L@D@DebugConsole@@QAEAAV0@AAY0L@$$CBD@Z ; DebugConsole::operator<<<char [11]>
@@ -11048,11 +11049,12 @@ $LN29@WindowProc:
 ; 241  : 
 ; 242  :       case IDM_GAME_ADDBOT:
 ; 243  : 
-; 244  :           g_pRaven->AddBots(1);
+; 244  :           g_pRaven->AddBots(1,false);
 
+	push	0
 	push	1
 	mov	ecx, DWORD PTR ?g_pRaven@@3PAVRaven_Game@@A ; g_pRaven
-	call	?AddBots@Raven_Game@@QAEXI@Z		; Raven_Game::AddBots
+	call	?AddBots@Raven_Game@@QAEXI_N@Z		; Raven_Game::AddBots
 
 ; 245  :           
 ; 246  :           break;
@@ -11099,13 +11101,13 @@ $LN32@WindowProc:
 	movzx	ecx, BYTE PTR [eax]
 	test	ecx, ecx
 	jne	SHORT $LN51@WindowProc
-	mov	DWORD PTR tv285[ebp], 1
+	mov	DWORD PTR tv287[ebp], 1
 	jmp	SHORT $LN52@WindowProc
 $LN51@WindowProc:
-	mov	DWORD PTR tv285[ebp], 0
+	mov	DWORD PTR tv287[ebp], 0
 $LN52@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	dl, BYTE PTR tv285[ebp]
+	mov	dl, BYTE PTR tv287[ebp]
 	mov	BYTE PTR [eax], dl
 
 ; 265  : 
@@ -11136,13 +11138,13 @@ $LN33@WindowProc:
 	movzx	eax, BYTE PTR [eax+2]
 	test	eax, eax
 	jne	SHORT $LN53@WindowProc
-	mov	DWORD PTR tv298[ebp], 1
+	mov	DWORD PTR tv300[ebp], 1
 	jmp	SHORT $LN54@WindowProc
 $LN53@WindowProc:
-	mov	DWORD PTR tv298[ebp], 0
+	mov	DWORD PTR tv300[ebp], 0
 $LN54@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv298[ebp]
+	mov	cl, BYTE PTR tv300[ebp]
 	mov	BYTE PTR [eax+2], cl
 
 ; 273  : 
@@ -11173,13 +11175,13 @@ $LN34@WindowProc:
 	movzx	edx, BYTE PTR [eax+1]
 	test	edx, edx
 	jne	SHORT $LN55@WindowProc
-	mov	DWORD PTR tv311[ebp], 1
+	mov	DWORD PTR tv313[ebp], 1
 	jmp	SHORT $LN56@WindowProc
 $LN55@WindowProc:
-	mov	DWORD PTR tv311[ebp], 0
+	mov	DWORD PTR tv313[ebp], 0
 $LN56@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv311[ebp]
+	mov	cl, BYTE PTR tv313[ebp]
 	mov	BYTE PTR [eax+1], cl
 
 ; 281  : 
@@ -11210,13 +11212,13 @@ $LN35@WindowProc:
 	movzx	edx, BYTE PTR [eax+9]
 	test	edx, edx
 	jne	SHORT $LN57@WindowProc
-	mov	DWORD PTR tv324[ebp], 1
+	mov	DWORD PTR tv326[ebp], 1
 	jmp	SHORT $LN58@WindowProc
 $LN57@WindowProc:
-	mov	DWORD PTR tv324[ebp], 0
+	mov	DWORD PTR tv326[ebp], 0
 $LN58@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv324[ebp]
+	mov	cl, BYTE PTR tv326[ebp]
 	mov	BYTE PTR [eax+9], cl
 
 ; 289  :         UserOptions->m_bSmoothPathsPrecise = false;
@@ -11263,13 +11265,13 @@ $LN36@WindowProc:
 	movzx	edx, BYTE PTR [eax+10]
 	test	edx, edx
 	jne	SHORT $LN59@WindowProc
-	mov	DWORD PTR tv344[ebp], 1
+	mov	DWORD PTR tv346[ebp], 1
 	jmp	SHORT $LN60@WindowProc
 $LN59@WindowProc:
-	mov	DWORD PTR tv344[ebp], 0
+	mov	DWORD PTR tv346[ebp], 0
 $LN60@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv344[ebp]
+	mov	cl, BYTE PTR tv346[ebp]
 	mov	BYTE PTR [eax+10], cl
 
 ; 298  :         UserOptions->m_bSmoothPathsQuick = false;
@@ -11316,13 +11318,13 @@ $LN37@WindowProc:
 	movzx	edx, BYTE PTR [eax+11]
 	test	edx, edx
 	jne	SHORT $LN61@WindowProc
-	mov	DWORD PTR tv364[ebp], 1
+	mov	DWORD PTR tv366[ebp], 1
 	jmp	SHORT $LN62@WindowProc
 $LN61@WindowProc:
-	mov	DWORD PTR tv364[ebp], 0
+	mov	DWORD PTR tv366[ebp], 0
 $LN62@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv364[ebp]
+	mov	cl, BYTE PTR tv366[ebp]
 	mov	BYTE PTR [eax+11], cl
 
 ; 307  : 
@@ -11353,13 +11355,13 @@ $LN38@WindowProc:
 	movzx	edx, BYTE PTR [eax+12]
 	test	edx, edx
 	jne	SHORT $LN63@WindowProc
-	mov	DWORD PTR tv377[ebp], 1
+	mov	DWORD PTR tv379[ebp], 1
 	jmp	SHORT $LN64@WindowProc
 $LN63@WindowProc:
-	mov	DWORD PTR tv377[ebp], 0
+	mov	DWORD PTR tv379[ebp], 0
 $LN64@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv377[ebp]
+	mov	cl, BYTE PTR tv379[ebp]
 	mov	BYTE PTR [eax+12], cl
 
 ; 315  :         
@@ -11390,13 +11392,13 @@ $LN39@WindowProc:
 	movzx	edx, BYTE PTR [eax+3]
 	test	edx, edx
 	jne	SHORT $LN65@WindowProc
-	mov	DWORD PTR tv390[ebp], 1
+	mov	DWORD PTR tv392[ebp], 1
 	jmp	SHORT $LN66@WindowProc
 $LN65@WindowProc:
-	mov	DWORD PTR tv390[ebp], 0
+	mov	DWORD PTR tv392[ebp], 0
 $LN66@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv390[ebp]
+	mov	cl, BYTE PTR tv392[ebp]
 	mov	BYTE PTR [eax+3], cl
 
 ; 323  :         
@@ -11427,13 +11429,13 @@ $LN40@WindowProc:
 	movzx	edx, BYTE PTR [eax+4]
 	test	edx, edx
 	jne	SHORT $LN67@WindowProc
-	mov	DWORD PTR tv403[ebp], 1
+	mov	DWORD PTR tv405[ebp], 1
 	jmp	SHORT $LN68@WindowProc
 $LN67@WindowProc:
-	mov	DWORD PTR tv403[ebp], 0
+	mov	DWORD PTR tv405[ebp], 0
 $LN68@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv403[ebp]
+	mov	cl, BYTE PTR tv405[ebp]
 	mov	BYTE PTR [eax+4], cl
 
 ; 331  :         
@@ -11465,13 +11467,13 @@ $LN41@WindowProc:
 	movzx	edx, BYTE PTR [eax+5]
 	test	edx, edx
 	jne	SHORT $LN69@WindowProc
-	mov	DWORD PTR tv416[ebp], 1
+	mov	DWORD PTR tv418[ebp], 1
 	jmp	SHORT $LN70@WindowProc
 $LN69@WindowProc:
-	mov	DWORD PTR tv416[ebp], 0
+	mov	DWORD PTR tv418[ebp], 0
 $LN70@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv416[ebp]
+	mov	cl, BYTE PTR tv418[ebp]
 	mov	BYTE PTR [eax+5], cl
 
 ; 340  :         
@@ -11502,13 +11504,13 @@ $LN42@WindowProc:
 	movzx	edx, BYTE PTR [eax+13]
 	test	edx, edx
 	jne	SHORT $LN71@WindowProc
-	mov	DWORD PTR tv429[ebp], 1
+	mov	DWORD PTR tv431[ebp], 1
 	jmp	SHORT $LN72@WindowProc
 $LN71@WindowProc:
-	mov	DWORD PTR tv429[ebp], 0
+	mov	DWORD PTR tv431[ebp], 0
 $LN72@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv429[ebp]
+	mov	cl, BYTE PTR tv431[ebp]
 	mov	BYTE PTR [eax+13], cl
 
 ; 348  :         
@@ -11539,13 +11541,13 @@ $LN43@WindowProc:
 	movzx	edx, BYTE PTR [eax+6]
 	test	edx, edx
 	jne	SHORT $LN73@WindowProc
-	mov	DWORD PTR tv442[ebp], 1
+	mov	DWORD PTR tv444[ebp], 1
 	jmp	SHORT $LN74@WindowProc
 $LN73@WindowProc:
-	mov	DWORD PTR tv442[ebp], 0
+	mov	DWORD PTR tv444[ebp], 0
 $LN74@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv442[ebp]
+	mov	cl, BYTE PTR tv444[ebp]
 	mov	BYTE PTR [eax+6], cl
 
 ; 356  :         
@@ -11576,13 +11578,13 @@ $LN44@WindowProc:
 	movzx	edx, BYTE PTR [eax+14]
 	test	edx, edx
 	jne	SHORT $LN75@WindowProc
-	mov	DWORD PTR tv455[ebp], 1
+	mov	DWORD PTR tv457[ebp], 1
 	jmp	SHORT $LN76@WindowProc
 $LN75@WindowProc:
-	mov	DWORD PTR tv455[ebp], 0
+	mov	DWORD PTR tv457[ebp], 0
 $LN76@WindowProc:
 	call	?Instance@Raven_UserOptions@@SAPAV1@XZ	; Raven_UserOptions::Instance
-	mov	cl, BYTE PTR tv455[ebp]
+	mov	cl, BYTE PTR tv457[ebp]
 	mov	BYTE PTR [eax+14], cl
 
 ; 364  : 		  g_pRaven->ChangementEquipe();
@@ -11914,7 +11916,6 @@ $LN2@WindowProc:
 	mov	esp, ebp
 	pop	ebp
 	ret	16					; 00000010H
-	npad	3
 $LN88@WindowProc:
 	DD	2
 	DD	$LN87@WindowProc
@@ -12081,7 +12082,7 @@ $LN91@WindowProc:
 _TEXT	ENDS
 text$x	SEGMENT
 __unwindfunclet$?WindowProc@@YGJPAUHWND__@@IIJ@Z$0:
-	push	60					; 0000003cH
+	push	168					; 000000a8H
 	mov	eax, DWORD PTR $T6[ebp]
 	push	eax
 	call	??3@YAXPAXI@Z				; operator delete
@@ -12126,7 +12127,7 @@ ___flags$ = 8						; size = 4
 	mov	eax, DWORD PTR ___flags$[ebp]
 	and	eax, 1
 	je	SHORT $LN2@scalar
-	push	60					; 0000003cH
+	push	168					; 000000a8H
 	mov	ecx, DWORD PTR _this$[ebp]
 	push	ecx
 	call	??3@YAXPAXI@Z				; operator delete
@@ -12150,7 +12151,7 @@ _this$ = -4						; size = 4
 ?TogglePause@Raven_Game@@QAEXXZ PROC			; Raven_Game::TogglePause, COMDAT
 ; _this$ = ecx
 
-; 138  :   void        TogglePause(){m_bPaused = !m_bPaused;}
+; 140  :   void        TogglePause(){m_bPaused = !m_bPaused;}
 
 	push	ebp
 	mov	ebp, esp
@@ -27252,8 +27253,8 @@ _WinMain@16 PROC
 
 	mov	esi, esp
 	push	0
-	push	OFFSET $SG182004
-	push	OFFSET $SG182005
+	push	OFFSET $SG184138
+	push	OFFSET $SG184139
 	push	0
 	call	DWORD PTR __imp__MessageBoxA@16
 	cmp	esi, esp
@@ -27340,8 +27341,8 @@ $LN6@WinMain:
 
 	mov	esi, esp
 	push	0
-	push	OFFSET $SG182008
-	push	OFFSET $SG182009
+	push	OFFSET $SG184142
+	push	OFFSET $SG184143
 	push	0
 	call	DWORD PTR __imp__MessageBoxA@16
 	cmp	esi, esp
