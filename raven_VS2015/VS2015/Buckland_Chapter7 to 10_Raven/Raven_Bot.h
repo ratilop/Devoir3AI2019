@@ -39,7 +39,7 @@ private:
 	enum Status { alive, dead, spawning };
 	enum Equipe { none, red, yellow };
 
-private:
+public:
 
 	//alive, dead or spawning?
 	Status                             m_Status;
@@ -135,7 +135,7 @@ public:
 
 	//the usual suspects
 	void         Render();
-	void         Update();
+	virtual void         Update();
 	bool         HandleMessage(const Telegram& msg);
 	void         Write(std::ostream&  os)const {/*not implemented*/ }
 	void         Read(std::ifstream& is) {/*not implemented*/ }
@@ -166,6 +166,9 @@ public:
 	void          SetDead() { m_Status = dead; }
 	void          SetAlive() { m_Status = alive; }
 
+
+	std::vector<double> m_vecObservation; //distance-target, visibilite, quantite-arme, type arme, son niveau de vie
+	std::vector<double> m_vecTarget; //classes sous forme d'un vecteur de sortie. 
 
 
 	Equipe			GetEquipe() { return m_Equipe; }					// donne quelle equipe que le bot est
@@ -227,6 +230,9 @@ public:
   Raven_WeaponSystem* const          GetWeaponSys()const{return m_pWeaponSys;}
   Raven_SensoryMemory* const         GetSensoryMem()const{return m_pSensoryMem;}
 
+
+  std::vector<double> GetDataShoot() { return m_vecObservation; }
+  std::vector<double> GetTargetShoot() { return m_vecTarget; }
 
 };
 

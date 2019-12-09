@@ -292,6 +292,7 @@
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="armory\Projectile_GrenadeAmmo.cpp" />
     <ClCompile Include="armory\Projectile_Pellet.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
@@ -322,6 +323,7 @@
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="armory\Weapon_Grenade.cpp" />
     <ClCompile Include="armory\Weapon_RailGun.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
@@ -337,6 +339,8 @@
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="CData.cpp" />
+    <ClCompile Include="CNeuralNet.cpp" />
     <ClCompile Include="goals\AttackTargetGoal_Evaluator.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
@@ -442,6 +446,7 @@
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
     </ClCompile>
+    <ClCompile Include="LearningBot.cpp" />
     <ClCompile Include="lua\Raven_Scriptor.cpp">
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
       <AdditionalOptions Condition="'$(Configuration)|$(Platform)'=='boundschecker|Win32'"> /Zm200   /Zm200 </AdditionalOptions>
@@ -577,15 +582,19 @@
     <ClInclude Include="..\Common\Triggers\Trigger_LimitedLifeTime.h" />
     <ClInclude Include="..\Common\Triggers\Trigger_ReSpawning.h" />
     <ClInclude Include="armory\Projectile_Bolt.h" />
+    <ClInclude Include="armory\Projectile_GrenadeAmmo.h" />
     <ClInclude Include="armory\Projectile_Pellet.h" />
     <ClInclude Include="armory\Projectile_Rocket.h" />
     <ClInclude Include="armory\Projectile_Slug.h" />
     <ClInclude Include="armory\Raven_Projectile.h" />
     <ClInclude Include="armory\Raven_Weapon.h" />
     <ClInclude Include="armory\Weapon_Blaster.h" />
+    <ClInclude Include="armory\Weapon_Grenade.h" />
     <ClInclude Include="armory\Weapon_RailGun.h" />
     <ClInclude Include="armory\Weapon_RocketLauncher.h" />
     <ClInclude Include="armory\Weapon_ShotGun.h" />
+    <ClInclude Include="CData.h" />
+    <ClInclude Include="CNeuralNet.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="goals\AttackTargetGoal_Evaluator.h" />
     <ClInclude Include="goals\ExploreGoal_Evaluator.h" />
@@ -609,6 +618,7 @@
     <ClInclude Include="goals\Raven_Feature.h" />
     <ClInclude Include="goals\Raven_Goal_Types.h" />
     <ClInclude Include="GraveMarkers.h" />
+    <ClInclude Include="LearningBot.h" />
     <ClInclude Include="lua\Raven_Scriptor.h" />
     <ClInclude Include="navigation\PathEdge.h" />
     <ClInclude Include="navigation\PathManager.h" />

@@ -1,1 +1,4 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets(209,5): warning MSB8018: aucune sortie spécifiée pour l'élément "Params.lua". Sa commande de génération personnalisée sera ignorée.
+﻿cl : Ligne de commande warning D9035: l'option 'Gm' est déconseillée et sera supprimée dans une version ultérieure
+  LearningBot.cpp
+c:\users\ntrembla71\desktop\devoir3ai2019\raven_vs2015\vs2015\buckland_chapter7 to 10_raven\learningbot.cpp(137): warning C4715: 'LearningBot::AddHumanData' : les chemins de contrôle ne retournent pas tous une valeur
+  Raven.vcxproj -> C:\Users\ntrembla71\Desktop\Devoir3AI2019\raven_VS2015\VS2015\Buckland_Chapter7 to 10_Raven\.\Debug\Raven.exe

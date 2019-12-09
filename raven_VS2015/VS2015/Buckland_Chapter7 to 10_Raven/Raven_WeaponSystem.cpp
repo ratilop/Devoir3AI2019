@@ -190,7 +190,7 @@ void Raven_WeaponSystem::ChangeWeapon(unsigned int type)
 //  this method aims the bots current weapon at the target (if there is a
 //  target) and, if aimed correctly, fires a round
 //-----------------------------------------------------------------------------
-void Raven_WeaponSystem::TakeAimAndShoot()const
+bool Raven_WeaponSystem::TakeAimAndShoot()
 {
   //aim the weapon only if the current target is shootable or if it has only
   //very recently gone out of view (this latter condition is to ensure the 
@@ -223,6 +223,7 @@ void Raven_WeaponSystem::TakeAimAndShoot()const
         AddNoiseToAim(AimingPos);
 
         GetCurrentWeapon()->ShootAt(AimingPos);
+		return true;
       }
     }
 
@@ -238,6 +239,7 @@ void Raven_WeaponSystem::TakeAimAndShoot()const
         AddNoiseToAim(AimingPos);
         
         GetCurrentWeapon()->ShootAt(AimingPos);
+		return true;
       }
     }
 
@@ -248,6 +250,8 @@ void Raven_WeaponSystem::TakeAimAndShoot()const
   else
   {
     m_pOwner->RotateFacingTowardPosition(m_pOwner->Pos()+ m_pOwner->Heading());
+
+	return false;
   }
 }
 
