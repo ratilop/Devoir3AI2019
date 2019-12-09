@@ -50,6 +50,7 @@ Raven_Bot::Raven_Bot(Raven_Game* world,Vector2D pos):
            
 {
   SetEntityType(type_bot);
+  SetEquipeNone();
 
   SetUpVertexBuffer();
   
@@ -83,6 +84,74 @@ Raven_Bot::Raven_Bot(Raven_Game* world,Vector2D pos):
   m_pSensoryMem = new Raven_SensoryMemory(this, script->GetDouble("Bot_MemorySpan"));
 }
 
+
+Raven_Bot::Raven_Bot(Raven_Game* world, Vector2D pos, bool SetEquipe) :
+
+	MovingEntity(pos,
+		script->GetDouble("Bot_Scale"),
+		Vector2D(0, 0),
+		script->GetDouble("Bot_MaxSpeed"),
+		Vector2D(1, 0),
+		script->GetDouble("Bot_Mass"),
+		Vector2D(script->GetDouble("Bot_Scale"), script->GetDouble("Bot_Scale")),
+		script->GetDouble("Bot_MaxHeadTurnRate"),
+		script->GetDouble("Bot_MaxForce")),
+
+	m_iMaxHealth(script->GetInt("Bot_MaxHealth")),
+	m_iHealth(script->GetInt("Bot_MaxHealth")),
+	m_pPathPlanner(NULL),
+	m_pSteering(NULL),
+	m_pWorld(world),
+	m_pBrain(NULL),
+	m_iNumUpdatesHitPersistant((int)(FrameRate * script->GetDouble("HitFlashTime"))),
+	m_bHit(false),
+	m_iScore(0),
+	m_Status(spawning),
+	m_bPossessed(false),
+	m_dFieldOfView(DegsToRads(script->GetDouble("Bot_FOV")))
+
+{
+	SetEntityType(type_bot);
+	if (SetEquipe == true)
+	{
+		SetEquipeRed();
+	}
+	else
+	{
+		SetEquipeYellow();
+	}
+
+	SetUpVertexBuffer();
+
+	//a bot starts off facing in the direction it is heading
+	m_vFacing = m_vHeading;
+
+	//create the navigation module
+	m_pPathPlanner = new Raven_PathPlanner(this);
+
+	//create the steering behavior class
+	m_pSteering = new Raven_Steering(world, this);
+
+	//create the regulators
+	m_pWeaponSelectionRegulator = new Regulator(script->GetDouble("Bot_WeaponSelectionFrequency"));
+	m_pGoalArbitrationRegulator = new Regulator(script->GetDouble("Bot_GoalAppraisalUpdateFreq"));
+	m_pTargetSelectionRegulator = new Regulator(script->GetDouble("Bot_TargetingUpdateFreq"));
+	m_pTriggerTestRegulator = new Regulator(script->GetDouble("Bot_TriggerUpdateFreq"));
+	m_pVisionUpdateRegulator = new Regulator(script->GetDouble("Bot_VisionUpdateFreq"));
+
+	//create the goal queue
+	m_pBrain = new Goal_Think(this);
+
+	//create the targeting system
+	m_pTargSys = new Raven_TargetingSystem(this);
+
+	m_pWeaponSys = new Raven_WeaponSystem(this,
+		script->GetDouble("Bot_ReactionTime"),
+		script->GetDouble("Bot_AimAccuracy"),
+		script->GetDouble("Bot_AimPersistance"));
+
+	m_pSensoryMem = new Raven_SensoryMemory(this, script->GetDouble("Bot_MemorySpan"));
+}
 //-------------------------------- dtor ---------------------------------------
 //-----------------------------------------------------------------------------
 Raven_Bot::~Raven_Bot()
@@ -134,8 +203,11 @@ void Raven_Bot::Update()
     //examine all the opponents in the bots sensory memory and select one
     //to be the current target
     if (m_pTargetSelectionRegulator->isReady())
-    {      
-      m_pTargSys->Update();
+    {   
+		
+			m_pTargSys->Update();
+		if(m_TargetMortel != NULL)
+			debug_con << "Player is Target bot " << m_TargetMortel->ID() << "";
     }
 
     //appraise and arbitrate between all possible high level goals
@@ -249,7 +321,7 @@ bool Raven_Bot::HandleMessage(const Telegram& msg)
     
     //the bot this bot has just killed should be removed as the target
     m_pTargSys->ClearTarget();
-
+	m_TargetMortel = NULL;
     return true;
 
   case Msg_GunshotSound:
@@ -352,7 +424,6 @@ void Raven_Bot::TakePossession()
   if ( !(isSpawning() || isDead()))
   {
     m_bPossessed = true;
-
     debug_con << "Player Possesses bot " << this->ID() << "";
   }
 }
@@ -363,7 +434,6 @@ void Raven_Bot::TakePossession()
 void Raven_Bot::Exorcise()
 {
   m_bPossessed = false;
-
   //when the player is exorcised then the bot should resume normal service
   m_pBrain->AddGoal_Explore();
   
@@ -485,9 +555,15 @@ void Raven_Bot::Render()
 
 
   if (isDead() || isSpawning()) return;
-  
-  gdi->BluePen();
-  
+  if (m_Equipe == none)
+	  gdi->BluePen();
+  else if (m_Equipe == red)
+	  gdi->RedPen();
+  else
+  {
+	  gdi->GreenPen();
+  }
+
   m_vecBotVBTrans = WorldTransform(m_vecBotVB,
                                    Pos(),
                                    Facing(),
@@ -534,6 +610,8 @@ void Raven_Bot::Render()
   {
     gdi->TextAtPos(Pos().x-40, Pos().y+10, "Scr:"+ std::to_string(Score()));
   }    
+
+
 }
 
 //------------------------- SetUpVertexBuffer ---------------------------------

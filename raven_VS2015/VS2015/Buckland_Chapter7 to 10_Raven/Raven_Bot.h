@@ -36,130 +36,147 @@ class Raven_Bot : public MovingEntity
 {
 private:
 
-  enum Status{alive, dead, spawning};
+	enum Status { alive, dead, spawning };
+	enum Equipe { none, red, yellow };
 
 private:
 
-  //alive, dead or spawning?
-  Status                             m_Status;
+	//alive, dead or spawning?
+	Status                             m_Status;
 
-  //a pointer to the world data
-  Raven_Game*                        m_pWorld;
+	Equipe							m_Equipe;
+	//a pointer to the world data
+	Raven_Game*                        m_pWorld;
 
-  //this object handles the arbitration and processing of high level goals
-  Goal_Think*                        m_pBrain;
+	//this object handles the arbitration and processing of high level goals
+	Goal_Think*                        m_pBrain;
 
-  //this is a class that acts as the bots sensory memory. Whenever this
-  //bot sees or hears an opponent, a record of the event is updated in the 
-  //memory.
-  Raven_SensoryMemory*               m_pSensoryMem;
+	//this is a class that acts as the bots sensory memory. Whenever this
+	//bot sees or hears an opponent, a record of the event is updated in the 
+	//memory.
+	Raven_SensoryMemory*               m_pSensoryMem;
 
-  //the bot uses this object to steer
-  Raven_Steering*                    m_pSteering;
+	//the bot uses this object to steer
+	Raven_Steering*                    m_pSteering;
 
-  //the bot uses this to plan paths
-  Raven_PathPlanner*                 m_pPathPlanner;
+	//the bot uses this to plan paths
+	Raven_PathPlanner*                 m_pPathPlanner;
 
-  //this is responsible for choosing the bot's current target
-  Raven_TargetingSystem*             m_pTargSys;
+	//this is responsible for choosing the bot's current target
+	Raven_TargetingSystem*             m_pTargSys;
 
-  //this handles all the weapons. and has methods for aiming, selecting and
-  //shooting them
-  Raven_WeaponSystem*                m_pWeaponSys;
+	Raven_Bot*							m_TargetMortel = NULL;
 
-  //A regulator object limits the update frequency of a specific AI component
-  Regulator*                         m_pWeaponSelectionRegulator;
-  Regulator*                         m_pGoalArbitrationRegulator;
-  Regulator*                         m_pTargetSelectionRegulator;
-  Regulator*                         m_pTriggerTestRegulator;
-  Regulator*                         m_pVisionUpdateRegulator;
+	//this handles all the weapons. and has methods for aiming, selecting and
+	//shooting them
+	Raven_WeaponSystem*                m_pWeaponSys;
 
-  //the bot's health. Every time the bot is shot this value is decreased. If
-  //it reaches zero then the bot dies (and respawns)
-  int                                m_iHealth;
-  
-  //the bot's maximum health value. It starts its life with health at this value
-  int                                m_iMaxHealth;
+	//A regulator object limits the update frequency of a specific AI component
+	Regulator*                         m_pWeaponSelectionRegulator;
+	Regulator*                         m_pGoalArbitrationRegulator;
+	Regulator*                         m_pTargetSelectionRegulator;
+	Regulator*                         m_pTriggerTestRegulator;
+	Regulator*                         m_pVisionUpdateRegulator;
 
-  //each time this bot kills another this value is incremented
-  int                                m_iScore;
-  
-  //the direction the bot is facing (and therefore the direction of aim). 
-  //Note that this may not be the same as the bot's heading, which always
-  //points in the direction of the bot's movement
-  Vector2D                           m_vFacing;
+	//the bot's health. Every time the bot is shot this value is decreased. If
+	//it reaches zero then the bot dies (and respawns)
+	int                                m_iHealth;
 
-  //a bot only perceives other bots within this field of view
-  double                             m_dFieldOfView;
-  
-  //to show that a player has been hit it is surrounded by a thick 
-  //red circle for a fraction of a second. This variable represents
-  //the number of update-steps the circle gets drawn
-  int                                m_iNumUpdatesHitPersistant;
+	//the bot's maximum health value. It starts its life with health at this value
+	int                                m_iMaxHealth;
 
-  //set to true when the bot is hit, and remains true until 
-  //m_iNumUpdatesHitPersistant becomes zero. (used by the render method to
-  //draw a thick red circle around a bot to indicate it's been hit)
-  bool                               m_bHit;
+	//each time this bot kills another this value is incremented
+	int                                m_iScore;
 
-  //set to true when a human player takes over control of the bot
-  bool                               m_bPossessed;
+	//the direction the bot is facing (and therefore the direction of aim). 
+	//Note that this may not be the same as the bot's heading, which always
+	//points in the direction of the bot's movement
+	Vector2D                           m_vFacing;
 
-  //a vertex buffer containing the bot's geometry
-  std::vector<Vector2D>              m_vecBotVB;
-  //the buffer for the transformed vertices
-  std::vector<Vector2D>              m_vecBotVBTrans;
+	//a bot only perceives other bots within this field of view
+	double                             m_dFieldOfView;
+
+	//to show that a player has been hit it is surrounded by a thick 
+	//red circle for a fraction of a second. This variable represents
+	//the number of update-steps the circle gets drawn
+	int                                m_iNumUpdatesHitPersistant;
+
+	//set to true when the bot is hit, and remains true until 
+	//m_iNumUpdatesHitPersistant becomes zero. (used by the render method to
+	//draw a thick red circle around a bot to indicate it's been hit)
+	bool                               m_bHit;
+
+	//set to true when a human player takes over control of the bot
+	bool                               m_bPossessed;
+
+	//a vertex buffer containing the bot's geometry
+	std::vector<Vector2D>              m_vecBotVB;
+	//the buffer for the transformed vertices
+	std::vector<Vector2D>              m_vecBotVBTrans;
 
 
-  //bots shouldn't be copied, only created or respawned
-  Raven_Bot(const Raven_Bot&);
-  Raven_Bot& operator=(const Raven_Bot&);
+	//bots shouldn't be copied, only created or respawned
+	Raven_Bot(const Raven_Bot&);
+	Raven_Bot& operator=(const Raven_Bot&);
 
-  //this method is called from the update method. It calculates and applies
-  //the steering force for this time-step.
-  void          UpdateMovement();
+	//this method is called from the update method. It calculates and applies
+	//the steering force for this time-step.
+	void          UpdateMovement();
 
-  //initializes the bot's VB with its geometry
-  void          SetUpVertexBuffer();
+	//initializes the bot's VB with its geometry
+	void          SetUpVertexBuffer();
 
 
 public:
-  
-  Raven_Bot(Raven_Game* world, Vector2D pos);
-  virtual ~Raven_Bot();
 
-  //the usual suspects
-  void         Render();
-  void         Update();
-  bool         HandleMessage(const Telegram& msg);
-  void         Write(std::ostream&  os)const{/*not implemented*/}
-  void         Read (std::ifstream& is){/*not implemented*/}
+	Raven_Bot(Raven_Game* world, Vector2D pos);
+	Raven_Bot(Raven_Game* world, Vector2D pos, bool SetEquipe);
+	virtual ~Raven_Bot();
 
-  //this rotates the bot's heading until it is facing directly at the target
-  //position. Returns false if not facing at the target.
-  bool          RotateFacingTowardPosition(Vector2D target);
- 
-  //methods for accessing attribute data
-  int           Health()const{return m_iHealth;}
-  int           MaxHealth()const{return m_iMaxHealth;}
-  void          ReduceHealth(unsigned int val);
-  void          IncreaseHealth(unsigned int val);
-  void          RestoreHealthToMaximum();
+	//the usual suspects
+	void         Render();
+	void         Update();
+	bool         HandleMessage(const Telegram& msg);
+	void         Write(std::ostream&  os)const {/*not implemented*/ }
+	void         Read(std::ifstream& is) {/*not implemented*/ }
 
-  int           Score()const{return m_iScore;}
-  void          IncrementScore(){++m_iScore;}
+	//this rotates the bot's heading until it is facing directly at the target
+	//position. Returns false if not facing at the target.
+	bool          RotateFacingTowardPosition(Vector2D target);
 
-  Vector2D      Facing()const{return m_vFacing;}
-  double        FieldOfView()const{return m_dFieldOfView;}
+	//methods for accessing attribute data
+	int           Health()const { return m_iHealth; }
+	int           MaxHealth()const { return m_iMaxHealth; }
+	void          ReduceHealth(unsigned int val);
+	void          IncreaseHealth(unsigned int val);
+	void          RestoreHealthToMaximum();
 
-  bool          isPossessed()const{return m_bPossessed;}
-  bool          isDead()const{return m_Status == dead;}
-  bool          isAlive()const{return m_Status == alive;}
-  bool          isSpawning()const{return m_Status == spawning;}
-  
-  void          SetSpawning(){m_Status = spawning;}
-  void          SetDead(){m_Status = dead;}
-  void          SetAlive(){m_Status = alive;}
+	int           Score()const { return m_iScore; }
+	void          IncrementScore() { ++m_iScore; }
+
+	Vector2D      Facing()const { return m_vFacing; }
+	double        FieldOfView()const { return m_dFieldOfView; }
+
+	bool          isPossessed()const { return m_bPossessed; }
+	bool          isDead()const { return m_Status == dead; }
+	bool          isAlive()const { return m_Status == alive; }
+	bool          isSpawning()const { return m_Status == spawning; }
+
+	void          SetSpawning() { m_Status = spawning; }
+	void          SetDead() { m_Status = dead; }
+	void          SetAlive() { m_Status = alive; }
+
+
+
+	Equipe			GetEquipe() { return m_Equipe; }					// donne quelle equipe que le bot est
+
+
+
+	void			SetEquipeRed() { m_Equipe = red; }					// set quel equipe le bot est
+	void			SetEquipeNone() { m_Equipe = none; }
+	void			SetEquipeYellow() { m_Equipe = yellow; }
+	void			setTarget(Raven_Bot* ennemis) { m_TargetMortel = ennemis;};
+	Raven_Bot*		GetTargetMortel() { return m_TargetMortel; }
 
   //returns a value indicating the time in seconds it will take the bot
   //to reach the given position at its current speed.

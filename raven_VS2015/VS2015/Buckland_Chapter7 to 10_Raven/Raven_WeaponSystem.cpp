@@ -240,32 +240,11 @@ void Raven_WeaponSystem::TakeAimAndShoot()const
 //-----------------------------------------------------------------------------
 void Raven_WeaponSystem::AddNoiseToAim(Vector2D& AimingPos)const
 {
-	double NoiseAim = m_dAimAccuracy;
+  Vector2D toPos = AimingPos - m_pOwner->Pos();
 
-	double DistToTarget = Vec2DDistance(m_pOwner->Pos(), m_pOwner->GetTargetSys()->GetTarget()->Pos());
+  Vec2DRotateAroundOrigin(toPos, RandInRange(-m_dAimAccuracy, m_dAimAccuracy));
 
-	Vector2D toPos = AimingPos - m_pOwner->Pos();
-
-	 NoiseAim += m_pCurrentWeapon->GetRangeDeceleration(DistToTarget);
- 
-	 NoiseAim += 0.01*(m_pOwner->Speed());
-
-	 NoiseAim += 0.01*(m_pOwner->GetTargetSys()->GetTarget()->Speed());
-
-
-	 if (m_pOwner->GetTargetSys()->GetTimeTargetHasBeenVisible() < 1)
-	 {
-		 NoiseAim = NoiseAim * (m_pOwner->GetTargetSys()->GetTimeTargetHasBeenVisible());
-	 }
-	 else
-	 {
-		 NoiseAim = NoiseAim / ((m_pOwner->GetTargetSys()->GetTimeTargetHasBeenVisible()));
-	 }
-
-
-	Vec2DRotateAroundOrigin(toPos, RandInRange(-NoiseAim, NoiseAim));
-
-	AimingPos = toPos + m_pOwner->Pos();
+  AimingPos = toPos + m_pOwner->Pos();
 }
 
 //-------------------------- PredictFuturePositionOfTarget --------------------
