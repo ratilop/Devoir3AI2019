@@ -73,6 +73,141 @@ Creating a shotgun
 Creating a shotgun
 Creating a rocket_launcher
 maps/Raven_DM1.map loaded okay
+deleting raven bot (id = 592)
+deleting raven bot (id = 583)
+deleting raven bot (id = 582)
+deleting raven bot (id = 579)
+deleting raven bot (id = 578)
+deleting raven bot (id = 575)
+deleting raven bot (id = 574)
+deleting raven bot (id = 573)
+BOT 401 IS STUCK!!
+deleting raven bot (id = 1255)
+deleting raven bot (id = 1105)
+deleting raven bot (id = 1102)
+deleting raven bot (id = 1080)
+deleting raven bot (id = 1062)
+deleting raven bot (id = 1030)
+deleting raven bot (id = 938)
+deleting raven bot (id = 911)
+deleting raven bot (id = 572)
+Player Possesses bot 402
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player Possesses bot 402
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 2132
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+Player is Target bot 571
+deleting raven bot (id = 2132)
+deleting raven bot (id = 571)
+deleting raven bot (id = 403)
 deleting raven bot (id = 401)
 deleting raven bot (id = 402)
-deleting raven bot (id = 403)

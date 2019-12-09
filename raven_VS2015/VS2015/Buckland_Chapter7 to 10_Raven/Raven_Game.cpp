@@ -22,7 +22,6 @@
 #include "armory/Projectile_Pellet.h"
 #include "armory/Projectile_Slug.h"
 #include "armory/Projectile_Bolt.h"
-#include "armory/Projectile_Bullet.h"
 #include "armory/Projectile_GrenadeAmmo.h"
 
 
