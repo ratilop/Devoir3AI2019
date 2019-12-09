@@ -266,6 +266,10 @@ void Raven_Game::AddBots(unsigned int NumBotsToAdd)
   debug_con << "Adding bot with ID " << ttos(rb->ID()) << "";
 #endif
   }
+  if (UserOptions->m_SetEquipe == true)
+  {
+	  ChangementEquipe();
+  }
 }
 
 //---------------------------- NotifyAllBotsOfRemoval -------------------------
@@ -294,6 +298,11 @@ void Raven_Game::NotifyAllBotsOfRemoval(Raven_Bot* pRemovedBot)const
 void Raven_Game::RemoveBot()
 {
   m_bRemoveABot = true;
+  m_Bots.resize(m_Bots.size());
+  if (UserOptions->m_SetEquipe == true)
+  {
+	  ChangementEquipe();
+  }
 }
 
 //--------------------------- AddBolt -----------------------------------------
@@ -428,46 +437,120 @@ void Raven_Game::ExorciseAnyPossessedBot()
 void Raven_Game::ClickRightMouseButton(POINTS p)
 {
   Raven_Bot* pBot = GetBotAtPosition(POINTStoVector(p));
+  Raven_Bot* pBot2;
 
   //if there is no selected bot just return;
-  if (!pBot && m_pSelectedBot == NULL) return;
-
+  if (!pBot  && m_pSelectedBot == NULL) return;
+ 
   //if the cursor is over a different bot to the existing selection,
   //change selection
-  if (pBot && pBot != m_pSelectedBot)
-  { 
-    if (m_pSelectedBot) m_pSelectedBot->Exorcise();
-    m_pSelectedBot = pBot;
 
-    return;
+  
+
+
+  if (pBot && pBot != m_pSelectedBot )
+  {
+	  if (m_pSelectedBot == NULL)
+	  {
+		  m_pSelectedBot = pBot;
+	  }
+	  else
+	  {
+		  if (m_pSelectedBotDouble == NULL || !m_pSelectedBotDouble->isPossessed())
+		  {
+			 m_pSelectedBotDouble = m_pSelectedBot;
+			 m_pSelectedBot = pBot;
+			 return;
+		  }
+
+		  else
+		  {
+			  m_pSelectedBot = pBot;
+			  return;
+		  }
+	  }
+		
+	  
   }
+
 
   //if the user clicks on a selected bot twice it becomes possessed(under
   //the player's control)
-  if (pBot && pBot == m_pSelectedBot)
+
+  if (pBot && pBot == m_pSelectedBot )
   {
+	  if (m_pSelectedBotDouble != NULL && m_pSelectedBotDouble->isPossessed())
+	  {
+		  m_pSelectedBotDouble->Exorcise();
+	  }
     m_pSelectedBot->TakePossession();
 
     //clear any current goals
     m_pSelectedBot->GetBrain()->RemoveAllSubgoals();
+	return;
+	
   }
+
+  if (pBot && pBot == m_pSelectedBotDouble)
+  {
+	  if (m_pSelectedBotDouble->isPossessed())
+	  {
+		  m_pSelectedBotDouble->Exorcise();
+		  m_pSelectedBotDouble = NULL;
+	  }
+	  return;
+  }
+
 
   //if the bot is possessed then a right click moves the bot to the cursor
   //position
-  if (m_pSelectedBot->isPossessed())
+  if (m_pSelectedBot != NULL && (m_pSelectedBot->isPossessed()) || m_pSelectedBotDouble != NULL && (m_pSelectedBotDouble->isPossessed()))
   {
     //if the shift key is pressed down at the same time as clicking then the
     //movement command will be queued
     if (IS_KEY_PRESSED('Q'))
     {
-      m_pSelectedBot->GetBrain()->QueueGoal_MoveToPosition(POINTStoVector(p));
+		if (m_pSelectedBot->isPossessed())
+		{
+			m_pSelectedBot->GetBrain()->QueueGoal_MoveToPosition(POINTStoVector(p));
+		}
+		else
+			m_pSelectedBotDouble->GetBrain()->QueueGoal_MoveToPosition(POINTStoVector(p));
     }
     else
     {
       //clear any current goals
       m_pSelectedBot->GetBrain()->RemoveAllSubgoals();
 
-      m_pSelectedBot->GetBrain()->AddGoal_MoveToPosition(POINTStoVector(p));
+	  
+	  /*if (m_pSelectedBotDouble != NULL && pBot == m_pSelectedBotDouble)
+	  {
+		  if (UserOptions->m_SetEquipe == true && m_pSelectedBot->GetEquipe() != m_pSelectedBotDouble->GetEquipe())
+		  {
+			  std::list<Raven_Bot*>::const_iterator curBot = m_Bots.begin();
+			  for (curBot; curBot != m_Bots.end(); ++curBot)
+			  {
+				  
+				  if ((*curBot)->GetEquipe() == m_pSelectedBotDouble->GetEquipe())
+				  {
+					  (*curBot)->setTarget(m_pSelectedBot);
+					  (*curBot)->GetBrain()->AddGoal_AttackTarget();
+				  }
+				  m_pSelectedBotDouble = NULL;
+			  }
+		  }
+	  }
+	  else
+	  {*/
+		  if (m_pSelectedBot->isPossessed())
+		  {
+			m_pSelectedBot->GetBrain()->AddGoal_MoveToPosition(POINTStoVector(p));
+		  }
+		  else
+		  {
+			  m_pSelectedBotDouble->GetBrain()->AddGoal_MoveToPosition(POINTStoVector(p));
+		  }
+	  /*}*/
     }
   }
 }
@@ -476,11 +559,83 @@ void Raven_Game::ClickRightMouseButton(POINTS p)
 //-----------------------------------------------------------------------------
 void Raven_Game::ClickLeftMouseButton(POINTS p)
 {
+	Raven_Bot* pBot = GetBotAtPosition(POINTStoVector(p));
   if (m_pSelectedBot && m_pSelectedBot->isPossessed())
   {
     m_pSelectedBot->FireWeapon(POINTStoVector(p));
   }
+  if (pBot != NULL)
+  {
+	  if (UserOptions->m_SetEquipe == true && m_pSelectedBot->GetEquipe() != pBot->GetEquipe())
+	  {
+		  std::list<Raven_Bot*>::const_iterator curBot = m_Bots.begin();
+		  for (curBot; curBot != m_Bots.end(); ++curBot)
+		  {
+
+			  if ((*curBot)->GetEquipe() == m_pSelectedBot->GetEquipe())
+			  {
+				  (*curBot)->setTarget(pBot);
+				  (*curBot)->GetBrain()->AddGoal_AttackTarget();
+			  }
+			 
+		  }
+	  }
+  }
 }
+
+
+
+
+
+void Raven_Game::Mouvement_bots(Vector2D p)
+{
+	if (m_pSelectedBot && m_pSelectedBot->isPossessed())
+	{
+		
+		
+		m_pSelectedBot->GetBrain()->RemoveAllSubgoals();
+
+		m_pSelectedBot->GetBrain()->AddGoal_MoveToPosition(m_pSelectedBot->Pos() +  p);
+		m_pSelectedBot->Pos();
+	}
+}
+
+
+void Raven_Game::ChangementEquipe()
+{
+	int i = 0;
+	
+
+	std::list<Raven_Bot*>::const_iterator curBot = m_Bots.begin();
+	for (curBot; curBot != m_Bots.end(); ++curBot)
+	{
+		if (UserOptions->m_SetEquipe)
+		{
+
+			if (i < (m_Bots.size() / 2))
+			{
+				(*curBot)->SetEquipeRed();
+			
+			}
+			else
+			{
+				(*curBot)->SetEquipeYellow();
+			}
+		}
+		else
+		{
+			(*curBot)->SetEquipeNone();
+
+		}
+		(*curBot)->setTarget(NULL);
+		i++;
+	}
+
+
+}
+
+
+
 
 //------------------------ GetPlayerInput -------------------------------------
 //

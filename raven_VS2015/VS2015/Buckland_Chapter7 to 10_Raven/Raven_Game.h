@@ -44,10 +44,13 @@ private:
   //a list of all the bots that are inhabiting the map
   std::list<Raven_Bot*>            m_Bots;
 
+  std::list<Raven_Bot*>            m_BotsAllier;
   //the user may select a bot to control manually. This is a pointer to that
   //bot
-  Raven_Bot*                       m_pSelectedBot;
+  Raven_Bot*                       m_pSelectedBot = NULL;
   
+
+  Raven_Bot*                       m_pSelectedBotDouble = NULL;
   //this list contains any active projectiles (slugs, rockets,
   //shotgun pellets, etc)
   std::list<Raven_Projectile*>     m_Projectiles;
@@ -152,6 +155,9 @@ public:
   void        GetPlayerInput()const;
   Raven_Bot*  PossessedBot()const{return m_pSelectedBot;}
   void        ChangeWeaponOfPossessedBot(unsigned int weapon)const;
+  void			Mouvement_bots(Vector2D p);
+  void			ChangementEquipe();
+
 
   
   const Raven_Map* const                   GetMap()const{return m_pMap;}
