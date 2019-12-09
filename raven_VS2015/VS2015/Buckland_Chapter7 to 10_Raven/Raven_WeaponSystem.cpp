@@ -3,6 +3,7 @@
 #include "armory/Weapon_RailGun.h"
 #include "armory/Weapon_ShotGun.h"
 #include "armory/Weapon_Blaster.h"
+#include "armory/Weapon_Grenade.h"
 #include "Raven_Bot.h"
 #include "misc/utils.h"
 #include "lua/Raven_Scriptor.h"
@@ -11,6 +12,7 @@
 #include "2D/transformations.h"
 
 
+int compteur = 0;
 
 //------------------------- ctor ----------------------------------------------
 //-----------------------------------------------------------------------------
@@ -57,6 +59,7 @@ void Raven_WeaponSystem::Initialize()
   m_WeaponMap[type_shotgun]         = 0;
   m_WeaponMap[type_rail_gun]        = 0;
   m_WeaponMap[type_rocket_launcher] = 0;
+  m_WeaponMap[type_grenade] = 0;
 }
 
 //-------------------------------- SelectWeapon -------------------------------
@@ -99,6 +102,7 @@ void Raven_WeaponSystem::SelectWeapon()
   else
   {
     m_pCurrentWeapon = m_WeaponMap[type_blaster];
+	AddWeapon(type_grenade);
   }
 }
 
@@ -127,6 +131,10 @@ void  Raven_WeaponSystem::AddWeapon(unsigned int weapon_type)
   case type_rocket_launcher:
 
     w = new RocketLauncher(m_pOwner); break;
+
+  case type_grenade:
+
+	  w = new Grenade(m_pOwner);  break;
 
   }//end switch
   
@@ -163,10 +171,19 @@ Raven_Weapon* Raven_WeaponSystem::GetWeaponFromInventory(int weapon_type)
 //----------------------- ChangeWeapon ----------------------------------------
 void Raven_WeaponSystem::ChangeWeapon(unsigned int type)
 {
-  Raven_Weapon* w = GetWeaponFromInventory(type);
 
-  if (w) m_pCurrentWeapon = w;
+	if (compteur == 10) {
+		AddWeapon(type_grenade);
+		compteur = 0;
+	}
+
+	Raven_Weapon* w = GetWeaponFromInventory(type);
+
+	if (w) m_pCurrentWeapon = w;
+
+	compteur++;
 }
+
 
 //--------------------------- TakeAimAndShoot ---------------------------------
 //
@@ -189,8 +206,9 @@ void Raven_WeaponSystem::TakeAimAndShoot()const
     //if the current weapon is not an instant hit type gun the target position
     //must be adjusted to take into account the predicted movement of the 
     //target
-    if (GetCurrentWeapon()->GetType() == type_rocket_launcher ||
-        GetCurrentWeapon()->GetType() == type_blaster)
+	if (GetCurrentWeapon()->GetType() == type_rocket_launcher ||
+		GetCurrentWeapon()->GetType() == type_blaster ||
+		GetCurrentWeapon()->GetType() == type_grenade)
     {
       AimingPos = PredictFuturePositionOfTarget();
 
@@ -240,11 +258,27 @@ void Raven_WeaponSystem::TakeAimAndShoot()const
 //-----------------------------------------------------------------------------
 void Raven_WeaponSystem::AddNoiseToAim(Vector2D& AimingPos)const
 {
-  Vector2D toPos = AimingPos - m_pOwner->Pos();
+	double NoiseAim = m_dAimAccuracy;
 
-  Vec2DRotateAroundOrigin(toPos, RandInRange(-m_dAimAccuracy, m_dAimAccuracy));
+	double DistToTarget = Vec2DDistance(m_pOwner->Pos(), m_pOwner->GetTargetSys()->GetTarget()->Pos());
 
-  AimingPos = toPos + m_pOwner->Pos();
+	Vector2D toPos = AimingPos - m_pOwner->Pos();
+
+	NoiseAim += m_pCurrentWeapon->GetRangeDeceleration(DistToTarget);
+
+	NoiseAim += 0.01*(m_pOwner->Speed());
+
+	NoiseAim += 0.01*(m_pOwner->GetTargetSys()->GetTarget()->Speed());
+
+	//threshold because it is insane sometimes
+	if (NoiseAim > 0.9)
+	{
+		NoiseAim = 0.9;
+	}
+
+	Vec2DRotateAroundOrigin(toPos, RandInRange(-NoiseAim, NoiseAim));
+
+	AimingPos = toPos + m_pOwner->Pos();
 }
 
 //-------------------------- PredictFuturePositionOfTarget --------------------

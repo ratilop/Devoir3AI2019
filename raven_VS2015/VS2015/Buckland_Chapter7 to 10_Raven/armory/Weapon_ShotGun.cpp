@@ -18,6 +18,7 @@ ShotGun::ShotGun(Raven_Bot*   owner):
                                    script->GetDouble("ShotGun_FiringFreq"),
                                    script->GetDouble("ShotGun_IdealRange"),
                                    script->GetDouble("Pellet_MaxSpeed"),
+								   script->GetDouble("Pellet_Deceleration"),
                                    owner),
 
             m_iNumBallsInShell(script->GetInt("ShotGun_NumBallsInShell")),
@@ -100,6 +101,18 @@ inline double ShotGun::GetDesirability(double DistToTarget)
   }
 
   return m_dLastDesirabilityScore;
+}
+
+double ShotGun::GetRangeDeceleration(double DistToTarget)
+{
+	if (DistToTarget > (0.6*GetIdealRange()))
+	{
+		return script->GetDouble("Pellet_Deceleration");
+	}
+	else
+	{
+		return 0.0;
+	}
 }
 
 //--------------------------- InitializeFuzzyModule ---------------------------
